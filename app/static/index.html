@@ -40,10 +40,6 @@
           <i class="fa-solid fa-file-arrow-up"></i>
           <span>Prediksi Massal (Batch)</span>
         </button>
-        <button class="nav-item" data-tab="model-metrics">
-          <i class="fa-solid fa-brain"></i>
-          <span>Evaluasi Model & Metrik</span>
-        </button>
       </nav>
 
       <div class="sidebar-footer">
@@ -114,12 +110,12 @@
 
           <div class="kpi-card">
             <div class="kpi-icon purple">
-              <i class="fa-solid fa-bullseye"></i>
+              <i class="fa-solid fa-award"></i>
             </div>
             <div class="kpi-details">
-              <span class="kpi-label">Recall Model (Deteksi)</span>
-              <h3 class="kpi-value" id="kpiRecallScore">--%</h3>
-              <span class="kpi-sub"><i class="fa-solid fa-robot"></i> Algoritma Terbaik</span>
+              <span class="kpi-label">Rata-rata IPK Angkatan</span>
+              <h3 class="kpi-value" id="kpiAverageIpk">--</h3>
+              <span class="kpi-sub"><i class="fa-solid fa-circle-check text-success"></i> Standar Aman &ge; 2.75</span>
             </div>
           </div>
         </div>
@@ -142,32 +138,6 @@
             <div class="chart-container">
               <canvas id="featureChart"></canvas>
             </div>
-          </div>
-        </div>
-
-        <!-- Perbandingan Model Table -->
-        <div class="table-card">
-          <div class="card-header">
-            <h3><i class="fa-solid fa-scale-balanced"></i> Perbandingan Kinerja Algoritma Machine Learning</h3>
-            <span class="badge-pill" id="bestModelBadge">Best Model: --</span>
-          </div>
-          <div class="table-responsive">
-            <table class="data-table" id="modelsTable">
-              <thead>
-                <tr>
-                  <th>Algoritma</th>
-                  <th>Akurasi</th>
-                  <th>Presisi</th>
-                  <th>Recall (Sensitivitas)</th>
-                  <th>F1-Score</th>
-                  <th>ROC-AUC</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody id="modelsTableBody">
-                <tr><td colspan="7" class="text-center">Memuat data model...</td></tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </section>
@@ -426,52 +396,6 @@
                 <!-- Diisi via JS -->
               </tbody>
             </table>
-          </div>
-        </div>
-      </section>
-
-      <!-- TAB 4: MODEL EVALUATION & METHODOLOGY -->
-      <section id="tab-model-metrics" class="tab-content">
-        <div class="methodology-card">
-          <div class="card-header">
-            <h3><i class="fa-solid fa-book-open"></i> Metodologi & Spesifikasi Tugas Semester</h3>
-          </div>
-          <div class="methodology-content">
-            <p>
-              Proyek ini menerapkan paradigma <strong>Supervised Learning Classification</strong> untuk mendeteksi potensi
-              keterlambatan masa studi mahasiswa (di atas 8 semester) sedini mungkin. Pendekatan ini memungkinkan institusi
-              pendidikan melakukan <em>Early Warning Intervention</em> sebelum mahasiswa memasuki semester akhir.
-            </p>
-
-            <div class="methodology-grid">
-              <div class="method-box">
-                <h4><i class="fa-solid fa-database"></i> 1. Pipeline Pra-pemrosesan</h4>
-                <ul>
-                  <li>Normalisasi & Standarisasi fitur kontinu dengan <code>StandardScaler</code>.</li>
-                  <li>Encoding fitur kategorikal dengan <code>OneHotEncoder</code>.</li>
-                  <li>Rekayasa Fitur: Gradien Tren IPS ($IPS_4 - IPS_1$) dan Rasio SKS Gagal.</li>
-                  <li>Pembagian Data: 80% Pelatihan (Train) dan 20% Pengujian (Test) secara terstratifikasi.</li>
-                </ul>
-              </div>
-
-              <div class="method-box">
-                <h4><i class="fa-solid fa-microchip"></i> 2. Algoritma & Pembelajaran</h4>
-                <ul>
-                  <li><strong>Random Forest:</strong> Model ensemble berbasis bagging yang tangguh terhadap korelasi non-linear.</li>
-                  <li><strong>Decision Tree:</strong> Model pohon keputusan yang mudah divisualisasikan aturan keputusannya.</li>
-                  <li><strong>Logistic Regression:</strong> Model linear probabilistik sebagai pembanding baseline.</li>
-                </ul>
-              </div>
-
-              <div class="method-box">
-                <h4><i class="fa-solid fa-bullseye"></i> 3. Metrik Evaluasi Kunci</h4>
-                <ul>
-                  <li><strong>Recall (Sensitivity):</strong> Prioritas utama agar tidak ada mahasiswa berisiko yang terlewat (minimalkan <em>False Negative</em>).</li>
-                  <li><strong>Precision:</strong> Menjaga agar intervensi dosen PA tepat sasaran.</li>
-                  <li><strong>ROC-AUC:</strong> Mengukur keandalan peringkat probabilitas model.</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>

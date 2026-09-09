@@ -30,10 +30,6 @@ function initNavigation() {
     "batch-predict": {
       title: "Prediksi Massal (Batch Upload)",
       subtitle: "Unggah berkas CSV/Excel untuk memetakan risiko kelulusan seluruh mahasiswa per angkatan"
-    },
-    "model-metrics": {
-      title: "Spesifikasi & Evaluasi Model",
-      subtitle: "Dokumentasi metodologi, metrik evaluasi (Recall/Precision), dan pipeline pembelajaran"
     }
   };
 
@@ -99,17 +95,27 @@ async function loadDashboardData() {
     document.getElementById("kpiDelayedRate").textContent = `${stats.persentase_terlambat}%`;
     document.getElementById("kpiDelayedCount").textContent = `${stats.terlambat_count} Mahasiswa Berisiko`;
 
-    // Ambil metrik model terbaik
-    const bestModelName = metrics.best_model;
-    const bestMetrics = metrics.models_comparison[bestModelName];
-    document.getElementById("kpiRecallScore").textContent = `${(bestMetrics.recall * 100).toFixed(1)}%`;
-    document.getElementById("topAccuracyBadge").textContent = `${(bestMetrics.accuracy * 100).toFixed(1)}%`;
-    document.getElementById("bestModelBadge").textContent = `Best Model: ${bestModelName} (F1: ${(bestMetrics.f1_score * 100).toFixed(1)}%)`;
+    // Update KPI Card ke-4 (Rata-rata IPK Angkatan)
+    const kpiAvgIpkEl = document.getElementById("kpiAverageIpk");
+    if (kpiAvgIpkEl) {
+      kpiAvgIpkEl.textContent = `${stats.rata_rata_ipk.toFixed(2)} / 4.00`;
+    }
+
+    // Status Model
+    const topBadgeEl = document.getElementById("topAccuracyBadge");
+    if (topBadgeEl) {
+      topBadgeEl.textContent = "AI Aktif";
+    }
 
     // Render Charts
     renderGraduationDonut(stats.tepat_waktu_count, stats.terlambat_count);
     renderFeatureImportanceChart(metrics.feature_importances);
-    renderModelComparisonTable(metrics.models_comparison, bestModelName);
+
+    // Render tabel model jika elemen tersedia
+    if (document.getElementById("modelsTableBody")) {
+      const bestModelName = metrics.best_model;
+      renderModelComparisonTable(metrics.models_comparison, bestModelName);
+    }
   } catch (err) {
     console.error("Gagal memuat overview:", err);
   }
