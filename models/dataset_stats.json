@@ -1,0 +1,10 @@
+{
+  "total_mahasiswa": 1500,
+  "tepat_waktu_count": 715,
+  "terlambat_count": 785,
+  "persentase_tepat_waktu": 47.7,
+  "persentase_terlambat": 52.3,
+  "rata_rata_ipk": 3.06,
+  "rata_rata_sks_gagal": 2.8,
+  "rata_rata_kehadiran": 89.8
+}

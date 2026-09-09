@@ -1,0 +1,143 @@
+{
+  "best_model": "Logistic Regression",
+  "models_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.7933,
+      "precision": 0.7844,
+      "recall": 0.8344,
+      "f1_score": 0.8086,
+      "roc_auc": 0.9093,
+      "confusion_matrix": [
+        [
+          107,
+          36
+        ],
+        [
+          26,
+          131
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 0.78,
+      "precision": 0.8013,
+      "recall": 0.7707,
+      "f1_score": 0.7857,
+      "roc_auc": 0.8501,
+      "confusion_matrix": [
+        [
+          113,
+          30
+        ],
+        [
+          36,
+          121
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.78,
+      "precision": 0.7692,
+      "recall": 0.828,
+      "f1_score": 0.7975,
+      "roc_auc": 0.8911,
+      "confusion_matrix": [
+        [
+          104,
+          39
+        ],
+        [
+          27,
+          130
+        ]
+      ]
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "Pernah_Cuti_0",
+      "importance": 0.8051
+    },
+    {
+      "feature": "Pernah_Cuti_1",
+      "importance": 0.7992
+    },
+    {
+      "feature": "Status_Bekerja_0",
+      "importance": 0.6484
+    },
+    {
+      "feature": "SKS_Gagal",
+      "importance": 0.648
+    },
+    {
+      "feature": "Status_Bekerja_1",
+      "importance": 0.6425
+    },
+    {
+      "feature": "IPS_Sem2",
+      "importance": 0.6236
+    },
+    {
+      "feature": "IPK_Kumulatif",
+      "importance": 0.4567
+    },
+    {
+      "feature": "Tren_IPS",
+      "importance": 0.3689
+    },
+    {
+      "feature": "IPS_Sem3",
+      "importance": 0.2999
+    },
+    {
+      "feature": "IPS_Sem4",
+      "importance": 0.2576
+    },
+    {
+      "feature": "Rasio_SKS_Gagal",
+      "importance": 0.2226
+    },
+    {
+      "feature": "Persentase_Kehadiran",
+      "importance": 0.2088
+    },
+    {
+      "feature": "SKS_Lulus",
+      "importance": 0.0971
+    },
+    {
+      "feature": "Jalur_Masuk_SNBP",
+      "importance": 0.095
+    },
+    {
+      "feature": "Jalur_Masuk_SNBT",
+      "importance": 0.0874
+    },
+    {
+      "feature": "IPS_Sem1",
+      "importance": 0.0273
+    },
+    {
+      "feature": "Jalur_Masuk_Mandiri",
+      "importance": 0.0135
+    }
+  ],
+  "numeric_features": [
+    "IPS_Sem1",
+    "IPS_Sem2",
+    "IPS_Sem3",
+    "IPS_Sem4",
+    "IPK_Kumulatif",
+    "SKS_Lulus",
+    "SKS_Gagal",
+    "Persentase_Kehadiran",
+    "Tren_IPS",
+    "Rasio_SKS_Gagal"
+  ],
+  "categorical_features": [
+    "Jalur_Masuk",
+    "Status_Bekerja",
+    "Pernah_Cuti"
+  ]
+}
