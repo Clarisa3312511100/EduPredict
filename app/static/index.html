@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPredict - Sistem Cerdas Prediksi Kelulusan Mahasiswa</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="brand-text">
+          <h2>EduPredict</h2>
+          <span>AI Early Warning System</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="overview">
+          <i class="fa-solid fa-chart-pie"></i>
+          <span>Dashboard Overview</span>
+        </button>
+        <button class="nav-item" data-tab="single-predict">
+          <i class="fa-solid fa-user-gear"></i>
+          <span>Simulasi Mahasiswa</span>
+        </button>
+        <button class="nav-item" data-tab="batch-predict">
+          <i class="fa-solid fa-file-arrow-up"></i>
+          <span>Prediksi Massal (Batch)</span>
+        </button>
+        <button class="nav-item" data-tab="model-metrics">
+          <i class="fa-solid fa-brain"></i>
+          <span>Evaluasi Model & Metrik</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="model-status-card">
+          <div class="status-indicator online" id="serverStatusDot"></div>
+          <div>
+            <div class="status-title">Status Model ML</div>
+            <div class="status-desc" id="serverStatusText">Memeriksa...</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Navbar -->
+      <header class="top-navbar">
+        <div class="navbar-title">
+          <h1 id="pageTitle">Dashboard Ringkasan Akademik</h1>
+          <p id="pageSubtitle">Pemantauan risiko keterlambatan masa studi mahasiswa berbasis Machine Learning</p>
+        </div>
+        <div class="navbar-actions">
+          <div class="system-badge">
+            <i class="fa-solid fa-shield-halved"></i> Akurasi Uji: <strong id="topAccuracyBadge">--%</strong>
+          </div>
+          <button class="btn btn-outline" id="btnRefreshData" title="Refresh Data">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- TAB 1: OVERVIEW -->
+      <section id="tab-overview" class="tab-content active">
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-icon blue">
+              <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <div class="kpi-details">
+              <span class="kpi-label">Total Data Mahasiswa</span>
+              <h3 class="kpi-value" id="kpiTotalStudents">--</h3>
+              <span class="kpi-sub"><i class="fa-solid fa-database"></i> Dataset Akademik</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-icon green">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="kpi-details">
+              <span class="kpi-label">Potensi Tepat Waktu</span>
+              <h3 class="kpi-value" id="kpiOnTimeRate">--%</h3>
+              <span class="kpi-sub" id="kpiOnTimeCount">-- Mahasiswa</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-icon red">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <div class="kpi-details">
+              <span class="kpi-label">Berisiko Terlambat</span>
+              <h3 class="kpi-value" id="kpiDelayedRate">--%</h3>
+              <span class="kpi-sub" id="kpiDelayedCount">Perlu Pendampingan PA</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-icon purple">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="kpi-details">
+              <span class="kpi-label">Recall Model (Deteksi)</span>
+              <h3 class="kpi-value" id="kpiRecallScore">--%</h3>
+              <span class="kpi-sub"><i class="fa-solid fa-robot"></i> Algoritma Terbaik</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-chart-pie"></i> Proporsi Status Kelulusan</h3>
+            </div>
+            <div class="chart-container">
+              <canvas id="graduationChart"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-ranking-star"></i> Faktor Penentu Paling Berpengaruh (Feature Importance)</h3>
+            </div>
+            <div class="chart-container">
+              <canvas id="featureChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Perbandingan Model Table -->
+        <div class="table-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-scale-balanced"></i> Perbandingan Kinerja Algoritma Machine Learning</h3>
+            <span class="badge-pill" id="bestModelBadge">Best Model: --</span>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="modelsTable">
+              <thead>
+                <tr>
+                  <th>Algoritma</th>
+                  <th>Akurasi</th>
+                  <th>Presisi</th>
+                  <th>Recall (Sensitivitas)</th>
+                  <th>F1-Score</th>
+                  <th>ROC-AUC</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="modelsTableBody">
+                <tr><td colspan="7" class="text-center">Memuat data model...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: SINGLE PREDICTION (SIMULASI) -->
+      <section id="tab-single-predict" class="tab-content">
+        <div class="predict-layout">
+          <!-- Form Mahasiswa -->
+          <div class="form-card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-sliders"></i> Parameter & Nilai Akademik Mahasiswa</h3>
+              <button type="button" class="btn-sm btn-ghost" id="btnFillPreset">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Contoh Mahasiswa Berisiko
+              </button>
+            </div>
+            <form id="singlePredictForm" class="prediction-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>NIM Mahasiswa</label>
+                  <input type="text" id="inpNIM" class="form-control" value="2021001099" required />
+                </div>
+                <div class="form-group">
+                  <label>Nama Mahasiswa</label>
+                  <input type="text" id="inpNama" class="form-control" value="Arya Daniswara" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Jalur Masuk</label>
+                  <select id="inpJalur" class="form-control">
+                    <option value="SNBP">SNBP (Prestasi)</option>
+                    <option value="SNBT" selected>SNBT (Tes UTBK)</option>
+                    <option value="Mandiri">Seleksi Mandiri</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Jenis Kelamin</label>
+                  <select id="inpGender" class="form-control">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-divider"><span>Performa Nilai Semester (IPS)</span></div>
+
+              <div class="form-grid-4">
+                <div class="form-group">
+                  <label>IPS Sem 1: <strong id="valIps1" class="text-primary">3.20</strong></label>
+                  <input type="range" id="inpIps1" min="1.0" max="4.0" step="0.05" value="3.20" class="range-slider" />
+                </div>
+                <div class="form-group">
+                  <label>IPS Sem 2: <strong id="valIps2" class="text-primary">3.05</strong></label>
+                  <input type="range" id="inpIps2" min="1.0" max="4.0" step="0.05" value="3.05" class="range-slider" />
+                </div>
+                <div class="form-group">
+                  <label>IPS Sem 3: <strong id="valIps3" class="text-primary">2.70</strong></label>
+                  <input type="range" id="inpIps3" min="1.0" max="4.0" step="0.05" value="2.70" class="range-slider" />
+                </div>
+                <div class="form-group">
+                  <label>IPS Sem 4: <strong id="valIps4" class="text-primary">2.45</strong></label>
+                  <input type="range" id="inpIps4" min="1.0" max="4.0" step="0.05" value="2.45" class="range-slider" />
+                </div>
+              </div>
+
+              <div class="form-divider"><span>Beban SKS & Kehadiran</span></div>
+
+              <div class="form-grid-3">
+                <div class="form-group">
+                  <label>SKS Lulus: <strong id="valSksLulus" class="text-primary">76</strong> SKS</label>
+                  <input type="range" id="inpSksLulus" min="50" max="96" step="1" value="76" class="range-slider" />
+                </div>
+                <div class="form-group">
+                  <label>SKS Gagal / D-E: <strong id="valSksGagal" class="text-danger">8</strong> SKS</label>
+                  <input type="range" id="inpSksGagal" min="0" max="24" step="1" value="8" class="range-slider" />
+                </div>
+                <div class="form-group">
+                  <label>Kehadiran Kuliah: <strong id="valKehadiran" class="text-primary">78</strong>%</label>
+                  <input type="range" id="inpKehadiran" min="60" max="100" step="1" value="78" class="range-slider" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group checkbox-group">
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inpBekerja" />
+                    <span class="checkmark"></span>
+                    Mahasiswa Kuliah Sambil Bekerja
+                  </label>
+                </div>
+                <div class="form-group checkbox-group">
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inpCuti" />
+                    <span class="checkmark"></span>
+                    Pernah Mengambil Cuti Akademik
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="btnRunPrediction">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Analisis & Prediksi Kelulusan
+              </button>
+            </form>
+          </div>
+
+          <!-- Result Card -->
+          <div class="result-card" id="resultContainer">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-square-poll-vertical"></i> Hasil Diagnosis Risiko</h3>
+              <span class="badge" id="riskBadge">Menunggu Input</span>
+            </div>
+
+            <div class="result-body">
+              <!-- Meter Probabilitas -->
+              <div class="gauge-section">
+                <div class="gauge-label-group">
+                  <span>Probabilitas Keterlambatan:</span>
+                  <strong id="riskPercentage">--%</strong>
+                </div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar-fill" id="riskProgressBar" style="width: 0%;"></div>
+                </div>
+                <div class="progress-labels">
+                  <span>0% (Aman)</span>
+                  <span>50%</span>
+                  <span>100% (Kritis)</span>
+                </div>
+              </div>
+
+              <!-- Quick Metrics Grid -->
+              <div class="metrics-mini-grid">
+                <div class="mini-box">
+                  <span class="mini-title">IPK Kumulatif</span>
+                  <span class="mini-val" id="resIpk">--</span>
+                </div>
+                <div class="mini-box">
+                  <span class="mini-title">Tren IPS</span>
+                  <span class="mini-val" id="resTren">--</span>
+                </div>
+                <div class="mini-box">
+                  <span class="mini-title">SKS Tertinggal</span>
+                  <span class="mini-val" id="resSksGagal">--</span>
+                </div>
+                <div class="mini-box">
+                  <span class="mini-title">Kehadiran</span>
+                  <span class="mini-val" id="resKehadiran">--</span>
+                </div>
+              </div>
+
+              <!-- Faktor Analisis -->
+              <div class="factor-analysis">
+                <h4><i class="fa-solid fa-triangle-exclamation text-danger"></i> Faktor Risiko Terdeteksi</h4>
+                <ul class="factor-list" id="riskFactorsList">
+                  <li class="empty-text">Klik tombol "Analisis" untuk melihat diagnosis</li>
+                </ul>
+
+                <h4><i class="fa-solid fa-circle-check text-success"></i> Indikator Positif</h4>
+                <ul class="factor-list" id="positiveFactorsList">
+                  <li class="empty-text">--</li>
+                </ul>
+              </div>
+
+              <!-- Rekomendasi Intervensi PA -->
+              <div class="action-recommendation" id="recommendationBox">
+                <div class="rec-title"><i class="fa-solid fa-clipboard-check"></i> Rekomendasi Aksi Dosen PA:</div>
+                <p id="recommendationText">Lakukan simulasi parameter nilai untuk mendapatkan panduan intervensi yang tepat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: BATCH PREDICTION -->
+      <section id="tab-batch-predict" class="tab-content">
+        <div class="batch-grid">
+          <div class="upload-card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-file-csv"></i> Upload File Data Mahasiswa</h3>
+              <a href="/data/dataset_kelulusan.csv" download="dataset_sample_kelulusan.csv" class="btn-sm btn-outline">
+                <i class="fa-solid fa-download"></i> Unduh Format Contoh (.csv)
+              </a>
+            </div>
+
+            <div class="drop-zone" id="dropZone">
+              <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
+              <h4>Tarik & Lepaskan File CSV / Excel di sini</h4>
+              <p>atau klik tombol di bawah untuk memilih file dari komputer Anda</p>
+              <input type="file" id="batchFileInput" accept=".csv, .xlsx, .xls" style="display: none;" />
+              <button type="button" class="btn btn-outline" id="btnBrowseFile">
+                <i class="fa-solid fa-folder-open"></i> Pilih File
+              </button>
+              <span id="selectedFileName" class="file-name-tag"></span>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-block mt-3" id="btnProcessBatch" disabled>
+              <i class="fa-solid fa-play"></i> Proses Prediksi Seluruh Mahasiswa
+            </button>
+          </div>
+
+          <!-- Batch Summary -->
+          <div class="batch-summary-card" id="batchSummaryCard" style="display: none;">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-chart-simple"></i> Ringkasan Hasil Prediksi Batch</h3>
+            </div>
+            <div class="summary-stats-grid">
+              <div class="stat-box">
+                <span>Total Diproses</span>
+                <strong id="batchTotal">0</strong>
+              </div>
+              <div class="stat-box text-success">
+                <span>Tepat Waktu</span>
+                <strong id="batchOnTime">0</strong>
+              </div>
+              <div class="stat-box text-warning">
+                <span>Risiko Sedang</span>
+                <strong id="batchMedium">0</strong>
+              </div>
+              <div class="stat-box text-danger">
+                <span>Risiko Tinggi</span>
+                <strong id="batchHigh">0</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Batch Results Table -->
+        <div class="table-card mt-4" id="batchResultsTableContainer" style="display: none;">
+          <div class="card-header flex-between">
+            <h3><i class="fa-solid fa-table-list"></i> Hasil Pemetaan Risiko Mahasiswa</h3>
+            <div class="table-actions">
+              <select id="filterBatchRisk" class="form-control-sm">
+                <option value="ALL">Semua Kategori Risiko</option>
+                <option value="Tinggi">Hanya Risiko Tinggi</option>
+                <option value="Sedang">Hanya Risiko Sedang</option>
+                <option value="Rendah">Hanya Tepat Waktu</option>
+              </select>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>NIM</th>
+                  <th>Nama Mahasiswa</th>
+                  <th>IPK</th>
+                  <th>SKS Lulus</th>
+                  <th>SKS Gagal</th>
+                  <th>Kehadiran</th>
+                  <th>Prob. Terlambat</th>
+                  <th>Tingkat Risiko</th>
+                  <th>Prediksi</th>
+                </tr>
+              </thead>
+              <tbody id="batchTableBody">
+                <!-- Diisi via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: MODEL EVALUATION & METHODOLOGY -->
+      <section id="tab-model-metrics" class="tab-content">
+        <div class="methodology-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-book-open"></i> Metodologi & Spesifikasi Tugas Semester</h3>
+          </div>
+          <div class="methodology-content">
+            <p>
+              Proyek ini menerapkan paradigma <strong>Supervised Learning Classification</strong> untuk mendeteksi potensi
+              keterlambatan masa studi mahasiswa (di atas 8 semester) sedini mungkin. Pendekatan ini memungkinkan institusi
+              pendidikan melakukan <em>Early Warning Intervention</em> sebelum mahasiswa memasuki semester akhir.
+            </p>
+
+            <div class="methodology-grid">
+              <div class="method-box">
+                <h4><i class="fa-solid fa-database"></i> 1. Pipeline Pra-pemrosesan</h4>
+                <ul>
+                  <li>Normalisasi & Standarisasi fitur kontinu dengan <code>StandardScaler</code>.</li>
+                  <li>Encoding fitur kategorikal dengan <code>OneHotEncoder</code>.</li>
+                  <li>Rekayasa Fitur: Gradien Tren IPS ($IPS_4 - IPS_1$) dan Rasio SKS Gagal.</li>
+                  <li>Pembagian Data: 80% Pelatihan (Train) dan 20% Pengujian (Test) secara terstratifikasi.</li>
+                </ul>
+              </div>
+
+              <div class="method-box">
+                <h4><i class="fa-solid fa-microchip"></i> 2. Algoritma & Pembelajaran</h4>
+                <ul>
+                  <li><strong>Random Forest:</strong> Model ensemble berbasis bagging yang tangguh terhadap korelasi non-linear.</li>
+                  <li><strong>Decision Tree:</strong> Model pohon keputusan yang mudah divisualisasikan aturan keputusannya.</li>
+                  <li><strong>Logistic Regression:</strong> Model linear probabilistik sebagai pembanding baseline.</li>
+                </ul>
+              </div>
+
+              <div class="method-box">
+                <h4><i class="fa-solid fa-bullseye"></i> 3. Metrik Evaluasi Kunci</h4>
+                <ul>
+                  <li><strong>Recall (Sensitivity):</strong> Prioritas utama agar tidak ada mahasiswa berisiko yang terlewat (minimalkan <em>False Negative</em>).</li>
+                  <li><strong>Precision:</strong> Menjaga agar intervensi dosen PA tepat sasaran.</li>
+                  <li><strong>ROC-AUC:</strong> Mengukur keandalan peringkat probabilitas model.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
