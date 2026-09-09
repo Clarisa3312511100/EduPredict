@@ -88,33 +88,36 @@ async function loadDashboardData() {
 
     const { stats, metrics } = data;
 
-    // Update KPI Cards
-    document.getElementById("kpiTotalStudents").textContent = stats.total_mahasiswa.toLocaleString();
-    document.getElementById("kpiOnTimeRate").textContent = `${stats.persentase_tepat_waktu}%`;
-    document.getElementById("kpiOnTimeCount").textContent = `${stats.tepat_waktu_count} Mahasiswa`;
-    document.getElementById("kpiDelayedRate").textContent = `${stats.persentase_terlambat}%`;
-    document.getElementById("kpiDelayedCount").textContent = `${stats.terlambat_count} Mahasiswa Berisiko`;
+    const setSafeText = (id, text) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    };
 
-    // Update KPI Card ke-4 (Rata-rata IPK Angkatan)
-    const kpiAvgIpkEl = document.getElementById("kpiAverageIpk");
-    if (kpiAvgIpkEl) {
-      kpiAvgIpkEl.textContent = `${stats.rata_rata_ipk.toFixed(2)} / 4.00`;
+    // Update KPI Cards
+    setSafeText("kpiTotalStudents", stats.total_mahasiswa.toLocaleString());
+    setSafeText("kpiOnTimeRate", `${stats.persentase_tepat_waktu}%`);
+    setSafeText("kpiOnTimeCount", `${stats.tepat_waktu_count} Mahasiswa`);
+    setSafeText("kpiDelayedRate", `${stats.persentase_terlambat}%`);
+    setSafeText("kpiDelayedCount", `${stats.terlambat_count} Mahasiswa Berisiko`);
+
+    // Update KPI Card ke-4
+    if (stats.rata_rata_ipk) {
+      setSafeText("kpiAverageIpk", `${stats.rata_rata_ipk.toFixed(2)} / 4.00`);
     }
 
     // Status Model
-    const topBadgeEl = document.getElementById("topAccuracyBadge");
-    if (topBadgeEl) {
-      topBadgeEl.textContent = "AI Aktif";
+    const bestModelName = metrics.best_model || "Logistic Regression";
+    const bestMetrics = (metrics.models_comparison && metrics.models_comparison[bestModelName]) || {};
+    if (bestMetrics.accuracy) {
+      setSafeText("topAccuracyBadge", `${(bestMetrics.accuracy * 100).toFixed(1)}%`);
+    } else {
+      setSafeText("topAccuracyBadge", "Aktif");
     }
 
     // Render Charts
     renderGraduationDonut(stats.tepat_waktu_count, stats.terlambat_count);
-    renderFeatureImportanceChart(metrics.feature_importances);
-
-    // Render tabel model jika elemen tersedia
-    if (document.getElementById("modelsTableBody")) {
-      const bestModelName = metrics.best_model;
-      renderModelComparisonTable(metrics.models_comparison, bestModelName);
+    if (metrics.feature_importances) {
+      renderFeatureImportanceChart(metrics.feature_importances);
     }
   } catch (err) {
     console.error("Gagal memuat overview:", err);
