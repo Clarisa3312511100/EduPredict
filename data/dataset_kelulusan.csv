@@ -1,0 +1,1501 @@
+NIM,Nama,Jenis_Kelamin,Jalur_Masuk,IPS_Sem1,IPS_Sem2,IPS_Sem3,IPS_Sem4,IPK_Kumulatif,SKS_Lulus,SKS_Gagal,Persentase_Kehadiran,Status_Bekerja,Pernah_Cuti,Status_Kelulusan
+202100001,Dimas Kusuma,Laki-laki,SNBT,2.14,2.39,2.15,2.71,2.35,74,10,87.9,0,0,Terlambat
+202100002,Zahra Wijaya,Perempuan,SNBP,3.78,3.67,3.46,3.69,3.65,86,0,93.1,0,1,Tepat Waktu
+202100003,Maya Wibowo,Perempuan,SNBT,3.83,3.12,3.42,3.31,3.42,83,1,90.2,0,1,Terlambat
+202100004,Fitri Hakim,Perempuan,SNBT,3.23,3.8,3.01,3.48,3.38,79,1,99.2,0,0,Tepat Waktu
+202100005,Fajar Saputra,Laki-laki,Mandiri,2.2,2.38,1.7,1.78,2.02,71,13,86.1,1,0,Terlambat
+202100006,Fajar Hakim,Laki-laki,SNBT,2.71,2.85,2.63,3.0,2.8,82,2,88.5,0,0,Tepat Waktu
+202100007,Aditya Permana,Laki-laki,SNBT,3.27,2.84,2.93,2.95,3.0,83,3,83.2,1,1,Terlambat
+202100008,Aulia Kusuma,Perempuan,SNBT,2.84,3.25,2.73,2.47,2.82,82,4,87.6,1,0,Terlambat
+202100009,Nurul Hakim,Perempuan,SNBT,2.33,2.64,2.51,2.3,2.45,73,7,86.5,0,0,Terlambat
+202100010,Nabila Permana,Perempuan,Mandiri,2.6,2.13,2.28,2.34,2.34,76,8,88.7,0,0,Terlambat
+202100011,Farhan Wijaya,Laki-laki,SNBP,2.84,2.95,2.74,2.84,2.84,78,6,85.7,1,0,Terlambat
+202100012,Aulia Permana,Perempuan,SNBT,2.17,2.48,2.95,2.54,2.54,80,8,88.0,0,0,Terlambat
+202100013,Aulia Wijaya,Perempuan,Mandiri,3.5,4.0,3.96,3.25,3.68,84,0,89.6,1,0,Tepat Waktu
+202100014,Rafi Nugroho,Laki-laki,SNBT,3.15,3.64,3.0,3.24,3.26,80,0,93.7,0,0,Tepat Waktu
+202100015,Aditya Permana,Laki-laki,SNBP,2.69,2.42,2.49,2.88,2.62,76,4,84.6,0,1,Terlambat
+202100016,Rizky Hidayat,Laki-laki,SNBT,3.63,3.47,4.0,3.81,3.73,84,0,92.9,0,0,Tepat Waktu
+202100017,Fajar Kusuma,Laki-laki,Mandiri,3.7,3.34,3.65,3.44,3.53,84,0,94.9,0,0,Tepat Waktu
+202100018,Rizky Saputra,Laki-laki,SNBP,2.98,3.31,2.87,2.96,3.03,84,2,83.3,1,0,Terlambat
+202100019,Yoga Hidayat,Laki-laki,Mandiri,3.22,3.43,3.01,3.15,3.2,86,0,100.0,0,0,Tepat Waktu
+202100020,Fajar Hidayat,Laki-laki,Mandiri,2.89,2.99,3.02,2.95,2.96,82,2,91.0,0,0,Terlambat
+202100021,Nabila Hakim,Perempuan,SNBT,2.5,2.97,2.61,2.7,2.7,83,3,76.8,1,0,Terlambat
+202100022,Rizky Utomo,Laki-laki,Mandiri,2.5,2.35,2.37,2.27,2.37,79,7,77.0,0,0,Terlambat
+202100023,Satria Hidayat,Laki-laki,Mandiri,4.0,3.9,3.75,3.79,3.86,82,2,99.0,0,1,Tepat Waktu
+202100024,Yoga Saputra,Laki-laki,Mandiri,3.04,2.76,2.48,2.26,2.64,74,6,83.0,1,0,Terlambat
+202100025,Dimas Pratama,Laki-laki,Mandiri,3.1,2.75,3.15,3.1,3.02,79,5,95.9,0,0,Terlambat
+202100026,Maya Hidayat,Perempuan,SNBP,2.92,2.79,2.51,3.05,2.82,86,2,87.4,0,0,Tepat Waktu
+202100027,Satria Nugroho,Laki-laki,SNBP,3.02,2.98,2.67,2.9,2.89,83,3,89.6,0,0,Tepat Waktu
+202100028,Yoga Permana,Laki-laki,SNBT,4.0,3.71,4.0,4.0,3.93,80,0,97.5,0,0,Tepat Waktu
+202100029,Aulia Hakim,Perempuan,SNBP,2.44,3.14,2.76,2.7,2.76,84,0,88.7,0,0,Tepat Waktu
+202100030,Satria Setiawan,Laki-laki,SNBT,3.5,3.58,4.0,3.48,3.64,86,0,93.9,0,0,Tepat Waktu
+202100031,Maya Setiawan,Perempuan,Mandiri,3.23,3.22,2.6,3.25,3.08,81,3,93.8,0,0,Tepat Waktu
+202100032,Bayu Pratama,Laki-laki,Mandiri,3.71,3.33,3.04,3.52,3.4,86,0,90.3,0,1,Tepat Waktu
+202100033,Satria Wibowo,Laki-laki,SNBT,3.74,4.0,3.78,4.0,3.88,84,0,98.1,0,0,Tepat Waktu
+202100034,Dewi Hidayat,Perempuan,Mandiri,3.12,3.17,3.21,2.98,3.12,88,0,97.9,0,0,Tepat Waktu
+202100035,Dwi Hidayat,Perempuan,Mandiri,2.77,2.57,2.65,3.03,2.76,81,5,95.0,0,0,Terlambat
+202100036,Anisa Setiawan,Perempuan,SNBT,2.95,3.19,3.04,2.83,3.0,84,0,78.4,1,0,Tepat Waktu
+202100037,Bagus Pratama,Laki-laki,SNBP,3.27,3.37,2.81,3.3,3.19,85,1,90.2,0,0,Terlambat
+202100038,Rafi Utomo,Laki-laki,SNBT,3.87,3.84,4.0,4.0,3.93,80,0,97.6,0,0,Tepat Waktu
+202100039,Maya Wibowo,Perempuan,Mandiri,2.64,2.58,2.41,2.36,2.5,79,5,92.1,0,0,Terlambat
+202100040,Wahyu Setiawan,Laki-laki,SNBT,2.43,2.33,2.04,2.04,2.21,81,5,86.5,0,0,Terlambat
+202100041,Bagus Kusuma,Laki-laki,SNBT,2.68,2.25,2.17,2.42,2.38,78,6,91.4,0,0,Tepat Waktu
+202100042,Fajar Kusuma,Laki-laki,SNBP,2.74,2.88,3.04,2.79,2.86,83,3,87.5,0,0,Terlambat
+202100043,Rafi Nugroho,Laki-laki,Mandiri,3.41,3.24,3.34,3.57,3.39,84,0,94.3,0,0,Tepat Waktu
+202100044,Tiara Nugroho,Perempuan,Mandiri,3.66,3.45,3.69,3.37,3.54,86,0,95.4,0,1,Tepat Waktu
+202100045,Satria Utomo,Laki-laki,Mandiri,2.64,2.88,3.01,2.7,2.81,80,4,88.2,1,0,Terlambat
+202100046,Tiara Nugroho,Perempuan,Mandiri,3.0,3.14,3.07,2.7,2.98,80,6,93.8,0,0,Terlambat
+202100047,Farhan Wibowo,Laki-laki,Mandiri,2.26,2.43,2.54,2.34,2.39,73,7,89.4,0,0,Terlambat
+202100048,Bayu Utomo,Laki-laki,Mandiri,2.39,3.09,2.36,2.53,2.59,78,6,85.2,1,0,Tepat Waktu
+202100049,Budi Wibowo,Laki-laki,Mandiri,3.75,3.64,3.45,3.41,3.56,84,0,90.0,0,1,Tepat Waktu
+202100050,Wahyu Wijaya,Laki-laki,Mandiri,3.71,3.79,3.95,3.69,3.78,84,0,95.0,0,0,Tepat Waktu
+202100051,Dwi Saputra,Perempuan,SNBT,2.61,3.2,2.58,2.74,2.78,78,6,85.9,0,0,Terlambat
+202100052,Dewi Santoso,Perempuan,SNBP,4.0,3.85,3.89,3.65,3.85,84,0,93.8,0,0,Tepat Waktu
+202100053,Dwi Hakim,Perempuan,SNBT,3.39,3.45,3.58,3.43,3.46,87,1,93.0,0,0,Tepat Waktu
+202100054,Aulia Wibowo,Perempuan,SNBT,3.94,3.58,3.37,3.88,3.69,84,0,87.2,0,0,Tepat Waktu
+202100055,Fitri Saputra,Perempuan,SNBT,3.09,2.81,2.74,3.14,2.94,86,0,89.9,0,0,Tepat Waktu
+202100056,Putri Hidayat,Perempuan,SNBT,4.0,3.56,3.61,3.72,3.72,86,0,92.5,0,0,Tepat Waktu
+202100057,Satria Pratama,Laki-laki,Mandiri,3.84,3.83,4.0,3.54,3.8,82,2,92.1,0,0,Tepat Waktu
+202100058,Ilham Saputra,Laki-laki,Mandiri,2.77,2.98,2.86,2.75,2.84,83,3,84.1,1,0,Tepat Waktu
+202100059,Fajar Pratama,Laki-laki,Mandiri,2.49,3.23,2.56,3.1,2.84,88,0,88.4,0,0,Tepat Waktu
+202100060,Rizky Hakim,Laki-laki,SNBT,2.65,2.87,2.83,2.79,2.78,83,1,90.6,0,0,Tepat Waktu
+202100061,Dimas Pratama,Laki-laki,SNBP,2.73,2.33,2.71,2.8,2.64,85,3,86.2,0,0,Terlambat
+202100062,Ilham Wijaya,Laki-laki,SNBP,2.76,2.74,2.73,2.78,2.75,78,2,88.6,0,0,Tepat Waktu
+202100063,Siti Kusuma,Perempuan,SNBT,2.99,2.99,2.66,2.92,2.89,85,1,92.7,1,0,Terlambat
+202100064,Fajar Santoso,Laki-laki,SNBP,3.28,3.17,3.46,3.23,3.28,80,4,94.7,0,0,Tepat Waktu
+202100065,Rafi Setiawan,Laki-laki,SNBP,2.85,3.02,3.05,2.65,2.89,79,5,87.1,0,0,Terlambat
+202100066,Wahyu Wibowo,Laki-laki,Mandiri,3.22,3.4,2.8,3.47,3.22,86,0,96.5,0,0,Terlambat
+202100067,Eko Nugroho,Laki-laki,Mandiri,3.36,2.94,3.21,3.45,3.24,84,0,97.7,0,0,Terlambat
+202100068,Fitri Saputra,Perempuan,SNBT,2.7,3.37,2.82,2.83,2.93,81,3,92.4,0,0,Tepat Waktu
+202100069,Rizky Setiawan,Laki-laki,SNBP,2.79,2.91,2.93,3.35,3.0,77,7,88.0,0,0,Terlambat
+202100070,Rina Saputra,Perempuan,SNBT,2.7,3.07,2.75,2.88,2.85,85,1,93.4,0,0,Tepat Waktu
+202100071,Putri Wibowo,Perempuan,SNBP,3.0,3.16,3.01,3.28,3.11,86,0,89.4,0,0,Tepat Waktu
+202100072,Bagus Setiawan,Laki-laki,Mandiri,2.48,2.47,2.41,3.17,2.63,77,7,93.2,0,0,Terlambat
+202100073,Eko Pratama,Laki-laki,SNBT,3.01,3.18,3.1,3.42,3.18,81,3,85.0,1,0,Tepat Waktu
+202100074,Nabila Setiawan,Perempuan,SNBT,2.71,3.03,2.74,2.85,2.83,79,7,88.7,0,0,Terlambat
+202100075,Dewi Hakim,Perempuan,SNBT,2.73,2.3,2.79,2.93,2.69,82,4,90.6,0,0,Terlambat
+202100076,Putri Hidayat,Perempuan,SNBP,3.5,3.39,3.21,3.58,3.42,84,0,98.3,0,0,Terlambat
+202100077,Tiara Kusuma,Perempuan,SNBT,3.4,3.6,3.21,3.62,3.46,80,4,100.0,0,0,Tepat Waktu
+202100078,Satria Setiawan,Laki-laki,Mandiri,3.69,3.83,3.36,3.71,3.65,84,0,94.9,0,0,Tepat Waktu
+202100079,Farhan Hidayat,Laki-laki,SNBT,2.73,2.55,2.28,2.48,2.51,82,6,80.3,1,0,Terlambat
+202100080,Bayu Wijaya,Laki-laki,SNBP,2.81,3.22,2.68,2.54,2.81,81,5,86.7,0,0,Terlambat
+202100081,Siti Hidayat,Perempuan,SNBT,3.1,3.49,2.99,3.09,3.17,80,0,80.6,1,0,Terlambat
+202100082,Putri Nugroho,Perempuan,SNBT,3.18,2.93,3.14,2.71,2.99,83,3,87.2,0,0,Tepat Waktu
+202100083,Bayu Pratama,Laki-laki,Mandiri,2.86,3.21,3.45,3.17,3.17,78,2,92.6,0,1,Terlambat
+202100084,Wahyu Kusuma,Laki-laki,SNBT,3.18,3.07,3.3,2.97,3.13,81,3,95.3,0,0,Terlambat
+202100085,Eko Setiawan,Laki-laki,SNBT,3.27,3.4,3.44,3.18,3.32,88,0,89.6,0,0,Terlambat
+202100086,Aditya Pratama,Laki-laki,SNBT,3.87,4.0,3.75,3.71,3.83,88,0,98.7,0,0,Tepat Waktu
+202100087,Zahra Saputra,Perempuan,SNBT,3.62,3.36,3.22,3.16,3.34,86,0,83.9,1,0,Tepat Waktu
+202100088,Zahra Wijaya,Perempuan,SNBT,3.54,2.98,2.73,2.78,3.01,77,7,82.2,1,0,Terlambat
+202100089,Zahra Permana,Perempuan,SNBT,2.99,3.19,2.83,3.1,3.03,83,1,81.2,1,0,Terlambat
+202100090,Fajar Utomo,Laki-laki,SNBT,3.04,3.08,2.15,2.64,2.73,88,0,87.7,1,0,Terlambat
+202100091,Bagus Utomo,Laki-laki,Mandiri,2.69,2.73,2.09,2.14,2.41,72,14,92.7,0,1,Terlambat
+202100092,Nurul Santoso,Perempuan,SNBT,2.2,2.19,2.56,2.44,2.35,78,6,84.1,0,0,Terlambat
+202100093,Anisa Hakim,Perempuan,Mandiri,3.07,3.23,3.26,3.3,3.22,83,1,89.3,0,0,Tepat Waktu
+202100094,Maya Wibowo,Perempuan,SNBT,3.63,3.53,3.88,3.63,3.67,88,0,97.1,0,0,Tepat Waktu
+202100095,Putri Kusuma,Perempuan,Mandiri,3.1,3.06,2.8,2.77,2.93,85,3,96.4,0,0,Terlambat
+202100096,Bagus Saputra,Laki-laki,Mandiri,3.77,3.74,4.0,4.0,3.88,86,0,100.0,0,0,Tepat Waktu
+202100097,Ilham Hakim,Laki-laki,SNBT,3.1,3.15,2.99,2.92,3.04,82,4,89.7,0,0,Tepat Waktu
+202100098,Dimas Kusuma,Laki-laki,Mandiri,1.85,2.08,2.33,2.0,2.06,74,6,84.2,0,0,Terlambat
+202100099,Budi Santoso,Laki-laki,SNBP,3.52,3.62,3.4,3.93,3.62,86,0,90.3,0,0,Tepat Waktu
+202100100,Dimas Setiawan,Laki-laki,Mandiri,2.8,3.04,2.66,3.06,2.89,80,6,88.7,0,0,Terlambat
+202100101,Yoga Hidayat,Laki-laki,SNBT,3.3,3.63,3.12,3.54,3.4,79,1,93.6,0,0,Tepat Waktu
+202100102,Dewi Kusuma,Perempuan,SNBP,2.66,2.73,2.72,1.91,2.51,81,5,83.0,0,0,Terlambat
+202100103,Rafi Wibowo,Laki-laki,SNBT,3.65,3.18,3.38,3.23,3.36,87,1,91.1,0,0,Terlambat
+202100104,Aditya Wijaya,Laki-laki,Mandiri,2.94,2.89,2.76,2.73,2.83,83,1,90.5,0,0,Tepat Waktu
+202100105,Maya Nugroho,Perempuan,SNBP,3.4,3.24,2.91,3.56,3.28,86,0,87.2,0,1,Tepat Waktu
+202100106,Ilham Wibowo,Laki-laki,SNBT,3.59,3.27,3.8,3.01,3.42,86,0,95.0,0,0,Terlambat
+202100107,Yoga Nugroho,Laki-laki,Mandiri,3.47,2.92,3.37,3.73,3.37,84,2,96.6,0,0,Terlambat
+202100108,Aulia Hakim,Perempuan,Mandiri,2.77,2.76,3.31,3.24,3.02,84,2,92.9,0,1,Terlambat
+202100109,Budi Hakim,Laki-laki,SNBT,2.45,1.99,2.48,2.18,2.28,76,8,84.5,0,0,Terlambat
+202100110,Bayu Hidayat,Laki-laki,SNBP,3.53,3.52,3.16,3.66,3.47,86,0,97.8,0,0,Terlambat
+202100111,Rizky Setiawan,Laki-laki,SNBP,3.67,3.49,3.81,3.5,3.62,84,0,99.5,0,0,Tepat Waktu
+202100112,Rafi Santoso,Laki-laki,SNBT,2.88,2.65,2.74,2.22,2.62,79,7,89.5,0,0,Terlambat
+202100113,Dewi Kusuma,Perempuan,SNBT,2.49,2.66,2.65,2.59,2.6,84,0,88.8,0,0,Terlambat
+202100114,Rina Hidayat,Perempuan,Mandiri,3.7,3.71,3.69,3.65,3.69,80,0,92.9,0,1,Terlambat
+202100115,Dewi Utomo,Perempuan,SNBP,2.79,3.14,3.05,2.76,2.94,81,3,83.0,1,0,Terlambat
+202100116,Zahra Pratama,Perempuan,SNBT,2.67,2.72,2.87,2.87,2.78,81,3,93.1,0,0,Tepat Waktu
+202100117,Fitri Wijaya,Perempuan,SNBP,3.21,3.25,2.57,3.25,3.07,75,5,91.7,1,0,Terlambat
+202100118,Aditya Kusuma,Laki-laki,SNBP,2.99,2.84,2.44,2.54,2.7,73,7,87.4,0,0,Terlambat
+202100119,Anisa Saputra,Perempuan,SNBT,3.32,3.48,3.36,3.17,3.33,78,8,92.2,0,0,Tepat Waktu
+202100120,Bayu Setiawan,Laki-laki,SNBT,2.94,2.47,2.74,2.76,2.73,86,2,86.8,0,0,Tepat Waktu
+202100121,Siti Wijaya,Perempuan,SNBT,2.52,2.81,2.69,2.64,2.66,82,6,87.1,0,0,Terlambat
+202100122,Zahra Kusuma,Perempuan,Mandiri,3.69,3.79,3.69,3.59,3.69,87,1,90.7,0,0,Tepat Waktu
+202100123,Aditya Saputra,Laki-laki,SNBT,1.94,2.23,1.72,2.1,2.0,77,9,86.0,0,0,Terlambat
+202100124,Farhan Hidayat,Laki-laki,Mandiri,3.63,3.44,3.23,3.47,3.44,77,3,89.1,0,0,Tepat Waktu
+202100125,Budi Setiawan,Laki-laki,Mandiri,3.76,3.48,3.74,3.43,3.6,86,0,92.6,0,0,Terlambat
+202100126,Dimas Saputra,Laki-laki,SNBT,2.63,3.23,2.44,2.57,2.72,86,0,88.8,0,0,Terlambat
+202100127,Fitri Wijaya,Perempuan,Mandiri,3.64,3.56,3.18,3.36,3.44,80,0,88.9,0,0,Tepat Waktu
+202100128,Nurul Permana,Perempuan,SNBT,2.79,2.68,2.27,2.2,2.49,81,5,84.9,0,0,Terlambat
+202100129,Eko Nugroho,Laki-laki,SNBP,2.91,3.1,2.59,2.51,2.78,80,4,85.4,0,1,Terlambat
+202100130,Budi Permana,Laki-laki,Mandiri,2.83,2.86,2.77,2.48,2.74,80,8,93.0,0,0,Terlambat
+202100131,Rizky Hidayat,Laki-laki,SNBP,3.65,3.73,3.18,3.53,3.52,86,0,93.0,1,0,Terlambat
+202100132,Yoga Setiawan,Laki-laki,SNBT,2.62,2.55,2.42,2.42,2.5,79,9,78.9,1,0,Terlambat
+202100133,Satria Hidayat,Laki-laki,Mandiri,3.73,3.76,3.95,4.0,3.86,80,0,100.0,0,0,Tepat Waktu
+202100134,Dimas Setiawan,Laki-laki,SNBP,2.78,3.35,2.96,3.02,3.03,78,2,87.7,0,0,Tepat Waktu
+202100135,Anisa Santoso,Perempuan,SNBP,3.53,2.84,3.5,2.99,3.22,88,0,84.6,1,0,Tepat Waktu
+202100136,Bagus Permana,Laki-laki,Mandiri,2.96,2.9,3.01,3.34,3.05,76,4,92.8,0,0,Tepat Waktu
+202100137,Bagus Hakim,Laki-laki,SNBT,3.3,3.02,3.38,3.13,3.21,83,1,94.1,0,0,Terlambat
+202100138,Rina Hidayat,Perempuan,SNBP,2.93,2.74,2.65,2.52,2.71,83,3,81.8,1,0,Terlambat
+202100139,Satria Hakim,Laki-laki,SNBT,3.19,3.74,3.55,3.74,3.56,88,0,98.1,0,0,Tepat Waktu
+202100140,Siti Wibowo,Perempuan,SNBT,2.74,2.72,3.02,2.92,2.85,82,2,94.0,0,0,Tepat Waktu
+202100141,Anisa Saputra,Perempuan,SNBT,3.09,2.77,2.67,2.75,2.82,77,3,89.6,0,0,Terlambat
+202100142,Farhan Santoso,Laki-laki,Mandiri,3.2,3.45,3.54,3.42,3.4,84,2,92.7,0,0,Tepat Waktu
+202100143,Yoga Utomo,Laki-laki,SNBT,3.21,3.61,2.76,3.16,3.18,83,1,83.7,1,0,Tepat Waktu
+202100144,Satria Kusuma,Laki-laki,SNBT,3.51,3.53,3.79,3.57,3.6,81,3,90.9,0,0,Tepat Waktu
+202100145,Rizky Setiawan,Laki-laki,Mandiri,2.93,2.7,2.95,2.97,2.89,83,5,87.3,0,1,Terlambat
+202100146,Aditya Nugroho,Laki-laki,Mandiri,3.19,3.05,3.04,2.93,3.05,86,0,93.0,0,0,Terlambat
+202100147,Rina Santoso,Perempuan,SNBP,3.25,3.07,2.71,3.48,3.13,88,0,91.6,0,1,Terlambat
+202100148,Dimas Permana,Laki-laki,SNBP,3.0,2.88,3.06,3.13,3.02,84,0,90.0,0,0,Tepat Waktu
+202100149,Dimas Santoso,Laki-laki,SNBP,2.8,2.68,2.35,2.76,2.65,79,7,86.6,0,0,Tepat Waktu
+202100150,Dimas Hidayat,Laki-laki,SNBT,3.17,3.64,2.97,2.89,3.17,88,0,83.9,1,0,Terlambat
+202100151,Nurul Wibowo,Perempuan,SNBT,3.69,3.62,4.0,3.85,3.79,86,0,95.5,0,0,Tepat Waktu
+202100152,Eko Saputra,Laki-laki,SNBT,3.22,2.37,2.49,3.01,2.77,84,0,88.9,0,0,Tepat Waktu
+202100153,Eko Kusuma,Laki-laki,Mandiri,2.69,2.95,2.7,2.38,2.68,86,2,88.7,0,0,Tepat Waktu
+202100154,Budi Hidayat,Laki-laki,Mandiri,2.88,3.09,2.69,2.95,2.9,82,4,88.6,0,0,Tepat Waktu
+202100155,Siti Kusuma,Perempuan,SNBP,3.33,3.57,2.92,3.47,3.32,86,0,84.4,1,1,Terlambat
+202100156,Yoga Hidayat,Laki-laki,SNBT,3.35,3.49,2.96,3.25,3.26,77,3,92.4,0,0,Tepat Waktu
+202100157,Putri Santoso,Perempuan,SNBT,3.73,3.44,3.1,3.19,3.36,86,0,89.3,1,0,Tepat Waktu
+202100158,Fitri Kusuma,Perempuan,SNBT,3.25,3.41,2.97,3.41,3.26,88,0,90.6,0,0,Tepat Waktu
+202100159,Eko Wijaya,Laki-laki,SNBT,2.29,2.71,3.12,2.62,2.69,77,9,80.5,0,0,Terlambat
+202100160,Nurul Utomo,Perempuan,Mandiri,2.8,2.85,2.83,2.78,2.82,81,3,84.8,0,0,Tepat Waktu
+202100161,Fajar Saputra,Laki-laki,SNBT,2.7,2.41,2.17,2.67,2.49,73,7,91.3,0,0,Terlambat
+202100162,Dwi Nugroho,Perempuan,SNBT,3.79,3.57,3.47,3.16,3.5,84,0,97.4,0,0,Tepat Waktu
+202100163,Dwi Hakim,Perempuan,Mandiri,2.29,2.44,2.04,2.19,2.24,76,8,82.3,1,0,Terlambat
+202100164,Rafi Hakim,Laki-laki,SNBT,2.49,2.47,2.43,2.38,2.44,78,8,89.0,0,0,Terlambat
+202100165,Farhan Hidayat,Laki-laki,SNBP,2.77,3.0,2.22,2.75,2.68,77,7,86.3,1,0,Terlambat
+202100166,Nurul Hakim,Perempuan,SNBT,3.32,3.43,3.13,3.04,3.23,79,1,91.0,0,0,Tepat Waktu
+202100167,Bagus Permana,Laki-laki,SNBP,3.02,2.65,3.16,3.1,2.98,82,2,91.1,0,0,Tepat Waktu
+202100168,Yoga Saputra,Laki-laki,Mandiri,3.14,3.0,2.58,2.74,2.86,80,4,87.2,0,1,Terlambat
+202100169,Rafi Setiawan,Laki-laki,SNBP,2.89,2.61,2.45,3.03,2.74,83,3,88.5,0,0,Tepat Waktu
+202100170,Putri Santoso,Perempuan,SNBT,3.68,3.27,3.08,3.06,3.27,86,0,99.1,0,1,Terlambat
+202100171,Rina Santoso,Perempuan,SNBT,2.57,2.75,2.07,2.83,2.56,81,7,85.1,0,0,Terlambat
+202100172,Dimas Wibowo,Laki-laki,Mandiri,2.6,2.92,2.45,2.63,2.65,76,8,84.5,0,0,Terlambat
+202100173,Eko Saputra,Laki-laki,SNBP,4.0,3.65,3.16,3.48,3.57,86,0,87.6,1,0,Tepat Waktu
+202100174,Yoga Permana,Laki-laki,SNBP,2.87,3.16,2.97,3.63,3.16,83,1,90.4,0,0,Terlambat
+202100175,Nurul Utomo,Perempuan,SNBP,3.54,3.5,3.32,3.06,3.36,80,0,87.9,1,0,Terlambat
+202100176,Eko Setiawan,Laki-laki,SNBP,3.11,3.02,2.91,3.05,3.02,85,1,87.7,1,0,Tepat Waktu
+202100177,Putri Nugroho,Perempuan,SNBP,3.33,2.61,2.84,3.27,3.01,81,5,89.5,0,0,Tepat Waktu
+202100178,Rizky Wijaya,Laki-laki,SNBT,3.43,3.19,3.28,3.09,3.25,80,0,99.7,0,0,Terlambat
+202100179,Fitri Hakim,Perempuan,SNBP,3.46,3.49,3.21,3.53,3.42,80,0,97.7,0,0,Tepat Waktu
+202100180,Yoga Santoso,Laki-laki,SNBP,3.61,3.72,3.58,3.62,3.63,86,0,92.0,0,1,Tepat Waktu
+202100181,Ilham Hakim,Laki-laki,Mandiri,2.83,3.41,2.67,2.66,2.89,84,2,89.8,0,0,Tepat Waktu
+202100182,Budi Hidayat,Laki-laki,SNBT,3.72,3.56,3.22,3.38,3.47,84,0,89.5,1,0,Terlambat
+202100183,Dwi Setiawan,Perempuan,SNBT,1.72,2.11,2.05,1.9,1.94,74,12,81.2,0,0,Terlambat
+202100184,Dewi Pratama,Perempuan,SNBT,3.57,3.71,4.0,3.91,3.8,88,0,88.5,0,0,Terlambat
+202100185,Fajar Setiawan,Laki-laki,Mandiri,2.92,2.46,2.47,3.12,2.74,79,5,95.9,0,0,Tepat Waktu
+202100186,Zahra Hidayat,Perempuan,SNBP,3.0,3.12,4.0,3.46,3.4,84,0,89.4,0,1,Terlambat
+202100187,Maya Hidayat,Perempuan,Mandiri,2.82,2.83,3.0,2.3,2.74,79,5,92.1,0,0,Terlambat
+202100188,Dwi Hakim,Perempuan,Mandiri,2.56,2.85,2.96,2.61,2.74,85,1,91.6,0,0,Tepat Waktu
+202100189,Bagus Setiawan,Laki-laki,SNBP,3.12,3.39,3.48,3.06,3.26,84,0,89.5,0,0,Tepat Waktu
+202100190,Dimas Wijaya,Laki-laki,Mandiri,2.22,2.5,2.19,2.64,2.39,86,2,93.8,0,1,Terlambat
+202100191,Aditya Santoso,Laki-laki,SNBP,3.02,2.87,3.08,2.88,2.96,84,2,90.7,0,0,Terlambat
+202100192,Aulia Permana,Perempuan,SNBP,2.81,2.83,2.57,2.6,2.7,81,3,89.4,0,0,Terlambat
+202100193,Zahra Kusuma,Perempuan,Mandiri,3.07,2.89,3.0,2.91,2.97,77,3,85.2,0,0,Terlambat
+202100194,Aulia Wijaya,Perempuan,Mandiri,3.46,3.29,3.17,3.37,3.32,80,6,85.4,0,0,Terlambat
+202100195,Farhan Kusuma,Laki-laki,SNBT,2.77,2.73,2.71,2.54,2.69,77,7,88.0,0,0,Terlambat
+202100196,Fajar Setiawan,Laki-laki,SNBP,3.7,3.54,3.27,2.64,3.29,84,4,91.1,1,0,Terlambat
+202100197,Nurul Permana,Perempuan,SNBT,3.37,3.25,3.54,3.35,3.38,83,1,86.6,0,0,Tepat Waktu
+202100198,Rina Kusuma,Perempuan,Mandiri,2.65,2.74,2.95,2.93,2.82,80,4,84.1,1,0,Tepat Waktu
+202100199,Anisa Wijaya,Perempuan,SNBT,2.84,2.94,2.48,3.01,2.82,82,4,89.9,0,0,Terlambat
+202100200,Tiara Setiawan,Perempuan,SNBT,3.68,3.52,3.25,3.92,3.59,80,0,98.8,0,0,Tepat Waktu
+202100201,Tiara Utomo,Perempuan,SNBP,3.0,3.11,2.99,3.12,3.06,83,3,88.7,1,0,Terlambat
+202100202,Ilham Wijaya,Laki-laki,SNBP,3.7,3.38,3.59,3.4,3.52,80,0,94.5,0,0,Tepat Waktu
+202100203,Budi Wijaya,Laki-laki,Mandiri,3.1,3.19,3.09,2.91,3.07,81,5,84.9,1,0,Terlambat
+202100204,Tiara Saputra,Perempuan,SNBT,2.57,2.5,2.67,2.46,2.55,79,7,85.4,0,0,Tepat Waktu
+202100205,Maya Wijaya,Perempuan,Mandiri,2.55,2.55,2.97,2.55,2.66,84,2,84.6,0,0,Tepat Waktu
+202100206,Fajar Saputra,Laki-laki,SNBT,3.16,3.57,3.2,3.09,3.26,86,0,84.2,1,0,Tepat Waktu
+202100207,Fajar Hidayat,Laki-laki,Mandiri,2.52,2.23,2.3,1.94,2.25,71,9,82.2,0,0,Terlambat
+202100208,Siti Santoso,Perempuan,SNBP,3.06,2.77,3.21,3.53,3.14,84,0,91.3,0,0,Tepat Waktu
+202100209,Budi Hakim,Laki-laki,SNBT,2.76,2.74,2.69,2.48,2.67,80,4,88.6,0,0,Terlambat
+202100210,Wahyu Wijaya,Laki-laki,SNBP,3.41,3.64,3.15,3.71,3.48,84,0,86.8,1,0,Tepat Waktu
+202100211,Aditya Setiawan,Laki-laki,SNBT,3.17,2.76,3.25,3.32,3.12,88,0,85.9,1,0,Terlambat
+202100212,Rina Wibowo,Perempuan,SNBT,4.0,3.93,4.0,3.79,3.93,80,0,95.0,0,0,Tepat Waktu
+202100213,Dwi Saputra,Perempuan,Mandiri,3.18,2.86,2.62,3.37,3.01,85,1,87.8,1,0,Terlambat
+202100214,Aditya Hakim,Laki-laki,SNBT,2.98,3.51,2.94,3.0,3.11,83,1,92.2,0,0,Tepat Waktu
+202100215,Nurul Utomo,Perempuan,SNBP,3.05,3.14,2.52,2.99,2.92,86,0,88.6,0,0,Tepat Waktu
+202100216,Rizky Nugroho,Laki-laki,SNBP,2.93,2.63,2.98,2.93,2.87,85,1,85.9,0,0,Tepat Waktu
+202100217,Farhan Hidayat,Laki-laki,SNBP,3.78,3.88,3.82,4.0,3.87,84,0,95.9,0,0,Tepat Waktu
+202100218,Maya Kusuma,Perempuan,SNBT,3.39,3.67,3.11,3.01,3.3,83,3,96.6,0,0,Tepat Waktu
+202100219,Tiara Wijaya,Perempuan,Mandiri,3.07,2.57,2.6,2.59,2.71,73,7,91.0,0,0,Terlambat
+202100220,Tiara Pratama,Perempuan,Mandiri,4.0,4.0,4.0,4.0,4.0,84,0,99.7,0,1,Tepat Waktu
+202100221,Fitri Pratama,Perempuan,SNBP,2.6,2.84,2.83,2.82,2.77,84,2,91.8,0,0,Tepat Waktu
+202100222,Dewi Nugroho,Perempuan,SNBT,3.35,3.23,3.18,3.73,3.37,84,0,97.3,0,0,Tepat Waktu
+202100223,Eko Pratama,Laki-laki,SNBT,3.78,3.73,3.89,3.55,3.74,86,0,98.4,0,0,Tepat Waktu
+202100224,Dimas Hakim,Laki-laki,SNBT,2.23,2.54,2.41,2.54,2.43,81,3,87.7,0,1,Terlambat
+202100225,Farhan Pratama,Laki-laki,SNBT,2.64,2.52,2.32,2.83,2.58,81,5,80.7,1,0,Terlambat
+202100226,Satria Saputra,Laki-laki,SNBT,4.0,3.94,3.7,3.49,3.78,84,0,92.7,1,0,Tepat Waktu
+202100227,Tiara Hakim,Perempuan,SNBT,3.01,3.04,3.28,3.38,3.18,86,0,83.4,0,1,Terlambat
+202100228,Bayu Wijaya,Laki-laki,SNBP,3.52,3.35,3.36,3.41,3.41,88,0,91.7,1,0,Terlambat
+202100229,Zahra Permana,Perempuan,Mandiri,2.63,2.59,2.93,3.04,2.8,76,8,91.9,0,0,Tepat Waktu
+202100230,Aulia Saputra,Perempuan,SNBP,3.27,2.63,2.73,2.83,2.86,77,7,95.6,0,0,Terlambat
+202100231,Dewi Permana,Perempuan,SNBT,3.87,3.84,3.31,4.0,3.76,88,0,85.6,1,0,Tepat Waktu
+202100232,Bagus Utomo,Laki-laki,SNBT,2.86,3.28,3.21,3.15,3.12,81,3,95.6,0,0,Tepat Waktu
+202100233,Siti Pratama,Perempuan,SNBT,2.63,3.06,2.8,2.76,2.81,86,0,85.9,1,0,Terlambat
+202100234,Rafi Setiawan,Laki-laki,Mandiri,2.68,2.97,2.64,3.11,2.85,84,4,87.7,0,0,Tepat Waktu
+202100235,Bayu Santoso,Laki-laki,Mandiri,2.62,2.74,2.46,2.42,2.56,81,5,81.5,1,0,Terlambat
+202100236,Rina Hakim,Perempuan,Mandiri,3.48,3.64,3.63,3.75,3.62,84,0,93.9,0,0,Terlambat
+202100237,Budi Setiawan,Laki-laki,SNBT,3.91,3.28,3.19,3.43,3.45,84,0,92.3,0,0,Terlambat
+202100238,Fajar Utomo,Laki-laki,Mandiri,2.72,2.6,2.52,2.58,2.6,77,7,83.5,0,0,Terlambat
+202100239,Maya Utomo,Perempuan,SNBT,2.62,3.35,3.43,3.1,3.12,84,0,95.6,0,0,Terlambat
+202100240,Eko Setiawan,Laki-laki,Mandiri,3.01,3.09,2.92,2.81,2.96,84,0,87.2,0,0,Tepat Waktu
+202100241,Nabila Pratama,Perempuan,SNBT,3.22,3.5,2.67,3.2,3.15,85,1,82.0,1,1,Tepat Waktu
+202100242,Maya Santoso,Perempuan,Mandiri,2.53,3.04,3.35,2.99,2.98,84,0,94.8,0,0,Tepat Waktu
+202100243,Dewi Santoso,Perempuan,Mandiri,3.7,3.91,3.65,3.45,3.68,88,0,90.1,0,0,Tepat Waktu
+202100244,Bayu Pratama,Laki-laki,Mandiri,2.69,3.13,2.91,2.99,2.93,81,5,89.3,0,1,Terlambat
+202100245,Fajar Hidayat,Laki-laki,SNBP,3.49,3.15,3.43,3.5,3.39,85,3,89.7,0,0,Terlambat
+202100246,Rina Utomo,Perempuan,SNBP,3.04,2.88,2.61,2.41,2.74,79,5,88.9,1,0,Terlambat
+202100247,Satria Hidayat,Laki-laki,Mandiri,3.24,2.69,2.63,2.79,2.84,78,8,93.8,0,1,Terlambat
+202100248,Nabila Hidayat,Perempuan,SNBP,3.64,4.0,3.94,3.73,3.83,84,0,93.1,0,0,Tepat Waktu
+202100249,Putri Setiawan,Perempuan,Mandiri,3.64,3.76,3.84,3.89,3.78,84,0,92.1,0,0,Tepat Waktu
+202100250,Putri Hakim,Perempuan,SNBT,3.21,2.89,3.32,2.85,3.07,84,2,93.9,0,0,Terlambat
+202100251,Rizky Permana,Laki-laki,SNBT,4.0,4.0,3.76,3.42,3.8,86,0,91.3,1,0,Tepat Waktu
+202100252,Satria Wijaya,Laki-laki,Mandiri,3.81,3.42,3.11,3.45,3.45,80,0,92.3,0,0,Tepat Waktu
+202100253,Rina Kusuma,Perempuan,SNBT,3.03,3.04,3.29,3.03,3.1,82,2,89.8,0,0,Tepat Waktu
+202100254,Bayu Wibowo,Laki-laki,SNBT,3.05,2.9,2.41,2.13,2.62,78,6,81.6,1,0,Terlambat
+202100255,Bagus Hakim,Laki-laki,SNBT,3.44,3.42,3.57,3.34,3.44,85,1,90.7,1,0,Tepat Waktu
+202100256,Siti Utomo,Perempuan,SNBT,3.17,2.8,3.4,3.16,3.13,88,0,97.1,0,0,Terlambat
+202100257,Dewi Nugroho,Perempuan,Mandiri,2.65,3.25,2.98,3.27,3.04,77,3,97.4,0,0,Tepat Waktu
+202100258,Fitri Saputra,Perempuan,SNBP,3.36,3.22,3.4,3.62,3.4,84,0,90.7,0,0,Tepat Waktu
+202100259,Nurul Santoso,Perempuan,Mandiri,2.42,2.66,3.14,2.14,2.59,82,6,88.4,0,0,Terlambat
+202100260,Budi Hidayat,Laki-laki,Mandiri,2.96,3.0,2.9,2.74,2.9,81,3,88.8,1,0,Terlambat
+202100261,Dwi Nugroho,Perempuan,SNBT,2.53,2.37,2.37,2.54,2.45,82,4,84.3,0,0,Tepat Waktu
+202100262,Fitri Nugroho,Perempuan,Mandiri,2.34,2.7,2.41,2.42,2.47,74,6,85.1,0,0,Terlambat
+202100263,Satria Setiawan,Laki-laki,SNBT,3.0,2.9,2.78,3.01,2.92,81,3,93.0,0,0,Terlambat
+202100264,Yoga Saputra,Laki-laki,SNBT,3.35,3.01,3.26,3.31,3.23,86,0,90.5,0,0,Tepat Waktu
+202100265,Tiara Wijaya,Perempuan,Mandiri,2.7,3.11,3.05,2.75,2.9,86,0,85.0,0,0,Terlambat
+202100266,Dwi Hakim,Perempuan,SNBP,2.59,2.51,2.74,2.8,2.66,80,4,85.7,0,0,Terlambat
+202100267,Nabila Utomo,Perempuan,SNBP,3.09,3.33,3.5,3.02,3.24,84,0,95.7,0,0,Tepat Waktu
+202100268,Nurul Kusuma,Perempuan,SNBT,3.57,3.71,3.71,3.71,3.68,84,0,95.9,0,0,Tepat Waktu
+202100269,Farhan Wijaya,Laki-laki,SNBT,3.26,3.14,3.56,3.45,3.35,86,0,87.5,0,0,Tepat Waktu
+202100270,Rafi Saputra,Laki-laki,SNBT,3.87,4.0,4.0,3.88,3.94,88,0,94.5,0,1,Tepat Waktu
+202100271,Nabila Wibowo,Perempuan,Mandiri,3.76,3.8,3.71,2.96,3.56,86,0,100.0,0,0,Terlambat
+202100272,Siti Utomo,Perempuan,SNBT,2.91,2.7,2.95,2.97,2.88,74,6,89.8,0,0,Tepat Waktu
+202100273,Nurul Setiawan,Perempuan,SNBT,3.12,3.59,3.58,3.51,3.45,88,0,92.7,0,0,Tepat Waktu
+202100274,Fitri Nugroho,Perempuan,SNBP,3.04,3.07,3.11,2.81,3.01,79,1,90.8,0,0,Tepat Waktu
+202100275,Bayu Permana,Laki-laki,SNBT,3.41,3.59,3.65,3.03,3.42,84,0,94.1,0,0,Tepat Waktu
+202100276,Yoga Hakim,Laki-laki,SNBP,2.38,3.45,3.41,2.89,3.03,86,0,89.6,0,0,Tepat Waktu
+202100277,Tiara Nugroho,Perempuan,SNBP,3.36,2.39,2.69,2.53,2.74,76,4,87.8,1,0,Terlambat
+202100278,Nurul Kusuma,Perempuan,SNBT,3.56,3.36,3.35,3.52,3.45,80,0,85.9,1,1,Terlambat
+202100279,Dwi Hidayat,Perempuan,SNBP,3.09,2.94,2.91,2.75,2.92,83,1,93.7,0,1,Terlambat
+202100280,Rina Hakim,Perempuan,SNBP,2.53,2.88,2.83,2.85,2.77,79,7,95.7,0,0,Terlambat
+202100281,Putri Pratama,Perempuan,SNBP,2.66,2.8,2.64,2.89,2.75,83,3,84.5,1,0,Terlambat
+202100282,Bayu Wijaya,Laki-laki,Mandiri,2.76,2.74,3.0,3.04,2.88,78,6,86.3,0,0,Terlambat
+202100283,Rizky Wibowo,Laki-laki,Mandiri,2.92,2.44,3.04,2.95,2.84,84,2,90.4,0,0,Terlambat
+202100284,Yoga Setiawan,Laki-laki,SNBT,2.85,3.25,2.63,2.58,2.83,86,0,87.7,0,0,Terlambat
+202100285,Aulia Pratama,Perempuan,Mandiri,3.2,3.71,2.74,3.19,3.21,84,2,89.2,1,0,Tepat Waktu
+202100286,Rafi Nugroho,Laki-laki,Mandiri,3.37,3.33,3.12,2.9,3.18,84,0,92.6,0,0,Tepat Waktu
+202100287,Dimas Wijaya,Laki-laki,SNBT,2.8,2.57,2.7,3.1,2.79,80,0,89.0,0,0,Terlambat
+202100288,Farhan Wijaya,Laki-laki,SNBP,3.78,3.67,3.72,3.59,3.69,84,0,91.5,0,0,Tepat Waktu
+202100289,Yoga Utomo,Laki-laki,Mandiri,2.01,2.38,1.75,2.08,2.05,78,8,72.3,1,0,Terlambat
+202100290,Dewi Setiawan,Perempuan,Mandiri,3.57,3.23,2.99,3.62,3.35,86,0,90.1,0,0,Tepat Waktu
+202100291,Ilham Hakim,Laki-laki,SNBT,3.25,3.23,3.24,3.27,3.25,84,4,94.6,0,0,Terlambat
+202100292,Wahyu Kusuma,Laki-laki,Mandiri,2.63,2.94,2.68,2.43,2.67,79,5,92.8,0,0,Terlambat
+202100293,Anisa Permana,Perempuan,SNBT,3.18,3.68,3.72,2.98,3.39,80,0,92.1,0,0,Tepat Waktu
+202100294,Eko Kusuma,Laki-laki,Mandiri,2.99,2.86,3.09,3.2,3.04,79,1,87.7,0,0,Terlambat
+202100295,Rafi Saputra,Laki-laki,Mandiri,3.63,3.68,3.98,3.99,3.82,83,1,96.5,0,0,Tepat Waktu
+202100296,Dimas Wijaya,Laki-laki,SNBT,3.18,3.39,3.05,3.47,3.27,85,1,88.8,1,0,Terlambat
+202100297,Dwi Permana,Perempuan,Mandiri,4.0,3.51,3.76,3.82,3.77,88,0,98.3,0,0,Tepat Waktu
+202100298,Dimas Santoso,Laki-laki,SNBT,2.84,3.04,3.44,2.89,3.05,83,3,91.7,0,0,Terlambat
+202100299,Aulia Utomo,Perempuan,SNBT,4.0,3.85,3.58,3.84,3.82,86,0,100.0,0,0,Tepat Waktu
+202100300,Rafi Kusuma,Laki-laki,Mandiri,2.66,2.46,2.34,2.55,2.5,81,5,92.1,0,0,Terlambat
+202100301,Wahyu Wijaya,Laki-laki,SNBP,2.55,2.7,2.76,2.82,2.71,77,3,84.7,0,0,Tepat Waktu
+202100302,Farhan Pratama,Laki-laki,SNBT,2.63,2.81,3.37,3.16,2.99,81,5,85.6,0,0,Tepat Waktu
+202100303,Bayu Santoso,Laki-laki,SNBP,2.94,3.53,3.3,3.84,3.4,86,0,89.3,0,0,Tepat Waktu
+202100304,Anisa Santoso,Perempuan,SNBT,3.1,3.65,3.46,3.72,3.48,82,2,97.8,0,0,Tepat Waktu
+202100305,Aulia Setiawan,Perempuan,SNBT,2.37,2.54,2.73,2.15,2.45,78,8,81.3,0,0,Terlambat
+202100306,Zahra Nugroho,Perempuan,Mandiri,3.45,3.64,2.99,3.44,3.38,83,3,88.7,1,0,Tepat Waktu
+202100307,Fajar Utomo,Laki-laki,SNBP,2.87,3.07,2.47,2.84,2.81,74,6,83.0,1,0,Terlambat
+202100308,Satria Wibowo,Laki-laki,SNBT,2.88,2.82,2.94,2.57,2.8,81,3,85.1,0,0,Tepat Waktu
+202100309,Dewi Pratama,Perempuan,SNBP,3.09,2.81,2.79,2.6,2.82,80,4,90.5,0,0,Terlambat
+202100310,Rafi Wijaya,Laki-laki,Mandiri,2.39,2.16,2.6,2.41,2.39,72,12,86.3,0,0,Terlambat
+202100311,Rizky Pratama,Laki-laki,Mandiri,3.92,3.34,3.77,3.42,3.61,83,1,91.4,1,0,Tepat Waktu
+202100312,Aditya Utomo,Laki-laki,Mandiri,3.12,3.0,3.15,2.8,3.02,80,6,85.2,0,1,Terlambat
+202100313,Rizky Wibowo,Laki-laki,Mandiri,3.07,3.48,3.26,3.22,3.26,84,0,83.2,1,0,Tepat Waktu
+202100314,Nurul Permana,Perempuan,Mandiri,2.89,2.92,2.72,3.36,2.97,86,0,87.5,0,0,Tepat Waktu
+202100315,Fitri Wibowo,Perempuan,SNBP,3.61,4.0,3.19,3.8,3.65,88,0,91.1,1,0,Tepat Waktu
+202100316,Rina Setiawan,Perempuan,SNBT,3.94,3.68,3.48,3.17,3.57,86,0,87.5,1,0,Tepat Waktu
+202100317,Wahyu Permana,Laki-laki,SNBT,3.85,3.81,3.36,3.46,3.62,86,0,92.8,1,0,Tepat Waktu
+202100318,Dimas Nugroho,Laki-laki,Mandiri,3.38,3.05,3.28,3.24,3.24,85,1,90.9,0,0,Tepat Waktu
+202100319,Farhan Nugroho,Laki-laki,Mandiri,2.69,2.64,2.52,2.76,2.65,82,4,89.3,0,0,Terlambat
+202100320,Aditya Hidayat,Laki-laki,SNBP,3.01,3.17,3.13,2.92,3.06,84,0,96.3,0,0,Terlambat
+202100321,Bagus Wibowo,Laki-laki,Mandiri,3.34,3.19,3.26,3.1,3.22,82,2,85.9,0,0,Terlambat
+202100322,Tiara Wibowo,Perempuan,SNBT,3.45,3.55,3.49,3.28,3.44,86,0,93.6,0,0,Tepat Waktu
+202100323,Anisa Hakim,Perempuan,SNBT,3.41,3.51,3.1,3.17,3.3,83,3,92.5,0,0,Terlambat
+202100324,Budi Nugroho,Laki-laki,SNBP,2.9,2.47,2.3,2.52,2.55,82,6,85.2,0,0,Terlambat
+202100325,Nurul Wijaya,Perempuan,SNBP,2.83,3.12,2.8,2.69,2.86,81,5,89.3,0,0,Terlambat
+202100326,Fitri Hidayat,Perempuan,SNBT,3.17,2.76,3.18,2.78,2.97,87,1,91.7,0,0,Terlambat
+202100327,Nabila Santoso,Perempuan,SNBT,3.58,3.26,3.19,3.35,3.34,79,1,90.3,0,0,Tepat Waktu
+202100328,Aulia Kusuma,Perempuan,SNBP,3.36,3.51,2.81,3.3,3.24,83,3,86.4,1,0,Tepat Waktu
+202100329,Bayu Santoso,Laki-laki,SNBT,3.55,3.34,3.45,2.97,3.33,87,1,89.2,0,0,Terlambat
+202100330,Fajar Wibowo,Laki-laki,Mandiri,3.3,3.31,2.94,3.54,3.27,84,0,91.7,0,0,Tepat Waktu
+202100331,Aditya Hidayat,Laki-laki,Mandiri,2.18,2.22,2.42,1.99,2.2,74,10,89.0,0,0,Terlambat
+202100332,Dwi Wibowo,Perempuan,Mandiri,2.71,1.86,1.74,2.47,2.2,74,10,83.2,1,0,Terlambat
+202100333,Bayu Kusuma,Laki-laki,SNBT,3.14,3.13,2.96,3.21,3.11,81,5,95.5,0,0,Tepat Waktu
+202100334,Rizky Wibowo,Laki-laki,SNBT,2.98,2.83,3.78,3.28,3.22,80,0,91.8,0,0,Tepat Waktu
+202100335,Fajar Kusuma,Laki-laki,Mandiri,3.46,3.36,3.38,3.64,3.46,86,0,92.5,0,0,Terlambat
+202100336,Fajar Kusuma,Laki-laki,SNBT,2.94,3.22,3.5,3.65,3.33,80,0,95.4,0,0,Tepat Waktu
+202100337,Dewi Setiawan,Perempuan,SNBP,2.76,2.78,2.69,2.65,2.72,79,5,93.1,0,0,Terlambat
+202100338,Rina Wibowo,Perempuan,SNBP,3.33,3.66,3.14,3.5,3.41,88,0,87.6,1,0,Terlambat
+202100339,Bagus Hidayat,Laki-laki,SNBT,3.16,2.85,2.69,2.8,2.88,79,5,89.3,1,0,Terlambat
+202100340,Rafi Nugroho,Laki-laki,SNBP,3.11,2.76,3.12,3.1,3.02,76,4,93.4,0,0,Terlambat
+202100341,Farhan Hidayat,Laki-laki,SNBT,2.78,2.48,2.28,2.85,2.6,83,1,86.3,0,0,Terlambat
+202100342,Budi Setiawan,Laki-laki,SNBP,3.07,3.41,2.85,2.93,3.06,85,1,89.6,0,0,Terlambat
+202100343,Ilham Hidayat,Laki-laki,SNBP,2.92,3.25,3.57,3.33,3.27,83,1,92.3,0,0,Tepat Waktu
+202100344,Farhan Santoso,Laki-laki,SNBT,3.01,2.46,2.56,2.48,2.63,78,8,82.9,0,0,Terlambat
+202100345,Bayu Wijaya,Laki-laki,SNBT,3.14,3.77,2.97,3.54,3.36,88,0,91.1,0,0,Tepat Waktu
+202100346,Tiara Setiawan,Perempuan,SNBT,3.1,3.34,3.09,3.51,3.26,80,4,90.4,1,0,Tepat Waktu
+202100347,Dwi Hidayat,Perempuan,SNBP,3.48,3.07,3.16,2.51,3.06,81,3,89.8,1,0,Tepat Waktu
+202100348,Bayu Utomo,Laki-laki,SNBP,3.32,2.79,3.27,3.14,3.13,82,2,92.6,0,0,Tepat Waktu
+202100349,Dimas Saputra,Laki-laki,SNBT,3.62,3.69,3.37,3.32,3.5,86,0,95.5,0,0,Tepat Waktu
+202100350,Putri Hakim,Perempuan,SNBT,3.26,3.45,3.02,3.23,3.24,80,0,91.2,0,0,Tepat Waktu
+202100351,Rafi Santoso,Laki-laki,SNBT,2.74,2.63,2.44,2.94,2.69,80,6,86.6,0,0,Terlambat
+202100352,Siti Santoso,Perempuan,SNBT,2.88,3.4,3.01,2.94,3.06,87,1,93.1,0,0,Tepat Waktu
+202100353,Anisa Utomo,Perempuan,Mandiri,3.29,3.22,3.39,3.74,3.41,82,2,91.8,0,0,Tepat Waktu
+202100354,Farhan Hakim,Laki-laki,SNBT,2.18,2.32,2.04,1.99,2.13,74,12,85.2,1,0,Terlambat
+202100355,Yoga Wibowo,Laki-laki,SNBT,2.41,2.73,2.64,2.35,2.53,71,9,89.2,0,0,Terlambat
+202100356,Anisa Wijaya,Perempuan,SNBT,3.24,2.96,3.36,3.49,3.26,86,0,93.9,0,0,Tepat Waktu
+202100357,Aditya Santoso,Laki-laki,SNBT,3.22,3.76,3.57,4.0,3.64,84,0,91.0,0,0,Tepat Waktu
+202100358,Maya Hidayat,Perempuan,SNBT,3.58,3.66,3.6,3.7,3.64,86,0,86.6,0,0,Tepat Waktu
+202100359,Aulia Pratama,Perempuan,SNBT,3.52,3.11,3.47,3.57,3.42,86,0,94.9,0,0,Tepat Waktu
+202100360,Aulia Pratama,Perempuan,Mandiri,3.51,3.49,3.39,3.08,3.37,84,0,91.3,0,0,Tepat Waktu
+202100361,Dimas Hidayat,Laki-laki,SNBP,2.71,2.74,2.71,2.61,2.69,84,2,92.3,0,0,Terlambat
+202100362,Siti Permana,Perempuan,SNBP,2.9,3.28,3.04,3.01,3.06,86,0,87.9,0,0,Tepat Waktu
+202100363,Rafi Permana,Laki-laki,SNBT,2.16,1.83,2.19,1.59,1.94,73,11,82.3,0,0,Terlambat
+202100364,Wahyu Nugroho,Laki-laki,Mandiri,3.78,3.6,3.1,3.64,3.53,88,0,92.0,1,0,Terlambat
+202100365,Zahra Kusuma,Perempuan,SNBP,2.78,2.99,2.73,2.98,2.87,75,5,91.5,0,0,Tepat Waktu
+202100366,Farhan Pratama,Laki-laki,Mandiri,2.98,2.51,2.7,2.67,2.72,83,3,85.5,0,0,Terlambat
+202100367,Siti Kusuma,Perempuan,SNBT,3.65,3.49,3.66,3.63,3.61,84,0,94.7,0,0,Tepat Waktu
+202100368,Dwi Hidayat,Perempuan,Mandiri,2.32,2.46,2.32,2.46,2.39,84,2,93.6,0,0,Terlambat
+202100369,Wahyu Kusuma,Laki-laki,Mandiri,2.46,2.15,2.98,2.77,2.59,75,9,88.7,0,0,Terlambat
+202100370,Yoga Hakim,Laki-laki,SNBT,3.1,2.93,2.61,2.98,2.9,79,5,83.6,1,0,Terlambat
+202100371,Wahyu Setiawan,Laki-laki,SNBP,3.15,3.64,2.29,3.18,3.06,80,0,88.3,1,0,Terlambat
+202100372,Eko Wibowo,Laki-laki,SNBP,2.85,3.08,3.13,2.78,2.96,86,0,91.7,0,0,Tepat Waktu
+202100373,Fajar Nugroho,Laki-laki,SNBP,3.45,3.34,2.92,2.83,3.14,86,0,96.7,0,0,Tepat Waktu
+202100374,Dwi Wibowo,Perempuan,Mandiri,3.7,3.71,3.71,3.78,3.72,86,0,97.9,0,0,Tepat Waktu
+202100375,Dimas Santoso,Laki-laki,SNBP,3.36,3.93,3.08,3.33,3.42,88,0,96.5,0,0,Tepat Waktu
+202100376,Farhan Permana,Laki-laki,SNBT,3.23,3.42,3.6,2.69,3.24,88,0,91.5,1,0,Tepat Waktu
+202100377,Siti Kusuma,Perempuan,SNBT,3.53,3.73,3.35,3.54,3.54,85,1,93.1,0,0,Tepat Waktu
+202100378,Farhan Kusuma,Laki-laki,Mandiri,3.21,2.91,2.79,2.65,2.89,85,1,88.0,0,0,Tepat Waktu
+202100379,Siti Permana,Perempuan,SNBP,4.0,4.0,4.0,4.0,4.0,80,0,92.3,0,0,Tepat Waktu
+202100380,Farhan Santoso,Laki-laki,SNBP,2.25,2.2,2.27,1.52,2.06,76,10,84.1,0,0,Terlambat
+202100381,Fajar Santoso,Laki-laki,SNBP,3.64,3.93,3.73,3.66,3.74,86,0,84.8,1,0,Tepat Waktu
+202100382,Tiara Santoso,Perempuan,Mandiri,3.51,3.5,3.46,3.23,3.42,80,0,94.7,0,0,Tepat Waktu
+202100383,Tiara Santoso,Perempuan,SNBT,3.1,3.21,3.04,3.19,3.14,83,3,83.5,1,0,Tepat Waktu
+202100384,Rina Wijaya,Perempuan,SNBP,3.16,3.25,2.99,3.04,3.11,85,3,94.8,0,0,Tepat Waktu
+202100385,Dwi Pratama,Perempuan,SNBP,3.28,3.14,2.69,3.14,3.06,80,4,87.9,1,0,Terlambat
+202100386,Rina Wibowo,Perempuan,SNBP,3.68,3.37,3.7,3.79,3.64,84,0,93.4,0,0,Tepat Waktu
+202100387,Fajar Hidayat,Laki-laki,SNBP,3.41,3.13,2.99,2.82,3.09,84,0,94.7,0,0,Terlambat
+202100388,Bagus Wibowo,Laki-laki,Mandiri,2.71,2.84,2.94,2.44,2.73,79,5,83.6,1,0,Terlambat
+202100389,Dwi Setiawan,Perempuan,Mandiri,3.34,3.29,3.72,3.42,3.44,80,0,87.3,0,0,Tepat Waktu
+202100390,Aulia Saputra,Perempuan,SNBT,3.92,4.0,4.0,3.8,3.93,84,0,93.1,0,0,Tepat Waktu
+202100391,Putri Pratama,Perempuan,Mandiri,2.26,2.32,1.68,2.18,2.11,75,9,82.7,0,0,Terlambat
+202100392,Bayu Nugroho,Laki-laki,SNBP,4.0,4.0,4.0,4.0,4.0,88,0,97.0,0,0,Tepat Waktu
+202100393,Aditya Kusuma,Laki-laki,Mandiri,2.67,2.63,2.04,2.69,2.51,74,10,86.2,0,0,Terlambat
+202100394,Fitri Kusuma,Perempuan,Mandiri,2.57,2.92,2.04,2.38,2.48,80,4,79.6,1,1,Terlambat
+202100395,Yoga Hakim,Laki-laki,SNBT,2.58,2.66,2.1,2.31,2.41,75,9,89.1,0,0,Terlambat
+202100396,Zahra Hakim,Perempuan,Mandiri,3.3,3.52,3.16,2.9,3.22,80,0,94.9,0,0,Tepat Waktu
+202100397,Fitri Hidayat,Perempuan,SNBP,2.74,2.31,2.25,2.4,2.43,78,10,79.0,1,0,Terlambat
+202100398,Bayu Nugroho,Laki-laki,SNBP,2.48,2.47,2.78,2.53,2.56,82,4,85.0,0,0,Terlambat
+202100399,Dwi Wijaya,Perempuan,SNBP,2.84,2.58,2.38,3.18,2.74,82,4,87.5,1,0,Terlambat
+202100400,Dewi Hakim,Perempuan,SNBT,3.46,3.15,3.24,2.96,3.2,84,0,95.5,1,1,Terlambat
+202100401,Satria Kusuma,Laki-laki,Mandiri,3.11,2.96,2.97,3.25,3.07,82,4,87.9,0,0,Terlambat
+202100402,Zahra Setiawan,Perempuan,Mandiri,3.53,3.32,3.97,3.21,3.51,84,0,97.1,0,0,Tepat Waktu
+202100403,Rizky Setiawan,Laki-laki,SNBT,3.81,3.18,3.64,3.31,3.49,80,0,93.3,0,1,Tepat Waktu
+202100404,Zahra Utomo,Perempuan,Mandiri,3.68,3.08,4.0,3.28,3.51,84,0,96.3,0,0,Terlambat
+202100405,Satria Kusuma,Laki-laki,Mandiri,2.81,3.13,2.94,2.71,2.9,79,9,80.8,1,0,Terlambat
+202100406,Tiara Nugroho,Perempuan,SNBP,1.99,2.17,2.2,1.9,2.06,77,7,80.5,0,0,Terlambat
+202100407,Farhan Kusuma,Laki-laki,SNBT,2.3,1.99,2.25,1.97,2.13,83,3,81.4,0,0,Terlambat
+202100408,Rafi Nugroho,Laki-laki,SNBP,3.47,3.41,3.31,3.72,3.48,77,3,91.8,0,0,Tepat Waktu
+202100409,Maya Hidayat,Perempuan,SNBT,3.14,3.36,3.33,3.11,3.24,78,2,85.4,1,1,Terlambat
+202100410,Bayu Permana,Laki-laki,Mandiri,2.69,2.61,2.75,2.81,2.72,83,3,92.3,0,0,Tepat Waktu
+202100411,Aditya Saputra,Laki-laki,SNBP,2.57,2.8,2.63,2.6,2.65,79,5,85.6,0,0,Tepat Waktu
+202100412,Tiara Permana,Perempuan,Mandiri,2.6,2.94,2.29,2.87,2.68,85,3,86.5,0,0,Tepat Waktu
+202100413,Fitri Wijaya,Perempuan,SNBT,3.49,3.53,2.97,3.14,3.28,84,0,93.8,1,0,Terlambat
+202100414,Dwi Saputra,Perempuan,SNBT,2.76,3.22,2.89,3.27,3.04,82,2,91.2,0,0,Tepat Waktu
+202100415,Siti Permana,Perempuan,SNBT,3.84,3.63,3.29,3.81,3.64,86,0,95.7,0,0,Tepat Waktu
+202100416,Ilham Kusuma,Laki-laki,SNBT,2.83,2.75,3.05,3.0,2.91,82,4,92.8,0,0,Tepat Waktu
+202100417,Dimas Utomo,Laki-laki,SNBP,2.89,2.8,3.27,3.25,3.05,80,0,89.2,0,0,Tepat Waktu
+202100418,Wahyu Hidayat,Laki-laki,SNBP,3.3,3.61,3.02,3.07,3.25,86,0,92.2,0,0,Tepat Waktu
+202100419,Dewi Setiawan,Perempuan,SNBP,2.24,2.29,2.46,1.99,2.24,78,8,78.9,1,0,Terlambat
+202100420,Rina Wibowo,Perempuan,SNBT,2.88,3.51,3.59,3.26,3.31,80,0,92.4,0,0,Tepat Waktu
+202100421,Tiara Hakim,Perempuan,SNBP,3.11,2.83,2.61,2.92,2.87,82,6,92.9,0,0,Terlambat
+202100422,Dewi Nugroho,Perempuan,Mandiri,3.12,3.15,3.63,3.45,3.34,82,2,95.2,0,0,Terlambat
+202100423,Fajar Wibowo,Laki-laki,SNBT,3.06,3.49,3.22,3.23,3.25,84,0,84.3,0,0,Terlambat
+202100424,Fajar Saputra,Laki-laki,SNBT,2.55,2.39,2.41,2.68,2.51,78,8,85.2,1,0,Terlambat
+202100425,Fajar Santoso,Laki-laki,SNBT,2.73,2.86,3.02,2.74,2.84,83,1,88.5,0,0,Terlambat
+202100426,Ilham Wibowo,Laki-laki,SNBT,2.25,2.08,2.18,2.01,2.13,78,8,86.7,0,0,Terlambat
+202100427,Fajar Utomo,Laki-laki,Mandiri,3.74,3.35,3.29,3.8,3.54,82,2,92.7,0,0,Tepat Waktu
+202100428,Siti Santoso,Perempuan,SNBP,3.09,2.87,3.06,3.53,3.14,77,3,91.4,0,0,Terlambat
+202100429,Rizky Nugroho,Laki-laki,SNBP,3.72,3.65,3.6,3.77,3.68,88,0,99.6,0,0,Tepat Waktu
+202100430,Fajar Hakim,Laki-laki,Mandiri,3.02,3.28,3.21,2.76,3.07,85,1,92.4,0,0,Terlambat
+202100431,Eko Nugroho,Laki-laki,SNBP,3.45,3.64,3.05,3.1,3.31,86,0,97.1,0,0,Tepat Waktu
+202100432,Siti Saputra,Perempuan,SNBP,2.71,2.87,2.58,2.59,2.69,83,1,88.6,0,1,Terlambat
+202100433,Rina Hidayat,Perempuan,SNBT,1.88,1.62,2.28,2.01,1.95,70,10,83.6,0,0,Terlambat
+202100434,Satria Nugroho,Laki-laki,SNBP,3.01,3.11,3.23,2.88,3.06,83,3,91.2,0,0,Terlambat
+202100435,Ilham Kusuma,Laki-laki,SNBT,2.56,2.86,2.95,2.58,2.74,82,4,78.7,1,0,Tepat Waktu
+202100436,Aulia Pratama,Perempuan,SNBP,2.66,2.65,2.59,2.54,2.61,75,5,78.9,0,0,Tepat Waktu
+202100437,Budi Utomo,Laki-laki,Mandiri,3.7,3.63,2.94,2.86,3.28,84,0,83.8,1,0,Terlambat
+202100438,Maya Saputra,Perempuan,Mandiri,3.49,3.68,3.66,3.67,3.62,84,0,98.2,0,0,Tepat Waktu
+202100439,Zahra Wibowo,Perempuan,SNBT,2.75,2.89,2.98,3.26,2.97,84,0,95.5,0,0,Tepat Waktu
+202100440,Wahyu Nugroho,Laki-laki,SNBT,2.95,3.15,3.58,3.06,3.18,86,0,84.9,0,0,Tepat Waktu
+202100441,Ilham Kusuma,Laki-laki,Mandiri,3.43,3.31,3.09,3.53,3.34,78,2,97.4,0,0,Tepat Waktu
+202100442,Siti Pratama,Perempuan,SNBP,3.05,3.1,2.97,2.73,2.96,83,1,88.4,0,1,Terlambat
+202100443,Dimas Kusuma,Laki-laki,Mandiri,3.24,3.65,3.41,3.13,3.36,80,0,82.0,1,0,Tepat Waktu
+202100444,Yoga Kusuma,Laki-laki,Mandiri,2.5,2.51,2.13,2.95,2.52,78,6,91.5,0,0,Terlambat
+202100445,Nurul Pratama,Perempuan,Mandiri,2.74,2.37,2.05,2.3,2.37,74,10,85.0,0,0,Terlambat
+202100446,Tiara Wijaya,Perempuan,SNBT,3.04,2.41,2.87,2.59,2.73,83,5,98.2,0,0,Terlambat
+202100447,Rina Saputra,Perempuan,SNBP,3.03,3.29,3.51,3.43,3.32,86,0,90.4,0,0,Terlambat
+202100448,Anisa Nugroho,Perempuan,SNBT,2.75,3.17,2.86,3.25,3.01,72,8,89.8,0,0,Tepat Waktu
+202100449,Dimas Wibowo,Laki-laki,Mandiri,3.31,3.9,3.42,3.95,3.64,86,0,91.3,0,0,Tepat Waktu
+202100450,Dimas Santoso,Laki-laki,SNBP,3.33,3.52,3.37,3.08,3.32,85,1,87.3,1,0,Terlambat
+202100451,Maya Setiawan,Perempuan,Mandiri,2.95,2.73,2.48,2.82,2.74,81,3,85.9,1,0,Terlambat
+202100452,Anisa Hakim,Perempuan,SNBP,3.27,3.8,3.47,3.5,3.51,80,0,87.9,0,1,Tepat Waktu
+202100453,Bayu Utomo,Laki-laki,SNBP,2.65,3.04,2.63,2.71,2.76,79,1,91.5,0,0,Terlambat
+202100454,Anisa Hakim,Perempuan,SNBP,3.36,3.29,3.11,2.77,3.13,83,1,84.1,1,0,Terlambat
+202100455,Wahyu Wibowo,Laki-laki,SNBP,3.53,3.34,3.59,3.11,3.39,86,0,84.2,1,0,Tepat Waktu
+202100456,Rizky Santoso,Laki-laki,SNBT,3.4,3.38,3.23,4.0,3.5,84,0,89.0,0,0,Tepat Waktu
+202100457,Budi Setiawan,Laki-laki,SNBP,3.09,2.95,3.36,2.9,3.08,82,6,88.7,1,0,Terlambat
+202100458,Fajar Hidayat,Laki-laki,Mandiri,3.85,3.6,3.88,4.0,3.83,86,0,96.9,0,0,Tepat Waktu
+202100459,Satria Hidayat,Laki-laki,SNBT,3.45,3.36,3.3,3.19,3.32,82,2,84.7,1,0,Terlambat
+202100460,Yoga Hidayat,Laki-laki,SNBP,3.03,3.16,2.84,2.85,2.97,82,4,93.3,0,0,Terlambat
+202100461,Bagus Utomo,Laki-laki,SNBT,2.81,2.89,3.13,3.32,3.04,78,2,92.9,0,0,Terlambat
+202100462,Dewi Wijaya,Perempuan,Mandiri,3.2,2.98,2.12,2.28,2.64,74,6,85.5,1,0,Terlambat
+202100463,Anisa Hidayat,Perempuan,Mandiri,3.23,3.69,3.05,3.14,3.28,86,0,98.2,0,1,Terlambat
+202100464,Zahra Permana,Perempuan,SNBP,3.2,2.96,3.21,3.21,3.15,83,1,92.4,0,0,Tepat Waktu
+202100465,Maya Nugroho,Perempuan,Mandiri,3.35,3.07,3.15,3.21,3.2,84,0,98.8,0,0,Tepat Waktu
+202100466,Bayu Wibowo,Laki-laki,Mandiri,2.96,2.83,3.15,3.34,3.07,86,0,90.2,1,0,Tepat Waktu
+202100467,Rafi Wibowo,Laki-laki,SNBP,3.21,3.21,3.38,3.01,3.2,84,4,88.7,1,1,Terlambat
+202100468,Siti Saputra,Perempuan,SNBP,3.62,3.92,3.95,3.92,3.85,84,0,90.1,0,0,Tepat Waktu
+202100469,Eko Utomo,Laki-laki,SNBT,2.84,3.06,3.04,3.29,3.06,84,0,91.5,0,0,Tepat Waktu
+202100470,Putri Utomo,Perempuan,SNBP,3.57,3.28,3.12,2.95,3.23,84,2,87.0,1,0,Terlambat
+202100471,Rafi Pratama,Laki-laki,Mandiri,2.8,2.87,2.97,2.75,2.85,83,3,90.6,0,0,Tepat Waktu
+202100472,Tiara Hidayat,Perempuan,SNBT,1.66,2.03,1.75,2.11,1.89,72,12,83.4,0,0,Terlambat
+202100473,Rizky Kusuma,Laki-laki,Mandiri,3.39,3.14,3.1,3.01,3.16,82,6,94.0,0,0,Terlambat
+202100474,Aulia Hidayat,Perempuan,SNBT,2.45,2.32,3.31,2.74,2.7,80,6,91.6,0,1,Terlambat
+202100475,Ilham Nugroho,Laki-laki,SNBP,2.77,3.29,3.09,3.25,3.1,86,0,85.5,0,0,Tepat Waktu
+202100476,Nabila Saputra,Perempuan,SNBP,3.41,3.38,3.02,3.04,3.21,85,3,96.8,0,0,Terlambat
+202100477,Wahyu Santoso,Laki-laki,SNBT,3.04,3.39,3.56,3.74,3.43,88,0,88.3,0,0,Tepat Waktu
+202100478,Rina Santoso,Perempuan,Mandiri,3.19,2.66,2.81,2.77,2.86,76,4,82.5,1,0,Tepat Waktu
+202100479,Nabila Utomo,Perempuan,Mandiri,2.97,2.85,3.03,2.81,2.92,80,0,87.1,0,1,Terlambat
+202100480,Rafi Wibowo,Laki-laki,SNBP,3.67,3.68,3.34,3.56,3.56,86,0,91.7,0,0,Tepat Waktu
+202100481,Dewi Utomo,Perempuan,SNBP,2.77,2.52,3.02,2.71,2.76,87,1,93.1,0,0,Tepat Waktu
+202100482,Zahra Hakim,Perempuan,SNBP,2.49,2.41,2.3,2.3,2.38,77,9,87.3,0,0,Terlambat
+202100483,Eko Hidayat,Laki-laki,SNBT,2.99,3.16,3.4,2.89,3.11,84,0,93.8,0,0,Terlambat
+202100484,Rina Wijaya,Perempuan,SNBP,3.46,3.62,3.23,3.19,3.38,85,1,89.3,1,0,Terlambat
+202100485,Dewi Setiawan,Perempuan,SNBT,2.99,3.23,3.26,3.68,3.29,84,0,85.9,0,0,Tepat Waktu
+202100486,Fitri Utomo,Perempuan,SNBT,3.37,3.25,2.89,2.56,3.02,88,0,82.9,1,0,Terlambat
+202100487,Dimas Wibowo,Laki-laki,Mandiri,3.75,3.72,3.35,3.63,3.61,84,0,97.2,0,0,Tepat Waktu
+202100488,Rafi Hidayat,Laki-laki,SNBT,3.39,3.25,3.49,3.67,3.45,88,0,95.9,0,0,Tepat Waktu
+202100489,Anisa Hakim,Perempuan,SNBP,2.6,2.95,2.63,3.3,2.87,83,1,83.8,0,0,Tepat Waktu
+202100490,Nurul Setiawan,Perempuan,SNBT,3.27,3.35,2.67,2.7,3.0,85,3,88.4,1,0,Terlambat
+202100491,Rizky Santoso,Laki-laki,SNBT,3.57,3.15,3.65,3.26,3.41,83,1,89.5,1,0,Tepat Waktu
+202100492,Nabila Saputra,Perempuan,SNBT,3.03,2.52,2.91,3.03,2.87,86,0,86.6,0,0,Terlambat
+202100493,Wahyu Utomo,Laki-laki,Mandiri,3.48,3.59,3.48,3.07,3.4,88,0,94.7,0,0,Tepat Waktu
+202100494,Bagus Pratama,Laki-laki,Mandiri,2.84,3.35,3.05,3.04,3.07,83,3,90.4,0,0,Terlambat
+202100495,Rafi Pratama,Laki-laki,SNBP,3.12,2.8,2.61,2.86,2.85,83,3,91.5,0,0,Terlambat
+202100496,Ilham Utomo,Laki-laki,SNBP,1.78,2.25,1.81,2.04,1.97,70,10,78.0,0,0,Terlambat
+202100497,Rina Hakim,Perempuan,SNBT,2.67,2.56,2.87,2.42,2.63,82,2,81.2,1,0,Terlambat
+202100498,Wahyu Wijaya,Laki-laki,Mandiri,2.72,2.25,2.48,2.18,2.41,80,8,85.2,1,0,Terlambat
+202100499,Dwi Kusuma,Perempuan,SNBP,3.21,3.08,3.33,3.38,3.25,83,1,94.2,0,0,Tepat Waktu
+202100500,Anisa Santoso,Perempuan,SNBT,2.47,2.35,2.78,2.25,2.46,79,7,84.1,1,0,Terlambat
+202100501,Fitri Hakim,Perempuan,SNBT,3.23,3.45,3.43,2.9,3.25,80,6,91.5,0,0,Tepat Waktu
+202100502,Wahyu Setiawan,Laki-laki,SNBP,3.89,3.52,3.54,3.72,3.67,84,0,96.9,0,0,Tepat Waktu
+202100503,Budi Setiawan,Laki-laki,SNBT,2.86,3.41,2.73,3.3,3.08,81,3,90.7,0,1,Terlambat
+202100504,Rina Wijaya,Perempuan,Mandiri,2.62,2.56,2.56,2.87,2.65,76,8,85.3,0,0,Terlambat
+202100505,Maya Saputra,Perempuan,SNBP,2.93,3.25,3.05,2.88,3.03,78,2,84.1,1,0,Tepat Waktu
+202100506,Aditya Hakim,Laki-laki,SNBT,4.0,4.0,3.75,3.95,3.92,88,0,100.0,0,0,Tepat Waktu
+202100507,Anisa Wibowo,Perempuan,SNBT,3.72,4.0,4.0,3.94,3.92,86,0,100.0,0,0,Tepat Waktu
+202100508,Nabila Setiawan,Perempuan,Mandiri,2.33,2.79,2.74,2.71,2.64,80,4,85.0,0,0,Terlambat
+202100509,Nabila Wijaya,Perempuan,Mandiri,2.58,2.4,2.7,2.58,2.57,75,9,86.6,0,0,Terlambat
+202100510,Fitri Santoso,Perempuan,SNBT,2.05,2.25,2.31,2.53,2.28,77,9,83.0,0,0,Terlambat
+202100511,Siti Hidayat,Perempuan,Mandiri,2.72,2.17,2.33,2.41,2.41,79,5,87.7,0,0,Terlambat
+202100512,Eko Hidayat,Laki-laki,SNBT,3.14,3.66,3.55,2.64,3.25,84,0,95.8,0,0,Tepat Waktu
+202100513,Nurul Wibowo,Perempuan,SNBT,2.61,2.93,2.75,2.97,2.82,80,4,90.7,1,0,Terlambat
+202100514,Rina Santoso,Perempuan,SNBP,2.52,2.89,2.74,2.38,2.63,82,6,77.4,1,0,Terlambat
+202100515,Farhan Hakim,Laki-laki,SNBP,3.43,3.69,3.72,3.52,3.59,80,0,97.4,0,0,Tepat Waktu
+202100516,Farhan Nugroho,Laki-laki,SNBP,3.25,3.35,3.28,3.33,3.3,82,2,86.6,1,0,Terlambat
+202100517,Aditya Kusuma,Laki-laki,SNBT,2.09,2.41,2.83,2.34,2.42,79,9,85.8,0,0,Terlambat
+202100518,Nurul Kusuma,Perempuan,SNBP,3.6,3.42,3.38,3.72,3.53,80,0,90.8,0,0,Tepat Waktu
+202100519,Putri Hakim,Perempuan,Mandiri,3.08,3.26,3.25,3.94,3.38,87,1,99.4,0,0,Tepat Waktu
+202100520,Rafi Nugroho,Laki-laki,SNBP,2.86,3.13,3.75,3.48,3.3,84,0,86.9,0,0,Tepat Waktu
+202100521,Nabila Saputra,Perempuan,SNBP,3.23,3.19,2.86,2.66,2.98,84,0,88.9,0,0,Tepat Waktu
+202100522,Rafi Hakim,Laki-laki,SNBT,3.06,3.14,2.66,2.29,2.79,77,3,84.7,1,0,Terlambat
+202100523,Fitri Wijaya,Perempuan,Mandiri,2.61,2.65,2.15,2.38,2.45,75,5,88.9,0,0,Terlambat
+202100524,Dewi Saputra,Perempuan,SNBP,3.28,4.0,3.66,3.51,3.61,84,0,98.9,0,0,Tepat Waktu
+202100525,Anisa Santoso,Perempuan,SNBT,2.75,2.34,2.59,2.31,2.5,72,8,84.5,0,0,Terlambat
+202100526,Rafi Hakim,Laki-laki,Mandiri,2.89,2.92,2.37,2.72,2.72,81,3,85.2,1,0,Terlambat
+202100527,Yoga Wibowo,Laki-laki,SNBP,2.66,2.4,2.87,2.88,2.7,77,3,88.7,0,0,Terlambat
+202100528,Fajar Hakim,Laki-laki,SNBT,3.62,3.95,3.93,3.91,3.85,86,0,96.2,0,0,Tepat Waktu
+202100529,Bayu Wibowo,Laki-laki,Mandiri,2.75,2.87,2.55,3.35,2.88,85,1,88.4,0,0,Tepat Waktu
+202100530,Siti Wijaya,Perempuan,SNBP,3.65,3.24,3.53,3.78,3.55,88,0,94.8,0,0,Tepat Waktu
+202100531,Putri Hidayat,Perempuan,SNBT,3.21,2.93,3.44,2.84,3.1,86,0,90.9,0,1,Terlambat
+202100532,Nurul Nugroho,Perempuan,SNBT,2.73,2.81,2.82,2.65,2.75,85,3,81.9,1,0,Terlambat
+202100533,Putri Saputra,Perempuan,SNBT,2.82,2.68,3.02,2.71,2.81,80,0,87.7,0,0,Tepat Waktu
+202100534,Tiara Permana,Perempuan,SNBP,2.99,2.59,2.63,3.29,2.88,73,7,91.3,0,0,Terlambat
+202100535,Fitri Setiawan,Perempuan,SNBP,2.96,2.91,3.33,3.3,3.12,80,4,86.8,0,0,Tepat Waktu
+202100536,Anisa Pratama,Perempuan,SNBT,3.07,3.04,3.01,3.21,3.08,86,0,84.6,1,0,Tepat Waktu
+202100537,Rina Hakim,Perempuan,SNBP,2.93,2.62,2.58,2.99,2.78,83,5,86.7,0,0,Terlambat
+202100538,Wahyu Permana,Laki-laki,Mandiri,2.72,2.79,2.67,2.57,2.69,85,1,88.4,0,0,Terlambat
+202100539,Rizky Pratama,Laki-laki,SNBT,2.73,2.92,2.44,2.46,2.64,77,7,82.1,1,0,Terlambat
+202100540,Aditya Saputra,Laki-laki,SNBT,2.83,2.81,2.82,2.61,2.77,84,2,92.3,0,0,Terlambat
+202100541,Nurul Santoso,Perempuan,Mandiri,2.61,2.93,2.6,2.18,2.58,75,9,90.4,0,0,Terlambat
+202100542,Dewi Utomo,Perempuan,SNBT,3.8,3.64,3.51,3.66,3.65,84,0,95.8,0,0,Tepat Waktu
+202100543,Rafi Setiawan,Laki-laki,SNBP,2.66,2.9,2.6,2.68,2.71,82,4,89.5,0,0,Terlambat
+202100544,Anisa Nugroho,Perempuan,Mandiri,3.12,3.01,3.08,2.8,3.0,79,1,90.1,0,0,Tepat Waktu
+202100545,Dwi Hakim,Perempuan,SNBP,3.14,2.91,3.04,2.98,3.02,77,3,90.1,0,0,Tepat Waktu
+202100546,Budi Utomo,Laki-laki,SNBP,2.97,2.6,3.03,2.82,2.86,85,1,83.8,0,0,Tepat Waktu
+202100547,Ilham Setiawan,Laki-laki,Mandiri,3.73,3.68,3.0,3.38,3.45,84,2,96.1,0,0,Tepat Waktu
+202100548,Putri Hidayat,Perempuan,SNBT,2.71,2.46,3.08,2.92,2.79,79,5,90.4,0,0,Terlambat
+202100549,Satria Nugroho,Laki-laki,SNBT,3.05,3.43,3.49,2.92,3.22,81,3,96.3,0,0,Tepat Waktu
+202100550,Anisa Wijaya,Perempuan,SNBP,3.87,3.75,4.0,3.96,3.9,88,0,94.4,0,0,Tepat Waktu
+202100551,Rizky Nugroho,Laki-laki,SNBT,2.74,2.49,2.48,2.63,2.58,78,6,86.5,1,0,Terlambat
+202100552,Rina Wijaya,Perempuan,SNBP,2.75,3.02,3.01,3.15,2.98,77,3,90.0,0,0,Tepat Waktu
+202100553,Dwi Hidayat,Perempuan,Mandiri,3.51,3.36,2.88,3.69,3.36,84,0,85.0,1,0,Tepat Waktu
+202100554,Zahra Pratama,Perempuan,SNBP,3.84,3.62,3.54,3.67,3.67,86,0,100.0,0,0,Tepat Waktu
+202100555,Aulia Nugroho,Perempuan,Mandiri,2.42,2.24,2.94,2.05,2.41,74,6,88.3,0,1,Terlambat
+202100556,Rizky Hakim,Laki-laki,SNBT,2.37,2.01,2.48,2.17,2.26,70,14,92.0,0,0,Terlambat
+202100557,Farhan Saputra,Laki-laki,Mandiri,3.25,2.97,3.42,3.34,3.24,83,1,92.8,0,0,Terlambat
+202100558,Rizky Pratama,Laki-laki,Mandiri,2.93,2.97,2.75,3.03,2.92,81,3,93.1,0,1,Terlambat
+202100559,Anisa Permana,Perempuan,SNBT,3.52,3.15,3.49,3.06,3.3,82,2,96.2,0,0,Tepat Waktu
+202100560,Nabila Setiawan,Perempuan,SNBT,3.17,3.35,3.36,2.74,3.16,86,0,84.8,1,0,Tepat Waktu
+202100561,Nabila Permana,Perempuan,SNBP,2.95,2.85,2.88,3.44,3.03,88,0,92.1,0,0,Terlambat
+202100562,Dimas Utomo,Laki-laki,SNBP,3.79,3.65,3.94,3.72,3.78,88,0,96.2,0,0,Tepat Waktu
+202100563,Yoga Kusuma,Laki-laki,Mandiri,2.92,3.06,2.73,2.67,2.84,83,3,92.7,0,0,Tepat Waktu
+202100564,Yoga Hidayat,Laki-laki,Mandiri,2.82,3.26,3.1,3.39,3.14,81,5,81.9,1,0,Tepat Waktu
+202100565,Fajar Utomo,Laki-laki,SNBT,2.48,2.53,2.42,3.22,2.66,78,8,90.7,0,0,Terlambat
+202100566,Putri Santoso,Perempuan,SNBP,3.18,2.96,2.78,3.34,3.06,86,0,94.3,0,0,Terlambat
+202100567,Yoga Permana,Laki-laki,SNBT,2.47,2.76,2.33,2.35,2.48,79,7,79.1,1,0,Terlambat
+202100568,Aditya Pratama,Laki-laki,SNBT,2.72,2.56,2.69,2.73,2.68,76,8,85.7,0,0,Terlambat
+202100569,Fitri Utomo,Perempuan,SNBT,3.89,4.0,3.55,3.92,3.84,80,0,84.2,1,0,Terlambat
+202100570,Bayu Wibowo,Laki-laki,Mandiri,2.25,2.02,2.21,2.77,2.31,79,9,93.7,0,0,Terlambat
+202100571,Bagus Setiawan,Laki-laki,Mandiri,2.97,3.07,3.09,2.76,2.97,84,4,88.0,0,0,Tepat Waktu
+202100572,Anisa Nugroho,Perempuan,SNBP,3.69,3.78,3.65,3.08,3.55,86,0,93.2,1,0,Tepat Waktu
+202100573,Rizky Santoso,Laki-laki,SNBT,4.0,3.8,3.78,3.94,3.88,88,0,95.5,0,0,Tepat Waktu
+202100574,Putri Wibowo,Perempuan,SNBT,3.26,3.13,3.32,3.32,3.26,83,3,96.2,0,0,Terlambat
+202100575,Putri Nugroho,Perempuan,SNBT,3.22,3.34,2.94,3.36,3.22,86,0,88.2,1,0,Tepat Waktu
+202100576,Zahra Hidayat,Perempuan,SNBP,3.01,3.2,3.07,3.22,3.12,80,4,98.9,0,0,Terlambat
+202100577,Farhan Setiawan,Laki-laki,SNBP,3.51,3.7,3.16,3.73,3.53,86,0,99.1,0,0,Tepat Waktu
+202100578,Fitri Permana,Perempuan,Mandiri,3.51,3.55,3.29,3.46,3.45,84,2,94.3,0,0,Terlambat
+202100579,Rafi Setiawan,Laki-laki,SNBT,3.04,2.76,3.01,2.85,2.91,87,1,91.3,0,0,Tepat Waktu
+202100580,Eko Hakim,Laki-laki,SNBT,3.47,3.92,3.42,3.24,3.51,82,2,90.3,1,0,Tepat Waktu
+202100581,Rizky Hidayat,Laki-laki,Mandiri,2.91,2.51,2.53,2.91,2.72,85,1,98.4,0,0,Tepat Waktu
+202100582,Dewi Kusuma,Perempuan,Mandiri,2.48,2.62,2.69,2.22,2.5,80,6,87.9,0,0,Terlambat
+202100583,Fajar Hidayat,Laki-laki,SNBP,2.47,2.63,2.79,2.22,2.53,77,3,83.3,0,0,Terlambat
+202100584,Bayu Pratama,Laki-laki,SNBT,3.09,2.84,2.59,2.72,2.81,74,6,84.4,1,0,Terlambat
+202100585,Fitri Pratama,Perempuan,SNBT,2.92,2.83,3.72,3.03,3.12,86,0,89.3,0,0,Tepat Waktu
+202100586,Bayu Hidayat,Laki-laki,Mandiri,3.3,3.48,3.32,3.99,3.52,83,1,94.7,0,0,Tepat Waktu
+202100587,Eko Permana,Laki-laki,Mandiri,3.62,3.48,2.89,3.06,3.26,86,0,90.4,1,0,Terlambat
+202100588,Fajar Santoso,Laki-laki,SNBT,3.44,3.06,2.88,3.48,3.22,80,0,93.9,0,0,Tepat Waktu
+202100589,Eko Permana,Laki-laki,SNBT,3.26,3.67,3.62,3.24,3.45,81,3,91.5,0,0,Tepat Waktu
+202100590,Yoga Nugroho,Laki-laki,Mandiri,3.1,3.53,2.66,2.8,3.02,80,0,90.2,0,0,Tepat Waktu
+202100591,Aditya Permana,Laki-laki,SNBP,2.68,2.22,2.44,2.49,2.46,75,9,83.6,0,0,Terlambat
+202100592,Dwi Hakim,Perempuan,SNBP,1.98,1.99,3.15,2.66,2.44,71,9,91.7,0,0,Terlambat
+202100593,Bayu Saputra,Laki-laki,SNBT,3.46,3.66,3.3,3.55,3.49,88,0,96.7,0,0,Tepat Waktu
+202100594,Eko Kusuma,Laki-laki,SNBP,2.07,1.94,1.59,1.78,1.84,72,12,73.7,1,1,Terlambat
+202100595,Fitri Utomo,Perempuan,SNBP,2.89,2.9,2.75,3.26,2.95,81,7,99.3,0,0,Tepat Waktu
+202100596,Ilham Pratama,Laki-laki,Mandiri,3.99,4.0,3.88,3.85,3.93,88,0,95.8,0,0,Tepat Waktu
+202100597,Zahra Santoso,Perempuan,Mandiri,3.6,3.28,3.22,3.12,3.3,88,0,93.7,0,1,Terlambat
+202100598,Wahyu Saputra,Laki-laki,SNBT,2.84,3.0,2.57,3.05,2.86,80,4,82.7,1,0,Terlambat
+202100599,Fajar Wijaya,Laki-laki,SNBP,2.35,2.25,2.3,2.02,2.23,78,8,87.4,0,0,Terlambat
+202100600,Fajar Hidayat,Laki-laki,SNBP,3.76,3.82,3.99,3.73,3.82,84,0,96.2,0,0,Tepat Waktu
+202100601,Fajar Santoso,Laki-laki,SNBP,3.67,3.71,3.99,3.67,3.76,80,0,90.6,0,0,Tepat Waktu
+202100602,Rafi Pratama,Laki-laki,SNBP,3.41,4.0,3.34,3.54,3.57,88,0,98.4,0,0,Tepat Waktu
+202100603,Fajar Nugroho,Laki-laki,Mandiri,3.63,3.16,2.75,2.95,3.12,79,1,82.6,1,0,Terlambat
+202100604,Farhan Nugroho,Laki-laki,SNBP,3.66,3.61,3.08,3.25,3.4,88,0,90.5,1,0,Tepat Waktu
+202100605,Aditya Santoso,Laki-laki,SNBT,2.72,3.07,2.72,2.96,2.87,82,4,89.1,0,0,Terlambat
+202100606,Budi Saputra,Laki-laki,SNBP,2.48,2.22,2.62,2.9,2.56,82,2,88.2,0,0,Tepat Waktu
+202100607,Bayu Pratama,Laki-laki,Mandiri,3.37,3.41,3.4,3.66,3.46,79,1,95.3,0,1,Terlambat
+202100608,Bayu Setiawan,Laki-laki,Mandiri,2.83,3.14,3.32,3.26,3.14,82,4,92.1,0,1,Terlambat
+202100609,Bayu Hakim,Laki-laki,Mandiri,3.06,3.49,3.77,3.18,3.38,86,0,95.7,0,0,Tepat Waktu
+202100610,Anisa Hakim,Perempuan,Mandiri,3.01,3.09,2.85,3.21,3.04,81,5,88.5,0,0,Terlambat
+202100611,Yoga Nugroho,Laki-laki,SNBT,3.16,3.51,3.63,3.27,3.39,84,0,96.8,0,0,Tepat Waktu
+202100612,Putri Wibowo,Perempuan,SNBP,2.92,2.77,2.73,3.11,2.88,74,6,86.4,0,1,Terlambat
+202100613,Dwi Kusuma,Perempuan,SNBT,3.46,3.07,3.11,3.1,3.18,81,3,88.7,0,0,Terlambat
+202100614,Bayu Wijaya,Laki-laki,SNBT,2.98,3.41,3.18,3.64,3.3,84,0,94.7,0,0,Tepat Waktu
+202100615,Putri Kusuma,Perempuan,SNBT,3.86,3.74,3.58,3.72,3.72,80,0,98.9,0,0,Tepat Waktu
+202100616,Dwi Nugroho,Perempuan,SNBP,3.61,3.71,3.25,3.76,3.58,78,2,95.4,0,0,Tepat Waktu
+202100617,Farhan Santoso,Laki-laki,SNBP,3.86,4.0,3.72,4.0,3.9,84,0,100.0,0,0,Tepat Waktu
+202100618,Aditya Setiawan,Laki-laki,SNBT,2.86,2.82,2.77,3.3,2.94,82,4,87.5,0,0,Tepat Waktu
+202100619,Aulia Hakim,Perempuan,SNBT,2.91,3.04,1.94,2.48,2.59,82,4,78.1,1,0,Terlambat
+202100620,Zahra Hidayat,Perempuan,Mandiri,3.02,2.65,2.2,2.7,2.64,81,3,85.4,1,0,Terlambat
+202100621,Bagus Hakim,Laki-laki,SNBP,3.73,3.78,3.8,3.74,3.76,86,0,95.9,0,0,Tepat Waktu
+202100622,Farhan Santoso,Laki-laki,SNBT,2.51,2.36,2.67,2.86,2.6,75,11,91.1,0,0,Terlambat
+202100623,Bagus Hakim,Laki-laki,SNBP,4.0,3.86,3.72,3.63,3.8,86,0,86.2,1,0,Tepat Waktu
+202100624,Dimas Utomo,Laki-laki,SNBP,2.58,2.61,2.16,2.55,2.47,82,4,85.9,0,0,Terlambat
+202100625,Nurul Permana,Perempuan,SNBT,4.0,3.13,3.4,3.64,3.54,84,0,100.0,0,0,Tepat Waktu
+202100626,Ilham Nugroho,Laki-laki,SNBP,2.23,2.1,2.9,2.68,2.48,78,2,80.8,1,0,Terlambat
+202100627,Budi Utomo,Laki-laki,SNBP,3.25,2.7,2.89,2.64,2.87,84,0,88.9,1,0,Tepat Waktu
+202100628,Aulia Kusuma,Perempuan,SNBT,3.34,2.88,3.03,3.37,3.16,82,2,88.5,1,0,Tepat Waktu
+202100629,Bagus Kusuma,Laki-laki,SNBP,2.75,2.9,2.42,2.39,2.62,79,7,81.4,1,0,Terlambat
+202100630,Eko Saputra,Laki-laki,SNBP,3.02,3.22,2.72,2.77,2.93,81,7,89.3,1,0,Terlambat
+202100631,Siti Hakim,Perempuan,SNBP,2.82,2.96,2.45,2.72,2.74,79,5,90.3,0,0,Terlambat
+202100632,Anisa Wibowo,Perempuan,SNBP,3.36,3.63,3.61,3.32,3.48,86,0,93.8,0,0,Tepat Waktu
+202100633,Wahyu Utomo,Laki-laki,SNBP,2.08,2.37,2.51,2.11,2.27,79,7,85.9,0,0,Terlambat
+202100634,Rizky Hakim,Laki-laki,SNBT,2.88,2.83,2.48,2.76,2.74,78,6,90.7,0,0,Terlambat
+202100635,Satria Pratama,Laki-laki,SNBP,3.38,3.75,3.37,3.42,3.48,88,0,89.8,0,0,Tepat Waktu
+202100636,Eko Pratama,Laki-laki,SNBP,3.42,3.3,3.35,3.16,3.31,80,0,95.8,0,0,Terlambat
+202100637,Rizky Utomo,Laki-laki,SNBT,3.64,3.43,3.71,3.6,3.6,88,0,96.0,0,0,Tepat Waktu
+202100638,Yoga Santoso,Laki-laki,SNBT,3.52,3.28,3.31,3.74,3.46,84,0,91.6,0,0,Tepat Waktu
+202100639,Farhan Hidayat,Laki-laki,Mandiri,2.72,2.68,2.41,2.24,2.51,79,5,83.2,0,0,Terlambat
+202100640,Bayu Pratama,Laki-laki,Mandiri,3.35,3.37,3.2,2.88,3.2,86,0,91.1,0,0,Terlambat
+202100641,Farhan Kusuma,Laki-laki,Mandiri,3.24,3.31,3.13,2.7,3.1,88,0,92.3,0,0,Tepat Waktu
+202100642,Budi Pratama,Laki-laki,SNBT,3.93,3.53,4.0,3.74,3.8,84,0,96.3,0,0,Tepat Waktu
+202100643,Yoga Utomo,Laki-laki,SNBT,3.61,3.1,3.45,3.62,3.44,84,2,94.0,0,0,Tepat Waktu
+202100644,Wahyu Hidayat,Laki-laki,SNBT,3.4,3.0,3.3,3.25,3.24,85,1,94.6,0,0,Tepat Waktu
+202100645,Rafi Pratama,Laki-laki,SNBP,3.44,3.44,2.96,3.31,3.29,84,0,88.5,0,0,Tepat Waktu
+202100646,Tiara Setiawan,Perempuan,SNBP,3.29,3.01,3.53,3.21,3.26,83,1,92.1,0,0,Terlambat
+202100647,Rina Wijaya,Perempuan,SNBP,3.56,3.37,3.29,2.83,3.26,83,1,93.4,0,0,Tepat Waktu
+202100648,Siti Wibowo,Perempuan,Mandiri,3.06,3.15,2.87,3.2,3.07,82,2,92.8,0,0,Tepat Waktu
+202100649,Nabila Kusuma,Perempuan,SNBT,3.08,3.67,3.4,3.67,3.46,86,0,96.8,0,0,Tepat Waktu
+202100650,Yoga Nugroho,Laki-laki,Mandiri,3.43,3.84,3.08,3.21,3.39,84,4,86.5,1,0,Terlambat
+202100651,Eko Utomo,Laki-laki,SNBT,3.53,3.42,3.47,3.6,3.5,86,0,94.1,0,0,Tepat Waktu
+202100652,Fajar Pratama,Laki-laki,SNBT,3.52,3.16,3.55,3.55,3.44,88,0,90.9,0,0,Terlambat
+202100653,Fitri Pratama,Perempuan,SNBP,3.81,3.64,3.61,3.51,3.64,80,0,96.1,0,0,Terlambat
+202100654,Dewi Wijaya,Perempuan,SNBP,3.42,3.82,3.19,3.49,3.48,79,1,90.7,0,0,Tepat Waktu
+202100655,Rizky Permana,Laki-laki,Mandiri,3.37,3.3,2.93,3.83,3.36,88,0,95.0,0,0,Tepat Waktu
+202100656,Ilham Setiawan,Laki-laki,SNBT,2.52,2.58,2.7,2.58,2.6,79,9,92.4,0,0,Terlambat
+202100657,Eko Setiawan,Laki-laki,SNBT,2.8,2.46,2.58,2.64,2.62,79,1,90.0,0,0,Terlambat
+202100658,Farhan Permana,Laki-laki,Mandiri,2.79,3.34,2.97,2.81,2.98,78,6,95.1,0,0,Terlambat
+202100659,Putri Permana,Perempuan,SNBP,3.12,2.9,2.83,3.01,2.96,81,5,88.9,0,0,Terlambat
+202100660,Maya Pratama,Perempuan,Mandiri,3.59,3.74,3.72,3.89,3.74,80,0,91.2,0,0,Tepat Waktu
+202100661,Bayu Hakim,Laki-laki,SNBT,2.22,2.09,1.75,1.64,1.92,75,9,83.4,0,0,Terlambat
+202100662,Putri Hakim,Perempuan,SNBT,2.89,3.04,2.1,2.77,2.7,78,8,80.7,1,1,Terlambat
+202100663,Dewi Utomo,Perempuan,SNBT,2.68,2.86,2.99,2.61,2.78,79,9,87.6,0,0,Terlambat
+202100664,Farhan Wijaya,Laki-laki,SNBP,2.49,2.86,2.73,2.49,2.64,82,4,80.7,0,0,Terlambat
+202100665,Farhan Hakim,Laki-laki,SNBP,2.92,2.6,3.18,2.37,2.77,80,6,89.9,0,0,Terlambat
+202100666,Farhan Pratama,Laki-laki,SNBT,2.97,3.18,3.02,3.21,3.1,80,4,91.5,0,0,Tepat Waktu
+202100667,Farhan Wibowo,Laki-laki,Mandiri,2.76,3.05,2.63,2.55,2.75,80,6,86.1,1,0,Terlambat
+202100668,Ilham Hakim,Laki-laki,Mandiri,2.79,2.56,3.03,2.68,2.76,76,4,91.2,0,0,Terlambat
+202100669,Satria Wijaya,Laki-laki,SNBP,3.9,3.86,3.13,3.71,3.65,88,0,88.2,1,0,Tepat Waktu
+202100670,Bayu Nugroho,Laki-laki,SNBT,3.53,3.62,3.3,3.73,3.54,84,0,97.3,0,0,Tepat Waktu
+202100671,Wahyu Setiawan,Laki-laki,SNBP,3.39,3.38,2.87,3.16,3.2,86,0,89.1,1,0,Terlambat
+202100672,Maya Setiawan,Perempuan,SNBP,2.84,3.21,2.91,3.37,3.08,83,5,89.5,0,0,Terlambat
+202100673,Budi Hidayat,Laki-laki,SNBT,3.22,3.69,3.28,3.16,3.34,80,0,87.6,1,0,Tepat Waktu
+202100674,Dimas Saputra,Laki-laki,SNBT,3.46,3.92,3.31,3.24,3.48,88,0,99.0,0,0,Tepat Waktu
+202100675,Dimas Hidayat,Laki-laki,SNBP,3.0,2.94,3.43,3.43,3.2,84,0,93.1,0,0,Tepat Waktu
+202100676,Siti Hidayat,Perempuan,SNBP,2.86,2.79,2.91,2.63,2.8,82,2,86.6,0,0,Terlambat
+202100677,Dimas Wijaya,Laki-laki,Mandiri,2.84,2.63,2.57,3.07,2.78,79,1,85.4,0,0,Terlambat
+202100678,Rizky Hakim,Laki-laki,SNBP,3.96,3.58,3.24,3.35,3.53,86,2,82.9,1,0,Tepat Waktu
+202100679,Dewi Hidayat,Perempuan,SNBT,2.94,2.7,2.79,2.85,2.82,80,8,82.5,0,0,Terlambat
+202100680,Siti Pratama,Perempuan,SNBT,2.51,2.46,2.15,1.96,2.27,68,12,84.5,0,0,Terlambat
+202100681,Zahra Wibowo,Perempuan,SNBP,2.54,2.67,2.67,2.83,2.68,73,7,88.1,0,1,Terlambat
+202100682,Rizky Nugroho,Laki-laki,SNBP,3.55,3.84,4.0,3.74,3.78,86,2,92.2,0,1,Terlambat
+202100683,Ilham Saputra,Laki-laki,SNBT,3.0,3.1,3.07,3.15,3.08,79,1,88.9,0,0,Tepat Waktu
+202100684,Maya Nugroho,Perempuan,Mandiri,3.18,3.17,2.84,3.46,3.16,86,0,88.4,0,0,Tepat Waktu
+202100685,Tiara Saputra,Perempuan,SNBT,3.33,3.14,2.94,2.83,3.06,84,2,85.6,0,0,Tepat Waktu
+202100686,Putri Permana,Perempuan,SNBT,3.43,3.67,2.83,2.68,3.15,83,5,85.1,1,0,Terlambat
+202100687,Maya Wibowo,Perempuan,Mandiri,3.38,3.79,3.24,3.23,3.41,85,1,95.7,0,0,Tepat Waktu
+202100688,Yoga Saputra,Laki-laki,Mandiri,2.17,2.52,2.4,2.72,2.45,73,11,85.5,0,0,Terlambat
+202100689,Putri Kusuma,Perempuan,SNBT,3.41,3.21,3.41,3.17,3.3,88,0,96.6,0,1,Tepat Waktu
+202100690,Eko Nugroho,Laki-laki,SNBT,2.16,1.99,2.3,2.08,2.13,78,6,85.8,0,0,Terlambat
+202100691,Ilham Hakim,Laki-laki,SNBT,2.96,2.68,2.6,3.14,2.84,82,2,92.9,0,0,Tepat Waktu
+202100692,Rizky Hidayat,Laki-laki,SNBT,3.26,3.05,2.8,2.69,2.95,75,5,90.5,0,0,Terlambat
+202100693,Bagus Permana,Laki-laki,SNBT,3.95,3.91,3.97,3.9,3.93,88,0,98.9,0,0,Tepat Waktu
+202100694,Fajar Saputra,Laki-laki,SNBT,3.59,3.76,3.08,3.38,3.45,86,0,88.6,0,0,Tepat Waktu
+202100695,Farhan Kusuma,Laki-laki,SNBP,2.63,2.71,2.34,2.42,2.52,73,7,84.7,1,0,Terlambat
+202100696,Putri Utomo,Perempuan,SNBT,3.29,2.57,3.2,2.65,2.93,79,7,90.3,0,0,Terlambat
+202100697,Dimas Pratama,Laki-laki,SNBP,3.26,3.66,3.62,3.28,3.45,83,1,97.4,0,0,Tepat Waktu
+202100698,Fitri Hakim,Perempuan,SNBP,2.92,2.89,2.78,2.23,2.7,81,7,82.0,1,0,Terlambat
+202100699,Rizky Permana,Laki-laki,SNBP,3.57,3.49,3.02,3.63,3.43,84,0,93.5,1,0,Terlambat
+202100700,Budi Setiawan,Laki-laki,SNBT,2.72,3.33,2.69,2.91,2.91,85,1,92.1,0,0,Terlambat
+202100701,Farhan Wibowo,Laki-laki,SNBT,2.36,2.27,2.73,2.59,2.49,79,7,84.4,0,0,Terlambat
+202100702,Fajar Wijaya,Laki-laki,SNBP,2.83,3.15,3.33,2.98,3.07,73,7,95.1,0,0,Terlambat
+202100703,Yoga Pratama,Laki-laki,SNBT,2.31,2.31,1.79,2.01,2.1,77,11,75.4,1,0,Terlambat
+202100704,Eko Setiawan,Laki-laki,SNBT,2.16,1.91,1.92,2.1,2.02,71,9,74.7,1,0,Terlambat
+202100705,Bayu Nugroho,Laki-laki,SNBP,3.21,3.59,3.39,3.18,3.34,86,0,97.4,0,0,Tepat Waktu
+202100706,Anisa Hakim,Perempuan,SNBT,2.91,3.23,3.08,3.01,3.06,81,5,92.3,0,0,Terlambat
+202100707,Fajar Kusuma,Laki-laki,Mandiri,3.57,3.15,3.47,3.17,3.34,86,0,93.1,0,0,Terlambat
+202100708,Nabila Saputra,Perempuan,Mandiri,2.95,2.99,3.2,2.67,2.95,78,2,82.7,1,0,Terlambat
+202100709,Aditya Santoso,Laki-laki,SNBT,4.0,4.0,4.0,4.0,4.0,88,0,99.9,0,0,Tepat Waktu
+202100710,Maya Setiawan,Perempuan,SNBT,3.19,3.07,3.29,3.23,3.2,84,0,91.0,0,0,Tepat Waktu
+202100711,Fitri Wijaya,Perempuan,SNBP,2.44,2.77,2.4,2.29,2.47,78,8,82.1,1,0,Terlambat
+202100712,Anisa Wibowo,Perempuan,SNBP,2.6,2.62,2.37,2.35,2.49,80,6,83.6,0,0,Terlambat
+202100713,Yoga Hakim,Laki-laki,SNBP,2.91,3.32,2.73,3.25,3.05,86,2,90.9,0,0,Tepat Waktu
+202100714,Rafi Saputra,Laki-laki,Mandiri,2.83,2.95,2.94,3.04,2.94,86,0,91.0,0,1,Tepat Waktu
+202100715,Rizky Santoso,Laki-laki,SNBP,2.28,2.74,2.39,2.42,2.46,79,5,89.2,0,0,Terlambat
+202100716,Zahra Hakim,Perempuan,SNBP,2.96,3.37,3.34,2.97,3.16,80,6,92.9,0,0,Terlambat
+202100717,Fitri Setiawan,Perempuan,Mandiri,2.99,3.45,3.16,3.05,3.16,83,1,90.6,0,0,Tepat Waktu
+202100718,Dewi Permana,Perempuan,Mandiri,3.99,3.93,4.0,3.53,3.86,80,0,97.1,0,1,Tepat Waktu
+202100719,Satria Permana,Laki-laki,Mandiri,2.62,2.5,2.28,2.41,2.45,83,5,84.7,1,0,Terlambat
+202100720,Fitri Kusuma,Perempuan,SNBP,2.82,2.87,3.16,2.5,2.84,82,4,84.6,0,0,Tepat Waktu
+202100721,Dwi Hakim,Perempuan,SNBP,3.86,3.81,3.24,3.5,3.6,80,0,93.9,0,0,Terlambat
+202100722,Budi Utomo,Laki-laki,SNBT,3.28,3.12,2.97,3.12,3.12,82,4,92.2,0,1,Terlambat
+202100723,Ilham Saputra,Laki-laki,SNBP,2.57,2.52,2.45,2.38,2.48,71,9,78.3,1,0,Terlambat
+202100724,Dewi Hakim,Perempuan,SNBP,2.86,2.82,2.31,2.67,2.66,72,8,85.9,1,0,Terlambat
+202100725,Rina Setiawan,Perempuan,SNBT,2.52,2.34,2.45,2.62,2.48,73,7,89.6,0,0,Terlambat
+202100726,Dwi Wijaya,Perempuan,Mandiri,3.02,2.88,3.16,3.48,3.14,80,6,95.1,0,0,Terlambat
+202100727,Bayu Pratama,Laki-laki,SNBT,3.46,3.19,3.92,3.59,3.54,86,0,100.0,0,0,Tepat Waktu
+202100728,Siti Hidayat,Perempuan,SNBT,4.0,3.94,3.35,3.89,3.8,86,0,96.9,0,0,Tepat Waktu
+202100729,Rizky Wibowo,Laki-laki,SNBT,2.34,2.51,2.74,2.14,2.43,73,11,86.2,0,0,Terlambat
+202100730,Rafi Saputra,Laki-laki,SNBP,3.54,3.42,3.46,3.04,3.36,86,0,90.3,1,0,Terlambat
+202100731,Rafi Santoso,Laki-laki,SNBT,2.92,3.39,2.74,3.03,3.02,79,5,82.8,1,0,Terlambat
+202100732,Nabila Permana,Perempuan,SNBP,3.21,2.76,2.81,3.0,2.94,86,0,92.0,0,0,Terlambat
+202100733,Nabila Pratama,Perempuan,SNBP,2.8,3.0,2.54,2.81,2.79,84,4,87.1,1,0,Terlambat
+202100734,Budi Kusuma,Laki-laki,Mandiri,2.32,2.25,1.93,2.2,2.17,73,11,82.5,1,0,Terlambat
+202100735,Fajar Utomo,Laki-laki,SNBP,3.34,3.22,3.47,3.11,3.28,85,1,97.4,0,1,Terlambat
+202100736,Nurul Hidayat,Perempuan,Mandiri,2.58,2.4,2.63,2.93,2.64,83,5,87.5,0,0,Terlambat
+202100737,Bayu Hakim,Laki-laki,SNBP,2.85,2.64,2.2,2.2,2.47,84,0,83.9,1,0,Terlambat
+202100738,Anisa Pratama,Perempuan,SNBT,3.26,3.34,3.06,3.38,3.26,86,0,92.7,0,0,Tepat Waktu
+202100739,Aditya Pratama,Laki-laki,SNBT,1.91,2.41,1.75,1.61,1.92,77,9,78.9,1,0,Terlambat
+202100740,Farhan Saputra,Laki-laki,SNBP,2.72,2.41,2.45,2.51,2.52,82,2,82.6,1,0,Terlambat
+202100741,Fajar Utomo,Laki-laki,SNBP,3.62,3.49,3.87,3.28,3.56,86,0,96.1,0,0,Terlambat
+202100742,Bayu Permana,Laki-laki,SNBT,3.23,3.19,2.54,2.33,2.82,78,8,83.5,1,0,Terlambat
+202100743,Putri Permana,Perempuan,Mandiri,2.94,2.44,3.02,2.84,2.81,77,7,84.6,0,0,Terlambat
+202100744,Farhan Hidayat,Laki-laki,Mandiri,3.07,3.16,2.93,3.13,3.07,80,0,91.7,0,0,Terlambat
+202100745,Satria Permana,Laki-laki,SNBT,3.5,3.74,3.58,3.68,3.62,88,0,95.9,0,1,Tepat Waktu
+202100746,Anisa Permana,Perempuan,Mandiri,3.46,3.45,3.54,3.63,3.52,86,0,93.9,0,0,Tepat Waktu
+202100747,Wahyu Wibowo,Laki-laki,SNBT,2.68,2.56,2.49,2.41,2.54,76,8,89.4,0,1,Terlambat
+202100748,Rizky Saputra,Laki-laki,Mandiri,2.64,2.86,2.92,2.5,2.73,78,6,88.6,0,1,Terlambat
+202100749,Anisa Permana,Perempuan,SNBT,3.29,3.54,3.82,4.0,3.66,86,0,93.9,0,0,Tepat Waktu
+202100750,Maya Wijaya,Perempuan,SNBT,3.4,3.4,2.9,3.17,3.22,80,0,97.0,0,0,Terlambat
+202100751,Yoga Wibowo,Laki-laki,Mandiri,2.28,2.48,2.65,2.63,2.51,71,9,95.6,0,0,Terlambat
+202100752,Rina Wibowo,Perempuan,SNBT,2.72,2.38,2.7,2.76,2.64,77,9,91.6,0,0,Terlambat
+202100753,Maya Wijaya,Perempuan,Mandiri,3.1,3.12,3.07,3.03,3.08,86,0,83.2,1,0,Terlambat
+202100754,Satria Hakim,Laki-laki,SNBT,3.18,2.82,2.6,2.9,2.88,81,3,84.8,1,1,Terlambat
+202100755,Fajar Santoso,Laki-laki,SNBP,3.42,2.67,2.85,3.06,3.0,77,3,91.3,0,0,Terlambat
+202100756,Aulia Kusuma,Perempuan,SNBP,2.47,2.71,2.12,1.84,2.28,76,8,82.6,1,0,Terlambat
+202100757,Dwi Saputra,Perempuan,SNBT,3.11,3.2,3.17,3.16,3.16,80,4,92.4,0,0,Tepat Waktu
+202100758,Rafi Nugroho,Laki-laki,SNBT,2.54,2.97,2.59,2.77,2.72,80,4,91.2,0,0,Terlambat
+202100759,Siti Permana,Perempuan,Mandiri,2.89,2.41,2.49,2.61,2.6,74,10,94.5,0,0,Terlambat
+202100760,Dwi Pratama,Perempuan,SNBP,2.8,3.2,3.3,3.24,3.14,80,4,85.2,0,0,Tepat Waktu
+202100761,Farhan Kusuma,Laki-laki,Mandiri,3.09,2.95,3.41,2.66,3.03,84,0,83.2,1,0,Tepat Waktu
+202100762,Aditya Wijaya,Laki-laki,Mandiri,3.34,3.39,3.65,3.31,3.42,88,0,96.7,0,0,Tepat Waktu
+202100763,Fajar Nugroho,Laki-laki,SNBP,2.73,2.93,2.93,2.94,2.88,83,1,89.8,0,0,Terlambat
+202100764,Siti Saputra,Perempuan,Mandiri,2.94,3.17,3.16,3.12,3.1,83,1,93.4,0,0,Terlambat
+202100765,Farhan Kusuma,Laki-laki,Mandiri,2.57,2.24,2.17,2.27,2.31,74,10,85.8,0,0,Terlambat
+202100766,Rina Permana,Perempuan,Mandiri,2.79,2.68,2.89,2.83,2.8,79,5,95.0,0,0,Terlambat
+202100767,Aulia Santoso,Perempuan,Mandiri,3.54,3.39,3.29,3.46,3.42,82,4,97.4,0,0,Terlambat
+202100768,Putri Wibowo,Perempuan,Mandiri,3.16,3.58,3.06,3.29,3.27,84,0,93.5,0,0,Tepat Waktu
+202100769,Dimas Santoso,Laki-laki,SNBT,3.54,3.18,3.55,3.9,3.54,86,0,100.0,0,0,Terlambat
+202100770,Tiara Pratama,Perempuan,SNBT,3.3,3.61,3.84,3.48,3.56,80,0,95.3,0,0,Tepat Waktu
+202100771,Fajar Hakim,Laki-laki,Mandiri,2.78,2.69,2.93,2.6,2.75,84,4,89.4,0,0,Terlambat
+202100772,Rina Hakim,Perempuan,SNBT,3.32,3.49,3.59,3.21,3.4,84,0,98.4,0,0,Tepat Waktu
+202100773,Wahyu Setiawan,Laki-laki,SNBT,3.77,3.95,4.0,4.0,3.93,80,0,91.7,0,0,Tepat Waktu
+202100774,Aditya Santoso,Laki-laki,SNBP,2.71,2.95,2.63,2.74,2.76,77,7,89.8,0,0,Terlambat
+202100775,Siti Hakim,Perempuan,Mandiri,3.55,3.57,3.29,3.72,3.53,81,3,95.3,0,0,Tepat Waktu
+202100776,Bayu Santoso,Laki-laki,SNBP,3.56,3.57,3.24,3.49,3.47,86,0,86.9,1,1,Tepat Waktu
+202100777,Farhan Saputra,Laki-laki,Mandiri,2.98,2.85,3.0,3.26,3.02,78,6,88.3,0,0,Terlambat
+202100778,Nabila Hidayat,Perempuan,SNBT,3.03,2.93,2.44,2.68,2.77,75,11,83.1,1,0,Terlambat
+202100779,Putri Pratama,Perempuan,SNBP,3.09,2.82,3.51,3.09,3.13,78,2,86.3,0,0,Tepat Waktu
+202100780,Putri Hakim,Perempuan,SNBT,3.58,3.3,3.96,3.49,3.58,84,0,99.8,0,0,Tepat Waktu
+202100781,Nurul Utomo,Perempuan,SNBP,3.49,3.17,3.03,3.29,3.24,84,0,91.9,1,1,Terlambat
+202100782,Bagus Nugroho,Laki-laki,SNBT,3.0,2.96,2.64,2.61,2.8,83,3,89.8,0,0,Terlambat
+202100783,Bayu Wibowo,Laki-laki,Mandiri,2.12,2.29,2.28,2.25,2.24,70,10,84.9,0,1,Terlambat
+202100784,Rizky Wijaya,Laki-laki,Mandiri,3.16,3.27,3.16,3.42,3.25,80,0,87.1,0,0,Tepat Waktu
+202100785,Ilham Wijaya,Laki-laki,SNBP,1.83,2.19,2.52,2.01,2.14,75,9,83.1,0,0,Terlambat
+202100786,Dewi Hakim,Perempuan,SNBP,2.47,2.86,2.43,2.79,2.64,83,3,93.7,0,0,Terlambat
+202100787,Rina Pratama,Perempuan,Mandiri,2.52,2.95,2.87,2.92,2.82,83,3,83.7,1,0,Terlambat
+202100788,Fajar Hidayat,Laki-laki,Mandiri,2.51,2.44,2.78,2.94,2.67,76,4,86.9,0,0,Terlambat
+202100789,Bagus Santoso,Laki-laki,SNBT,3.52,2.87,3.38,3.54,3.33,84,0,93.0,0,0,Tepat Waktu
+202100790,Nabila Wijaya,Perempuan,SNBT,2.74,2.78,3.11,2.59,2.8,84,0,81.6,1,0,Terlambat
+202100791,Dimas Permana,Laki-laki,SNBT,3.2,3.26,3.28,3.43,3.29,84,0,81.0,1,0,Tepat Waktu
+202100792,Anisa Hakim,Perempuan,Mandiri,2.5,2.81,2.25,2.46,2.5,80,6,86.6,0,0,Terlambat
+202100793,Bagus Wijaya,Laki-laki,SNBT,2.24,2.62,2.28,2.58,2.43,77,7,83.5,0,0,Terlambat
+202100794,Anisa Permana,Perempuan,SNBP,3.18,3.11,2.25,2.49,2.76,76,8,84.7,1,0,Terlambat
+202100795,Ilham Hakim,Laki-laki,SNBP,3.41,3.2,3.28,3.21,3.28,86,0,95.7,0,0,Tepat Waktu
+202100796,Rina Pratama,Perempuan,Mandiri,3.24,3.66,3.37,3.44,3.43,84,0,90.9,0,0,Tepat Waktu
+202100797,Dewi Hidayat,Perempuan,SNBP,2.48,2.69,2.22,2.26,2.41,73,7,81.7,1,0,Terlambat
+202100798,Fitri Wibowo,Perempuan,SNBT,3.01,2.78,2.61,2.87,2.82,82,2,89.6,0,0,Terlambat
+202100799,Zahra Kusuma,Perempuan,SNBT,3.09,3.2,3.51,3.77,3.39,84,0,90.6,0,0,Tepat Waktu
+202100800,Siti Santoso,Perempuan,SNBP,2.27,2.19,1.86,1.57,1.97,78,10,76.3,0,0,Terlambat
+202100801,Putri Wibowo,Perempuan,SNBP,3.06,3.12,3.68,3.43,3.32,86,0,89.2,0,0,Tepat Waktu
+202100802,Rafi Hakim,Laki-laki,Mandiri,3.8,3.2,3.89,3.35,3.56,84,0,85.5,1,0,Tepat Waktu
+202100803,Dwi Kusuma,Perempuan,Mandiri,2.63,2.39,2.27,2.74,2.51,79,5,88.2,0,0,Tepat Waktu
+202100804,Aulia Wibowo,Perempuan,Mandiri,2.97,2.67,3.13,2.61,2.84,79,5,90.6,0,0,Terlambat
+202100805,Aditya Kusuma,Laki-laki,Mandiri,4.0,4.0,3.88,3.7,3.89,84,0,100.0,0,0,Tepat Waktu
+202100806,Nabila Pratama,Perempuan,SNBT,3.6,3.53,3.15,3.31,3.4,88,0,89.6,0,0,Terlambat
+202100807,Dewi Setiawan,Perempuan,Mandiri,3.37,3.66,3.06,3.37,3.36,84,0,90.1,0,0,Tepat Waktu
+202100808,Nabila Permana,Perempuan,SNBT,3.17,3.65,3.52,3.26,3.4,88,0,91.0,0,0,Terlambat
+202100809,Eko Santoso,Laki-laki,SNBT,3.77,4.0,3.63,4.0,3.85,86,0,95.4,0,0,Tepat Waktu
+202100810,Dimas Pratama,Laki-laki,Mandiri,3.33,3.19,3.23,2.72,3.12,88,0,86.3,1,0,Terlambat
+202100811,Putri Wijaya,Perempuan,SNBP,2.66,3.08,2.86,2.84,2.86,84,2,91.4,0,0,Tepat Waktu
+202100812,Nabila Saputra,Perempuan,SNBT,3.39,3.08,3.26,3.88,3.4,86,0,86.7,0,0,Tepat Waktu
+202100813,Rafi Santoso,Laki-laki,SNBT,2.81,2.81,2.76,3.07,2.86,82,4,88.1,1,0,Terlambat
+202100814,Dwi Setiawan,Perempuan,SNBP,2.76,2.69,2.8,2.71,2.74,82,4,90.8,0,0,Terlambat
+202100815,Maya Santoso,Perempuan,SNBP,3.05,2.87,2.68,2.51,2.78,76,8,92.5,0,1,Terlambat
+202100816,Eko Utomo,Laki-laki,Mandiri,3.43,3.22,2.63,3.17,3.11,88,0,77.1,1,0,Terlambat
+202100817,Dwi Pratama,Perempuan,Mandiri,2.73,3.0,2.93,3.0,2.92,80,6,93.2,0,0,Tepat Waktu
+202100818,Budi Pratama,Laki-laki,SNBT,3.01,3.04,2.63,2.41,2.77,79,5,85.8,0,0,Terlambat
+202100819,Budi Utomo,Laki-laki,SNBP,2.46,2.83,2.44,2.73,2.62,79,9,86.8,0,0,Terlambat
+202100820,Rizky Kusuma,Laki-laki,SNBP,3.7,3.89,3.86,3.48,3.73,88,0,100.0,0,0,Tepat Waktu
+202100821,Putri Permana,Perempuan,Mandiri,3.05,3.21,2.46,2.31,2.76,83,3,85.6,1,1,Terlambat
+202100822,Fajar Setiawan,Laki-laki,SNBT,2.99,3.05,2.74,2.5,2.82,84,0,87.3,0,0,Terlambat
+202100823,Dimas Kusuma,Laki-laki,SNBT,2.4,2.87,3.02,2.0,2.57,83,5,84.8,1,0,Terlambat
+202100824,Farhan Kusuma,Laki-laki,SNBT,3.48,3.92,3.02,3.22,3.41,86,0,88.6,1,0,Tepat Waktu
+202100825,Wahyu Santoso,Laki-laki,SNBT,3.64,3.66,3.86,3.11,3.57,86,0,92.9,0,0,Tepat Waktu
+202100826,Anisa Wibowo,Perempuan,SNBT,2.92,2.7,3.06,3.16,2.96,85,3,92.2,0,1,Tepat Waktu
+202100827,Satria Wijaya,Laki-laki,Mandiri,3.13,3.2,2.88,3.02,3.06,84,0,89.8,0,0,Terlambat
+202100828,Rafi Saputra,Laki-laki,SNBT,3.11,2.82,3.11,3.04,3.02,79,1,92.2,0,0,Tepat Waktu
+202100829,Fitri Utomo,Perempuan,SNBT,3.06,2.41,2.47,2.38,2.58,83,3,89.4,0,0,Terlambat
+202100830,Rizky Utomo,Laki-laki,SNBT,2.3,2.3,2.42,2.0,2.26,72,8,81.9,1,0,Terlambat
+202100831,Yoga Nugroho,Laki-laki,Mandiri,3.31,3.14,3.52,3.33,3.32,86,0,93.5,1,0,Terlambat
+202100832,Yoga Santoso,Laki-laki,SNBT,2.71,2.7,2.72,3.19,2.83,80,4,93.0,0,0,Terlambat
+202100833,Rizky Saputra,Laki-laki,SNBP,3.32,3.37,2.83,3.21,3.18,78,2,95.4,0,0,Terlambat
+202100834,Bayu Wibowo,Laki-laki,SNBT,3.53,3.51,3.18,2.83,3.26,82,2,84.5,1,0,Terlambat
+202100835,Budi Utomo,Laki-laki,SNBP,2.94,3.38,2.91,3.3,3.13,82,2,86.3,0,1,Terlambat
+202100836,Ilham Setiawan,Laki-laki,Mandiri,2.93,3.0,2.47,2.45,2.71,80,4,82.3,1,0,Terlambat
+202100837,Putri Pratama,Perempuan,SNBT,2.89,2.58,2.89,2.91,2.82,75,5,87.9,0,0,Terlambat
+202100838,Aditya Nugroho,Laki-laki,Mandiri,2.43,2.47,2.9,3.18,2.74,79,5,91.2,0,0,Terlambat
+202100839,Rina Pratama,Perempuan,SNBP,2.81,2.96,2.72,2.72,2.8,82,4,82.8,1,0,Terlambat
+202100840,Rina Utomo,Perempuan,Mandiri,3.73,3.17,3.46,3.54,3.47,88,0,98.3,0,0,Tepat Waktu
+202100841,Bayu Wijaya,Laki-laki,SNBT,3.38,3.45,3.29,3.88,3.5,80,0,81.8,1,0,Tepat Waktu
+202100842,Zahra Nugroho,Perempuan,Mandiri,3.58,3.77,3.12,3.63,3.52,86,0,87.0,1,0,Terlambat
+202100843,Budi Hidayat,Laki-laki,SNBT,3.22,3.15,3.25,3.1,3.18,82,2,93.2,0,0,Terlambat
+202100844,Putri Saputra,Perempuan,SNBT,3.65,3.68,3.91,3.43,3.67,84,0,91.5,0,0,Tepat Waktu
+202100845,Bayu Setiawan,Laki-laki,Mandiri,3.54,3.21,2.42,2.75,2.98,83,5,87.8,1,0,Terlambat
+202100846,Eko Saputra,Laki-laki,SNBP,2.63,2.76,2.08,1.94,2.35,71,13,83.7,1,0,Terlambat
+202100847,Yoga Hidayat,Laki-laki,SNBP,3.74,4.0,4.0,3.88,3.9,84,0,94.9,0,0,Tepat Waktu
+202100848,Anisa Permana,Perempuan,SNBT,2.87,3.2,2.95,2.75,2.94,82,2,93.6,1,0,Terlambat
+202100849,Rizky Utomo,Laki-laki,SNBT,2.48,2.5,2.34,2.31,2.41,82,6,83.2,0,1,Terlambat
+202100850,Putri Hakim,Perempuan,SNBP,3.65,3.81,3.78,3.43,3.67,84,0,90.2,0,0,Tepat Waktu
+202100851,Farhan Saputra,Laki-laki,SNBP,3.02,2.84,2.6,2.38,2.71,80,6,81.3,1,0,Terlambat
+202100852,Maya Santoso,Perempuan,SNBP,2.81,2.61,2.94,2.96,2.83,83,1,90.4,0,0,Tepat Waktu
+202100853,Wahyu Kusuma,Laki-laki,Mandiri,3.45,3.25,3.5,3.49,3.42,84,0,81.7,1,0,Tepat Waktu
+202100854,Nurul Utomo,Perempuan,SNBT,3.6,3.7,4.0,3.82,3.78,86,0,97.8,0,0,Tepat Waktu
+202100855,Budi Setiawan,Laki-laki,Mandiri,2.85,2.46,2.55,2.56,2.6,77,3,96.9,0,1,Terlambat
+202100856,Dimas Wibowo,Laki-laki,Mandiri,3.85,3.97,3.52,3.79,3.78,86,0,90.7,0,1,Tepat Waktu
+202100857,Rafi Kusuma,Laki-laki,SNBT,3.84,3.16,3.75,3.98,3.68,86,0,95.7,0,0,Tepat Waktu
+202100858,Rafi Saputra,Laki-laki,SNBP,2.7,2.43,2.8,2.56,2.62,76,4,91.7,0,0,Terlambat
+202100859,Nurul Wibowo,Perempuan,SNBP,3.16,2.9,2.84,3.39,3.07,84,0,93.9,0,0,Terlambat
+202100860,Farhan Utomo,Laki-laki,SNBP,3.96,3.44,3.69,3.42,3.63,86,0,100.0,0,0,Tepat Waktu
+202100861,Zahra Saputra,Perempuan,Mandiri,2.53,2.77,2.08,1.97,2.34,78,6,85.0,0,0,Terlambat
+202100862,Ilham Santoso,Laki-laki,SNBT,3.62,3.68,3.78,3.68,3.69,84,0,100.0,0,0,Tepat Waktu
+202100863,Bayu Setiawan,Laki-laki,SNBP,3.58,3.35,2.9,3.2,3.26,79,1,86.2,1,0,Terlambat
+202100864,Yoga Utomo,Laki-laki,SNBT,3.31,3.43,3.5,3.05,3.32,86,0,91.0,0,0,Tepat Waktu
+202100865,Yoga Setiawan,Laki-laki,SNBT,3.13,3.35,3.03,3.08,3.15,88,0,98.3,0,0,Tepat Waktu
+202100866,Nabila Kusuma,Perempuan,SNBT,3.79,4.0,3.6,4.0,3.85,86,0,94.8,0,1,Tepat Waktu
+202100867,Farhan Setiawan,Laki-laki,SNBP,3.53,3.94,4.0,3.71,3.8,84,0,99.5,0,0,Tepat Waktu
+202100868,Fajar Setiawan,Laki-laki,Mandiri,3.07,2.61,3.39,3.08,3.04,83,3,89.3,0,0,Tepat Waktu
+202100869,Siti Pratama,Perempuan,SNBT,3.46,3.51,3.48,3.66,3.53,84,0,89.6,0,1,Tepat Waktu
+202100870,Fitri Wijaya,Perempuan,SNBP,3.67,4.0,3.87,4.0,3.88,84,0,91.8,0,0,Tepat Waktu
+202100871,Farhan Wijaya,Laki-laki,Mandiri,2.89,2.7,2.51,2.52,2.66,81,5,91.1,0,0,Terlambat
+202100872,Rizky Wijaya,Laki-laki,SNBP,3.46,3.02,3.07,2.85,3.1,82,4,81.7,1,0,Terlambat
+202100873,Putri Nugroho,Perempuan,Mandiri,3.71,3.59,3.71,3.51,3.63,85,1,94.0,0,0,Tepat Waktu
+202100874,Eko Kusuma,Laki-laki,Mandiri,2.01,2.19,2.2,2.13,2.13,79,5,83.0,0,0,Terlambat
+202100875,Budi Setiawan,Laki-laki,Mandiri,3.33,3.21,3.7,3.39,3.41,86,2,90.2,0,0,Tepat Waktu
+202100876,Ilham Wibowo,Laki-laki,Mandiri,2.5,2.5,2.99,2.8,2.7,86,2,86.2,0,0,Terlambat
+202100877,Tiara Hidayat,Perempuan,SNBT,3.36,3.58,2.87,3.34,3.29,82,2,93.3,0,0,Tepat Waktu
+202100878,Dewi Kusuma,Perempuan,Mandiri,3.71,3.32,3.69,3.4,3.53,84,0,83.6,0,0,Tepat Waktu
+202100879,Aditya Hidayat,Laki-laki,SNBT,2.58,1.87,1.55,1.74,1.94,71,13,87.1,0,0,Terlambat
+202100880,Dimas Saputra,Laki-laki,Mandiri,3.13,3.24,3.25,3.14,3.19,84,0,87.4,0,0,Terlambat
+202100881,Rafi Hidayat,Laki-laki,Mandiri,3.94,3.76,4.0,3.73,3.86,88,0,92.0,0,0,Tepat Waktu
+202100882,Rina Utomo,Perempuan,Mandiri,2.47,2.76,2.85,3.07,2.79,81,3,84.4,0,0,Terlambat
+202100883,Bagus Hidayat,Laki-laki,Mandiri,3.48,3.46,2.96,3.4,3.32,85,1,93.7,0,0,Tepat Waktu
+202100884,Farhan Permana,Laki-laki,SNBT,3.91,3.99,3.96,3.93,3.95,86,0,100.0,0,0,Tepat Waktu
+202100885,Aulia Utomo,Perempuan,Mandiri,2.67,2.43,2.25,1.96,2.33,81,5,86.1,0,1,Terlambat
+202100886,Dimas Hakim,Laki-laki,SNBT,3.48,3.29,3.65,3.51,3.48,84,0,95.3,0,0,Tepat Waktu
+202100887,Aulia Saputra,Perempuan,Mandiri,3.18,3.9,3.69,3.63,3.6,88,0,96.4,0,0,Tepat Waktu
+202100888,Dimas Utomo,Laki-laki,SNBT,3.38,2.93,3.18,3.69,3.3,84,0,95.2,0,0,Tepat Waktu
+202100889,Dimas Permana,Laki-laki,SNBT,3.23,3.29,3.36,3.04,3.23,84,2,88.7,0,0,Tepat Waktu
+202100890,Eko Hakim,Laki-laki,SNBT,2.45,2.42,2.73,2.53,2.53,81,5,93.4,0,0,Terlambat
+202100891,Siti Nugroho,Perempuan,SNBT,3.67,3.71,3.77,4.0,3.79,80,0,94.5,0,0,Tepat Waktu
+202100892,Siti Wibowo,Perempuan,Mandiri,2.86,3.24,3.0,3.07,3.04,86,2,92.0,0,0,Terlambat
+202100893,Maya Wibowo,Perempuan,SNBT,2.57,2.34,2.42,2.74,2.52,76,8,87.2,0,0,Terlambat
+202100894,Dimas Kusuma,Laki-laki,SNBT,3.14,2.99,2.85,3.08,3.02,82,4,89.3,0,0,Tepat Waktu
+202100895,Anisa Pratama,Perempuan,SNBT,3.4,3.31,3.16,2.85,3.18,86,0,95.2,0,0,Tepat Waktu
+202100896,Ilham Utomo,Laki-laki,Mandiri,2.12,2.72,2.25,2.29,2.34,79,7,82.8,1,0,Terlambat
+202100897,Dimas Utomo,Laki-laki,SNBT,2.97,3.71,2.7,2.8,3.04,76,4,83.3,0,0,Tepat Waktu
+202100898,Fitri Kusuma,Perempuan,SNBP,2.92,2.57,3.28,2.89,2.92,85,1,91.7,0,1,Terlambat
+202100899,Fajar Hakim,Laki-laki,SNBP,3.75,4.0,3.71,3.52,3.74,86,0,96.7,1,0,Tepat Waktu
+202100900,Eko Hakim,Laki-laki,SNBP,2.12,2.25,1.71,1.98,2.02,68,12,79.3,1,0,Terlambat
+202100901,Wahyu Nugroho,Laki-laki,SNBT,3.62,3.34,3.87,3.68,3.63,86,0,92.9,0,0,Tepat Waktu
+202100902,Budi Permana,Laki-laki,SNBP,3.73,3.82,3.49,3.76,3.7,86,0,93.8,0,1,Tepat Waktu
+202100903,Rizky Nugroho,Laki-laki,SNBP,1.76,1.99,2.56,2.01,2.08,80,6,83.0,0,1,Terlambat
+202100904,Nabila Saputra,Perempuan,Mandiri,2.21,2.05,2.12,2.05,2.11,69,11,81.2,0,1,Terlambat
+202100905,Rafi Hidayat,Laki-laki,Mandiri,3.78,3.52,4.0,4.0,3.82,84,0,95.2,0,0,Tepat Waktu
+202100906,Dwi Saputra,Perempuan,SNBT,2.83,2.81,2.33,2.68,2.66,74,6,88.0,0,0,Terlambat
+202100907,Putri Santoso,Perempuan,Mandiri,4.0,4.0,4.0,3.59,3.9,84,0,98.5,0,0,Tepat Waktu
+202100908,Budi Kusuma,Laki-laki,SNBP,1.95,2.11,2.33,1.81,2.05,79,9,77.0,1,0,Terlambat
+202100909,Bayu Hakim,Laki-laki,SNBT,3.26,3.51,2.57,2.8,3.04,80,0,92.0,1,0,Tepat Waktu
+202100910,Rizky Wijaya,Laki-laki,SNBT,3.07,2.94,3.53,2.78,3.08,83,1,88.0,0,0,Tepat Waktu
+202100911,Siti Wibowo,Perempuan,SNBT,3.03,3.29,3.26,2.85,3.11,81,5,92.0,0,0,Terlambat
+202100912,Ilham Wibowo,Laki-laki,SNBT,3.19,3.34,2.81,3.54,3.22,79,1,89.5,0,0,Terlambat
+202100913,Maya Pratama,Perempuan,SNBT,3.32,3.19,3.07,3.78,3.34,80,0,85.0,1,0,Tepat Waktu
+202100914,Rafi Permana,Laki-laki,SNBT,3.25,3.0,3.28,3.1,3.16,85,1,90.8,0,0,Tepat Waktu
+202100915,Fitri Utomo,Perempuan,Mandiri,2.67,2.37,2.82,2.3,2.54,79,7,88.6,0,0,Terlambat
+202100916,Ilham Wibowo,Laki-laki,SNBP,3.56,3.62,3.6,3.52,3.58,86,0,97.2,0,0,Tepat Waktu
+202100917,Ilham Wijaya,Laki-laki,SNBP,3.29,3.39,3.61,3.41,3.42,86,0,91.7,0,0,Tepat Waktu
+202100918,Rina Permana,Perempuan,SNBP,3.36,3.27,2.93,3.35,3.23,84,0,86.9,0,0,Tepat Waktu
+202100919,Maya Wijaya,Perempuan,SNBP,3.11,3.56,3.09,3.28,3.26,88,0,91.2,1,0,Tepat Waktu
+202100920,Budi Utomo,Laki-laki,SNBT,3.29,3.47,3.23,3.79,3.44,80,0,90.1,0,0,Tepat Waktu
+202100921,Zahra Permana,Perempuan,SNBP,2.49,2.43,2.79,2.76,2.62,77,7,87.5,0,0,Terlambat
+202100922,Budi Hidayat,Laki-laki,Mandiri,3.39,3.56,3.6,3.36,3.48,84,0,93.9,0,0,Tepat Waktu
+202100923,Fitri Nugroho,Perempuan,SNBP,3.09,2.85,3.05,2.38,2.84,82,2,89.4,0,0,Terlambat
+202100924,Rina Hidayat,Perempuan,SNBP,3.4,3.04,3.27,2.84,3.14,81,3,80.7,1,1,Terlambat
+202100925,Rizky Santoso,Laki-laki,SNBT,2.8,3.08,2.91,2.55,2.84,83,3,86.8,1,0,Terlambat
+202100926,Rafi Wijaya,Laki-laki,SNBP,3.7,3.46,3.45,2.96,3.39,86,0,77.3,1,0,Terlambat
+202100927,Satria Pratama,Laki-laki,SNBT,3.0,2.83,3.1,2.4,2.83,79,5,87.1,1,0,Terlambat
+202100928,Fajar Kusuma,Laki-laki,SNBT,3.45,3.36,3.69,3.13,3.41,86,0,97.4,0,0,Tepat Waktu
+202100929,Aulia Hakim,Perempuan,SNBP,2.62,2.53,2.82,2.93,2.72,81,5,92.2,0,0,Terlambat
+202100930,Eko Santoso,Laki-laki,SNBP,3.25,3.21,3.35,2.64,3.11,84,0,90.4,0,0,Terlambat
+202100931,Dimas Santoso,Laki-laki,SNBT,3.59,3.57,3.33,3.36,3.46,84,0,88.1,1,0,Tepat Waktu
+202100932,Zahra Nugroho,Perempuan,SNBP,3.21,3.11,3.24,3.53,3.27,82,2,90.1,0,1,Terlambat
+202100933,Zahra Setiawan,Perempuan,SNBP,3.12,3.54,3.4,3.11,3.29,79,1,92.8,0,1,Terlambat
+202100934,Eko Saputra,Laki-laki,SNBP,3.71,3.77,3.8,4.0,3.82,86,0,92.1,1,0,Tepat Waktu
+202100935,Fajar Hidayat,Laki-laki,SNBP,3.33,2.97,3.63,3.41,3.34,79,1,89.0,0,0,Tepat Waktu
+202100936,Dimas Nugroho,Laki-laki,SNBT,3.43,3.38,3.44,3.92,3.54,84,0,93.7,0,1,Terlambat
+202100937,Eko Kusuma,Laki-laki,SNBT,3.63,3.62,3.33,3.0,3.4,80,0,91.6,0,0,Tepat Waktu
+202100938,Nabila Kusuma,Perempuan,SNBT,3.25,3.41,3.35,3.78,3.45,86,0,97.7,0,0,Tepat Waktu
+202100939,Bayu Kusuma,Laki-laki,SNBP,4.0,3.49,4.0,3.62,3.78,80,0,92.3,0,0,Tepat Waktu
+202100940,Siti Hidayat,Perempuan,SNBP,2.75,2.69,2.99,2.9,2.83,86,0,85.9,1,0,Terlambat
+202100941,Farhan Setiawan,Laki-laki,Mandiri,3.2,3.32,3.84,3.44,3.45,80,0,93.4,0,0,Tepat Waktu
+202100942,Maya Saputra,Perempuan,SNBT,3.37,3.13,2.64,3.42,3.14,85,1,85.2,1,0,Terlambat
+202100943,Fitri Utomo,Perempuan,Mandiri,3.25,2.87,2.84,3.25,3.05,87,1,93.4,0,0,Tepat Waktu
+202100944,Dewi Setiawan,Perempuan,SNBT,2.88,3.16,2.99,2.91,2.99,80,4,89.3,0,1,Terlambat
+202100945,Aditya Saputra,Laki-laki,SNBT,2.88,3.23,3.05,3.45,3.15,85,1,92.0,0,0,Tepat Waktu
+202100946,Rizky Hakim,Laki-laki,SNBT,2.8,2.75,3.18,2.71,2.86,83,3,93.8,0,0,Terlambat
+202100947,Bagus Hakim,Laki-laki,SNBT,3.3,3.88,3.59,3.12,3.47,86,0,91.0,0,0,Tepat Waktu
+202100948,Zahra Wijaya,Perempuan,SNBT,3.16,3.24,2.83,2.89,3.03,83,3,85.9,1,0,Terlambat
+202100949,Zahra Utomo,Perempuan,SNBT,3.37,3.31,3.02,2.88,3.14,84,0,94.7,0,0,Tepat Waktu
+202100950,Anisa Kusuma,Perempuan,SNBP,3.78,3.31,3.93,3.55,3.64,84,0,96.4,0,0,Tepat Waktu
+202100951,Siti Hidayat,Perempuan,SNBT,3.32,2.99,3.71,2.94,3.24,86,2,96.7,0,0,Terlambat
+202100952,Rina Hakim,Perempuan,Mandiri,3.96,3.45,3.82,3.89,3.78,84,0,95.2,0,0,Tepat Waktu
+202100953,Wahyu Santoso,Laki-laki,Mandiri,3.06,2.69,2.81,2.62,2.8,80,8,91.9,0,0,Terlambat
+202100954,Maya Nugroho,Perempuan,SNBT,2.62,2.78,2.58,2.3,2.57,79,7,91.9,0,0,Terlambat
+202100955,Budi Kusuma,Laki-laki,SNBT,3.13,2.88,2.89,2.71,2.9,79,5,84.2,0,0,Terlambat
+202100956,Bagus Wibowo,Laki-laki,SNBP,1.87,2.07,1.6,1.54,1.77,72,14,75.6,1,0,Terlambat
+202100957,Fajar Hakim,Laki-laki,SNBT,3.59,3.66,3.35,3.63,3.56,86,0,95.6,0,0,Tepat Waktu
+202100958,Fajar Wibowo,Laki-laki,SNBT,3.24,2.64,2.41,2.86,2.79,81,3,92.7,0,0,Terlambat
+202100959,Yoga Wijaya,Laki-laki,Mandiri,2.87,3.06,2.82,3.05,2.95,80,0,91.3,0,0,Terlambat
+202100960,Anisa Utomo,Perempuan,SNBT,3.12,3.72,3.44,3.41,3.42,86,0,98.3,0,0,Tepat Waktu
+202100961,Dimas Kusuma,Laki-laki,SNBT,3.11,3.25,3.09,3.14,3.15,84,4,89.8,0,1,Terlambat
+202100962,Siti Hidayat,Perempuan,SNBT,2.84,2.95,3.27,2.86,2.98,85,1,86.3,0,0,Terlambat
+202100963,Yoga Wibowo,Laki-laki,Mandiri,2.13,2.32,2.15,2.14,2.18,73,11,82.4,1,0,Terlambat
+202100964,Rizky Nugroho,Laki-laki,SNBT,3.88,3.38,3.87,3.97,3.78,84,0,95.2,0,0,Tepat Waktu
+202100965,Rizky Kusuma,Laki-laki,SNBT,3.65,3.4,3.62,3.39,3.52,88,0,91.1,0,0,Tepat Waktu
+202100966,Budi Hakim,Laki-laki,Mandiri,3.93,3.94,3.98,4.0,3.96,80,0,100.0,0,0,Tepat Waktu
+202100967,Anisa Hidayat,Perempuan,SNBP,2.55,2.75,2.89,2.52,2.68,80,6,91.4,0,0,Terlambat
+202100968,Bayu Permana,Laki-laki,Mandiri,2.47,2.27,2.23,2.66,2.41,76,8,89.3,0,0,Terlambat
+202100969,Fitri Hidayat,Perempuan,SNBP,3.44,3.77,3.35,3.2,3.44,84,0,93.1,1,0,Terlambat
+202100970,Satria Hakim,Laki-laki,Mandiri,3.06,3.05,2.93,2.76,2.95,83,1,89.1,0,0,Tepat Waktu
+202100971,Tiara Kusuma,Perempuan,SNBT,3.36,3.44,2.87,3.26,3.23,84,0,91.1,1,0,Terlambat
+202100972,Siti Hidayat,Perempuan,SNBT,4.0,4.0,4.0,3.52,3.88,86,0,97.7,0,0,Tepat Waktu
+202100973,Aulia Hakim,Perempuan,Mandiri,3.33,3.23,2.94,2.71,3.05,82,2,89.0,0,0,Terlambat
+202100974,Budi Utomo,Laki-laki,SNBP,3.07,3.09,3.61,3.39,3.29,81,3,92.5,0,0,Tepat Waktu
+202100975,Rafi Wibowo,Laki-laki,SNBP,2.93,3.5,3.61,3.3,3.34,84,0,93.5,0,0,Tepat Waktu
+202100976,Rafi Permana,Laki-laki,SNBT,2.35,2.04,2.31,2.06,2.19,78,10,89.6,0,0,Terlambat
+202100977,Anisa Wijaya,Perempuan,SNBT,3.59,3.61,4.0,3.69,3.72,86,0,90.5,0,0,Tepat Waktu
+202100978,Satria Permana,Laki-laki,SNBT,3.57,3.47,3.27,3.54,3.46,80,0,81.5,1,0,Tepat Waktu
+202100979,Yoga Nugroho,Laki-laki,SNBP,3.49,3.4,3.59,3.4,3.47,80,0,90.9,0,0,Tepat Waktu
+202100980,Nurul Wijaya,Perempuan,SNBP,2.14,2.54,2.42,3.03,2.53,81,5,87.6,0,1,Terlambat
+202100981,Bagus Setiawan,Laki-laki,SNBP,2.89,3.18,2.46,2.72,2.81,85,3,86.1,1,0,Terlambat
+202100982,Rina Nugroho,Perempuan,SNBP,3.76,3.97,3.4,3.01,3.54,84,0,86.5,1,1,Terlambat
+202100983,Budi Setiawan,Laki-laki,SNBT,2.73,2.79,2.8,2.49,2.7,77,7,90.3,0,0,Terlambat
+202100984,Satria Setiawan,Laki-laki,Mandiri,3.56,3.59,3.83,3.06,3.51,86,0,99.5,0,1,Tepat Waktu
+202100985,Dwi Nugroho,Perempuan,Mandiri,3.11,3.24,2.82,3.41,3.14,83,3,79.7,1,0,Terlambat
+202100986,Yoga Hakim,Laki-laki,Mandiri,3.56,3.62,3.35,3.42,3.49,86,0,93.3,0,0,Tepat Waktu
+202100987,Nabila Wijaya,Perempuan,SNBP,2.89,2.63,3.05,3.4,2.99,80,0,99.2,0,0,Tepat Waktu
+202100988,Aditya Setiawan,Laki-laki,SNBT,2.74,3.21,3.26,3.05,3.07,80,4,88.7,0,0,Tepat Waktu
+202100989,Aditya Santoso,Laki-laki,SNBP,3.18,3.21,3.27,3.07,3.18,84,0,89.0,0,0,Terlambat
+202100990,Fitri Permana,Perempuan,SNBP,2.71,2.63,2.54,2.18,2.52,78,6,89.6,0,0,Terlambat
+202100991,Dewi Pratama,Perempuan,SNBT,3.38,3.14,3.46,3.12,3.28,86,2,90.6,0,0,Terlambat
+202100992,Aulia Nugroho,Perempuan,SNBP,2.05,1.73,1.81,2.1,1.92,72,8,87.8,0,0,Terlambat
+202100993,Bayu Utomo,Laki-laki,SNBP,3.05,2.61,2.53,2.77,2.74,80,6,97.8,0,0,Terlambat
+202100994,Maya Kusuma,Perempuan,Mandiri,3.37,3.31,3.25,2.95,3.22,86,0,92.4,0,0,Tepat Waktu
+202100995,Wahyu Hidayat,Laki-laki,SNBT,3.66,3.68,3.57,3.56,3.62,84,0,98.2,1,0,Tepat Waktu
+202100996,Bayu Santoso,Laki-laki,SNBT,3.11,3.18,3.07,3.29,3.16,84,4,84.2,1,0,Terlambat
+202100997,Maya Nugroho,Perempuan,SNBP,2.04,2.74,2.35,2.34,2.37,80,6,86.2,0,0,Terlambat
+202100998,Farhan Saputra,Laki-laki,SNBP,3.28,4.0,3.25,3.4,3.48,88,0,90.4,0,0,Tepat Waktu
+202100999,Nurul Hakim,Perempuan,Mandiri,2.45,2.68,2.55,2.16,2.46,77,7,85.8,0,1,Terlambat
+202101000,Farhan Hakim,Laki-laki,SNBP,3.1,3.37,3.43,3.53,3.36,80,0,92.2,0,0,Tepat Waktu
+202101001,Ilham Hakim,Laki-laki,SNBT,2.54,2.4,2.35,2.49,2.44,79,1,88.7,0,0,Terlambat
+202101002,Satria Hidayat,Laki-laki,SNBP,2.66,2.83,2.7,2.08,2.57,78,6,83.7,0,0,Terlambat
+202101003,Tiara Utomo,Perempuan,SNBT,2.86,2.99,2.09,2.0,2.48,77,7,79.7,1,0,Terlambat
+202101004,Fitri Setiawan,Perempuan,SNBP,2.97,3.59,3.13,3.3,3.25,88,0,90.6,0,0,Tepat Waktu
+202101005,Rina Utomo,Perempuan,Mandiri,3.04,3.32,3.44,2.93,3.18,83,1,95.0,0,0,Tepat Waktu
+202101006,Dwi Saputra,Perempuan,Mandiri,3.25,3.51,3.37,3.05,3.3,85,3,93.0,0,0,Tepat Waktu
+202101007,Nabila Hakim,Perempuan,Mandiri,2.89,3.18,2.7,3.11,2.97,82,2,91.0,0,0,Tepat Waktu
+202101008,Anisa Nugroho,Perempuan,SNBP,2.27,2.19,2.15,2.11,2.18,78,8,79.9,1,0,Terlambat
+202101009,Budi Permana,Laki-laki,Mandiri,2.81,3.2,3.55,3.06,3.16,83,1,85.6,0,0,Tepat Waktu
+202101010,Satria Hakim,Laki-laki,SNBT,2.46,2.26,1.96,2.24,2.23,76,8,91.6,0,0,Terlambat
+202101011,Ilham Wibowo,Laki-laki,SNBT,2.98,2.68,2.25,2.91,2.7,84,4,79.6,1,0,Terlambat
+202101012,Fitri Wibowo,Perempuan,SNBT,2.88,2.78,3.0,3.36,3.0,73,7,93.9,0,0,Terlambat
+202101013,Fitri Wibowo,Perempuan,SNBP,2.91,3.07,2.58,2.2,2.69,81,5,82.0,1,0,Terlambat
+202101014,Wahyu Santoso,Laki-laki,SNBP,2.3,2.3,2.66,2.34,2.4,80,6,84.9,0,0,Terlambat
+202101015,Nabila Wijaya,Perempuan,Mandiri,3.55,3.64,3.67,3.35,3.55,87,1,97.8,0,0,Tepat Waktu
+202101016,Dewi Utomo,Perempuan,SNBP,3.98,3.68,4.0,3.58,3.81,86,0,91.6,0,0,Tepat Waktu
+202101017,Aditya Hakim,Laki-laki,SNBT,4.0,4.0,4.0,3.49,3.87,84,0,92.3,0,0,Tepat Waktu
+202101018,Nabila Permana,Perempuan,SNBT,3.03,3.95,3.4,3.4,3.44,86,0,94.1,0,0,Tepat Waktu
+202101019,Siti Pratama,Perempuan,Mandiri,2.72,2.92,3.11,2.62,2.84,69,11,90.4,0,0,Terlambat
+202101020,Aditya Kusuma,Laki-laki,Mandiri,2.5,2.98,2.81,3.17,2.86,84,0,92.7,0,0,Tepat Waktu
+202101021,Dewi Kusuma,Perempuan,Mandiri,3.2,3.32,2.34,2.68,2.88,80,0,92.5,0,0,Terlambat
+202101022,Rafi Nugroho,Laki-laki,SNBP,3.92,4.0,4.0,3.46,3.84,84,0,95.8,0,0,Tepat Waktu
+202101023,Fitri Saputra,Perempuan,SNBP,3.1,3.18,3.2,3.05,3.13,80,0,91.9,0,0,Tepat Waktu
+202101024,Tiara Pratama,Perempuan,SNBT,3.6,3.79,3.28,3.63,3.58,88,0,93.9,0,0,Tepat Waktu
+202101025,Nurul Wijaya,Perempuan,SNBP,3.86,3.5,3.52,3.57,3.61,86,0,99.5,0,0,Tepat Waktu
+202101026,Aditya Hidayat,Laki-laki,SNBP,3.36,3.03,3.03,3.34,3.19,87,1,88.5,0,0,Tepat Waktu
+202101027,Fitri Permana,Perempuan,SNBT,2.4,2.48,2.33,2.36,2.39,73,7,81.0,1,0,Tepat Waktu
+202101028,Dewi Kusuma,Perempuan,SNBT,3.4,3.09,2.67,2.99,3.04,83,3,93.7,0,0,Terlambat
+202101029,Budi Saputra,Laki-laki,Mandiri,3.2,2.98,3.19,3.23,3.15,84,0,95.6,0,0,Terlambat
+202101030,Anisa Permana,Perempuan,SNBP,3.38,3.83,3.09,3.61,3.48,84,0,91.4,0,0,Tepat Waktu
+202101031,Dimas Wibowo,Laki-laki,SNBP,3.13,3.05,3.2,3.24,3.16,84,4,88.4,0,0,Tepat Waktu
+202101032,Rina Wijaya,Perempuan,SNBP,2.66,2.8,2.59,2.19,2.56,80,8,83.7,0,0,Terlambat
+202101033,Bagus Kusuma,Laki-laki,Mandiri,3.52,3.53,3.28,3.45,3.44,84,0,86.3,1,0,Tepat Waktu
+202101034,Yoga Kusuma,Laki-laki,Mandiri,2.92,2.97,3.15,2.81,2.96,84,4,85.4,1,0,Terlambat
+202101035,Yoga Saputra,Laki-laki,Mandiri,2.31,1.75,1.3,1.71,1.77,72,14,81.4,0,0,Terlambat
+202101036,Tiara Santoso,Perempuan,Mandiri,3.01,3.06,3.24,3.8,3.28,88,0,94.9,0,0,Tepat Waktu
+202101037,Yoga Kusuma,Laki-laki,SNBT,2.77,3.62,3.62,2.99,3.25,85,1,92.1,0,0,Tepat Waktu
+202101038,Maya Utomo,Perempuan,SNBT,3.04,2.78,2.75,2.8,2.84,84,4,91.9,0,0,Terlambat
+202101039,Rafi Permana,Laki-laki,SNBT,2.77,3.1,3.36,2.77,3.0,84,4,91.3,0,0,Terlambat
+202101040,Rafi Pratama,Laki-laki,SNBT,3.34,3.75,3.28,3.54,3.48,80,0,87.9,0,0,Tepat Waktu
+202101041,Budi Permana,Laki-laki,SNBT,3.17,2.96,3.21,3.75,3.27,84,0,88.4,0,0,Tepat Waktu
+202101042,Maya Saputra,Perempuan,SNBT,2.64,2.54,2.51,2.46,2.54,80,4,85.9,1,0,Terlambat
+202101043,Wahyu Hakim,Laki-laki,Mandiri,3.95,3.31,3.89,3.64,3.7,86,0,91.8,0,0,Tepat Waktu
+202101044,Zahra Kusuma,Perempuan,Mandiri,3.61,3.77,4.0,4.0,3.84,86,0,99.0,0,0,Tepat Waktu
+202101045,Fitri Hidayat,Perempuan,Mandiri,3.14,2.62,2.65,2.33,2.68,82,4,83.2,1,0,Terlambat
+202101046,Putri Hakim,Perempuan,Mandiri,2.51,2.43,2.29,2.36,2.4,78,8,83.6,0,0,Terlambat
+202101047,Bayu Permana,Laki-laki,SNBT,3.45,3.03,3.18,3.09,3.19,84,0,88.6,1,0,Terlambat
+202101048,Satria Nugroho,Laki-laki,SNBP,2.98,2.75,2.75,2.49,2.74,80,0,87.5,0,0,Tepat Waktu
+202101049,Zahra Permana,Perempuan,SNBP,3.55,3.09,3.61,3.77,3.5,83,1,94.4,0,0,Terlambat
+202101050,Fajar Nugroho,Laki-laki,SNBT,3.9,3.76,3.59,3.96,3.8,86,0,89.0,1,0,Tepat Waktu
+202101051,Nurul Santoso,Perempuan,Mandiri,2.37,2.25,2.2,2.19,2.25,75,5,76.6,0,0,Terlambat
+202101052,Ilham Setiawan,Laki-laki,SNBP,2.86,3.03,2.65,3.0,2.88,83,1,92.4,0,0,Tepat Waktu
+202101053,Anisa Kusuma,Perempuan,Mandiri,2.69,2.94,2.99,2.72,2.84,81,3,92.4,0,0,Terlambat
+202101054,Nurul Wibowo,Perempuan,SNBP,3.61,4.0,3.5,3.8,3.73,79,1,93.6,0,0,Tepat Waktu
+202101055,Anisa Hidayat,Perempuan,SNBP,3.71,4.0,3.84,3.96,3.88,84,0,98.5,0,0,Tepat Waktu
+202101056,Rafi Santoso,Laki-laki,SNBT,3.5,3.68,2.6,3.52,3.32,79,1,83.7,1,0,Tepat Waktu
+202101057,Maya Permana,Perempuan,SNBP,2.29,2.35,2.14,2.2,2.24,80,8,77.0,1,0,Terlambat
+202101058,Farhan Saputra,Laki-laki,SNBP,3.0,2.99,2.97,2.2,2.79,79,5,84.3,1,0,Terlambat
+202101059,Budi Permana,Laki-laki,SNBT,2.71,2.83,2.76,3.01,2.83,85,3,87.3,0,0,Tepat Waktu
+202101060,Nabila Wijaya,Perempuan,Mandiri,3.37,3.34,4.0,3.31,3.51,80,0,93.5,0,0,Tepat Waktu
+202101061,Nurul Saputra,Perempuan,SNBT,3.31,3.36,3.08,3.15,3.22,88,0,88.8,0,0,Tepat Waktu
+202101062,Aulia Utomo,Perempuan,SNBT,2.49,2.43,2.64,2.3,2.46,79,7,76.9,1,0,Terlambat
+202101063,Maya Wibowo,Perempuan,SNBT,2.69,2.31,2.78,2.58,2.59,80,6,88.9,0,0,Terlambat
+202101064,Bayu Hidayat,Laki-laki,SNBP,2.9,3.1,3.1,3.39,3.12,86,2,92.3,0,0,Tepat Waktu
+202101065,Yoga Pratama,Laki-laki,Mandiri,2.91,2.92,2.84,3.19,2.96,86,0,90.6,0,0,Tepat Waktu
+202101066,Nabila Setiawan,Perempuan,SNBP,3.16,2.87,2.99,2.8,2.96,86,2,89.5,0,0,Terlambat
+202101067,Budi Permana,Laki-laki,Mandiri,3.03,2.93,3.22,2.94,3.03,82,4,88.5,0,0,Tepat Waktu
+202101068,Aditya Utomo,Laki-laki,SNBT,3.98,3.99,3.41,3.13,3.63,86,0,84.9,1,0,Tepat Waktu
+202101069,Dimas Kusuma,Laki-laki,Mandiri,3.05,3.02,2.18,2.78,2.76,75,9,79.3,1,0,Terlambat
+202101070,Farhan Kusuma,Laki-laki,SNBP,2.59,2.52,3.18,2.84,2.78,85,3,87.3,0,0,Terlambat
+202101071,Rafi Nugroho,Laki-laki,SNBT,2.61,2.24,2.72,2.25,2.46,84,2,90.9,0,0,Terlambat
+202101072,Fajar Wibowo,Laki-laki,SNBP,2.86,2.94,2.75,3.12,2.92,82,2,85.1,1,0,Tepat Waktu
+202101073,Aditya Wijaya,Laki-laki,SNBP,3.24,3.32,3.27,3.34,3.29,86,0,93.8,0,0,Tepat Waktu
+202101074,Rafi Hakim,Laki-laki,SNBT,2.18,2.15,2.58,2.37,2.32,78,10,82.1,0,0,Terlambat
+202101075,Tiara Permana,Perempuan,SNBP,2.51,2.91,3.28,2.98,2.92,83,3,90.9,0,0,Tepat Waktu
+202101076,Fajar Utomo,Laki-laki,SNBT,3.62,3.65,3.65,3.28,3.55,88,0,95.4,0,0,Tepat Waktu
+202101077,Satria Hakim,Laki-laki,SNBP,3.1,3.42,3.25,3.53,3.32,83,1,98.3,0,0,Tepat Waktu
+202101078,Dewi Saputra,Perempuan,SNBT,3.35,2.74,3.63,3.16,3.22,81,3,92.1,0,0,Tepat Waktu
+202101079,Ilham Utomo,Laki-laki,Mandiri,3.41,3.43,3.4,3.6,3.46,86,0,92.2,0,0,Tepat Waktu
+202101080,Nabila Kusuma,Perempuan,SNBT,2.72,2.46,2.81,3.0,2.75,84,0,86.5,0,0,Terlambat
+202101081,Rina Permana,Perempuan,SNBT,3.15,2.72,2.7,2.63,2.8,82,2,83.7,1,0,Terlambat
+202101082,Eko Santoso,Laki-laki,SNBT,3.42,3.56,3.69,3.47,3.54,86,0,87.4,1,0,Tepat Waktu
+202101083,Rafi Wibowo,Laki-laki,Mandiri,3.35,3.24,3.19,3.73,3.38,84,0,91.1,1,0,Tepat Waktu
+202101084,Dwi Nugroho,Perempuan,SNBT,2.54,2.95,3.01,2.43,2.73,79,5,92.2,0,0,Terlambat
+202101085,Anisa Utomo,Perempuan,SNBT,2.66,2.01,2.2,2.11,2.24,71,9,82.5,0,1,Terlambat
+202101086,Ilham Permana,Laki-laki,Mandiri,3.04,2.66,2.93,3.06,2.92,86,0,90.2,0,0,Tepat Waktu
+202101087,Nurul Santoso,Perempuan,Mandiri,3.06,3.54,2.89,3.39,3.22,84,0,94.7,1,0,Terlambat
+202101088,Budi Nugroho,Laki-laki,SNBT,2.64,2.68,3.07,2.77,2.79,81,3,84.3,0,0,Terlambat
+202101089,Maya Setiawan,Perempuan,SNBT,3.09,3.08,3.08,3.07,3.08,85,1,90.6,0,1,Terlambat
+202101090,Budi Santoso,Laki-laki,Mandiri,3.63,3.68,3.85,3.57,3.68,80,0,97.6,0,0,Tepat Waktu
+202101091,Dwi Hidayat,Perempuan,SNBT,2.85,3.18,2.69,2.7,2.86,84,4,89.0,0,0,Tepat Waktu
+202101092,Rina Santoso,Perempuan,SNBP,3.08,3.52,3.21,3.71,3.38,84,0,92.0,0,0,Terlambat
+202101093,Putri Pratama,Perempuan,SNBP,3.61,3.2,3.12,3.15,3.27,88,0,84.8,1,0,Terlambat
+202101094,Ilham Permana,Laki-laki,Mandiri,3.0,2.42,2.18,2.41,2.5,76,8,77.9,1,0,Terlambat
+202101095,Satria Pratama,Laki-laki,SNBP,2.44,2.69,2.72,2.87,2.68,83,5,88.2,0,0,Terlambat
+202101096,Dimas Hidayat,Laki-laki,Mandiri,3.22,3.48,3.1,3.66,3.36,84,0,90.6,1,0,Terlambat
+202101097,Farhan Hidayat,Laki-laki,SNBT,3.16,2.95,3.26,3.01,3.1,83,1,86.9,0,0,Tepat Waktu
+202101098,Fajar Permana,Laki-laki,SNBT,2.84,3.31,3.18,3.07,3.1,86,0,92.3,0,0,Tepat Waktu
+202101099,Nurul Hidayat,Perempuan,SNBP,3.16,2.91,3.45,3.32,3.21,84,0,95.8,0,0,Tepat Waktu
+202101100,Budi Saputra,Laki-laki,SNBP,3.65,3.12,3.83,3.09,3.42,86,0,93.3,0,0,Terlambat
+202101101,Budi Wibowo,Laki-laki,Mandiri,3.44,3.41,3.29,3.67,3.45,84,0,92.1,0,0,Tepat Waktu
+202101102,Tiara Hidayat,Perempuan,Mandiri,3.4,3.44,2.57,3.55,3.24,85,1,88.6,1,1,Tepat Waktu
+202101103,Dwi Setiawan,Perempuan,SNBT,3.54,3.88,3.53,3.71,3.66,88,0,91.7,0,1,Terlambat
+202101104,Tiara Permana,Perempuan,SNBT,3.79,3.38,3.27,3.59,3.51,88,0,95.4,0,0,Tepat Waktu
+202101105,Nabila Nugroho,Perempuan,SNBT,3.71,3.8,3.9,4.0,3.85,84,0,95.5,0,1,Tepat Waktu
+202101106,Eko Wijaya,Laki-laki,SNBT,2.93,2.78,3.01,2.57,2.82,82,2,83.8,1,0,Terlambat
+202101107,Satria Pratama,Laki-laki,SNBT,4.0,4.0,4.0,3.99,4.0,88,0,100.0,0,0,Tepat Waktu
+202101108,Siti Kusuma,Perempuan,SNBP,2.7,2.57,2.63,2.66,2.64,85,3,92.5,0,0,Terlambat
+202101109,Nurul Utomo,Perempuan,SNBT,3.81,3.65,3.77,3.79,3.76,80,0,100.0,0,1,Tepat Waktu
+202101110,Farhan Nugroho,Laki-laki,Mandiri,3.01,2.88,2.85,2.9,2.91,82,4,87.3,0,0,Terlambat
+202101111,Maya Hidayat,Perempuan,Mandiri,3.54,3.36,3.6,2.7,3.3,83,1,89.0,0,0,Terlambat
+202101112,Fajar Permana,Laki-laki,SNBP,3.16,3.35,3.48,2.56,3.14,87,1,93.3,0,0,Tepat Waktu
+202101113,Bayu Santoso,Laki-laki,Mandiri,2.82,2.83,2.67,2.8,2.78,80,0,90.5,0,0,Tepat Waktu
+202101114,Fajar Santoso,Laki-laki,SNBT,3.27,3.2,2.77,3.4,3.16,81,5,84.8,0,0,Terlambat
+202101115,Zahra Wibowo,Perempuan,SNBT,2.41,2.23,3.14,2.21,2.5,77,9,82.8,1,0,Terlambat
+202101116,Putri Santoso,Perempuan,SNBP,2.46,2.55,2.36,2.4,2.44,82,6,94.4,0,0,Terlambat
+202101117,Farhan Hakim,Laki-laki,SNBT,2.98,3.12,3.22,3.24,3.14,84,2,98.3,0,0,Terlambat
+202101118,Aulia Setiawan,Perempuan,SNBT,3.98,3.78,3.17,3.56,3.62,84,0,86.2,1,0,Tepat Waktu
+202101119,Ilham Wibowo,Laki-laki,SNBT,3.13,3.14,2.9,2.84,3.0,86,0,93.2,0,0,Tepat Waktu
+202101120,Bayu Wijaya,Laki-laki,Mandiri,3.5,3.48,3.0,3.41,3.35,88,0,83.8,1,0,Tepat Waktu
+202101121,Rina Hidayat,Perempuan,Mandiri,2.6,2.64,2.43,2.72,2.6,82,4,87.9,0,0,Tepat Waktu
+202101122,Aulia Wibowo,Perempuan,SNBT,2.19,2.75,2.29,2.21,2.36,80,6,83.9,0,0,Terlambat
+202101123,Dwi Saputra,Perempuan,Mandiri,3.3,3.21,3.42,3.28,3.3,86,0,88.5,0,0,Tepat Waktu
+202101124,Dwi Utomo,Perempuan,SNBT,3.7,3.9,3.49,3.67,3.69,84,0,92.2,1,0,Tepat Waktu
+202101125,Fitri Santoso,Perempuan,SNBP,2.98,3.39,3.87,3.06,3.32,86,0,93.8,0,0,Tepat Waktu
+202101126,Aulia Hakim,Perempuan,SNBT,3.66,3.25,3.76,3.7,3.59,84,0,96.0,0,0,Tepat Waktu
+202101127,Yoga Nugroho,Laki-laki,SNBP,3.94,3.53,3.69,3.7,3.72,84,0,91.5,1,0,Tepat Waktu
+202101128,Wahyu Hidayat,Laki-laki,SNBT,2.99,3.38,3.21,3.01,3.15,87,1,92.4,0,0,Terlambat
+202101129,Satria Santoso,Laki-laki,SNBP,2.72,2.9,3.1,3.06,2.94,76,4,86.7,0,0,Terlambat
+202101130,Fajar Pratama,Laki-laki,SNBP,3.15,3.46,3.61,3.22,3.36,84,0,93.7,0,0,Tepat Waktu
+202101131,Putri Utomo,Perempuan,Mandiri,3.59,3.0,2.8,3.34,3.18,82,2,91.1,0,0,Terlambat
+202101132,Wahyu Utomo,Laki-laki,SNBP,2.56,1.92,2.31,2.42,2.3,72,12,85.7,0,0,Terlambat
+202101133,Farhan Hidayat,Laki-laki,SNBT,3.14,3.31,2.89,2.79,3.03,84,2,87.6,0,1,Terlambat
+202101134,Dimas Utomo,Laki-laki,SNBP,3.11,3.07,2.63,3.11,2.98,82,4,85.4,0,0,Terlambat
+202101135,Dewi Wibowo,Perempuan,SNBT,2.33,2.83,2.55,2.82,2.63,75,5,86.5,0,1,Terlambat
+202101136,Aditya Santoso,Laki-laki,SNBT,2.64,3.48,2.63,3.45,3.05,81,3,87.0,1,0,Tepat Waktu
+202101137,Nurul Nugroho,Perempuan,Mandiri,2.97,2.3,2.73,2.34,2.58,74,10,81.9,1,0,Terlambat
+202101138,Budi Setiawan,Laki-laki,SNBT,2.52,2.43,2.44,2.26,2.41,67,13,93.3,0,0,Terlambat
+202101139,Fajar Utomo,Laki-laki,SNBP,3.13,3.46,2.3,2.36,2.81,81,5,83.3,1,0,Terlambat
+202101140,Dwi Setiawan,Perempuan,SNBT,3.43,3.27,3.58,3.24,3.38,84,0,93.8,0,0,Tepat Waktu
+202101141,Maya Wijaya,Perempuan,SNBP,2.59,2.82,2.69,2.82,2.73,80,6,89.1,0,0,Tepat Waktu
+202101142,Yoga Wijaya,Laki-laki,SNBT,2.87,2.28,2.38,2.27,2.45,80,4,77.6,1,0,Terlambat
+202101143,Fitri Nugroho,Perempuan,SNBT,2.51,3.23,2.84,2.68,2.82,82,2,89.5,0,0,Tepat Waktu
+202101144,Maya Nugroho,Perempuan,Mandiri,3.49,2.86,3.16,3.25,3.19,80,0,88.2,0,1,Terlambat
+202101145,Rafi Kusuma,Laki-laki,SNBP,3.88,4.0,3.69,3.4,3.74,78,2,89.1,1,0,Tepat Waktu
+202101146,Anisa Wijaya,Perempuan,SNBT,3.44,3.16,3.55,3.34,3.37,85,3,86.9,0,0,Tepat Waktu
+202101147,Fitri Wibowo,Perempuan,SNBP,3.42,3.45,3.39,3.43,3.42,78,2,87.1,1,1,Terlambat
+202101148,Dewi Setiawan,Perempuan,SNBT,2.37,2.86,2.45,2.4,2.52,72,8,88.3,0,0,Terlambat
+202101149,Aulia Kusuma,Perempuan,SNBT,3.14,2.9,3.07,2.75,2.96,88,0,91.3,0,0,Terlambat
+202101150,Rina Hidayat,Perempuan,Mandiri,3.57,3.7,3.52,3.5,3.57,86,0,89.3,0,0,Tepat Waktu
+202101151,Putri Santoso,Perempuan,SNBP,2.48,2.77,2.55,2.58,2.6,70,10,89.9,0,0,Terlambat
+202101152,Anisa Hidayat,Perempuan,SNBP,2.86,2.85,2.48,2.19,2.6,81,7,84.6,1,0,Terlambat
+202101153,Zahra Hakim,Perempuan,SNBT,3.14,3.72,3.23,3.38,3.37,78,2,89.7,0,0,Terlambat
+202101154,Anisa Santoso,Perempuan,SNBP,3.42,3.23,3.17,3.18,3.25,86,0,95.8,0,0,Tepat Waktu
+202101155,Dwi Nugroho,Perempuan,SNBP,2.59,2.69,2.75,2.62,2.66,73,7,89.3,0,0,Terlambat
+202101156,Rina Setiawan,Perempuan,SNBT,2.6,2.23,2.41,2.55,2.45,82,4,87.1,0,0,Terlambat
+202101157,Satria Saputra,Laki-laki,SNBP,3.3,4.0,3.67,3.94,3.73,86,0,97.3,0,0,Tepat Waktu
+202101158,Rina Nugroho,Perempuan,SNBP,2.29,2.34,1.76,2.11,2.12,71,13,84.9,1,1,Terlambat
+202101159,Nabila Santoso,Perempuan,Mandiri,3.5,3.5,3.25,3.69,3.48,86,0,93.3,0,0,Tepat Waktu
+202101160,Yoga Nugroho,Laki-laki,SNBT,2.56,3.03,2.75,2.77,2.78,80,6,87.6,0,0,Terlambat
+202101161,Nabila Kusuma,Perempuan,SNBP,3.44,3.42,3.45,3.65,3.49,86,0,95.1,1,0,Tepat Waktu
+202101162,Aditya Setiawan,Laki-laki,SNBP,2.42,2.84,2.39,2.48,2.53,87,1,87.2,0,0,Tepat Waktu
+202101163,Bayu Kusuma,Laki-laki,SNBT,4.0,4.0,3.97,4.0,3.99,86,0,98.2,0,0,Tepat Waktu
+202101164,Rina Kusuma,Perempuan,SNBP,3.34,2.98,2.75,3.09,3.04,80,4,84.4,1,0,Terlambat
+202101165,Fajar Utomo,Laki-laki,SNBT,3.67,3.47,3.55,3.37,3.52,86,0,88.4,0,0,Terlambat
+202101166,Siti Permana,Perempuan,SNBP,2.79,2.77,2.62,2.51,2.67,77,9,87.6,0,0,Terlambat
+202101167,Aulia Wibowo,Perempuan,SNBT,3.19,2.93,2.83,2.62,2.89,80,4,94.0,0,0,Tepat Waktu
+202101168,Satria Permana,Laki-laki,SNBT,3.29,2.81,2.74,2.88,2.93,85,1,81.5,1,1,Terlambat
+202101169,Dimas Nugroho,Laki-laki,SNBT,4.0,4.0,3.04,3.64,3.67,86,0,93.6,1,1,Terlambat
+202101170,Budi Permana,Laki-laki,Mandiri,3.2,3.33,2.69,3.09,3.08,84,4,87.9,1,0,Terlambat
+202101171,Tiara Kusuma,Perempuan,SNBT,3.23,3.3,3.43,3.72,3.42,86,0,89.9,0,0,Tepat Waktu
+202101172,Fitri Pratama,Perempuan,SNBP,3.32,3.46,3.59,3.1,3.37,84,0,88.8,0,0,Tepat Waktu
+202101173,Dwi Hidayat,Perempuan,SNBP,3.54,3.35,3.5,3.57,3.49,86,0,89.5,0,0,Tepat Waktu
+202101174,Eko Permana,Laki-laki,SNBT,2.32,2.32,2.51,2.29,2.36,78,8,85.3,0,0,Terlambat
+202101175,Rina Wijaya,Perempuan,SNBP,4.0,3.98,4.0,3.91,3.97,88,0,93.0,0,0,Tepat Waktu
+202101176,Bagus Pratama,Laki-laki,SNBP,2.77,2.7,2.57,2.06,2.53,78,8,86.1,1,0,Terlambat
+202101177,Siti Nugroho,Perempuan,Mandiri,2.83,2.69,2.65,2.76,2.73,80,8,78.9,1,0,Terlambat
+202101178,Rizky Hidayat,Laki-laki,SNBT,3.91,3.65,4.0,3.89,3.86,84,0,93.0,0,0,Tepat Waktu
+202101179,Siti Nugroho,Perempuan,SNBT,3.98,3.67,3.79,4.0,3.86,86,0,100.0,0,0,Tepat Waktu
+202101180,Bayu Saputra,Laki-laki,SNBT,3.35,3.1,3.29,3.57,3.33,85,1,91.9,0,0,Tepat Waktu
+202101181,Dewi Setiawan,Perempuan,SNBT,2.9,2.98,2.53,2.95,2.84,83,1,91.2,0,0,Tepat Waktu
+202101182,Wahyu Kusuma,Laki-laki,SNBP,3.06,3.01,2.9,3.47,3.11,83,1,87.1,1,0,Terlambat
+202101183,Siti Setiawan,Perempuan,Mandiri,3.22,3.4,2.58,2.99,3.05,86,0,80.0,1,0,Terlambat
+202101184,Tiara Setiawan,Perempuan,SNBP,3.16,2.79,3.33,2.96,3.06,83,3,93.9,0,0,Terlambat
+202101185,Farhan Nugroho,Laki-laki,Mandiri,2.24,2.48,2.52,2.13,2.34,87,1,88.8,0,0,Terlambat
+202101186,Siti Saputra,Perempuan,Mandiri,3.64,3.53,3.33,3.76,3.56,88,0,96.5,0,0,Tepat Waktu
+202101187,Nabila Nugroho,Perempuan,Mandiri,3.07,2.81,3.14,2.81,2.96,77,7,88.1,0,0,Terlambat
+202101188,Farhan Nugroho,Laki-laki,SNBT,2.9,2.78,3.02,2.52,2.8,83,5,90.5,0,0,Tepat Waktu
+202101189,Farhan Kusuma,Laki-laki,SNBP,3.05,2.55,3.28,2.95,2.96,76,4,89.9,0,0,Terlambat
+202101190,Anisa Hidayat,Perempuan,SNBT,3.12,3.27,2.77,3.48,3.16,82,4,92.1,0,1,Tepat Waktu
+202101191,Aditya Wijaya,Laki-laki,SNBT,2.31,2.63,1.97,2.25,2.29,77,7,77.6,1,0,Terlambat
+202101192,Putri Pratama,Perempuan,SNBT,3.16,3.55,3.17,3.19,3.27,84,0,91.8,0,0,Tepat Waktu
+202101193,Budi Hakim,Laki-laki,Mandiri,3.04,3.29,3.29,3.17,3.2,87,1,95.4,0,1,Terlambat
+202101194,Maya Setiawan,Perempuan,SNBT,3.74,4.0,3.45,3.74,3.73,84,0,88.6,0,0,Tepat Waktu
+202101195,Budi Pratama,Laki-laki,SNBP,2.87,3.13,3.4,3.16,3.14,85,1,90.3,0,0,Tepat Waktu
+202101196,Putri Wibowo,Perempuan,SNBP,2.79,2.43,2.91,2.31,2.61,78,6,90.5,0,0,Tepat Waktu
+202101197,Dwi Hidayat,Perempuan,SNBT,2.61,2.43,2.77,2.35,2.54,75,5,84.1,0,0,Terlambat
+202101198,Nurul Pratama,Perempuan,SNBT,2.9,2.79,2.74,3.18,2.9,83,1,91.5,0,0,Terlambat
+202101199,Putri Permana,Perempuan,Mandiri,2.97,2.74,2.81,3.16,2.92,86,0,91.9,0,0,Tepat Waktu
+202101200,Aditya Santoso,Laki-laki,SNBT,2.91,3.02,2.56,3.01,2.88,81,3,83.5,1,0,Tepat Waktu
+202101201,Dewi Wibowo,Perempuan,Mandiri,3.28,3.27,3.43,2.7,3.17,84,0,92.9,0,0,Terlambat
+202101202,Budi Saputra,Laki-laki,Mandiri,3.0,2.47,2.06,2.24,2.44,80,6,87.0,1,0,Terlambat
+202101203,Farhan Setiawan,Laki-laki,Mandiri,3.15,3.03,3.31,3.46,3.24,78,2,89.9,0,0,Tepat Waktu
+202101204,Aditya Utomo,Laki-laki,SNBP,2.84,2.63,2.63,3.01,2.78,75,9,84.5,0,0,Terlambat
+202101205,Wahyu Santoso,Laki-laki,Mandiri,3.42,3.45,3.28,3.49,3.41,88,0,91.8,0,0,Tepat Waktu
+202101206,Anisa Nugroho,Perempuan,SNBP,2.92,3.2,3.14,2.87,3.03,81,3,87.5,0,0,Tepat Waktu
+202101207,Siti Pratama,Perempuan,SNBP,3.84,3.76,3.04,3.25,3.47,84,0,89.0,1,0,Tepat Waktu
+202101208,Bayu Santoso,Laki-laki,SNBT,3.64,3.24,3.32,3.4,3.4,84,2,91.7,0,0,Terlambat
+202101209,Fajar Pratama,Laki-laki,SNBT,3.26,3.12,2.79,2.81,3.0,86,0,86.9,1,0,Terlambat
+202101210,Rina Permana,Perempuan,SNBP,2.82,2.7,2.81,2.91,2.81,84,2,84.6,1,0,Terlambat
+202101211,Bagus Utomo,Laki-laki,SNBP,2.52,2.13,2.39,2.43,2.37,83,5,84.4,0,0,Terlambat
+202101212,Farhan Santoso,Laki-laki,SNBP,3.81,3.92,3.88,3.49,3.78,80,0,92.4,0,0,Tepat Waktu
+202101213,Rizky Hakim,Laki-laki,Mandiri,2.6,3.11,2.68,2.95,2.84,84,4,84.9,0,0,Tepat Waktu
+202101214,Nabila Permana,Perempuan,SNBP,3.22,2.98,3.05,3.14,3.1,88,0,89.1,1,0,Terlambat
+202101215,Tiara Nugroho,Perempuan,SNBP,3.15,3.27,3.11,3.19,3.18,86,2,87.7,1,0,Tepat Waktu
+202101216,Aditya Hidayat,Laki-laki,SNBT,3.17,3.18,3.09,3.19,3.16,84,0,90.3,0,1,Tepat Waktu
+202101217,Rafi Setiawan,Laki-laki,SNBT,3.81,3.34,3.59,3.59,3.58,88,0,90.5,1,0,Tepat Waktu
+202101218,Nurul Utomo,Perempuan,Mandiri,2.59,2.32,2.62,2.26,2.45,78,6,83.4,0,0,Terlambat
+202101219,Anisa Santoso,Perempuan,SNBP,3.89,4.0,3.86,3.71,3.86,86,0,93.1,0,0,Tepat Waktu
+202101220,Eko Wijaya,Laki-laki,SNBT,2.98,3.19,3.08,3.36,3.15,80,4,88.3,0,0,Terlambat
+202101221,Dewi Setiawan,Perempuan,SNBT,2.75,2.91,3.33,3.14,3.03,86,0,91.9,0,0,Tepat Waktu
+202101222,Yoga Utomo,Laki-laki,Mandiri,2.97,2.86,3.12,2.71,2.92,82,4,82.1,1,1,Terlambat
+202101223,Ilham Santoso,Laki-laki,SNBT,2.41,1.66,2.01,2.03,2.03,71,9,79.6,0,0,Terlambat
+202101224,Nurul Setiawan,Perempuan,Mandiri,2.83,2.74,2.83,2.86,2.82,80,8,89.9,0,0,Terlambat
+202101225,Rizky Santoso,Laki-laki,SNBP,3.3,2.94,2.8,2.98,3.0,84,2,92.8,0,0,Terlambat
+202101226,Nurul Hidayat,Perempuan,SNBT,3.2,3.22,3.0,3.26,3.17,83,3,91.3,0,0,Terlambat
+202101227,Bayu Hakim,Laki-laki,SNBT,3.66,3.65,3.68,3.47,3.62,84,0,98.6,0,0,Tepat Waktu
+202101228,Budi Pratama,Laki-laki,Mandiri,4.0,3.85,4.0,3.87,3.93,88,0,99.4,0,0,Tepat Waktu
+202101229,Zahra Wijaya,Perempuan,SNBP,3.19,3.11,3.62,3.11,3.26,85,1,96.3,0,0,Tepat Waktu
+202101230,Wahyu Wijaya,Laki-laki,SNBP,3.0,3.08,3.55,3.19,3.2,84,0,94.7,0,0,Tepat Waktu
+202101231,Nabila Hakim,Perempuan,SNBT,2.94,2.66,3.01,2.77,2.84,81,5,90.6,0,0,Terlambat
+202101232,Budi Kusuma,Laki-laki,SNBP,2.55,2.14,2.1,2.19,2.24,77,9,81.6,0,0,Terlambat
+202101233,Budi Wijaya,Laki-laki,SNBP,2.66,2.61,3.09,2.86,2.8,86,0,88.3,0,0,Tepat Waktu
+202101234,Eko Hakim,Laki-laki,Mandiri,3.13,3.13,2.3,3.53,3.02,84,0,89.1,0,0,Tepat Waktu
+202101235,Rina Kusuma,Perempuan,SNBT,3.52,3.61,3.64,3.68,3.61,84,0,91.5,0,0,Tepat Waktu
+202101236,Bayu Permana,Laki-laki,SNBT,3.42,3.34,3.61,2.89,3.32,83,3,90.7,0,1,Terlambat
+202101237,Siti Saputra,Perempuan,Mandiri,3.26,3.63,3.24,3.29,3.35,88,0,87.8,0,0,Terlambat
+202101238,Eko Santoso,Laki-laki,SNBT,2.76,2.63,3.25,2.71,2.84,80,6,92.8,0,0,Terlambat
+202101239,Anisa Wijaya,Perempuan,SNBP,2.19,2.45,1.63,1.87,2.04,74,10,75.0,1,1,Terlambat
+202101240,Wahyu Saputra,Laki-laki,SNBP,2.16,2.18,2.28,2.21,2.21,75,9,82.7,1,0,Terlambat
+202101241,Aulia Hidayat,Perempuan,SNBT,2.38,2.39,2.31,2.37,2.36,79,7,91.4,0,0,Terlambat
+202101242,Siti Hidayat,Perempuan,SNBT,2.8,3.12,3.33,3.59,3.21,87,1,89.4,0,0,Tepat Waktu
+202101243,Anisa Setiawan,Perempuan,SNBT,3.43,3.44,3.61,3.3,3.44,80,0,85.6,1,0,Tepat Waktu
+202101244,Aulia Setiawan,Perempuan,SNBP,3.45,3.3,3.91,3.48,3.54,86,0,95.9,0,0,Terlambat
+202101245,Putri Kusuma,Perempuan,SNBT,3.54,3.26,3.7,3.76,3.56,83,1,92.7,0,0,Tepat Waktu
+202101246,Maya Utomo,Perempuan,Mandiri,2.59,2.4,2.87,2.71,2.64,81,3,79.7,1,0,Terlambat
+202101247,Aditya Utomo,Laki-laki,Mandiri,3.59,3.75,3.96,3.35,3.66,79,1,96.4,0,0,Tepat Waktu
+202101248,Dimas Wibowo,Laki-laki,Mandiri,2.54,2.81,2.69,2.46,2.62,83,5,85.8,0,0,Terlambat
+202101249,Fitri Nugroho,Perempuan,Mandiri,3.4,3.83,3.63,3.4,3.56,88,0,100.0,0,1,Tepat Waktu
+202101250,Dewi Wibowo,Perempuan,SNBT,2.21,2.44,2.35,2.51,2.38,74,6,88.8,0,0,Terlambat
+202101251,Maya Wibowo,Perempuan,Mandiri,2.61,2.71,2.4,2.89,2.65,80,6,90.9,0,0,Terlambat
+202101252,Budi Saputra,Laki-laki,SNBP,3.81,3.83,3.98,4.0,3.9,84,0,96.1,0,0,Tepat Waktu
+202101253,Bagus Wibowo,Laki-laki,SNBT,3.15,3.11,3.06,3.15,3.12,86,0,98.0,0,0,Tepat Waktu
+202101254,Fajar Hakim,Laki-laki,SNBT,2.87,3.03,3.11,3.07,3.02,82,4,88.3,0,0,Tepat Waktu
+202101255,Fitri Wijaya,Perempuan,SNBP,3.29,3.64,3.55,3.75,3.56,83,1,96.9,0,0,Tepat Waktu
+202101256,Dimas Wibowo,Laki-laki,Mandiri,3.46,3.53,3.46,3.42,3.47,80,0,89.0,0,0,Tepat Waktu
+202101257,Aditya Nugroho,Laki-laki,Mandiri,2.87,2.86,3.22,2.85,2.95,81,5,98.5,0,0,Terlambat
+202101258,Budi Permana,Laki-laki,SNBP,3.22,3.39,3.24,3.1,3.24,82,4,95.1,0,0,Tepat Waktu
+202101259,Budi Hakim,Laki-laki,Mandiri,2.99,3.05,2.96,3.48,3.12,80,0,88.2,0,0,Terlambat
+202101260,Aulia Permana,Perempuan,SNBP,2.09,2.02,1.86,1.38,1.84,76,10,79.3,1,0,Terlambat
+202101261,Rizky Wibowo,Laki-laki,SNBT,2.64,2.89,2.7,2.24,2.62,78,8,92.1,0,0,Terlambat
+202101262,Nurul Nugroho,Perempuan,SNBT,3.2,3.72,3.99,3.57,3.62,86,0,91.5,0,0,Tepat Waktu
+202101263,Rizky Saputra,Laki-laki,SNBT,2.79,2.89,2.64,3.21,2.88,76,8,88.4,0,1,Terlambat
+202101264,Rafi Utomo,Laki-laki,Mandiri,3.33,3.41,3.22,3.52,3.37,86,0,89.6,0,1,Tepat Waktu
+202101265,Satria Kusuma,Laki-laki,Mandiri,3.47,3.05,2.95,3.48,3.24,86,0,93.9,0,0,Tepat Waktu
+202101266,Bagus Wibowo,Laki-laki,Mandiri,3.33,3.46,3.51,3.37,3.42,84,2,94.0,0,0,Tepat Waktu
+202101267,Wahyu Setiawan,Laki-laki,SNBP,2.9,2.29,2.39,2.65,2.56,84,4,88.1,0,0,Terlambat
+202101268,Ilham Permana,Laki-laki,Mandiri,3.11,3.4,3.45,3.0,3.24,84,0,89.4,0,0,Tepat Waktu
+202101269,Maya Kusuma,Perempuan,SNBP,3.15,2.98,2.65,3.13,2.98,82,4,83.9,1,0,Terlambat
+202101270,Aditya Permana,Laki-laki,Mandiri,2.62,2.74,2.42,2.19,2.49,76,8,79.1,1,0,Terlambat
+202101271,Fitri Kusuma,Perempuan,SNBT,2.67,2.83,3.17,2.66,2.83,82,2,91.4,0,0,Terlambat
+202101272,Dwi Hakim,Perempuan,SNBP,2.86,3.02,2.47,2.69,2.76,81,5,85.6,0,0,Terlambat
+202101273,Putri Hidayat,Perempuan,SNBT,3.62,3.27,3.5,3.16,3.39,88,0,90.4,0,0,Tepat Waktu
+202101274,Rizky Saputra,Laki-laki,SNBP,3.07,3.2,2.81,2.77,2.96,84,0,93.4,0,0,Tepat Waktu
+202101275,Yoga Wijaya,Laki-laki,SNBP,3.1,3.08,2.94,3.31,3.11,88,0,89.9,0,0,Tepat Waktu
+202101276,Dimas Kusuma,Laki-laki,SNBT,3.34,2.83,3.23,2.9,3.08,84,0,97.4,0,0,Tepat Waktu
+202101277,Rizky Kusuma,Laki-laki,SNBP,3.1,2.68,2.72,2.43,2.73,81,3,83.7,1,0,Terlambat
+202101278,Nabila Wibowo,Perempuan,SNBP,2.61,2.7,3.41,2.77,2.87,84,0,83.6,0,0,Terlambat
+202101279,Eko Pratama,Laki-laki,SNBP,2.74,3.23,3.02,2.66,2.91,81,5,85.6,0,0,Tepat Waktu
+202101280,Bagus Nugroho,Laki-laki,SNBT,3.42,3.27,3.16,3.45,3.32,85,1,90.7,0,0,Tepat Waktu
+202101281,Nabila Hidayat,Perempuan,SNBP,3.57,3.17,3.56,3.4,3.42,81,3,96.0,0,1,Terlambat
+202101282,Nabila Hakim,Perempuan,SNBT,2.88,2.74,2.81,3.1,2.88,83,1,92.2,0,0,Terlambat
+202101283,Nurul Hidayat,Perempuan,SNBP,2.37,2.81,2.83,3.1,2.78,82,4,87.7,0,0,Tepat Waktu
+202101284,Budi Santoso,Laki-laki,Mandiri,2.93,2.83,2.57,2.86,2.8,85,1,87.8,1,0,Terlambat
+202101285,Satria Nugroho,Laki-laki,Mandiri,3.25,2.78,2.65,3.14,2.96,83,1,91.7,0,0,Tepat Waktu
+202101286,Satria Wijaya,Laki-laki,SNBP,2.18,2.08,2.26,2.45,2.24,81,7,84.9,0,1,Terlambat
+202101287,Wahyu Kusuma,Laki-laki,Mandiri,2.63,2.37,2.93,2.75,2.67,76,10,86.8,1,0,Terlambat
+202101288,Rizky Wijaya,Laki-laki,Mandiri,2.15,2.57,2.28,2.55,2.39,76,8,84.1,0,0,Terlambat
+202101289,Wahyu Utomo,Laki-laki,Mandiri,3.18,3.5,3.18,3.37,3.31,84,0,94.6,0,0,Tepat Waktu
+202101290,Bagus Hidayat,Laki-laki,SNBT,3.13,3.19,3.07,2.58,2.99,81,5,87.0,1,0,Terlambat
+202101291,Dimas Nugroho,Laki-laki,SNBP,3.21,3.32,3.05,2.72,3.08,77,3,93.4,0,0,Terlambat
+202101292,Farhan Hakim,Laki-laki,SNBT,2.96,2.52,2.29,2.59,2.59,80,6,87.6,0,0,Terlambat
+202101293,Siti Pratama,Perempuan,SNBT,2.69,2.83,2.87,2.25,2.66,77,7,91.7,0,0,Terlambat
+202101294,Maya Hidayat,Perempuan,SNBT,3.14,2.87,2.82,2.51,2.84,83,3,90.2,1,0,Terlambat
+202101295,Aulia Pratama,Perempuan,SNBT,3.45,3.79,3.84,3.78,3.72,80,4,94.7,0,0,Tepat Waktu
+202101296,Eko Hidayat,Laki-laki,Mandiri,3.43,3.66,3.91,3.77,3.69,88,0,95.3,0,0,Tepat Waktu
+202101297,Rizky Pratama,Laki-laki,Mandiri,2.73,2.65,3.16,3.1,2.91,86,2,93.4,0,0,Terlambat
+202101298,Satria Hidayat,Laki-laki,SNBP,3.22,2.87,2.94,3.82,3.21,85,3,91.1,0,0,Tepat Waktu
+202101299,Fitri Wibowo,Perempuan,SNBP,3.55,3.13,3.45,3.67,3.45,84,0,92.5,0,0,Tepat Waktu
+202101300,Anisa Kusuma,Perempuan,SNBP,2.86,2.89,2.95,2.83,2.88,82,4,85.9,0,0,Terlambat
+202101301,Budi Wibowo,Laki-laki,Mandiri,2.43,2.35,2.08,2.32,2.3,77,9,80.3,0,0,Terlambat
+202101302,Nurul Permana,Perempuan,SNBT,2.48,2.03,2.24,2.03,2.19,79,7,81.7,0,0,Terlambat
+202101303,Bagus Saputra,Laki-laki,SNBT,3.81,3.54,3.54,3.65,3.64,84,0,91.8,1,0,Tepat Waktu
+202101304,Rizky Hidayat,Laki-laki,SNBT,2.96,3.44,2.86,3.01,3.07,80,6,87.6,0,0,Terlambat
+202101305,Nabila Wijaya,Perempuan,SNBT,3.4,2.99,3.38,3.34,3.28,87,1,94.2,0,0,Terlambat
+202101306,Fitri Hakim,Perempuan,SNBT,3.26,3.0,2.42,2.72,2.85,82,2,89.0,1,0,Terlambat
+202101307,Dwi Permana,Perempuan,SNBT,2.39,2.62,2.38,2.54,2.48,78,6,88.1,0,0,Terlambat
+202101308,Fitri Permana,Perempuan,Mandiri,2.95,2.91,2.8,2.67,2.83,78,2,86.6,0,0,Tepat Waktu
+202101309,Satria Santoso,Laki-laki,Mandiri,2.38,2.47,2.67,2.33,2.46,75,9,80.9,1,0,Terlambat
+202101310,Dewi Hakim,Perempuan,Mandiri,3.76,3.14,3.3,3.72,3.48,86,0,95.1,0,0,Tepat Waktu
+202101311,Budi Permana,Laki-laki,Mandiri,3.66,3.99,3.47,3.46,3.65,86,0,96.2,0,0,Tepat Waktu
+202101312,Fitri Nugroho,Perempuan,SNBT,3.27,3.06,3.11,3.26,3.18,84,0,92.3,0,0,Tepat Waktu
+202101313,Satria Saputra,Laki-laki,SNBT,2.45,2.7,2.53,2.09,2.44,74,12,89.5,0,0,Terlambat
+202101314,Dwi Utomo,Perempuan,Mandiri,2.97,3.5,3.14,3.5,3.28,82,2,96.0,0,0,Tepat Waktu
+202101315,Ilham Pratama,Laki-laki,Mandiri,4.0,3.89,4.0,3.75,3.91,84,0,94.8,0,0,Tepat Waktu
+202101316,Rina Setiawan,Perempuan,SNBP,3.36,4.0,3.5,3.52,3.6,86,0,99.4,0,0,Tepat Waktu
+202101317,Aditya Pratama,Laki-laki,SNBT,2.83,3.15,2.9,3.08,2.99,83,1,91.8,0,0,Tepat Waktu
+202101318,Fitri Wijaya,Perempuan,SNBP,2.87,3.31,3.48,3.03,3.17,81,5,84.0,0,1,Terlambat
+202101319,Wahyu Saputra,Laki-laki,SNBT,3.59,2.99,3.4,3.36,3.34,80,0,92.2,0,1,Terlambat
+202101320,Bayu Permana,Laki-laki,SNBT,3.4,3.77,3.26,3.61,3.51,83,3,87.3,1,0,Terlambat
+202101321,Farhan Saputra,Laki-laki,SNBT,3.48,3.33,3.71,3.66,3.54,84,0,97.9,0,1,Terlambat
+202101322,Rizky Wibowo,Laki-laki,SNBP,2.7,3.03,2.6,2.25,2.64,81,7,80.5,1,0,Terlambat
+202101323,Siti Permana,Perempuan,SNBT,2.72,3.0,3.11,3.06,2.97,83,3,91.1,0,0,Tepat Waktu
+202101324,Dimas Setiawan,Laki-laki,Mandiri,2.56,2.43,3.33,2.28,2.65,78,6,83.6,0,0,Terlambat
+202101325,Tiara Saputra,Perempuan,SNBP,2.68,2.49,2.32,2.09,2.4,81,3,84.1,0,1,Terlambat
+202101326,Bagus Santoso,Laki-laki,SNBT,3.68,3.76,3.57,3.99,3.75,84,0,98.2,0,0,Tepat Waktu
+202101327,Aditya Permana,Laki-laki,SNBT,2.52,2.25,2.62,2.38,2.44,75,11,83.0,0,0,Terlambat
+202101328,Maya Utomo,Perempuan,Mandiri,3.5,3.3,3.39,3.28,3.37,84,0,96.4,0,0,Tepat Waktu
+202101329,Putri Wibowo,Perempuan,SNBP,3.0,3.02,2.92,3.15,3.02,82,4,94.9,0,0,Terlambat
+202101330,Bagus Pratama,Laki-laki,Mandiri,2.97,3.17,2.86,3.03,3.01,71,9,95.2,0,0,Terlambat
+202101331,Aulia Utomo,Perempuan,SNBT,3.28,2.88,2.63,3.14,2.98,76,4,96.0,0,0,Terlambat
+202101332,Nabila Utomo,Perempuan,Mandiri,3.28,3.65,3.04,3.33,3.32,79,5,95.5,0,0,Tepat Waktu
+202101333,Rizky Wibowo,Laki-laki,Mandiri,3.05,3.25,2.76,3.01,3.02,76,4,92.4,0,0,Terlambat
+202101334,Siti Nugroho,Perempuan,SNBP,2.52,2.11,2.73,2.43,2.45,79,7,89.5,0,0,Terlambat
+202101335,Maya Kusuma,Perempuan,SNBP,2.81,3.13,2.76,2.99,2.92,76,4,90.5,0,0,Tepat Waktu
+202101336,Nabila Nugroho,Perempuan,SNBP,2.8,2.8,2.53,2.78,2.73,84,4,87.8,0,0,Terlambat
+202101337,Ilham Pratama,Laki-laki,SNBT,3.83,4.0,3.51,3.85,3.8,86,0,98.4,0,0,Tepat Waktu
+202101338,Zahra Hakim,Perempuan,SNBP,2.98,3.05,2.93,2.65,2.9,82,2,85.7,1,0,Terlambat
+202101339,Budi Kusuma,Laki-laki,SNBP,2.87,3.11,3.08,2.24,2.82,79,5,92.7,0,0,Terlambat
+202101340,Fajar Nugroho,Laki-laki,SNBT,4.0,3.78,3.99,4.0,3.94,84,0,95.9,0,0,Tepat Waktu
+202101341,Dimas Utomo,Laki-laki,SNBP,3.39,3.08,3.93,3.67,3.52,84,2,93.6,0,0,Tepat Waktu
+202101342,Wahyu Wijaya,Laki-laki,SNBP,2.51,2.55,2.47,2.44,2.49,77,7,82.3,1,0,Terlambat
+202101343,Nurul Wibowo,Perempuan,SNBT,2.69,3.09,2.72,2.99,2.87,75,5,89.5,0,0,Tepat Waktu
+202101344,Nabila Permana,Perempuan,SNBP,3.29,3.52,2.74,3.06,3.15,83,1,95.6,1,0,Terlambat
+202101345,Zahra Kusuma,Perempuan,SNBT,3.32,3.63,3.17,3.2,3.33,81,3,99.6,0,0,Tepat Waktu
+202101346,Satria Utomo,Laki-laki,SNBT,3.52,3.18,3.29,3.02,3.25,88,0,92.3,0,0,Tepat Waktu
+202101347,Aditya Saputra,Laki-laki,SNBT,2.57,3.03,2.31,2.5,2.6,78,10,81.8,1,0,Terlambat
+202101348,Rafi Permana,Laki-laki,Mandiri,3.58,3.58,3.16,3.35,3.42,84,0,94.9,0,0,Tepat Waktu
+202101349,Rina Hakim,Perempuan,SNBT,2.22,2.03,2.04,2.15,2.11,77,9,83.7,0,0,Terlambat
+202101350,Dimas Saputra,Laki-laki,SNBT,3.05,3.2,2.55,3.26,3.02,88,0,83.3,1,0,Terlambat
+202101351,Anisa Permana,Perempuan,SNBT,3.01,2.85,3.31,2.52,2.92,77,3,84.4,1,0,Terlambat
+202101352,Tiara Nugroho,Perempuan,Mandiri,3.12,3.0,2.95,2.78,2.96,85,1,89.2,0,0,Tepat Waktu
+202101353,Farhan Hidayat,Laki-laki,Mandiri,2.98,3.2,3.1,2.94,3.06,79,5,91.8,0,0,Tepat Waktu
+202101354,Anisa Setiawan,Perempuan,Mandiri,3.43,3.83,3.16,2.93,3.34,85,1,88.2,1,0,Tepat Waktu
+202101355,Farhan Permana,Laki-laki,SNBT,2.58,2.6,3.35,2.68,2.8,84,2,78.4,0,0,Terlambat
+202101356,Anisa Utomo,Perempuan,SNBP,2.22,2.51,1.52,1.85,2.02,80,8,71.9,1,0,Terlambat
+202101357,Dwi Hakim,Perempuan,SNBP,2.61,2.59,2.51,2.65,2.59,80,4,85.2,0,0,Terlambat
+202101358,Budi Setiawan,Laki-laki,SNBP,3.36,3.97,3.81,3.79,3.73,86,0,96.3,0,0,Tepat Waktu
+202101359,Rizky Kusuma,Laki-laki,Mandiri,2.39,2.11,2.2,2.43,2.28,77,7,77.6,1,0,Terlambat
+202101360,Nurul Nugroho,Perempuan,SNBT,2.44,2.63,2.52,2.86,2.61,81,3,96.4,0,0,Terlambat
+202101361,Siti Kusuma,Perempuan,Mandiri,3.41,3.27,3.48,3.62,3.44,86,2,96.6,0,0,Tepat Waktu
+202101362,Bagus Wijaya,Laki-laki,SNBT,3.24,3.28,3.24,3.62,3.34,86,0,99.7,0,0,Tepat Waktu
+202101363,Maya Wijaya,Perempuan,Mandiri,3.79,3.43,3.74,3.4,3.59,84,0,97.6,0,0,Tepat Waktu
+202101364,Siti Wibowo,Perempuan,SNBP,1.5,2.51,2.35,2.38,2.18,76,10,80.1,0,0,Terlambat
+202101365,Zahra Wijaya,Perempuan,SNBP,2.92,2.84,3.24,2.6,2.9,80,0,80.0,1,0,Terlambat
+202101366,Dimas Setiawan,Laki-laki,SNBT,3.82,3.79,3.77,3.96,3.84,84,0,94.2,0,0,Tepat Waktu
+202101367,Putri Hidayat,Perempuan,SNBT,2.36,2.73,2.79,2.39,2.57,84,2,83.9,0,0,Terlambat
+202101368,Putri Santoso,Perempuan,SNBT,3.49,3.34,2.76,3.43,3.26,86,0,90.2,1,0,Terlambat
+202101369,Aditya Wijaya,Laki-laki,Mandiri,3.24,2.69,3.46,2.82,3.05,80,4,90.5,0,0,Terlambat
+202101370,Budi Hidayat,Laki-laki,SNBP,3.2,3.36,3.31,2.85,3.18,85,1,92.6,0,1,Terlambat
+202101371,Zahra Hakim,Perempuan,SNBT,3.99,3.61,3.45,4.0,3.76,84,0,100.0,0,0,Tepat Waktu
+202101372,Wahyu Utomo,Laki-laki,SNBT,3.15,3.4,3.0,3.01,3.14,80,0,92.4,1,0,Terlambat
+202101373,Tiara Setiawan,Perempuan,SNBP,3.12,2.54,3.0,2.62,2.82,78,6,88.7,0,0,Terlambat
+202101374,Eko Wijaya,Laki-laki,Mandiri,3.36,3.27,3.61,3.21,3.36,87,1,88.2,0,0,Tepat Waktu
+202101375,Farhan Wibowo,Laki-laki,Mandiri,2.63,2.76,2.78,3.26,2.86,87,1,85.7,0,0,Tepat Waktu
+202101376,Dwi Utomo,Perempuan,Mandiri,3.51,2.69,3.37,3.55,3.28,84,0,96.5,0,0,Tepat Waktu
+202101377,Eko Setiawan,Laki-laki,Mandiri,2.3,2.76,2.47,2.48,2.5,71,9,88.6,0,1,Terlambat
+202101378,Yoga Setiawan,Laki-laki,Mandiri,2.95,2.95,3.24,3.33,3.12,84,2,88.4,0,0,Tepat Waktu
+202101379,Fajar Hidayat,Laki-laki,SNBP,3.73,3.96,3.69,3.37,3.69,86,0,97.5,0,0,Tepat Waktu
+202101380,Tiara Pratama,Perempuan,Mandiri,2.98,2.81,2.82,2.9,2.88,82,2,80.2,1,0,Terlambat
+202101381,Satria Wibowo,Laki-laki,SNBT,3.65,3.48,3.51,3.48,3.53,81,3,87.9,0,0,Tepat Waktu
+202101382,Ilham Pratama,Laki-laki,SNBP,3.88,3.68,4.0,4.0,3.89,88,0,89.3,0,0,Tepat Waktu
+202101383,Siti Wijaya,Perempuan,SNBP,2.85,3.34,2.88,2.74,2.95,83,3,85.4,0,0,Tepat Waktu
+202101384,Farhan Nugroho,Laki-laki,Mandiri,3.25,3.48,3.43,3.23,3.35,84,0,97.0,0,0,Tepat Waktu
+202101385,Anisa Santoso,Perempuan,Mandiri,3.58,3.62,3.16,3.36,3.43,86,0,92.7,0,0,Tepat Waktu
+202101386,Farhan Santoso,Laki-laki,SNBP,2.93,3.16,2.95,3.24,3.07,79,5,91.1,0,0,Tepat Waktu
+202101387,Aulia Kusuma,Perempuan,Mandiri,3.78,3.45,3.28,3.09,3.4,84,0,93.9,0,0,Tepat Waktu
+202101388,Eko Kusuma,Laki-laki,Mandiri,3.05,2.62,2.94,2.75,2.84,86,2,86.2,0,0,Terlambat
+202101389,Rina Wibowo,Perempuan,SNBP,2.68,2.66,2.67,2.91,2.73,78,6,87.4,0,1,Terlambat
+202101390,Ilham Pratama,Laki-laki,SNBP,2.01,2.45,2.51,2.49,2.37,78,6,85.5,0,0,Terlambat
+202101391,Rafi Setiawan,Laki-laki,Mandiri,2.57,3.03,2.97,3.11,2.92,86,0,87.0,0,0,Tepat Waktu
+202101392,Rizky Nugroho,Laki-laki,SNBP,3.43,3.91,3.76,3.55,3.66,88,0,93.2,0,0,Tepat Waktu
+202101393,Bagus Nugroho,Laki-laki,SNBT,2.58,2.27,2.66,2.41,2.48,83,3,87.1,0,0,Terlambat
+202101394,Farhan Wijaya,Laki-laki,SNBP,3.23,3.26,3.26,3.12,3.22,80,0,91.3,0,1,Terlambat
+202101395,Ilham Hidayat,Laki-laki,SNBT,3.39,2.96,3.51,3.18,3.26,85,1,93.9,0,0,Terlambat
+202101396,Aulia Pratama,Perempuan,Mandiri,2.93,2.84,2.6,2.38,2.69,82,4,81.1,1,0,Terlambat
+202101397,Ilham Utomo,Laki-laki,SNBT,2.24,2.29,2.19,1.98,2.18,76,8,91.0,0,0,Terlambat
+202101398,Fajar Saputra,Laki-laki,Mandiri,3.96,3.67,4.0,3.64,3.82,86,0,92.3,0,0,Tepat Waktu
+202101399,Rina Kusuma,Perempuan,Mandiri,3.36,3.08,3.09,3.4,3.23,80,4,90.3,0,0,Terlambat
+202101400,Zahra Saputra,Perempuan,Mandiri,4.0,3.66,4.0,3.49,3.79,88,0,97.1,0,0,Tepat Waktu
+202101401,Yoga Kusuma,Laki-laki,SNBT,3.45,3.53,3.53,3.53,3.51,86,0,96.1,0,0,Tepat Waktu
+202101402,Bagus Pratama,Laki-laki,SNBP,3.47,3.39,3.28,3.58,3.43,84,0,83.2,1,1,Tepat Waktu
+202101403,Yoga Pratama,Laki-laki,SNBT,1.91,2.29,2.54,2.49,2.31,78,8,86.1,0,0,Terlambat
+202101404,Nabila Wibowo,Perempuan,SNBP,2.28,2.25,1.86,1.76,2.04,74,10,81.5,1,0,Terlambat
+202101405,Putri Wibowo,Perempuan,Mandiri,2.87,2.58,3.44,2.94,2.96,79,7,78.9,1,0,Terlambat
+202101406,Satria Hakim,Laki-laki,SNBT,2.33,3.01,2.6,2.83,2.69,76,4,88.5,0,0,Tepat Waktu
+202101407,Putri Hidayat,Perempuan,SNBT,3.0,2.81,2.81,2.95,2.89,83,1,84.9,0,0,Terlambat
+202101408,Nurul Nugroho,Perempuan,SNBP,3.61,3.41,3.8,3.85,3.67,86,0,92.1,0,1,Tepat Waktu
+202101409,Tiara Hakim,Perempuan,Mandiri,3.66,3.69,3.6,3.04,3.5,86,0,94.2,0,0,Tepat Waktu
+202101410,Nabila Setiawan,Perempuan,Mandiri,2.66,2.63,2.44,2.48,2.55,79,5,81.2,1,1,Terlambat
+202101411,Ilham Kusuma,Laki-laki,SNBT,2.05,1.75,2.37,2.43,2.15,76,10,81.4,0,0,Terlambat
+202101412,Rizky Kusuma,Laki-laki,Mandiri,2.92,2.71,2.49,2.47,2.65,81,5,86.8,1,0,Terlambat
+202101413,Yoga Hakim,Laki-laki,SNBP,2.68,2.64,3.03,3.04,2.85,79,5,88.6,0,0,Terlambat
+202101414,Bayu Utomo,Laki-laki,SNBT,3.23,3.0,2.66,2.69,2.9,81,3,86.0,1,0,Tepat Waktu
+202101415,Wahyu Nugroho,Laki-laki,Mandiri,2.17,2.37,2.12,2.62,2.32,81,5,85.8,1,0,Terlambat
+202101416,Siti Pratama,Perempuan,SNBT,3.74,3.41,3.7,3.68,3.63,84,0,92.3,0,0,Tepat Waktu
+202101417,Rizky Santoso,Laki-laki,Mandiri,3.08,2.78,3.18,2.34,2.84,79,9,91.9,0,0,Terlambat
+202101418,Satria Utomo,Laki-laki,SNBP,2.58,3.03,3.13,3.61,3.09,81,5,92.8,0,0,Tepat Waktu
+202101419,Satria Pratama,Laki-laki,SNBP,3.12,3.11,3.11,2.6,2.98,88,0,79.8,1,1,Terlambat
+202101420,Maya Saputra,Perempuan,Mandiri,3.5,3.67,3.53,3.27,3.49,81,3,92.0,1,0,Tepat Waktu
+202101421,Dimas Santoso,Laki-laki,SNBP,3.01,3.27,2.4,2.97,2.91,83,3,84.5,1,0,Terlambat
+202101422,Farhan Kusuma,Laki-laki,Mandiri,3.03,2.92,2.91,2.5,2.84,78,2,87.9,0,0,Terlambat
+202101423,Budi Saputra,Laki-laki,Mandiri,2.68,3.13,3.06,2.58,2.86,83,3,84.2,0,0,Terlambat
+202101424,Farhan Pratama,Laki-laki,SNBP,2.6,2.74,2.41,2.84,2.65,79,5,78.1,1,0,Terlambat
+202101425,Rina Setiawan,Perempuan,SNBT,3.97,3.72,4.0,3.67,3.84,84,0,95.6,0,1,Terlambat
+202101426,Dewi Wibowo,Perempuan,SNBP,3.36,3.31,2.68,2.82,3.04,81,3,80.3,1,0,Terlambat
+202101427,Budi Setiawan,Laki-laki,SNBT,3.21,2.99,3.19,3.38,3.19,78,2,94.2,0,0,Tepat Waktu
+202101428,Maya Wijaya,Perempuan,SNBP,3.5,3.5,3.75,3.9,3.66,86,0,93.5,0,0,Tepat Waktu
+202101429,Tiara Pratama,Perempuan,SNBP,3.05,3.26,3.4,2.65,3.09,85,1,85.8,0,0,Tepat Waktu
+202101430,Putri Setiawan,Perempuan,SNBT,3.2,4.0,3.22,3.55,3.49,86,0,91.5,0,0,Tepat Waktu
+202101431,Satria Pratama,Laki-laki,SNBT,3.05,3.05,3.38,3.25,3.18,82,2,88.2,0,0,Tepat Waktu
+202101432,Ilham Wijaya,Laki-laki,Mandiri,3.03,2.93,3.24,2.79,3.0,81,3,86.5,0,0,Terlambat
+202101433,Budi Pratama,Laki-laki,Mandiri,2.52,2.41,2.92,2.86,2.68,80,6,81.0,0,0,Tepat Waktu
+202101434,Siti Permana,Perempuan,Mandiri,3.84,4.0,4.0,4.0,3.96,86,0,97.1,0,0,Tepat Waktu
+202101435,Eko Permana,Laki-laki,SNBT,2.86,3.16,2.96,2.92,2.98,79,5,87.3,0,0,Terlambat
+202101436,Farhan Santoso,Laki-laki,Mandiri,2.75,2.5,2.3,2.68,2.56,81,5,94.6,0,0,Terlambat
+202101437,Farhan Wijaya,Laki-laki,SNBT,3.12,3.09,2.67,3.21,3.02,83,3,88.3,1,1,Terlambat
+202101438,Nabila Wibowo,Perempuan,Mandiri,2.78,2.72,2.97,3.04,2.88,84,4,95.7,0,0,Terlambat
+202101439,Rafi Nugroho,Laki-laki,Mandiri,3.05,2.93,2.83,2.37,2.8,78,2,86.0,1,1,Terlambat
+202101440,Anisa Hakim,Perempuan,SNBT,3.31,2.92,3.22,3.56,3.25,82,4,90.3,0,0,Terlambat
+202101441,Fitri Utomo,Perempuan,SNBT,3.9,4.0,3.67,3.96,3.88,84,0,97.4,0,0,Tepat Waktu
+202101442,Bayu Pratama,Laki-laki,Mandiri,3.18,3.37,3.16,2.86,3.14,86,0,90.6,0,0,Terlambat
+202101443,Maya Nugroho,Perempuan,Mandiri,2.82,2.74,2.62,2.75,2.73,77,7,90.3,0,0,Terlambat
+202101444,Bagus Nugroho,Laki-laki,Mandiri,2.91,2.78,2.88,3.08,2.91,83,3,93.3,0,0,Terlambat
+202101445,Putri Hakim,Perempuan,SNBP,3.49,3.39,3.22,3.13,3.31,86,0,94.8,0,0,Tepat Waktu
+202101446,Rizky Kusuma,Laki-laki,SNBT,2.32,2.25,2.37,1.99,2.23,75,9,86.0,0,0,Terlambat
+202101447,Fitri Setiawan,Perempuan,SNBP,2.39,2.56,2.94,2.64,2.63,79,7,88.7,0,0,Terlambat
+202101448,Maya Santoso,Perempuan,Mandiri,3.08,3.42,3.32,3.09,3.23,85,1,93.0,0,0,Terlambat
+202101449,Putri Saputra,Perempuan,SNBP,2.29,2.02,2.31,2.39,2.25,77,7,89.9,0,0,Terlambat
+202101450,Fitri Santoso,Perempuan,Mandiri,3.05,2.8,3.21,3.17,3.06,75,5,89.4,0,0,Tepat Waktu
+202101451,Wahyu Wijaya,Laki-laki,SNBP,3.2,3.06,2.89,2.95,3.03,74,6,90.0,0,1,Terlambat
+202101452,Fitri Utomo,Perempuan,SNBP,3.33,3.57,3.73,3.49,3.53,86,0,92.3,0,0,Tepat Waktu
+202101453,Nurul Santoso,Perempuan,SNBT,3.16,2.84,2.83,3.19,3.0,83,3,91.2,0,0,Terlambat
+202101454,Nurul Utomo,Perempuan,Mandiri,3.52,3.72,3.51,3.61,3.59,86,0,96.7,0,0,Terlambat
+202101455,Bagus Kusuma,Laki-laki,SNBP,3.41,2.96,2.68,2.7,2.94,79,5,85.4,1,0,Terlambat
+202101456,Zahra Nugroho,Perempuan,SNBT,4.0,3.83,3.62,4.0,3.86,84,0,89.9,1,0,Tepat Waktu
+202101457,Dewi Hidayat,Perempuan,SNBT,2.13,2.71,2.72,1.87,2.36,76,8,90.5,0,0,Terlambat
+202101458,Zahra Hidayat,Perempuan,SNBP,3.76,4.0,3.61,3.84,3.8,88,0,93.0,0,0,Tepat Waktu
+202101459,Eko Pratama,Laki-laki,SNBP,2.44,2.98,2.34,2.82,2.64,75,9,83.3,0,0,Terlambat
+202101460,Maya Saputra,Perempuan,Mandiri,3.43,3.53,3.66,3.53,3.54,81,3,95.3,0,0,Tepat Waktu
+202101461,Dimas Kusuma,Laki-laki,SNBT,3.31,3.55,3.34,3.71,3.48,86,0,93.6,0,0,Tepat Waktu
+202101462,Dwi Permana,Perempuan,SNBP,1.94,1.84,1.69,1.93,1.85,75,13,83.0,0,0,Terlambat
+202101463,Satria Santoso,Laki-laki,Mandiri,3.4,3.64,3.84,3.11,3.5,80,0,89.3,0,0,Tepat Waktu
+202101464,Putri Santoso,Perempuan,Mandiri,3.71,3.16,3.33,3.2,3.35,82,2,93.6,0,0,Tepat Waktu
+202101465,Anisa Utomo,Perempuan,SNBT,3.82,3.51,3.86,3.37,3.64,86,0,100.0,0,0,Tepat Waktu
+202101466,Wahyu Setiawan,Laki-laki,SNBT,2.67,2.82,2.55,3.02,2.76,77,9,84.6,0,1,Terlambat
+202101467,Dwi Permana,Perempuan,Mandiri,3.39,3.66,3.46,3.85,3.59,80,0,93.9,0,0,Tepat Waktu
+202101468,Rafi Hidayat,Laki-laki,Mandiri,3.16,3.17,3.06,3.2,3.15,86,0,92.0,0,0,Terlambat
+202101469,Nabila Wibowo,Perempuan,Mandiri,3.5,3.63,3.58,2.95,3.42,86,0,91.8,0,0,Tepat Waktu
+202101470,Nabila Permana,Perempuan,SNBT,3.55,3.39,3.66,3.51,3.53,83,3,94.6,0,0,Tepat Waktu
+202101471,Nabila Saputra,Perempuan,SNBT,3.73,3.29,3.73,3.07,3.46,82,2,92.1,0,1,Terlambat
+202101472,Siti Nugroho,Perempuan,Mandiri,2.34,2.98,2.83,2.88,2.76,83,1,89.8,0,0,Tepat Waktu
+202101473,Zahra Hakim,Perempuan,SNBP,2.98,3.5,3.53,2.97,3.24,78,8,91.4,0,0,Terlambat
+202101474,Dimas Utomo,Laki-laki,SNBT,3.31,3.4,2.96,2.48,3.04,83,3,83.1,1,0,Terlambat
+202101475,Eko Hidayat,Laki-laki,Mandiri,2.86,2.8,3.09,3.24,3.0,86,0,90.5,0,0,Tepat Waktu
+202101476,Dewi Nugroho,Perempuan,SNBT,2.76,3.08,3.06,2.87,2.94,83,3,86.1,1,0,Terlambat
+202101477,Tiara Wibowo,Perempuan,SNBT,3.32,3.37,2.75,3.4,3.21,77,3,86.6,0,0,Tepat Waktu
+202101478,Rina Setiawan,Perempuan,SNBT,2.83,2.9,2.88,3.13,2.93,78,6,92.7,0,0,Tepat Waktu
+202101479,Tiara Hidayat,Perempuan,SNBP,3.42,3.82,3.48,3.48,3.55,84,0,91.6,0,0,Tepat Waktu
+202101480,Budi Santoso,Laki-laki,SNBT,3.97,3.58,3.96,3.67,3.8,88,0,97.9,0,0,Tepat Waktu
+202101481,Rina Santoso,Perempuan,Mandiri,3.0,2.72,2.56,3.0,2.82,80,4,87.3,0,0,Terlambat
+202101482,Rafi Permana,Laki-laki,SNBP,3.66,3.75,3.74,3.56,3.68,80,0,97.5,0,1,Tepat Waktu
+202101483,Ilham Hakim,Laki-laki,SNBP,2.88,2.91,2.99,2.81,2.9,79,5,84.0,1,0,Terlambat
+202101484,Eko Hakim,Laki-laki,Mandiri,3.06,3.46,3.35,2.61,3.12,83,5,82.2,1,0,Terlambat
+202101485,Bagus Wibowo,Laki-laki,SNBP,3.91,3.9,3.36,3.6,3.69,86,0,93.5,0,0,Tepat Waktu
+202101486,Budi Setiawan,Laki-laki,SNBP,2.84,3.41,3.6,3.1,3.24,88,0,96.4,0,0,Tepat Waktu
+202101487,Rizky Wijaya,Laki-laki,Mandiri,2.44,2.62,2.56,2.43,2.51,79,5,87.9,0,0,Tepat Waktu
+202101488,Tiara Hidayat,Perempuan,Mandiri,2.48,2.8,2.58,2.93,2.7,84,2,87.3,0,0,Tepat Waktu
+202101489,Satria Wijaya,Laki-laki,SNBT,2.89,3.48,2.77,3.12,3.07,84,0,89.2,1,0,Terlambat
+202101490,Fajar Kusuma,Laki-laki,Mandiri,4.0,4.0,3.86,3.63,3.87,84,0,93.2,1,0,Terlambat
+202101491,Yoga Wibowo,Laki-laki,SNBP,2.46,2.48,2.43,1.82,2.3,75,5,77.4,1,0,Terlambat
+202101492,Rafi Wibowo,Laki-laki,Mandiri,2.99,2.97,3.59,2.93,3.12,84,0,90.8,0,0,Tepat Waktu
+202101493,Farhan Permana,Laki-laki,SNBT,3.23,3.1,3.06,2.67,3.02,84,2,84.7,0,0,Tepat Waktu
+202101494,Bagus Utomo,Laki-laki,Mandiri,2.78,3.11,2.65,3.3,2.96,88,0,93.6,0,1,Terlambat
+202101495,Dewi Permana,Perempuan,SNBT,3.13,2.88,2.74,2.68,2.86,75,5,83.9,1,0,Terlambat
+202101496,Fitri Utomo,Perempuan,SNBT,2.76,2.62,2.86,2.52,2.69,84,4,91.2,0,0,Terlambat
+202101497,Maya Permana,Perempuan,SNBT,3.64,3.58,3.65,3.63,3.62,84,0,87.9,0,0,Tepat Waktu
+202101498,Dimas Hakim,Laki-laki,SNBT,3.52,3.85,4.0,3.76,3.78,82,2,94.6,0,0,Tepat Waktu
+202101499,Satria Hakim,Laki-laki,Mandiri,2.99,2.84,2.68,2.65,2.79,84,0,84.0,1,0,Terlambat
+202101500,Nabila Pratama,Perempuan,SNBT,3.15,2.88,2.76,2.95,2.93,79,5,82.9,0,0,Terlambat
