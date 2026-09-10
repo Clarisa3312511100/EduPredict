@@ -65,15 +65,19 @@ async function checkServerHealth() {
     const dot = document.getElementById("serverStatusDot");
     const text = document.getElementById("serverStatusText");
 
-    if (data.status === "online") {
-      dot.className = "status-indicator online";
-      text.textContent = data.model_ready ? "Model Aktif (Siap Inferensi)" : "Model Sedang Dilatih";
+    if (dot && text) {
+      if (data.status === "online") {
+        dot.className = "status-indicator online";
+        text.textContent = data.model_ready ? "Model Aktif (Siap Inferensi)" : "Model Sedang Dilatih";
+      }
     }
   } catch (err) {
     const dot = document.getElementById("serverStatusDot");
     const text = document.getElementById("serverStatusText");
-    dot.className = "status-indicator offline";
-    text.textContent = "Server Offline";
+    if (dot && text) {
+      dot.className = "status-indicator offline";
+      text.textContent = "Server Offline";
+    }
   }
 }
 

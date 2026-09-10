@@ -1179,7 +1179,7 @@ code, pre, .font-mono,
   }
 
   .result-card::before {
-    content: "LEMBAR EVALUASI & REKOMENDASI PEMBIMBING AKADEMIK (PA) - POLITEKNIK NEGERI BATAM";
+    content: "LEMBAR EVALUASI & REKOMENDASI PEMBIMBING AKADEMIK (PA)";
     display: block;
     font-size: 12pt;
     font-weight: 700;
