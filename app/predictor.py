@@ -67,12 +67,53 @@ class StudentGraduationPredictor:
             "Status_Nikah": status_nikah
         }])
 
-        # Prediksi probabilitas keterlambatan (kelas 1)
+        # Prediksi probabilitas dasar dari model Machine Learning (data riil)
         probabilities = self.model.predict_proba(df_input)[0]
-        prob_tepat = round(float(probabilities[0]) * 100, 1)
-        prob_terlambat = round(float(probabilities[1]) * 100, 1)
+        ml_prob_terlambat = float(probabilities[1]) * 100.0
 
-        # Klasifikasi status dan tingkat risiko
+        # === HYBRID AI: ACADEMIC RULE GUARDRAILS ===
+        # Mencegah bias data mentah agar mahasiswa IPK rendah tidak salah divonis aman
+        academic_risk_score = 0.0
+
+        # 1. Ambang batas IPK Kumulatif (Standar Dikti)
+        if ipk_kumulatif < 2.00:
+            academic_risk_score += 55.0  # Level bahaya Drop Out
+        elif ipk_kumulatif < 2.50:
+            academic_risk_score += 38.0  # Di bawah standar kelulusan sarjana/diploma
+        elif ipk_kumulatif < 2.75:
+            academic_risk_score += 18.0
+        elif ipk_kumulatif >= 3.50:
+            academic_risk_score -= 20.0  # Bonus perlindungan mahasiswa berprestasi
+
+        # 2. Ambang batas kemerosotan performa (Tren IPS)
+        if tren_ips < -0.80:
+            academic_risk_score += 25.0
+        elif tren_ips < -0.40:
+            academic_risk_score += 15.0
+        elif tren_ips > 0.30:
+            academic_risk_score -= 10.0
+
+        # 3. Ambang batas nilai semester kritis (IPS Sem 4)
+        if ips4 < 2.00:
+            academic_risk_score += 20.0
+        elif ips4 < 2.50:
+            academic_risk_score += 10.0
+
+        # Kalibrasi probabilitas gabungan (Ensemble Hybrid)
+        if ml_prob_terlambat <= 10.0 and academic_risk_score > 0:
+            # Kasus seperti Arya: model ML bias 0% karena tidak bekerja, tapi nilai akademik anjlok
+            prob_terlambat = max(ml_prob_terlambat, academic_risk_score)
+        elif ml_prob_terlambat >= 90.0 and academic_risk_score < 0:
+            # Kasus mahasiswa bekerja tapi IPK tinggi / cumlaude
+            prob_terlambat = max(25.0, ml_prob_terlambat + academic_risk_score)
+        else:
+            prob_terlambat = (ml_prob_terlambat * 0.45) + (max(0.0, academic_risk_score) * 0.55)
+
+        # Batasi rentang probabilitas agar tetap realistis
+        prob_terlambat = round(max(2.0, min(98.0, prob_terlambat)), 1)
+        prob_tepat = round(100.0 - prob_terlambat, 1)
+
+        # Klasifikasi status dan tingkat risiko konsisten
         if prob_terlambat >= 60.0:
             status = "Terlambat"
             tingkat_risiko = "Tinggi"
