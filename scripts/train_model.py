@@ -17,27 +17,24 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
     roc_auc_score,
-    confusion_matrix,
-    classification_report
+    confusion_matrix
 )
 
 def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir="models"):
     os.makedirs(output_dir, exist_ok=True)
     
-    print(f"1. Membaca dataset dari: {data_path}")
+    print(f"1. Membaca dataset riil mahasiswa dari: {data_path}")
     df = pd.read_csv(data_path)
 
-    # Feature Engineering tambahan
+    # Feature Engineering: Tren IPS Semester 1 ke 4
     df["Tren_IPS"] = np.round(df["IPS_Sem4"] - df["IPS_Sem1"], 2)
-    df["Rasio_SKS_Gagal"] = np.round(df["SKS_Gagal"] / (df["SKS_Lulus"] + df["SKS_Gagal"]), 3)
 
     # Fitur dan Target
     numeric_features = [
         "IPS_Sem1", "IPS_Sem2", "IPS_Sem3", "IPS_Sem4",
-        "IPK_Kumulatif", "SKS_Lulus", "SKS_Gagal",
-        "Persentase_Kehadiran", "Tren_IPS", "Rasio_SKS_Gagal"
+        "IPK_Kumulatif", "Umur", "Tren_IPS"
     ]
-    categorical_features = ["Jalur_Masuk", "Status_Bekerja", "Pernah_Cuti"]
+    categorical_features = ["Jenis_Kelamin", "Status_Bekerja", "Status_Nikah"]
 
     X = df[numeric_features + categorical_features]
     # Label: 0 = Tepat Waktu, 1 = Terlambat
@@ -51,13 +48,12 @@ def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir
         "persentase_tepat_waktu": round(float((y == 0).mean() * 100), 1),
         "persentase_terlambat": round(float((y == 1).mean() * 100), 1),
         "rata_rata_ipk": round(float(df["IPK_Kumulatif"].mean()), 2),
-        "rata_rata_sks_gagal": round(float(df["SKS_Gagal"].mean()), 1),
-        "rata_rata_kehadiran": round(float(df["Persentase_Kehadiran"].mean()), 1)
+        "rata_rata_umur": round(float(df["Umur"].mean()), 1)
     }
     with open(os.path.join(output_dir, "dataset_stats.json"), "w") as f:
         json.dump(dataset_stats, f, indent=2)
 
-    # Split Data (80% Train, 20% Test)
+    # Split Data (80% Train, 20% Test) dengan Stratified Split
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.20, random_state=42, stratify=y
     )
@@ -68,15 +64,15 @@ def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir
     preprocessor = ColumnTransformer(
         transformers=[
             ("num", StandardScaler(), numeric_features),
-            ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features)
+            ("cat", OneHotEncoder(handle_unknown="ignore", drop="if_binary"), categorical_features)
         ]
     )
 
     # Kandidat Model
     candidate_models = {
         "Logistic Regression": LogisticRegression(max_iter=1000, random_state=42),
-        "Decision Tree": DecisionTreeClassifier(max_depth=6, min_samples_split=10, random_state=42),
-        "Random Forest": RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_split=6, random_state=42)
+        "Decision Tree": DecisionTreeClassifier(max_depth=5, min_samples_split=8, random_state=42),
+        "Random Forest": RandomForestClassifier(n_estimators=100, max_depth=6, min_samples_split=6, random_state=42)
     }
 
     results = {}
@@ -98,9 +94,9 @@ def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir
         y_prob = pipeline.predict_proba(X_test)[:, 1]
 
         acc = accuracy_score(y_test, y_pred)
-        prec = precision_score(y_test, y_pred)
-        rec = recall_score(y_test, y_pred)
-        f1 = f1_score(y_test, y_pred)
+        prec = precision_score(y_test, y_pred, zero_division=0)
+        rec = recall_score(y_test, y_pred, zero_division=0)
+        f1 = f1_score(y_test, y_pred, zero_division=0)
         auc = roc_auc_score(y_test, y_prob)
         cm = confusion_matrix(y_test, y_pred).tolist()
 
@@ -129,25 +125,24 @@ def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir
 
     print(f"\n>> Model Terbaik Terpilih: {best_model_name} dengan F1-Score: {best_f1:.4f}")
 
-    # Ekstraksi Feature Importance dari model terbaik (jika Random Forest / Decision Tree)
+    # Ekstraksi Feature Importance dari model terbaik
     clf_step = best_pipeline.named_steps["classifier"]
     pre_step = best_pipeline.named_steps["preprocessor"]
     
-    # Ambil nama fitur setelah one-hot encoding
     cat_encoder = pre_step.named_transformers_["cat"]
     encoded_cat_names = list(cat_encoder.get_feature_names_out(categorical_features))
     all_feature_names = numeric_features + encoded_cat_names
 
     feature_importances = []
-    if hasattr(clf_step, "feature_importances_"):
-        importances = clf_step.feature_importances_
+    if hasattr(clf_step, "coef_"):
+        importances = np.abs(clf_step.coef_[0])
         for feat_name, imp in sorted(zip(all_feature_names, importances), key=lambda x: x[1], reverse=True):
             feature_importances.append({
                 "feature": feat_name,
                 "importance": round(float(imp), 4)
             })
-    elif hasattr(clf_step, "coef_"):
-        importances = np.abs(clf_step.coef_[0])
+    elif hasattr(clf_step, "feature_importances_"):
+        importances = clf_step.feature_importances_
         for feat_name, imp in sorted(zip(all_feature_names, importances), key=lambda x: x[1], reverse=True):
             feature_importances.append({
                 "feature": feat_name,
@@ -169,10 +164,6 @@ def train_and_evaluate_models(data_path="data/dataset_kelulusan.csv", output_dir
     # Simpan model pipeline utuh (.joblib)
     joblib.dump(best_pipeline, os.path.join(output_dir, "best_model.joblib"))
     print(f"\nModel dan artefak berhasil disimpan di direktori: '{output_dir}/'")
-    print("Files:")
-    print("  - best_model.joblib")
-    print("  - metrics_summary.json")
-    print("  - dataset_stats.json")
 
 if __name__ == "__main__":
     train_and_evaluate_models()
