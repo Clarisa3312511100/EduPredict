@@ -49,9 +49,7 @@ def health_check():
 @app.get("/api/overview")
 def get_overview():
     """Mengembalikan statistik dataset dan performa model"""
-    if not predictor.is_ready():
-        predictor.load_artifacts()
-    
+    predictor.load_artifacts()
     return {
         "stats": predictor.stats,
         "metrics": predictor.metrics

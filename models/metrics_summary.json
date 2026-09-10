@@ -1,98 +1,98 @@
 {
-  "best_model": "Decision Tree",
+  "best_model": "Random Forest",
   "models_comparison": {
     "Logistic Regression": {
-      "accuracy": 0.8684,
-      "precision": 0.8485,
-      "recall": 0.8485,
-      "f1_score": 0.8485,
-      "roc_auc": 0.9415,
+      "accuracy": 0.85,
+      "precision": 0.8395,
+      "recall": 0.7473,
+      "f1_score": 0.7907,
+      "roc_auc": 0.9324,
       "confusion_matrix": [
         [
-          38,
-          5
+          136,
+          13
         ],
         [
-          5,
-          28
+          23,
+          68
         ]
       ]
     },
     "Decision Tree": {
-      "accuracy": 0.9211,
-      "precision": 0.9655,
-      "recall": 0.8485,
-      "f1_score": 0.9032,
-      "roc_auc": 0.951,
+      "accuracy": 0.8708,
+      "precision": 0.8409,
+      "recall": 0.8132,
+      "f1_score": 0.8268,
+      "roc_auc": 0.9057,
       "confusion_matrix": [
         [
-          42,
-          1
+          135,
+          14
         ],
         [
-          5,
-          28
+          17,
+          74
         ]
       ]
     },
     "Random Forest": {
-      "accuracy": 0.8947,
-      "precision": 0.9032,
-      "recall": 0.8485,
-      "f1_score": 0.875,
-      "roc_auc": 0.9711,
+      "accuracy": 0.8917,
+      "precision": 0.8736,
+      "recall": 0.8352,
+      "f1_score": 0.8539,
+      "roc_auc": 0.9423,
       "confusion_matrix": [
         [
-          40,
-          3
+          138,
+          11
         ],
         [
-          5,
-          28
+          15,
+          76
         ]
       ]
     }
   },
   "feature_importances": [
     {
-      "feature": "Status_Bekerja_1",
-      "importance": 0.7341
-    },
-    {
-      "feature": "Umur",
-      "importance": 0.0707
-    },
-    {
-      "feature": "IPS_Sem2",
-      "importance": 0.0706
-    },
-    {
       "feature": "IPS_Sem4",
-      "importance": 0.0698
-    },
-    {
-      "feature": "IPS_Sem1",
-      "importance": 0.0315
-    },
-    {
-      "feature": "IPS_Sem3",
-      "importance": 0.0235
+      "importance": 0.2496
     },
     {
       "feature": "IPK_Kumulatif",
-      "importance": 0.0
+      "importance": 0.2184
+    },
+    {
+      "feature": "IPS_Sem1",
+      "importance": 0.1137
+    },
+    {
+      "feature": "IPS_Sem2",
+      "importance": 0.1094
+    },
+    {
+      "feature": "Status_Bekerja_1",
+      "importance": 0.0974
+    },
+    {
+      "feature": "IPS_Sem3",
+      "importance": 0.0844
+    },
+    {
+      "feature": "Umur",
+      "importance": 0.065
     },
     {
       "feature": "Tren_IPS",
-      "importance": 0.0
-    },
-    {
-      "feature": "Jenis_Kelamin_Perempuan",
-      "importance": 0.0
+      "importance": 0.0544
     },
     {
       "feature": "Status_Nikah_1",
-      "importance": 0.0
+      "importance": 0.0049
+    },
+    {
+      "feature": "Jenis_Kelamin_Perempuan",
+      "importance": 0.0029
     }
   ],
   "numeric_features": [
