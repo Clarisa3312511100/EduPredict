@@ -651,11 +651,15 @@ function initAuth() {
   }
 
   function showLoginModal() {
-    loginOverlay.style.display = "flex";
+    if (loginOverlay) {
+      loginOverlay.style.display = "flex";
+    }
   }
 
   function hideLoginModal() {
-    loginOverlay.style.display = "none";
+    if (loginOverlay) {
+      loginOverlay.style.display = "none";
+    }
   }
 
   function applyUserSession(user) {
@@ -714,11 +718,15 @@ function initAuth() {
 
   // Logout Handler
   if (btnLogout) {
-    btnLogout.addEventListener("click", () => {
-      if (confirm("Apakah Anda yakin ingin keluar dari sistem EduPredict?")) {
-        localStorage.removeItem("edupredict_auth_user");
-        showLoginModal();
-      }
+    btnLogout.addEventListener("click", (e) => {
+      e.preventDefault();
+      localStorage.removeItem("edupredict_auth_user");
+      if (loginUsername) loginUsername.value = "";
+      if (loginPassword) loginPassword.value = "";
+      if (loginAlert) loginAlert.style.display = "none";
+      if (navUserName) navUserName.textContent = "Belum Masuk";
+      if (navUserRole) navUserRole.textContent = "Sesi Keluar";
+      showLoginModal();
     });
   }
 }
