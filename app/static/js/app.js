@@ -29,8 +29,8 @@ function initNavigation() {
       subtitle: "Eksplorasi pengaruh nilai dan faktor akademik terhadap probabilitas kelulusan (What-if Analysis)"
     },
     "batch-predict": {
-      title: "Prediksi Massal (Batch Upload)",
-      subtitle: "Unggah berkas CSV/Excel untuk memetakan risiko kelulusan seluruh mahasiswa per angkatan"
+      title: "Prediksi Massal Data Mahasiswa",
+      subtitle: "Unggah berkas CSV/Excel untuk memprediksi risiko kelulusan seluruh mahasiswa per angkatan"
     }
   };
 
@@ -136,9 +136,9 @@ function renderGraduationDonut(onTimeCount, delayedCount) {
       labels: ["Tepat Waktu", "Terlambat / Berisiko"],
       datasets: [{
         data: [onTimeCount, delayedCount],
-        backgroundColor: ["#10b981", "#ef4444"],
-        hoverBackgroundColor: ["#059669", "#dc2626"],
-        borderWidth: 2,
+        backgroundColor: ["#2d6a4f", "#991b1b"],
+        hoverBackgroundColor: ["#1b4332", "#7f1d1d"],
+        borderWidth: 1,
         borderColor: "#ffffff"
       }]
     },
@@ -182,8 +182,8 @@ function renderFeatureImportanceChart(importances) {
       datasets: [{
         label: "Bobot Pengaruh (Importance)",
         data: values,
-        backgroundColor: "#4f46e5",
-        borderRadius: 6
+        backgroundColor: "#1e293b",
+        borderRadius: 2
       }]
     },
     options: {
@@ -600,6 +600,11 @@ function initAuth() {
   if (savedUserJson) {
     try {
       const user = JSON.parse(savedUserJson);
+      if (user.name && user.name.toLowerCase().includes("clarisa")) {
+        user.name = "Dosen Pembimbing Akademik";
+        user.role = "Dosen PA";
+        localStorage.setItem("edupredict_auth_user", JSON.stringify(user));
+      }
       applyUserSession(user);
     } catch (e) {
       showLoginModal();

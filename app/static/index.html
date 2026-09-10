@@ -3,42 +3,1254 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EduPredict - Sistem Cerdas Prediksi Kelulusan Mahasiswa</title>
-  <!-- Google Fonts & Font Awesome -->
+  <title>EduPredict &bull; Early Warning System (EWS) Akademik</title>
+  
+  <!-- Font Setup: Clean System Sans & Monospace for Tabular Academic Data -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <!-- Chart.js -->
+  
+  <!-- Chart.js Engine -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* ==========================================================================
+       INSTITUTIONAL ACADEMIC CONSOLE DESIGN SYSTEM
+       High Density • Flat 1px Grid Architecture • Strict Functional Color Palette
+       ========================================================================== */
+    :root {
+      /* Typography */
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', "SF Mono", Menlo, Consolas, monospace;
+
+      /* Neutral Palette - Light Slate Academic Console */
+      --bg-app: #edf0f3;
+      --bg-sidebar: #17202c;
+      --bg-surface: #ffffff;
+      --bg-subtle: #f6f8fa;
+      --bg-muted: #e9ecef;
+
+      /* Crisp 1px Borders */
+      --border-color: #d0d7de;
+      --border-subtle: #e1e4e8;
+      --border-strong: #8c959f;
+      --border-dark: #273444;
+
+      /* Typography Contrast */
+      --text-main: #1f2328;
+      --text-secondary: #424a53;
+      --text-muted: #656d76;
+      --text-white: #ffffff;
+
+      /* Primary Brand / Operational Accent (Academic Navy/Slate) */
+      --primary: #1e293b;
+      --primary-hover: #0f172a;
+      --primary-subtle: #f1f5f9;
+      --accent-active: #0969da;
+
+      /* Strict Functional Risk Status (High Contrast Merah Bata, Kuning Amber, Hijau Zaitun) */
+      --danger: #991b1b;
+      --danger-bg: #fef2f2;
+      --danger-border: #f87171;
+      --danger-text: #7f1d1d;
+
+      --warning: #92400e;
+      --warning-bg: #fffbeb;
+      --warning-border: #fbbf24;
+      --warning-text: #78350f;
+
+      --success: #2d6a4f;
+      --success-bg: #f2f7f4;
+      --success-border: #74c69d;
+      --success-text: #1b4332;
+
+      --info: #1d4ed8;
+      --info-bg: #eff6ff;
+      --info-border: #93c5fd;
+
+      /* Tabular Numeric Features */
+      --tabular-nums: tabular-nums;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-app);
+      color: var(--text-main);
+      line-height: 1.4;
+      font-size: 13px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Monospace Utility for Technical Data */
+    code, pre, .font-mono,
+    .kpi-value, .mini-val, .data-table td:nth-child(1),
+    .data-table td:nth-child(3), .data-table td:nth-child(4),
+    .data-table td:nth-child(5), .data-table td:nth-child(6),
+    #riskPercentage, .range-val {
+      font-family: var(--font-mono);
+      font-variant-numeric: var(--tabular-nums);
+    }
+
+    /* Shell Layout */
+    .app-container {
+      display: flex;
+      min-height: 100vh;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+
+    /* ==========================================================================
+       SIDEBAR: INSTITUTIONAL UTILITY DRAWER
+       ========================================================================== */
+    .sidebar {
+      width: 260px;
+      background-color: var(--bg-sidebar);
+      color: #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border-dark);
+      padding: 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border-dark);
+      background-color: #111822;
+    }
+
+    .brand-icon {
+      width: 28px;
+      height: 28px;
+      background: #202d3d;
+      border: 1px solid #334358;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #93c5fd;
+    }
+
+    .brand-text h2 {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      color: #f8fafc;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+    }
+
+    .brand-text span {
+      display: block;
+      font-size: 10px;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      padding: 12px 8px;
+      gap: 2px;
+      flex-grow: 1;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      background: transparent;
+      border: 1px solid transparent;
+      border-left: 3px solid transparent;
+      border-radius: 2px;
+      color: #94a3b8;
+      font-size: 12.5px;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: left;
+      width: 100%;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .nav-item i {
+      font-size: 13px;
+      width: 16px;
+      text-align: center;
+    }
+
+    .nav-item:hover {
+      background: #1c2736;
+      color: #f1f5f9;
+      border-color: #273444;
+    }
+
+    .nav-item.active {
+      background: #202d3e;
+      color: #ffffff;
+      border-color: #2e3e52;
+      border-left-color: #38bdf8;
+      font-weight: 600;
+    }
+
+    .sidebar-footer {
+      padding: 12px;
+      border-top: 1px solid var(--border-dark);
+      background-color: #111822;
+    }
+
+    .model-status-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      background: #17202c;
+      border: 1px solid #273444;
+      border-radius: 2px;
+    }
+
+    .status-indicator {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #64748b;
+      flex-shrink: 0;
+    }
+
+    .status-indicator.online {
+      background: #22c55e;
+    }
+
+    .status-indicator.offline {
+      background: #ef4444;
+    }
+
+    .status-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: #cbd5e1;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .status-desc {
+      font-size: 10.5px;
+      color: #94a3b8;
+      font-family: var(--font-mono);
+    }
+
+    /* ==========================================================================
+       MAIN WORKSPACE & TOP CONTROL BAR
+       ========================================================================== */
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    /* Top Utility Header */
+    .top-navbar {
+      height: 52px;
+      min-height: 52px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .navbar-title h1 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-main);
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .navbar-title p {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .navbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .system-badge {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 4px 10px;
+      border-radius: 2px;
+      font-size: 11.5px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+    }
+
+    .system-badge strong {
+      color: var(--text-main);
+    }
+
+    .user-profile-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 3px 8px;
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+      background: var(--bg-surface);
+    }
+
+    .user-avatar {
+      width: 22px;
+      height: 22px;
+      border-radius: 2px;
+      background: #e2e8f0;
+      color: #334155;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+    }
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .user-name {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .user-role {
+      font-size: 10px;
+      color: var(--text-muted);
+    }
+
+    .btn-logout {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 2px;
+      font-size: 12px;
+      margin-left: 2px;
+    }
+
+    .btn-logout:hover {
+      color: var(--danger-text);
+      background: var(--danger-bg);
+    }
+
+    /* Content Area Container */
+    .tab-content {
+      display: none;
+      padding: 16px 20px;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* ==========================================================================
+       TAB 1: HIGH DENSITY TELEMETRY STRIP & ANALYTICS PANELS
+       ========================================================================== */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .kpi-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-left: 3px solid var(--border-strong);
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 2px;
+    }
+
+    .kpi-card:nth-child(1) { border-left-color: #475569; }
+    .kpi-card:nth-child(2) { border-left-color: var(--success); }
+    .kpi-card:nth-child(3) { border-left-color: var(--danger); }
+    .kpi-card:nth-child(4) { border-left-color: #2563eb; }
+
+    .kpi-details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .kpi-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.3px;
+    }
+
+    .kpi-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+      margin: 2px 0;
+    }
+
+    .kpi-sub {
+      font-size: 10.5px;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+    }
+
+    .kpi-icon {
+      display: none; /* AI slop decoration eliminated for pure data density */
+    }
+
+    /* Charts Grid */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.35fr;
+      gap: 12px;
+    }
+
+    .chart-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+    }
+
+    .card-header {
+      padding: 9px 14px;
+      background: var(--bg-subtle);
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-header h3 {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 250px;
+      width: 100%;
+      padding: 12px;
+    }
+
+    /* ==========================================================================
+       TAB 2: INDIVIDUAL SIMULATION CONSOLE (EWS DIAGNOSTIC)
+       ========================================================================== */
+    .predict-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .form-card, .result-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+    }
+
+    .prediction-form {
+      padding: 14px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .form-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .form-group label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .form-control, .form-control-sm {
+      padding: 6px 8px;
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      color: var(--text-main);
+      background: var(--bg-surface);
+      outline: none;
+    }
+
+    .form-control:focus, .form-control-sm:focus {
+      border-color: #0969da;
+      box-shadow: 0 0 0 1px #0969da;
+    }
+
+    .form-divider {
+      position: relative;
+      text-align: left;
+      margin: 14px 0 10px 0;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 4px;
+    }
+
+    .form-divider span {
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+
+    .range-slider {
+      width: 100%;
+      height: 4px;
+      background: #cbd5e1;
+      border-radius: 2px;
+      outline: none;
+      accent-color: #1e293b;
+      cursor: pointer;
+      margin: 6px 0 2px 0;
+    }
+
+    .checkbox-group {
+      margin-top: 2px;
+    }
+
+    .custom-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      cursor: pointer;
+      user-select: none;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      padding: 6px 10px;
+      border-radius: 2px;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .custom-checkbox:hover {
+      background: #f1f5f9;
+      border-color: var(--border-strong);
+    }
+
+    .custom-checkbox input {
+      accent-color: #1e293b;
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+    }
+
+    /* Result Body - Triase Output */
+    .result-body {
+      padding: 14px;
+    }
+
+    .gauge-section {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      padding: 10px 12px;
+      border-radius: 2px;
+      margin-bottom: 12px;
+    }
+
+    .gauge-label-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .gauge-label-group strong {
+      font-size: 17px;
+      color: var(--text-main);
+    }
+
+    .progress-bar-container {
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 1px;
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--success);
+      transition: width 0.3s ease;
+    }
+
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9.5px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      margin-top: 4px;
+    }
+
+    .metrics-mini-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .mini-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      padding: 8px 4px;
+      border-radius: 2px;
+      text-align: center;
+    }
+
+    .mini-title {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      display: block;
+    }
+
+    .mini-val {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .factor-analysis {
+      margin-bottom: 12px;
+    }
+
+    .factor-analysis h4 {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin: 8px 0 4px 0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .factor-list {
+      list-style: none;
+      margin-bottom: 8px;
+    }
+
+    .factor-list li {
+      padding: 5px 8px;
+      font-size: 11.5px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--border-strong);
+      border-radius: 2px;
+      margin-bottom: 4px;
+    }
+
+    .factor-list li.risk {
+      background: var(--danger-bg);
+      border-color: var(--danger-border);
+      border-left: 3px solid var(--danger);
+      color: var(--danger-text);
+      font-weight: 500;
+    }
+
+    .factor-list li.positive {
+      background: var(--success-bg);
+      border-color: var(--success-border);
+      border-left: 3px solid var(--success);
+      color: var(--success-text);
+      font-weight: 500;
+    }
+
+    .empty-text {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .action-recommendation {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-left: 3px solid #1e293b;
+      padding: 10px 12px;
+      border-radius: 2px;
+      margin-bottom: 12px;
+    }
+
+    .rec-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-main);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .action-recommendation p {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    /* ==========================================================================
+       TAB 3: BATCH PREDICTION & SCREENING TABLE
+       ========================================================================== */
+    .batch-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .upload-card, .batch-summary-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+    }
+
+    .drop-zone {
+      margin: 14px;
+      padding: 24px 14px;
+      border: 1px dashed var(--border-strong);
+      border-radius: 2px;
+      text-align: center;
+      background: var(--bg-subtle);
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .drop-zone:hover {
+      background: #eef2f6;
+      border-color: #0969da;
+    }
+
+    .drop-icon {
+      font-size: 24px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .drop-zone h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .drop-zone p {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin: 4px 0 8px 0;
+    }
+
+    .file-name-tag {
+      display: block;
+      font-size: 11.5px;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      color: var(--accent-active);
+      margin-top: 8px;
+    }
+
+    .summary-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      padding: 14px;
+    }
+
+    .stat-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-top: 3px solid var(--border-strong);
+      padding: 10px 8px;
+      border-radius: 2px;
+      text-align: center;
+    }
+
+    .stat-box.text-success { border-top-color: var(--success); }
+    .stat-box.text-warning { border-top-color: var(--warning); }
+    .stat-box.text-danger { border-top-color: var(--danger); }
+
+    .stat-box span {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.3px;
+    }
+
+    .stat-box strong {
+      display: block;
+      font-size: 20px;
+      font-family: var(--font-mono);
+      color: var(--text-main);
+      margin-top: 2px;
+    }
+
+    /* Data Table (Triase Screening View) */
+    .table-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+    }
+
+    .table-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .search-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-box i {
+      position: absolute;
+      left: 8px;
+      color: var(--text-muted);
+      font-size: 11px;
+    }
+
+    .search-box input {
+      padding: 5px 8px 5px 26px;
+      font-size: 12px;
+      width: 190px;
+      border: 1px solid var(--border-color);
+      border-radius: 2px;
+    }
+
+    .table-responsive {
+      overflow-x: auto;
+      max-height: 480px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .data-table th {
+      background: #f1f4f8;
+      padding: 8px 12px;
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      letter-spacing: 0.5px;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-strong);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .data-table td {
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      vertical-align: middle;
+    }
+
+    .data-table tr:hover {
+      background-color: #f8fafc;
+    }
+
+    .data-table tr:nth-child(even) {
+      background-color: #fcfdfe;
+    }
+
+    /* Badges & Status Codes */
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 2px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+    }
+
+    .badge.danger {
+      background: var(--danger-bg);
+      border-color: var(--danger-border);
+      color: var(--danger-text);
+    }
+
+    .badge.warning {
+      background: var(--warning-bg);
+      border-color: var(--warning-border);
+      color: var(--warning-text);
+    }
+
+    .badge.success {
+      background: var(--success-bg);
+      border-color: var(--success-border);
+      color: var(--success-text);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .btn-primary {
+      background: #1e293b;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+
+    .btn-primary:hover {
+      background: #0f172a;
+    }
+
+    .btn-primary:disabled {
+      background: #64748b;
+      border-color: #64748b;
+      cursor: not-allowed;
+      opacity: 0.7;
+    }
+
+    .btn-outline {
+      background: var(--bg-surface);
+      color: var(--text-main);
+      border-color: var(--border-color);
+    }
+
+    .btn-outline:hover {
+      background: var(--bg-subtle);
+      border-color: var(--border-strong);
+    }
+
+    .btn-sm {
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      border: none;
+      color: #0969da;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .btn-ghost:hover {
+      text-decoration: underline;
+    }
+
+    .btn-block {
+      width: 100%;
+    }
+
+    /* ==========================================================================
+       MODAL: INSTITUTIONAL GATEWAY LOGIN
+       ========================================================================== */
+    .login-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(15, 23, 42, 0.7);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      border-radius: 2px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+    }
+
+    .login-header {
+      background: #17202c;
+      color: #ffffff;
+      padding: 20px 24px;
+      border-bottom: 2px solid #334155;
+    }
+
+    .login-brand-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 2px;
+      background: #273444;
+      border: 1px solid #3d4f65;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: #93c5fd;
+      margin-bottom: 8px;
+    }
+
+    .login-header h2 {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .login-header p {
+      font-size: 11px;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+
+    .login-body {
+      padding: 20px 24px;
+    }
+
+    .login-alert {
+      padding: 8px 12px;
+      background: var(--danger-bg);
+      color: var(--danger-text);
+      border: 1px solid var(--danger-border);
+      border-radius: 2px;
+      font-size: 11.5px;
+      margin-bottom: 12px;
+    }
+
+    .demo-accounts-box {
+      margin-top: 16px;
+      padding: 10px;
+      background: var(--bg-subtle);
+      border: 1px dashed var(--border-strong);
+      border-radius: 2px;
+    }
+
+    .demo-title {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .demo-btn-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    .btn-demo {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      padding: 6px 8px;
+      border-radius: 2px;
+      font-size: 11px;
+      color: var(--text-main);
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .btn-demo:hover {
+      background: #f1f5f9;
+      border-color: #0969da;
+    }
+
+    .login-footer {
+      padding: 10px;
+      text-align: center;
+      background: var(--bg-subtle);
+      border-top: 1px solid var(--border-color);
+      font-size: 10.5px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* Common Utilities */
+    .text-primary { color: var(--text-main); font-weight: 600; }
+    .text-danger { color: var(--danger-text); }
+    .text-warning { color: var(--warning-text); }
+    .text-success { color: var(--success-text); }
+    .text-center { text-align: center; }
+    .font-bold { font-weight: 700; }
+    .mt-3 { margin-top: 10px; }
+    .mt-4 { margin-top: 14px; }
+    .mb-3 { margin-bottom: 10px; }
+    .py-4 { padding-top: 16px; padding-bottom: 16px; }
+    .flex-between { display: flex; justify-content: space-between; align-items: center; }
+
+    /* ==========================================================================
+       PRINT SPECIFICATION: LEMBAR EVALUASI AKADEMIK RESMI
+       ========================================================================== */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt;
+      }
+
+      .sidebar, .top-navbar, .nav-menu, .form-card,
+      .login-overlay, .btn, .btn-outline, #btnPrintDiagnosis,
+      .navbar-actions, .system-badge {
+        display: none !important;
+      }
+
+      .app-container, .main-content, .tab-content, .predict-layout {
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        overflow: visible !important;
+      }
+
+      .result-card {
+        border: 2px solid #000000 !important;
+        padding: 16px !important;
+        page-break-inside: avoid;
+      }
+
+      .result-card::before {
+        content: "LEMBAR EVALUASI & REKOMENDASI PEMBIMBING AKADEMIK (PA) - POLITEKNIK NEGERI BATAM";
+        display: block;
+        font-size: 12pt;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 2px solid #000000;
+        padding-bottom: 8px;
+        margin-bottom: 14px;
+        font-family: var(--font-sans);
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="app-container">
-    <!-- Sidebar Navigation -->
+    <!-- Sidebar Utility Drawer -->
     <aside class="sidebar">
       <div class="brand">
         <div class="brand-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+          <i class="fa-solid fa-building-columns"></i>
         </div>
         <div class="brand-text">
           <h2>EduPredict</h2>
-          <span>AI Early Warning System</span>
+          <span>Academic EWS &bull; Polibatam</span>
         </div>
       </div>
 
       <nav class="nav-menu">
         <button class="nav-item active" data-tab="overview">
-          <i class="fa-solid fa-chart-pie"></i>
-          <span>Dashboard Overview</span>
+          <i class="fa-solid fa-chart-line"></i>
+          <span>Ringkasan Telemetri</span>
         </button>
         <button class="nav-item" data-tab="single-predict">
-          <i class="fa-solid fa-user-gear"></i>
-          <span>Simulasi Mahasiswa</span>
+          <i class="fa-solid fa-user-pen"></i>
+          <span>Diagnosis Per Mahasiswa</span>
         </button>
         <button class="nav-item" data-tab="batch-predict">
           <i class="fa-solid fa-file-arrow-up"></i>
-          <span>Prediksi Massal (Batch)</span>
+          <span>Prediksi Data Angkatan</span>
         </button>
       </nav>
 
@@ -46,93 +1258,79 @@
         <div class="model-status-card">
           <div class="status-indicator online" id="serverStatusDot"></div>
           <div>
-            <div class="status-title">Status Model ML</div>
-            <div class="status-desc" id="serverStatusText">Memeriksa...</div>
+            <div class="status-title">Status Inferensi ML</div>
+            <div class="status-desc" id="serverStatusText">Memeriksa layanan...</div>
           </div>
         </div>
       </div>
     </aside>
 
-    <!-- Main Content Area -->
+    <!-- Main Operational Workspace -->
     <main class="main-content">
-      <!-- Top Navbar -->
+      <!-- Top Control Bar -->
       <header class="top-navbar">
         <div class="navbar-title">
           <h1 id="pageTitle">Dashboard Ringkasan Akademik</h1>
           <p id="pageSubtitle">Pemantauan risiko keterlambatan masa studi mahasiswa berbasis Machine Learning</p>
         </div>
         <div class="navbar-actions">
-          <div class="system-badge">
-            <i class="fa-solid fa-shield-halved"></i> Akurasi Uji: <strong id="topAccuracyBadge">--%</strong>
-          </div>
-          <button class="btn btn-outline" id="btnRefreshData" title="Refresh Data">
-            <i class="fa-solid fa-rotate-right"></i>
+          <span id="topAccuracyBadge" style="display: none;"></span>
+          <button class="btn btn-outline" id="btnRefreshData" title="Sinkronisasi & Segarkan Data">
+            <i class="fa-solid fa-arrows-rotate"></i> Segarkan Data
           </button>
           
-          <!-- User Profile & Auth -->
+          <!-- User Profile & Auth Badge -->
           <div class="user-profile-badge" id="userProfileBadge">
-            <div class="user-avatar"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="user-avatar"><i class="fa-solid fa-user-check"></i></div>
             <div class="user-info">
               <span class="user-name" id="navUserName">Dosen PA</span>
               <span class="user-role" id="navUserRole">Pembimbing Akademik</span>
             </div>
-            <button class="btn-logout" id="btnLogout" title="Keluar dari Sistem">
+            <button class="btn-logout" id="btnLogout" title="Keluar dari Konsol">
               <i class="fa-solid fa-arrow-right-from-bracket"></i>
             </button>
           </div>
         </div>
       </header>
 
-      <!-- TAB 1: OVERVIEW -->
+      <!-- TAB 1: TELEMETRY OVERVIEW -->
       <section id="tab-overview" class="tab-content active">
-        <!-- KPI Cards -->
+        <!-- High Density KPI Telemetry Strip -->
         <div class="kpi-grid">
           <div class="kpi-card">
-            <div class="kpi-icon blue">
-              <i class="fa-solid fa-user-graduate"></i>
-            </div>
             <div class="kpi-details">
-              <span class="kpi-label">Total Data Mahasiswa</span>
-              <h3 class="kpi-value" id="kpiTotalStudents">--</h3>
-              <span class="kpi-sub"><i class="fa-solid fa-database"></i> Dataset Akademik</span>
+              <span class="kpi-label">Total Mahasiswa Terdaftar</span>
+              <div class="kpi-value" id="kpiTotalStudents">--</div>
+              <span class="kpi-sub"><i class="fa-solid fa-database"></i> Basis Data Akademik</span>
             </div>
           </div>
 
           <div class="kpi-card">
-            <div class="kpi-icon green">
-              <i class="fa-solid fa-circle-check"></i>
-            </div>
             <div class="kpi-details">
-              <span class="kpi-label">Potensi Tepat Waktu</span>
-              <h3 class="kpi-value" id="kpiOnTimeRate">--%</h3>
-              <span class="kpi-sub" id="kpiOnTimeCount">-- Mahasiswa</span>
+              <span class="kpi-label">Proyeksi Tepat Waktu</span>
+              <div class="kpi-value" id="kpiOnTimeRate">--%</div>
+              <span class="kpi-sub" id="kpiOnTimeCount">-- Mahasiswa (Sesuai Jalur)</span>
             </div>
           </div>
 
           <div class="kpi-card">
-            <div class="kpi-icon red">
-              <i class="fa-solid fa-triangle-exclamation"></i>
-            </div>
             <div class="kpi-details">
-              <span class="kpi-label">Berisiko Terlambat</span>
-              <h3 class="kpi-value" id="kpiDelayedRate">--%</h3>
-              <span class="kpi-sub" id="kpiDelayedCount">Perlu Pendampingan PA</span>
+              <span class="kpi-label">Berisiko Keterlambatan</span>
+              <div class="kpi-value" id="kpiDelayedRate">--%</div>
+              <span class="kpi-sub" id="kpiDelayedCount">Perlu Intervensi Pembimbing</span>
             </div>
           </div>
 
           <div class="kpi-card">
-            <div class="kpi-icon purple">
-              <i class="fa-solid fa-award"></i>
-            </div>
             <div class="kpi-details">
-              <span class="kpi-label">Rata-rata IPK Angkatan</span>
-              <h3 class="kpi-value" id="kpiAverageIpk">--</h3>
-              <span class="kpi-sub"><i class="fa-solid fa-circle-check text-success"></i> Standar Aman &ge; 2.75</span>
+              <span class="kpi-label">Rata-rata IPK Kumulatif</span>
+              <div class="kpi-value" id="kpiAverageIpk">--</div>
+              <span class="kpi-sub">Batas Ambang Evaluasi: 2.75</span>
             </div>
           </div>
         </div>
 
-        <!-- Charts Grid -->
+        <!-- Analytical Charts Grid -->
         <div class="charts-grid">
           <div class="chart-card">
             <div class="card-header">
@@ -145,7 +1343,7 @@
 
           <div class="chart-card">
             <div class="card-header">
-              <h3><i class="fa-solid fa-ranking-star"></i> Faktor Penentu Paling Berpengaruh (Feature Importance)</h3>
+              <h3><i class="fa-solid fa-sliders"></i> Bobot Pengaruh Fitur (Feature Importance)</h3>
             </div>
             <div class="chart-container">
               <canvas id="featureChart"></canvas>
@@ -154,39 +1352,39 @@
         </div>
       </section>
 
-      <!-- TAB 2: SINGLE PREDICTION (SIMULASI) -->
+      <!-- TAB 2: SINGLE PREDICTION (SIMULASI DIAGNOSTIK) -->
       <section id="tab-single-predict" class="tab-content">
         <div class="predict-layout">
-          <!-- Form Mahasiswa -->
+          <!-- Parameter Input Form -->
           <div class="form-card">
             <div class="card-header">
-              <h3><i class="fa-solid fa-sliders"></i> Parameter & Nilai Akademik Mahasiswa</h3>
-              <button type="button" class="btn-sm btn-ghost" id="btnFillPreset">
-                <i class="fa-solid fa-wand-magic-sparkles"></i> Contoh Mahasiswa Berisiko
+              <h3><i class="fa-solid fa-microchip"></i> Parameter Masukan Data Akademik</h3>
+              <button type="button" class="btn-sm btn-outline" id="btnFillPreset">
+                <i class="fa-solid fa-paste"></i> Muat Profil Sampel Kritis
               </button>
             </div>
             <form id="singlePredictForm" class="prediction-form">
               <div class="form-row">
                 <div class="form-group">
-                  <label>NIM Mahasiswa</label>
-                  <input type="text" id="inpNIM" class="form-control" value="2021001099" required />
+                  <label for="inpNIM">NIM Mahasiswa</label>
+                  <input type="text" id="inpNIM" class="form-control font-mono" value="2021001099" required />
                 </div>
                 <div class="form-group">
-                  <label>Nama Mahasiswa</label>
+                  <label for="inpNama">Nama Mahasiswa</label>
                   <input type="text" id="inpNama" class="form-control" value="Arya Daniswara" required />
                 </div>
               </div>
 
               <div class="form-row">
                 <div class="form-group">
-                  <label>Jenis Kelamin</label>
+                  <label for="inpGender">Jenis Kelamin</label>
                   <select id="inpGender" class="form-control">
                     <option value="Laki-laki">Laki-laki</option>
                     <option value="Perempuan">Perempuan</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Umur: <strong id="valUmur" class="text-primary">23</strong> Tahun</label>
+                  <label for="inpUmur">Usia: <strong id="valUmur" class="range-val">23</strong> Thn</label>
                   <input type="range" id="inpUmur" min="19" max="45" step="1" value="23" class="range-slider" />
                 </div>
               </div>
@@ -195,25 +1393,25 @@
 
               <div class="form-grid-4">
                 <div class="form-group">
-                  <label>IPS Sem 1: <strong id="valIps1" class="text-primary">3.20</strong></label>
+                  <label for="inpIps1">IPS 1: <strong id="valIps1" class="range-val">3.20</strong></label>
                   <input type="range" id="inpIps1" min="1.0" max="4.0" step="0.05" value="3.20" class="range-slider" />
                 </div>
                 <div class="form-group">
-                  <label>IPS Sem 2: <strong id="valIps2" class="text-primary">3.05</strong></label>
+                  <label for="inpIps2">IPS 2: <strong id="valIps2" class="range-val">3.05</strong></label>
                   <input type="range" id="inpIps2" min="1.0" max="4.0" step="0.05" value="3.05" class="range-slider" />
                 </div>
                 <div class="form-group">
-                  <label>IPS Sem 3: <strong id="valIps3" class="text-primary">2.85</strong></label>
+                  <label for="inpIps3">IPS 3: <strong id="valIps3" class="range-val">2.85</strong></label>
                   <input type="range" id="inpIps3" min="1.0" max="4.0" step="0.05" value="2.85" class="range-slider" />
                 </div>
                 <div class="form-group">
-                  <label>IPS Sem 4: <strong id="valIps4" class="text-primary">2.70</strong></label>
+                  <label for="inpIps4">IPS 4: <strong id="valIps4" class="range-val">2.70</strong></label>
                   <input type="range" id="inpIps4" min="1.0" max="4.0" step="0.05" value="2.70" class="range-slider" />
                 </div>
               </div>
 
-              <div class="form-group" style="margin-bottom: 16px;">
-                <label>Estimasi IPK Kumulatif: <strong id="valIpk" class="text-primary">2.95</strong></label>
+              <div class="form-group mb-3">
+                <label for="inpIpk">Estimasi IPK Kumulatif: <strong id="valIpk" class="range-val">2.95</strong></label>
                 <input type="range" id="inpIpk" min="1.0" max="4.0" step="0.05" value="2.95" class="range-slider" />
               </div>
 
@@ -221,34 +1419,32 @@
                 <div class="form-group checkbox-group">
                   <label class="custom-checkbox">
                     <input type="checkbox" id="inpBekerja" />
-                    <span class="checkmark"></span>
-                    Mahasiswa Bekerja
+                    <span>Status: Mahasiswa Bekerja</span>
                   </label>
                 </div>
                 <div class="form-group checkbox-group">
                   <label class="custom-checkbox">
                     <input type="checkbox" id="inpNikah" />
-                    <span class="checkmark"></span>
-                    Sudah Menikah
+                    <span>Status: Sudah Menikah</span>
                   </label>
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-block" id="btnRunPrediction">
-                <i class="fa-solid fa-wand-magic-sparkles"></i> Analisis & Prediksi Kelulusan
+              <button type="submit" class="btn btn-primary btn-block mt-3" id="btnRunPrediction">
+                <i class="fa-solid fa-play"></i> Jalankan Inferensi Risiko
               </button>
             </form>
           </div>
 
-          <!-- Result Card -->
+          <!-- Diagnostic Results Card -->
           <div class="result-card" id="resultContainer">
             <div class="card-header">
-              <h3><i class="fa-solid fa-square-poll-vertical"></i> Hasil Diagnosis Risiko</h3>
-              <span class="badge" id="riskBadge">Menunggu Input</span>
+              <h3><i class="fa-solid fa-stethoscope"></i> Hasil Prediksi & Evaluasi Risiko</h3>
+              <span class="badge" id="riskBadge">Menunggu Inferensi</span>
             </div>
 
             <div class="result-body">
-              <!-- Meter Probabilitas -->
+              <!-- Linear Probability Gauge -->
               <div class="gauge-section">
                 <div class="gauge-label-group">
                   <span>Probabilitas Keterlambatan:</span>
@@ -259,8 +1455,9 @@
                 </div>
                 <div class="progress-labels">
                   <span>0% (Aman)</span>
-                  <span>50%</span>
-                  <span>100% (Kritis)</span>
+                  <span>35% (Ambang)</span>
+                  <span>60% (Kritis)</span>
+                  <span>100%</span>
                 </div>
               </div>
 
@@ -284,26 +1481,25 @@
                 </div>
               </div>
 
-              <!-- Faktor Analisis -->
+              <!-- Risk and Positive Indicators -->
               <div class="factor-analysis">
-                <h4><i class="fa-solid fa-triangle-exclamation text-danger"></i> Faktor Risiko Terdeteksi</h4>
+                <h4><i class="fa-solid fa-circle-exclamation text-danger"></i> Faktor Risiko Signifikan</h4>
                 <ul class="factor-list" id="riskFactorsList">
-                  <li class="empty-text">Klik tombol "Analisis" untuk melihat diagnosis</li>
+                  <li class="empty-text">Jalankan inferensi untuk mengevaluasi parameter risiko</li>
                 </ul>
 
-                <h4><i class="fa-solid fa-circle-check text-success"></i> Indikator Positif</h4>
+                <h4><i class="fa-solid fa-circle-check text-success"></i> Indikator Pendukung</h4>
                 <ul class="factor-list" id="positiveFactorsList">
                   <li class="empty-text">--</li>
                 </ul>
               </div>
 
-              <!-- Rekomendasi Intervensi PA -->
+              <!-- Academic Advisor Recommendation -->
               <div class="action-recommendation" id="recommendationBox">
-                <div class="rec-title"><i class="fa-solid fa-clipboard-check"></i> Rekomendasi Aksi Dosen PA:</div>
+                <div class="rec-title"><i class="fa-solid fa-clipboard-check"></i> Petunjuk Intervensi Akademik:</div>
                 <p id="recommendationText">Lakukan simulasi parameter nilai untuk mendapatkan panduan intervensi yang tepat.</p>
               </div>
 
-              <!-- Tombol Cetak Dokumen Diagnosis -->
               <button type="button" class="btn btn-outline btn-block mt-3" id="btnPrintDiagnosis">
                 <i class="fa-solid fa-print"></i> Cetak Lembar Diagnosis & Rekomendasi PA
               </button>
@@ -312,37 +1508,39 @@
         </div>
       </section>
 
-      <!-- TAB 3: BATCH PREDICTION -->
+      <!-- TAB 3: BATCH PREDICTION (TRIASE ANGKATAN) -->
       <section id="tab-batch-predict" class="tab-content">
         <div class="batch-grid">
           <div class="upload-card">
             <div class="card-header">
-              <h3><i class="fa-solid fa-file-csv"></i> Upload File Data Mahasiswa</h3>
+              <h3><i class="fa-solid fa-file-arrow-up"></i> Berkas Data Mahasiswa Angkatan</h3>
               <a href="/data/dataset_kelulusan.csv" download="dataset_sample_kelulusan.csv" class="btn-sm btn-outline">
-                <i class="fa-solid fa-download"></i> Unduh Format Contoh (.csv)
+                <i class="fa-solid fa-download"></i> Unduh Format CSV
               </a>
             </div>
 
             <div class="drop-zone" id="dropZone">
-              <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
-              <h4>Tarik & Lepaskan File CSV / Excel di sini</h4>
-              <p>atau klik tombol di bawah untuk memilih file dari komputer Anda</p>
+              <i class="fa-solid fa-file-csv drop-icon"></i>
+              <h4>Letakkan berkas CSV atau XLSX di sini</h4>
+              <p>Format kolom harus memuat atribut akademik sesuai spesifikasi</p>
               <input type="file" id="batchFileInput" accept=".csv, .xlsx, .xls" style="display: none;" />
-              <button type="button" class="btn btn-outline" id="btnBrowseFile">
-                <i class="fa-solid fa-folder-open"></i> Pilih File
+              <button type="button" class="btn btn-outline btn-sm" id="btnBrowseFile">
+                <i class="fa-solid fa-folder-open"></i> Pilih Berkas
               </button>
               <span id="selectedFileName" class="file-name-tag"></span>
             </div>
 
-            <button type="button" class="btn btn-primary btn-block mt-3" id="btnProcessBatch" disabled>
-              <i class="fa-solid fa-play"></i> Proses Prediksi Seluruh Mahasiswa
-            </button>
+            <div style="padding: 0 14px 14px 14px;">
+              <button type="button" class="btn btn-primary btn-block" id="btnProcessBatch" disabled>
+                <i class="fa-solid fa-play"></i> Proses Prediksi Seluruh Mahasiswa
+              </button>
+            </div>
           </div>
 
           <!-- Batch Summary -->
           <div class="batch-summary-card" id="batchSummaryCard" style="display: none;">
             <div class="card-header">
-              <h3><i class="fa-solid fa-chart-simple"></i> Ringkasan Hasil Prediksi Batch</h3>
+              <h3><i class="fa-solid fa-chart-column"></i> Rekapitulasi Hasil Prediksi Angkatan</h3>
             </div>
             <div class="summary-stats-grid">
               <div class="stat-box">
@@ -350,7 +1548,7 @@
                 <strong id="batchTotal">0</strong>
               </div>
               <div class="stat-box text-success">
-                <span>Tepat Waktu</span>
+                <span>Aman / Tepat Waktu</span>
                 <strong id="batchOnTime">0</strong>
               </div>
               <div class="stat-box text-warning">
@@ -365,23 +1563,23 @@
           </div>
         </div>
 
-        <!-- Batch Results Table -->
-        <div class="table-card mt-4" id="batchResultsTableContainer" style="display: none;">
+        <!-- Screening Results Table -->
+        <div class="table-card" id="batchResultsTableContainer" style="display: none;">
           <div class="card-header flex-between">
-            <h3><i class="fa-solid fa-table-list"></i> Hasil Pemetaan Risiko Mahasiswa</h3>
+            <h3><i class="fa-solid fa-table-cells"></i> Daftar Pemetaan Risiko Kelulusan Mahasiswa</h3>
             <div class="table-actions">
               <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="searchBatchStudent" class="form-control-sm" placeholder="Cari Nama / NIM..." />
+                <input type="text" id="searchBatchStudent" placeholder="Filter NIM / Nama..." />
               </div>
               <select id="filterBatchRisk" class="form-control-sm">
-                <option value="ALL">Semua Kategori Risiko</option>
-                <option value="Tinggi">Hanya Risiko Tinggi</option>
-                <option value="Sedang">Hanya Risiko Sedang</option>
-                <option value="Rendah">Hanya Tepat Waktu</option>
+                <option value="ALL">Semua Kategori</option>
+                <option value="Tinggi">Risiko Tinggi</option>
+                <option value="Sedang">Risiko Sedang</option>
+                <option value="Rendah">Tepat Waktu</option>
               </select>
-              <button type="button" class="btn-sm btn-primary" id="btnExportBatchCsv" title="Unduh Hasil Prediksi ke Berkas CSV">
-                <i class="fa-solid fa-file-arrow-down"></i> Unduh Hasil (.CSV)
+              <button type="button" class="btn-sm btn-outline" id="btnExportBatchCsv" title="Unduh Berkas CSV">
+                <i class="fa-solid fa-file-export"></i> Ekspor CSV
               </button>
             </div>
           </div>
@@ -396,11 +1594,11 @@
                   <th>Usia</th>
                   <th>Prob. Terlambat</th>
                   <th>Tingkat Risiko</th>
-                  <th>Prediksi</th>
+                  <th>Proyeksi</th>
                 </tr>
               </thead>
               <tbody id="batchTableBody">
-                <!-- Diisi via JS -->
+                <!-- Data populated dynamically via app.js -->
               </tbody>
             </table>
           </div>
@@ -414,10 +1612,10 @@
     <div class="login-card">
       <div class="login-header">
         <div class="login-brand-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+          <i class="fa-solid fa-shield-halved"></i>
         </div>
-        <h2>EduPredict</h2>
-        <p>Sistem Deteksi Dini Risiko Kelulusan Mahasiswa</p>
+        <h2>EduPredict EWS</h2>
+        <p>Sistem Deteksi Dini Keterlambatan Studi Mahasiswa</p>
       </div>
 
       <div class="login-body">
@@ -425,22 +1623,22 @@
 
         <form id="loginForm">
           <div class="form-group mb-3">
-            <label><i class="fa-solid fa-user"></i> Username / NIDN</label>
-            <input type="text" id="loginUsername" class="form-control" placeholder="Masukkan username (contoh: dosen)" required />
+            <label for="loginUsername">NIDN / Username Pengguna</label>
+            <input type="text" id="loginUsername" class="form-control font-mono" placeholder="Masukkan username (contoh: dosen)" required />
           </div>
 
           <div class="form-group mb-3">
-            <label><i class="fa-solid fa-lock"></i> Password</label>
-            <input type="password" id="loginPassword" class="form-control" placeholder="Masukkan password" required />
+            <label for="loginPassword">Kata Sandi</label>
+            <input type="password" id="loginPassword" class="form-control font-mono" placeholder="Masukkan kata sandi" required />
           </div>
 
           <button type="submit" class="btn btn-primary btn-block" id="btnLoginSubmit">
-            <i class="fa-solid fa-right-to-bracket"></i> Masuk ke Sistem
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> Masuk ke Konsol
           </button>
         </form>
 
         <div class="demo-accounts-box">
-          <div class="demo-title"><i class="fa-solid fa-circle-info"></i> Akun Demonstrasi (Sekali Klik):</div>
+          <div class="demo-title">Akun Cepat Demonstrasi:</div>
           <div class="demo-btn-group">
             <button type="button" class="btn-demo" id="btnDemoDosen">
               <strong>Dosen PA</strong> (dosen)
@@ -453,11 +1651,12 @@
       </div>
 
       <div class="login-footer">
-        <span>&copy; 2026 EduPredict &bull; Politeknik Negeri Batam</span>
+        <span>KONSOL AKADEMIK EWS &bull; POLITEKNIK NEGERI BATAM</span>
       </div>
     </div>
   </div>
 
-  <script src="js/app.js?v=4"></script>
+  <!-- Application Logic -->
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

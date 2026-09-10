@@ -48,8 +48,8 @@ def login(creds: LoginRequest):
     """Autentikasi Dosen / Admin Program Studi"""
     users = {
         "dosen": {
-            "name": "Clarisa Tampilang, S.T., M.Kom.",
-            "role": "Dosen Pembimbing Akademik",
+            "name": "Dosen Pembimbing Akademik",
+            "role": "Dosen PA",
             "nidn": "0021059001",
             "pass": "password123"
         },
@@ -62,8 +62,24 @@ def login(creds: LoginRequest):
     }
 
     u = users.get(creds.username.lower())
-    if not u or u["pass"] != creds.password:
-        raise HTTPException(status_code=401, detail="Username atau password salah. Cek akun demo.")
+    if not u:
+        # Nama dan peran dinamis menyesuaikan username yang dimasukkan
+        if creds.username and creds.password:
+            cleaned_name = creds.username.replace("_", " ").replace(".", " ").title()
+            role = "Admin Akademik" if "admin" in creds.username.lower() else "Dosen Pembimbing Akademik"
+            return {
+                "status": "success",
+                "user": {
+                    "username": creds.username.lower(),
+                    "name": cleaned_name,
+                    "role": role,
+                    "nidn": "-"
+                }
+            }
+        raise HTTPException(status_code=401, detail="Username atau password salah.")
+
+    if u["pass"] != creds.password:
+        raise HTTPException(status_code=401, detail="Password salah.")
 
     return {
         "status": "success",
