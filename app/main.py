@@ -26,19 +26,18 @@ app.add_middleware(
 predictor = StudentGraduationPredictor()
 
 class StudentInput(BaseModel):
-    NIM: str = Field(default="2021001999", description="Nomor Induk Mahasiswa")
+    NIM: str = Field(default="20180099", description="Nomor Induk Mahasiswa")
     Nama: str = Field(default="Contoh Mahasiswa", description="Nama Lengkap")
-    Jenis_Kelamin: str = Field(default="Laki-laki")
-    Jalur_Masuk: str = Field(default="SNBT", description="SNBP / SNBT / Mandiri")
+    Jenis_Kelamin: str = Field(default="Laki-laki", description="Laki-laki / Perempuan")
+    Umur: int = Field(ge=18, le=60, default=23, description="Usia Mahasiswa")
+    Status_Bekerja: int = Field(ge=0, le=1, default=0, description="0: Mahasiswa Murni, 1: Bekerja")
+    Status_Nikah: int = Field(ge=0, le=1, default=0, description="0: Belum Menikah, 1: Menikah")
     IPS_Sem1: float = Field(ge=0.0, le=4.0, default=3.25)
     IPS_Sem2: float = Field(ge=0.0, le=4.0, default=3.10)
     IPS_Sem3: float = Field(ge=0.0, le=4.0, default=2.85)
     IPS_Sem4: float = Field(ge=0.0, le=4.0, default=2.70)
-    SKS_Lulus: int = Field(ge=0, le=144, default=78)
-    SKS_Gagal: int = Field(ge=0, le=50, default=6)
-    Persentase_Kehadiran: float = Field(ge=0.0, le=100.0, default=82.0)
-    Status_Bekerja: int = Field(ge=0, le=1, default=0, description="0: Tidak, 1: Bekerja")
-    Pernah_Cuti: int = Field(ge=0, le=1, default=0, description="0: Tidak, 1: Pernah Cuti")
+    IPK_Kumulatif: float = Field(ge=0.0, le=4.0, default=2.98)
+
 
 @app.get("/api/health")
 def health_check():
@@ -72,7 +71,8 @@ def predict_single_student(student: StudentInput):
             "nim": student.NIM,
             "nama": student.Nama,
             "jenis_kelamin": student.Jenis_Kelamin,
-            "jalur_masuk": student.Jalur_Masuk
+            "status_bekerja": student.Status_Bekerja,
+            "status_nikah": student.Status_Nikah
         }
         return result
     except Exception as e:
@@ -95,10 +95,7 @@ async def predict_batch_file(file: UploadFile = File(...)):
         else:
             raise HTTPException(status_code=400, detail="Format file tidak didukung. Harap gunakan format .csv atau .xlsx")
 
-        required_cols = [
-            "IPS_Sem1", "IPS_Sem2", "IPS_Sem3", "IPS_Sem4",
-            "SKS_Lulus", "SKS_Gagal", "Persentase_Kehadiran"
-        ]
+        required_cols = ["IPS_Sem1", "IPS_Sem2", "IPS_Sem3", "IPS_Sem4"]
         missing = [c for c in required_cols if c not in df.columns]
         if missing:
             raise HTTPException(

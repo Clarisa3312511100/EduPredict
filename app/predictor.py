@@ -29,50 +29,42 @@ class StudentGraduationPredictor:
 
     def predict_single(self, student_data: dict) -> dict:
         """
-        student_data harus memiliki key:
+        student_data key:
         - IPS_Sem1, IPS_Sem2, IPS_Sem3, IPS_Sem4
-        - SKS_Lulus, SKS_Gagal, Persentase_Kehadiran
-        - Jalur_Masuk (SNBP, SNBT, Mandiri)
+        - IPK_Kumulatif (opsional, jika kosong dihitung otomatis dari rata-rata IPS)
+        - Umur (integer, default: 23)
+        - Jenis_Kelamin ('Laki-laki', 'Perempuan')
         - Status_Bekerja (0/1)
-        - Pernah_Cuti (0/1)
+        - Status_Nikah (0/1)
         """
         if not self.is_ready():
             raise RuntimeError("Model belum dilatih atau file model tidak ditemukan.")
 
-        # Hitung derived features
         ips1 = float(student_data["IPS_Sem1"])
         ips2 = float(student_data["IPS_Sem2"])
         ips3 = float(student_data["IPS_Sem3"])
         ips4 = float(student_data["IPS_Sem4"])
         
-        ipk_kumulatif = round((ips1 + ips2 + ips3 + ips4) / 4.0, 2)
+        ipk_kumulatif = float(student_data.get("IPK_Kumulatif") or round((ips1 + ips2 + ips3 + ips4) / 4.0, 2))
         tren_ips = round(ips4 - ips1, 2)
+        umur = int(student_data.get("Umur", 23))
         
-        sks_lulus = int(student_data["SKS_Lulus"])
-        sks_gagal = int(student_data["SKS_Gagal"])
-        total_sks = max(1, sks_lulus + sks_gagal)
-        rasio_sks_gagal = round(sks_gagal / total_sks, 3)
-        kehadiran = float(student_data["Persentase_Kehadiran"])
-        
-        jalur_masuk = str(student_data.get("Jalur_Masuk", "SNBT"))
+        jenis_kelamin = str(student_data.get("Jenis_Kelamin", "Laki-laki"))
         status_bekerja = int(student_data.get("Status_Bekerja", 0))
-        pernah_cuti = int(student_data.get("Pernah_Cuti", 0))
+        status_nikah = int(student_data.get("Status_Nikah", 0))
 
-        # Bentuk DataFrame satu baris untuk pipeline
+        # Bentuk DataFrame satu baris sesuai skema pipeline model
         df_input = pd.DataFrame([{
             "IPS_Sem1": ips1,
             "IPS_Sem2": ips2,
             "IPS_Sem3": ips3,
             "IPS_Sem4": ips4,
             "IPK_Kumulatif": ipk_kumulatif,
-            "SKS_Lulus": sks_lulus,
-            "SKS_Gagal": sks_gagal,
-            "Persentase_Kehadiran": kehadiran,
+            "Umur": umur,
             "Tren_IPS": tren_ips,
-            "Rasio_SKS_Gagal": rasio_sks_gagal,
-            "Jalur_Masuk": jalur_masuk,
+            "Jenis_Kelamin": jenis_kelamin,
             "Status_Bekerja": status_bekerja,
-            "Pernah_Cuti": pernah_cuti
+            "Status_Nikah": status_nikah
         }])
 
         # Prediksi probabilitas keterlambatan (kelas 1)
@@ -99,34 +91,34 @@ class StudentGraduationPredictor:
         positive_factors = []
 
         if ipk_kumulatif < 2.75:
-            risk_factors.append(f"IPK Kumulatif di bawah standar aman ({ipk_kumulatif:.2f} < 2.75)")
+            risk_factors.append(f"IPK Kumulatif di bawah batas standar kelulusan ({ipk_kumulatif:.2f} < 2.75)")
         else:
-            positive_factors.append(f"IPK Kumulatif solid ({ipk_kumulatif:.2f})")
+            positive_factors.append(f"IPK Kumulatif kompetitif ({ipk_kumulatif:.2f})")
 
-        if sks_gagal > 4:
-            risk_factors.append(f"Terdapat {sks_gagal} SKS gagal/mengulang yang perlu ditempuh ulang")
-        
         if tren_ips < -0.30:
-            risk_factors.append(f"Tren nilai menurun drastis dari Semester 1 ke 4 ({tren_ips:+.2f})")
+            risk_factors.append(f"Tren performa akademik menurun drastis dari semester 1 ke 4 ({tren_ips:+.2f})")
         elif tren_ips > 0.20:
             positive_factors.append(f"Tren performa akademik meningkat positif ({tren_ips:+.2f})")
 
-        if kehadiran < 75.0:
-            risk_factors.append(f"Tingkat kehadiran rendah ({kehadiran}%), berisiko terkena syarat minimal ujian")
-
-        if pernah_cuti == 1:
-            risk_factors.append("Riwayat pernah mengambil cuti akademik berpotensi memundurkan masa studi")
+        if ips4 < 2.50:
+            risk_factors.append(f"IPS Semester 4 berada pada level kritis ({ips4:.2f})")
 
         if status_bekerja == 1:
-            risk_factors.append("Status bekerja paruh waktu berpotensi membagi fokus akademik")
+            risk_factors.append("Status bekerja membagi alokasi waktu belajar dan pengerjaan tugas kuliah")
+
+        if status_nikah == 1:
+            risk_factors.append("Tanggung jawab keluarga berpotensi mempengaruhi fokus studi perkuliahan")
+
+        if umur >= 26:
+            risk_factors.append(f"Faktor usia ({umur} tahun) berkorelasi dengan potensi hambatan penyelesaian skripsi")
 
         # Rekomendasi tindakan dosen PA
         if tingkat_risiko == "Tinggi":
-            rekomendasi = "Perlu pemanggilan segera oleh Dosen PA. Susun rencana remedial SKS gagal pada Semester Pendek dan evaluasi beban kerja."
+            rekomendasi = "Perlu pemanggilan segera oleh Dosen PA. Evaluasi kendala belajar mahasiswa dan susun target perbaikan nilai di Semester 5."
         elif tingkat_risiko == "Sedang":
-            rekomendasi = "Berikan monitoring berkala di awal Semester 5. Pastikan kehadiran kuliah di atas 80% dan dorong perbaikan nilai mata kuliah prasyarat."
+            rekomendasi = "Berikan monitoring berkala. Pastikan fokus belajar terjaga terutama jika mahasiswa memiliki aktivitas kerja paruh waktu."
         else:
-            rekomendasi = "Performa akademik sangat baik. Mahasiswa berpotensi lulus tepat waktu bahkan berpeluang lulus 3.5 tahun / predikat Pujian."
+            rekomendasi = "Performa akademik sangat baik dan stabil. Mahasiswa berada pada jalur optimal untuk lulus tepat waktu $\\le$ 8 semester."
 
         return {
             "status": status,
@@ -137,10 +129,9 @@ class StudentGraduationPredictor:
             "ringkasan_akademik": {
                 "ipk_kumulatif": ipk_kumulatif,
                 "tren_ips": tren_ips,
-                "sks_lulus": sks_lulus,
-                "sks_gagal": sks_gagal,
-                "rasio_sks_gagal": rasio_sks_gagal,
-                "kehadiran": kehadiran
+                "umur": umur,
+                "ips_sem1": ips1,
+                "ips_sem4": ips4
             },
             "faktor_risiko": risk_factors,
             "faktor_positif": positive_factors,
@@ -160,9 +151,8 @@ class StudentGraduationPredictor:
                 "nim": nim,
                 "nama": nama,
                 "ipk": pred["ringkasan_akademik"]["ipk_kumulatif"],
-                "sks_lulus": pred["ringkasan_akademik"]["sks_lulus"],
-                "sks_gagal": pred["ringkasan_akademik"]["sks_gagal"],
-                "kehadiran": pred["ringkasan_akademik"]["kehadiran"],
+                "tren_ips": pred["ringkasan_akademik"]["tren_ips"],
+                "umur": pred["ringkasan_akademik"]["umur"],
                 "prob_terlambat": pred["probabilitas_terlambat"],
                 "status": pred["status"],
                 "tingkat_risiko": pred["tingkat_risiko"],
