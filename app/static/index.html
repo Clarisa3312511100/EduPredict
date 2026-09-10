@@ -1180,23 +1180,45 @@
     .py-4 { padding-top: 16px; padding-bottom: 16px; }
     .flex-between { display: flex; justify-content: space-between; align-items: center; }
 
+    /* Sembunyikan elemen cetak khusus pada mode layar normal */
+    .print-student-header,
+    .print-signature-section {
+      display: none;
+    }
+
     /* ==========================================================================
        PRINT SPECIFICATION: LEMBAR EVALUASI AKADEMIK RESMI
+       Hanya mencetak lembar hasil diagnosis individual beserta identitas mahasiswa
        ========================================================================== */
     @media print {
       body {
         background: #ffffff !important;
         color: #000000 !important;
-        font-size: 11pt;
+        font-size: 10pt !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
 
-      .sidebar, .top-navbar, .nav-menu, .form-card,
-      .login-overlay, .btn, .btn-outline, #btnPrintDiagnosis,
-      .navbar-actions, .system-badge {
+      /* HILANGKAN SELURUH TAB DAN ELEMEN DASHBOARD DARI CETAKAN */
+      #tab-overview,
+      #tab-batch-predict,
+      .sidebar,
+      .top-navbar,
+      .nav-menu,
+      .form-card,
+      .login-overlay,
+      .btn,
+      .btn-outline,
+      #btnPrintDiagnosis,
+      .navbar-actions,
+      .system-badge,
+      .badge {
         display: none !important;
       }
 
-      .app-container, .main-content, .tab-content, .predict-layout {
+      .app-container,
+      .main-content,
+      .predict-layout {
         display: block !important;
         padding: 0 !important;
         margin: 0 !important;
@@ -1205,22 +1227,128 @@
         overflow: visible !important;
       }
 
+      #tab-single-predict {
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
       .result-card {
-        border: 2px solid #000000 !important;
-        padding: 16px !important;
-        page-break-inside: avoid;
+        border: 1.5px solid #000000 !important;
+        box-shadow: none !important;
+        padding: 18px !important;
+        page-break-inside: avoid !important;
+        background: #ffffff !important;
+      }
+
+      .result-card .card-header {
+        border-bottom: 1px solid #000000 !important;
+        background: #f8f9fa !important;
+        padding: 8px 12px !important;
+        margin-bottom: 12px !important;
       }
 
       .result-card::before {
         content: "LEMBAR EVALUASI & REKOMENDASI PEMBIMBING AKADEMIK (PA)";
         display: block;
-        font-size: 12pt;
-        font-weight: 700;
+        font-size: 13pt;
+        font-weight: 800;
         text-align: center;
+        letter-spacing: 0.5px;
         border-bottom: 2px solid #000000;
         padding-bottom: 8px;
         margin-bottom: 14px;
         font-family: var(--font-sans);
+      }
+
+      /* Tampilkan Identitas Mahasiswa */
+      .print-student-header {
+        display: block !important;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 10px;
+        margin-bottom: 14px;
+      }
+
+      .print-info-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10pt;
+      }
+
+      .print-info-table td {
+        padding: 3px 4px;
+        border: none !important;
+        vertical-align: top;
+      }
+
+      /* Tampilkan Bagian Tanda Tangan */
+      .print-signature-section {
+        display: flex !important;
+        justify-content: flex-end;
+        margin-top: 24px;
+        page-break-inside: avoid;
+      }
+
+      .print-signature-box {
+        width: 250px;
+        text-align: center;
+        font-size: 10pt;
+      }
+
+      .print-date {
+        margin-bottom: 4px;
+        font-size: 9.5pt;
+      }
+
+      .print-role-title {
+        font-weight: 700;
+        margin-bottom: 45px;
+      }
+
+      .print-signature-line {
+        border-bottom: 1px solid #000000;
+        margin-bottom: 4px;
+      }
+
+      .print-signer-name {
+        font-weight: 700;
+        margin-bottom: 2px;
+      }
+
+      .print-signer-nidn {
+        font-size: 9pt;
+        color: #444444;
+      }
+
+      .gauge-section {
+        background: #fbfbfb !important;
+        border: 1px solid #666666 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .progress-bar-fill {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .mini-box {
+        background: #f5f5f5 !important;
+        border: 1px solid #cccccc !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .factor-list li {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .action-recommendation {
+        background: #f8f9fa !important;
+        border: 1px solid #333333 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
       }
     }
   </style>
@@ -1433,6 +1561,24 @@
             </div>
 
             <div class="result-body">
+              <!-- Identitas Mahasiswa (Hanya Tampil Saat Dicetak / PDF) -->
+              <div class="print-student-header" id="printStudentHeader">
+                <table class="print-info-table">
+                  <tr>
+                    <td style="width: 18%;"><strong>NIM</strong></td>
+                    <td style="width: 32%;">: <span id="printNIM">-</span></td>
+                    <td style="width: 22%;"><strong>Usia / Gender</strong></td>
+                    <td style="width: 28%;">: <span id="printUmurGender">-</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Nama Mahasiswa</strong></td>
+                    <td>: <span id="printNama">-</span></td>
+                    <td><strong>Status Aktivitas</strong></td>
+                    <td>: <span id="printStatusKhusus">Reguler</span></td>
+                  </tr>
+                </table>
+              </div>
+
               <!-- Linear Probability Gauge -->
               <div class="gauge-section">
                 <div class="gauge-label-group">
@@ -1487,6 +1633,17 @@
               <div class="action-recommendation" id="recommendationBox">
                 <div class="rec-title"><i class="fa-solid fa-clipboard-check"></i> Petunjuk Intervensi Akademik:</div>
                 <p id="recommendationText">Lakukan simulasi parameter nilai untuk mendapatkan panduan intervensi yang tepat.</p>
+              </div>
+
+              <!-- Bagian Pengesahan / Tanda Tangan (Hanya Tampil Saat Dicetak / PDF) -->
+              <div class="print-signature-section">
+                <div class="print-signature-box">
+                  <p class="print-date">Dicetak pada: <span id="printDateStamp">-</span></p>
+                  <p class="print-role-title">Dosen Pembimbing Akademik (PA)</p>
+                  <div class="print-signature-line"></div>
+                  <p class="print-signer-name" id="printSignerName">( Dosen Pembimbing Akademik )</p>
+                  <p class="print-signer-nidn">NIP/NIDN Dosen PA</p>
+                </div>
               </div>
 
               <button type="button" class="btn btn-outline btn-block mt-3" id="btnPrintDiagnosis">

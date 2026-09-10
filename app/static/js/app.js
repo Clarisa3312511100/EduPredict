@@ -519,6 +519,39 @@ function initBatchUpload() {
   const btnPrint = document.getElementById("btnPrintDiagnosis");
   if (btnPrint) {
     btnPrint.addEventListener("click", () => {
+      const nim = document.getElementById("inpNIM") ? document.getElementById("inpNIM").value : "-";
+      const nama = document.getElementById("inpNama") ? document.getElementById("inpNama").value : "-";
+      const gender = document.getElementById("inpGender") ? document.getElementById("inpGender").value : "-";
+      const umur = document.getElementById("inpUmur") ? document.getElementById("inpUmur").value : "-";
+      const bekerja = document.getElementById("inpBekerja") && document.getElementById("inpBekerja").checked;
+      const nikah = document.getElementById("inpNikah") && document.getElementById("inpNikah").checked;
+
+      const printNimEl = document.getElementById("printNIM");
+      const printNamaEl = document.getElementById("printNama");
+      const printUmurGenderEl = document.getElementById("printUmurGender");
+      const printStatusEl = document.getElementById("printStatusKhusus");
+      const printDateEl = document.getElementById("printDateStamp");
+      const printSignerEl = document.getElementById("printSignerName");
+      const navUser = document.getElementById("navUserName");
+
+      if (printNimEl) printNimEl.textContent = nim;
+      if (printNamaEl) printNamaEl.textContent = nama;
+      if (printUmurGenderEl) printUmurGenderEl.textContent = `${umur} Thn / ${gender}`;
+
+      const statusArr = [];
+      if (bekerja) statusArr.push("Bekerja");
+      if (nikah) statusArr.push("Menikah");
+      if (printStatusEl) printStatusEl.textContent = statusArr.length > 0 ? statusArr.join(", ") : "Reguler (Tidak Bekerja)";
+
+      if (printDateEl) {
+        const now = new Date();
+        printDateEl.textContent = now.toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
+      }
+
+      if (printSignerEl && navUser && navUser.textContent) {
+        printSignerEl.textContent = `( ${navUser.textContent} )`;
+      }
+
       window.print();
     });
   }
