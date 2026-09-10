@@ -1,28 +1,30 @@
 # EduPredict - Sistem Cerdas Prediksi Kelulusan Mahasiswa Berbasis Machine Learning
 
-Sistem pendukung keputusan (*Decision Support System*) dan *Early Warning System* berbasis Machine Learning untuk mendeteksi potensi risiko keterlambatan kelulusan mahasiswa sejak dini (Semester 1–4). Proyek ini dirancang sebagai pemenuhan **tugas/proyek akhir semester** di bidang Kecerdasan Buatan / Data Science.
+Sistem pendukung keputusan (*Decision Support System*) dan *Early Warning System* berbasis Machine Learning untuk mendeteksi potensi risiko keterlambatan kelulusan mahasiswa sejak dini (Semester 1–4) menggunakan **Dataset Riil Mahasiswa Perguruan Tinggi Indonesia**.
 
 ---
 
 ## 📌 Ringkasan Masalah & Solusi
 - **Masalah**: Keterlambatan kelulusan mahasiswa (> 8 semester) sering kali baru disadari saat mahasiswa berada di semester akhir (semester 7-8), sehingga ruang intervensi dosen wali/PA menjadi sangat terbatas.
-- **Solusi**: Menganalisis riwayat nilai semester awal (IPS 1-4), SKS lulus vs gagal, kehadiran, dan variabel pendukung untuk memprediksi probabilitas keterlambatan serta memberikan rekomendasi perbaikan sebelum terlambat.
+- **Solusi**: Menganalisis riwayat nilai semester awal (IPS 1 s.d 4), IPK kumulatif, profil mahasiswa (usia, status bekerja, status menikah), dan tren prestasi belajar guna memprediksi probabilitas keterlambatan serta memberikan rekomendasi perbaikan sebelum terlambat.
 
 ---
 
 ## 🚀 Fitur Utama Sistem
 
-1. **Dataset Akademik Realistis**:
-   - 1.500 sampel data mahasiswa dengan formula probabilitas berbasis aturan akademik perguruan tinggi di Indonesia.
+1. **Dataset Akademik Riil Indonesia**:
+   - 379 sampel data riil mahasiswa perguruan tinggi di Indonesia (216 Tepat Waktu, 163 Terlambat).
 2. **Multi-Model Machine Learning Benchmark**:
-   - Membandingkan 3 algoritma: **Logistic Regression**, **Decision Tree**, dan **Random Forest**.
-   - Evaluasi komprehensif: Akurasi, Presisi, Recall (Sensitivitas), F1-Score, dan ROC-AUC.
-3. **Interpretasi & Feature Importance**:
-   - Mengetahui faktor apa saja yang paling memicu risiko keterlambatan (misal: SKS gagal, penurunan drastis IPS, atau tingkat kehadiran).
+   - Membandingkan 3 algoritma: **Decision Tree**, **Random Forest**, dan **Logistic Regression**.
+   - Model terpilih: **Decision Tree Classifier** dengan **Akurasi 92.11%**, **Presisi 96.55%**, **Recall 84.85%**, dan **ROC-AUC 95.10%**.
+3. **Analisis Indikator Kritis (Feature Importance)**:
+   - Mengidentifikasi faktor dominan pemicu keterlambatan (seperti pengaruh mahasiswa yang kuliah sambil bekerja dan tren penurunan nilai IPS).
 4. **Interactive Web Dashboard (FastAPI)**:
-   - **Dashboard Overview**: Ringkasan KPI dan grafik visualisasi status kelulusan.
+   - **Dashboard Overview**: Ringkasan KPI dan grafik visualisasi distribusi status kelulusan.
    - **Simulasi Mandiri (What-if Analysis)**: Slider interaktif untuk menguji variasi nilai dan melihat hasil diagnosis langsung secara *real-time*.
    - **Prediksi Massal (Batch Upload)**: Mendukung upload file `.csv` atau `.xlsx` untuk memetakan seluruh mahasiswa satu angkatan/prodi sekaligus.
+5. **Dokumentasi Terpisah & Transparan**:
+   - Analisis lengkap evaluasi teknis dan panduan tanya-jawab sidang tersedia di [`EVALUASI_MODEL.md`](./EVALUASI_MODEL.md).
 
 ---
 
@@ -32,27 +34,29 @@ Sistem pendukung keputusan (*Decision Support System*) dan *Early Warning System
 Prediksi-kelulusan-mahasiswa/
 │
 ├── data/
-│   └── dataset_kelulusan.csv          # Dataset akademik mahasiswa (1.500 baris)
+│   ├── dataset_kelulusan.csv          # Dataset rekam akademik riil (379 mahasiswa)
+│   └── datakelulusanmahasiswa.xls     # File mentah dataset asli
 │
 ├── scripts/
-│   ├── generate_data.py               # Generator data sintetis realistis
-│   └── train_model.py                 # Script pelatihan, tuning, dan evaluasi model
+│   ├── train_model.py                 # Script pelatihan, tuning, dan evaluasi model
+│   └── test_app.py                    # Script pengujian otomatis predictor & API
 │
 ├── models/
-│   ├── best_model.joblib              # Pipeline model terlatih terbaik
-│   ├── metrics_summary.json           # Rekap metrik akurasi, presisi, recall, F1
-│   └── dataset_stats.json             # Statistik ringkasan data
+│   ├── best_model.joblib              # Model terlatih terbaik (Decision Tree)
+│   ├── metrics_summary.json           # Rekap metrik evaluasi model
+│   └── dataset_stats.json             # Statistik ringkasan data latih
 │
 ├── app/
 │   ├── main.py                        # REST API backend (FastAPI)
-│   ├── predictor.py                   # Service inferensi & analisis faktor risiko
+│   ├── predictor.py                   # Service inferensi & logika rekomendasi tindakan
 │   └── static/                        # Frontend Web Dashboard
-│       ├── index.html                 # Halaman utama aplikasi
-│       ├── css/style.css              # Styling modern, responsif & elegan
-│       └── js/app.js                  # Logika interaksi UI & visualisasi Chart.js
+│       ├── index.html                 # Halaman dashboard web
+│       ├── css/style.css              # Styling responsif & elegan
+│       └── js/app.js                  # Logika UI interaktif & Chart.js
 │
-├── requirements.txt                   # Daftar dependensi pustaka Python
-└── README.md                          # Dokumentasi lengkap proyek
+├── requirements.txt                   # Dependensi pustaka Python
+├── EVALUASI_MODEL.md                  # Laporan teknis benchmark & evaluasi model
+└── README.md                          # Dokumentasi umum proyek
 ```
 
 ---
@@ -61,17 +65,15 @@ Prediksi-kelulusan-mahasiswa/
 
 | Kolom | Tipe | Deskripsi |
 | :--- | :--- | :--- |
-| `NIM` | String | Nomor Induk Mahasiswa (e.g. `2021000001`) |
+| `NIM` | String | Nomor Induk Mahasiswa (e.g. `20180001`) |
 | `Nama` | String | Nama lengkap mahasiswa |
-| `Jenis_Kelamin` | Kategori | Laki-laki / Perempuan |
-| `Jalur_Masuk` | Kategori | `SNBP`, `SNBT`, atau `Mandiri` |
+| `Jenis_Kelamin` | Kategori | `Laki-laki` / `Perempuan` |
+| `Umur` | Integer | Usia mahasiswa saat perkuliahan berlangsung |
+| `Status_Bekerja` | Biner | `0` = Tidak Bekerja, `1` = Bekerja |
+| `Status_Nikah` | Biner | `0` = Belum Menikah, `1` = Menikah |
 | `IPS_Sem1` s.d `IPS_Sem4` | Float | Indeks Prestasi per semester (1.00 - 4.00) |
-| `IPK_Kumulatif` | Float | IPK rata-rata tertimbang hingga Semester 4 |
-| `SKS_Lulus` | Integer | Total SKS berhasil lulus (target ~80-88 SKS) |
-| `SKS_Gagal` | Integer | Total SKS mata kuliah mengulang / bernilai D-E |
-| `Persentase_Kehadiran` | Float | Rata-rata persentase presensi kuliah (60% - 100%) |
-| `Status_Bekerja` | Biner | `0` = Tidak bekerja, `1` = Kuliah sambil bekerja |
-| `Pernah_Cuti` | Biner | `0` = Tidak pernah, `1` = Pernah mengambil cuti kuliah |
+| `IPK_Kumulatif` | Float | Indeks Prestasi Kumulatif hingga Semester 4 |
+| `Tren_IPS` | Float | Selisih tren nilai ($IPS_{\text{Sem 4}} - IPS_{\text{Sem 1}}$) |
 | **`Status_Kelulusan`** | **Target** | **`Tepat Waktu`** ($\le$ 8 Semester) vs **`Terlambat`** (> 8 Semester) |
 
 ---
@@ -79,7 +81,7 @@ Prediksi-kelulusan-mahasiswa/
 ## 🛠️ Panduan Instalasi & Menjalankan Proyek
 
 ### 1. Prasyarat
-- Python 3.10 atau versi yang lebih baru terpasang di komputer.
+- Python 3.10 atau versi yang lebih baru.
 
 ### 2. Instalasi Dependensi
 Buka terminal pada direktori proyek dan jalankan:
@@ -87,16 +89,16 @@ Buka terminal pada direktori proyek dan jalankan:
 pip install -r requirements.txt
 ```
 
-### 3. Pembuatan Dataset (Opsional jika ingin regenerasi data)
-```bash
-python scripts/generate_data.py
-```
-
-### 4. Pelatihan Model Machine Learning
+### 3. Pelatihan Model Machine Learning
 ```bash
 python scripts/train_model.py
 ```
-*Skrip ini akan membandingkan performa model dan menyimpan model terbaik ke `models/best_model.joblib`.*
+*Script ini akan mengevaluasi model pada data uji, menghitung metrik, dan menyimpan model terbaik ke `models/best_model.joblib`.*
+
+### 4. Menjalankan Pengujian Otomatis
+```bash
+python scripts/test_app.py
+```
 
 ### 5. Menjalankan Aplikasi Web Dashboard
 ```bash
@@ -107,14 +109,3 @@ Buka peramban (browser) dan akses:
 
 Dokumentasi otomatis API (Swagger UI):
 👉 **`http://localhost:8000/docs`**
-
----
-
-## 📈 Metodologi Machine Learning
-
-1. **Stratified Split**: Data dibagi 80% untuk data latih dan 20% untuk data uji dengan mempertahankan rasio kelas target.
-2. **Preprocessing**:
-   - `StandardScaler` untuk normalisasi fitur numerik.
-   - `OneHotEncoder` untuk fitur kategorikal.
-3. **Prioritas Metrik Evaluasi**:
-   - Dalam sistem peringatan dini (*Early Warning System*), metrik **Recall** untuk kelas *"Terlambat"* adalah yang paling krusial, karena kegagalan mendeteksi mahasiswa yang sebenarnya berisiko (*False Negative*) jauh lebih berdampak buruk dibandingkan jika mahasiswa aman dicek ulang (*False Positive*).
