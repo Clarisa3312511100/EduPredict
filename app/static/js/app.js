@@ -235,9 +235,8 @@ function initSliderListeners() {
     { id: "inpIps2", labelId: "valIps2", isDec: true },
     { id: "inpIps3", labelId: "valIps3", isDec: true },
     { id: "inpIps4", labelId: "valIps4", isDec: true },
-    { id: "inpSksLulus", labelId: "valSksLulus", isDec: false },
-    { id: "inpSksGagal", labelId: "valSksGagal", isDec: false },
-    { id: "inpKehadiran", labelId: "valKehadiran", isDec: false }
+    { id: "inpIpk", labelId: "valIpk", isDec: true },
+    { id: "inpUmur", labelId: "valUmur", isDec: false }
   ];
 
   sliders.forEach(s => {
@@ -257,22 +256,20 @@ function initFormInteractions() {
   const btnPreset = document.getElementById("btnFillPreset");
 
   btnPreset.addEventListener("click", () => {
-    document.getElementById("inpNIM").value = "2021008765";
-    document.getElementById("inpNama").value = "Rafi Nugraha";
-    document.getElementById("inpJalur").value = "Mandiri";
+    document.getElementById("inpNIM").value = "20180055";
+    document.getElementById("inpNama").value = "Bambang Hidayat";
     document.getElementById("inpGender").value = "Laki-laki";
+    setSliderVal("inpUmur", "valUmur", 27, false);
 
-    // Set nilai berisiko
+    // Set nilai profil berisiko (tren menurun)
     setSliderVal("inpIps1", "valIps1", 3.10, true);
     setSliderVal("inpIps2", "valIps2", 2.65, true);
     setSliderVal("inpIps3", "valIps3", 2.20, true);
     setSliderVal("inpIps4", "valIps4", 1.95, true);
-    setSliderVal("inpSksLulus", "valSksLulus", 68, false);
-    setSliderVal("inpSksGagal", "valSksGagal", 14, false);
-    setSliderVal("inpKehadiran", "valKehadiran", 68, false);
+    setSliderVal("inpIpk", "valIpk", 2.48, true);
 
     document.getElementById("inpBekerja").checked = true;
-    document.getElementById("inpCuti").checked = true;
+    document.getElementById("inpNikah").checked = true;
 
     // Trigger auto predict
     form.dispatchEvent(new Event("submit"));
@@ -284,17 +281,15 @@ function initFormInteractions() {
     const payload = {
       NIM: document.getElementById("inpNIM").value,
       Nama: document.getElementById("inpNama").value,
-      Jalur_Masuk: document.getElementById("inpJalur").value,
       Jenis_Kelamin: document.getElementById("inpGender").value,
+      Umur: parseInt(document.getElementById("inpUmur").value) || 23,
+      Status_Bekerja: document.getElementById("inpBekerja").checked ? 1 : 0,
+      Status_Nikah: document.getElementById("inpNikah").checked ? 1 : 0,
       IPS_Sem1: parseFloat(document.getElementById("inpIps1").value),
       IPS_Sem2: parseFloat(document.getElementById("inpIps2").value),
       IPS_Sem3: parseFloat(document.getElementById("inpIps3").value),
       IPS_Sem4: parseFloat(document.getElementById("inpIps4").value),
-      SKS_Lulus: parseInt(document.getElementById("inpSksLulus").value),
-      SKS_Gagal: parseInt(document.getElementById("inpSksGagal").value),
-      Persentase_Kehadiran: parseFloat(document.getElementById("inpKehadiran").value),
-      Status_Bekerja: document.getElementById("inpBekerja").checked ? 1 : 0,
-      Pernah_Cuti: document.getElementById("inpCuti").checked ? 1 : 0
+      IPK_Kumulatif: parseFloat(document.getElementById("inpIpk").value)
     };
 
     const btn = document.getElementById("btnRunPrediction");
@@ -327,8 +322,10 @@ function initFormInteractions() {
 function setSliderVal(sliderId, labelId, val, isDec) {
   const sl = document.getElementById(sliderId);
   const lb = document.getElementById(labelId);
-  sl.value = val;
-  lb.textContent = isDec ? parseFloat(val).toFixed(2) : val;
+  if (sl && lb) {
+    sl.value = val;
+    lb.textContent = isDec ? parseFloat(val).toFixed(2) : val;
+  }
 }
 
 function renderPredictionResult(res) {
@@ -352,10 +349,15 @@ function renderPredictionResult(res) {
 
   // Mini summary
   const summary = res.ringkasan_akademik;
-  document.getElementById("resIpk").textContent = summary.ipk_kumulatif.toFixed(2);
-  document.getElementById("resTren").textContent = (summary.tren_ips > 0 ? "+" : "") + summary.tren_ips.toFixed(2);
-  document.getElementById("resSksGagal").textContent = `${summary.sks_gagal} SKS`;
-  document.getElementById("resKehadiran").textContent = `${summary.kehadiran}%`;
+  const setElText = (id, txt) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = txt;
+  };
+
+  setElText("resIpk", summary.ipk_kumulatif.toFixed(2));
+  setElText("resTren", (summary.tren_ips > 0 ? "+" : "") + summary.tren_ips.toFixed(2));
+  setElText("resUmur", `${summary.umur} Thn`);
+  setElText("resIps4", summary.ips_sem4 ? summary.ips_sem4.toFixed(2) : "--");
 
   // Risk Factors
   const riskList = document.getElementById("riskFactorsList");

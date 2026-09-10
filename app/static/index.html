@@ -167,23 +167,19 @@
 
               <div class="form-row">
                 <div class="form-group">
-                  <label>Jalur Masuk</label>
-                  <select id="inpJalur" class="form-control">
-                    <option value="SNBP">SNBP (Prestasi)</option>
-                    <option value="SNBT" selected>SNBT (Tes UTBK)</option>
-                    <option value="Mandiri">Seleksi Mandiri</option>
-                  </select>
-                </div>
-                <div class="form-group">
                   <label>Jenis Kelamin</label>
                   <select id="inpGender" class="form-control">
                     <option value="Laki-laki">Laki-laki</option>
                     <option value="Perempuan">Perempuan</option>
                   </select>
                 </div>
+                <div class="form-group">
+                  <label>Umur: <strong id="valUmur" class="text-primary">23</strong> Tahun</label>
+                  <input type="range" id="inpUmur" min="19" max="45" step="1" value="23" class="range-slider" />
+                </div>
               </div>
 
-              <div class="form-divider"><span>Performa Nilai Semester (IPS)</span></div>
+              <div class="form-divider"><span>Performa Nilai Semester (IPS 1 - 4)</span></div>
 
               <div class="form-grid-4">
                 <div class="form-group">
@@ -195,30 +191,18 @@
                   <input type="range" id="inpIps2" min="1.0" max="4.0" step="0.05" value="3.05" class="range-slider" />
                 </div>
                 <div class="form-group">
-                  <label>IPS Sem 3: <strong id="valIps3" class="text-primary">2.70</strong></label>
-                  <input type="range" id="inpIps3" min="1.0" max="4.0" step="0.05" value="2.70" class="range-slider" />
+                  <label>IPS Sem 3: <strong id="valIps3" class="text-primary">2.85</strong></label>
+                  <input type="range" id="inpIps3" min="1.0" max="4.0" step="0.05" value="2.85" class="range-slider" />
                 </div>
                 <div class="form-group">
-                  <label>IPS Sem 4: <strong id="valIps4" class="text-primary">2.45</strong></label>
-                  <input type="range" id="inpIps4" min="1.0" max="4.0" step="0.05" value="2.45" class="range-slider" />
+                  <label>IPS Sem 4: <strong id="valIps4" class="text-primary">2.70</strong></label>
+                  <input type="range" id="inpIps4" min="1.0" max="4.0" step="0.05" value="2.70" class="range-slider" />
                 </div>
               </div>
 
-              <div class="form-divider"><span>Beban SKS & Kehadiran</span></div>
-
-              <div class="form-grid-3">
-                <div class="form-group">
-                  <label>SKS Lulus: <strong id="valSksLulus" class="text-primary">76</strong> SKS</label>
-                  <input type="range" id="inpSksLulus" min="50" max="96" step="1" value="76" class="range-slider" />
-                </div>
-                <div class="form-group">
-                  <label>SKS Gagal / D-E: <strong id="valSksGagal" class="text-danger">8</strong> SKS</label>
-                  <input type="range" id="inpSksGagal" min="0" max="24" step="1" value="8" class="range-slider" />
-                </div>
-                <div class="form-group">
-                  <label>Kehadiran Kuliah: <strong id="valKehadiran" class="text-primary">78</strong>%</label>
-                  <input type="range" id="inpKehadiran" min="60" max="100" step="1" value="78" class="range-slider" />
-                </div>
+              <div class="form-group" style="margin-bottom: 16px;">
+                <label>Estimasi IPK Kumulatif: <strong id="valIpk" class="text-primary">2.95</strong></label>
+                <input type="range" id="inpIpk" min="1.0" max="4.0" step="0.05" value="2.95" class="range-slider" />
               </div>
 
               <div class="form-row">
@@ -226,14 +210,14 @@
                   <label class="custom-checkbox">
                     <input type="checkbox" id="inpBekerja" />
                     <span class="checkmark"></span>
-                    Mahasiswa Kuliah Sambil Bekerja
+                    Mahasiswa Bekerja
                   </label>
                 </div>
                 <div class="form-group checkbox-group">
                   <label class="custom-checkbox">
-                    <input type="checkbox" id="inpCuti" />
+                    <input type="checkbox" id="inpNikah" />
                     <span class="checkmark"></span>
-                    Pernah Mengambil Cuti Akademik
+                    Sudah Menikah
                   </label>
                 </div>
               </div>
@@ -275,16 +259,16 @@
                   <span class="mini-val" id="resIpk">--</span>
                 </div>
                 <div class="mini-box">
-                  <span class="mini-title">Tren IPS</span>
+                  <span class="mini-title">Tren Nilai</span>
                   <span class="mini-val" id="resTren">--</span>
                 </div>
                 <div class="mini-box">
-                  <span class="mini-title">SKS Tertinggal</span>
-                  <span class="mini-val" id="resSksGagal">--</span>
+                  <span class="mini-title">Usia</span>
+                  <span class="mini-val" id="resUmur">--</span>
                 </div>
                 <div class="mini-box">
-                  <span class="mini-title">Kehadiran</span>
-                  <span class="mini-val" id="resKehadiran">--</span>
+                  <span class="mini-title">IPS Terakhir</span>
+                  <span class="mini-val" id="resIps4">--</span>
                 </div>
               </div>
 
@@ -384,9 +368,8 @@
                   <th>NIM</th>
                   <th>Nama Mahasiswa</th>
                   <th>IPK</th>
-                  <th>SKS Lulus</th>
-                  <th>SKS Gagal</th>
-                  <th>Kehadiran</th>
+                  <th>Tren Nilai</th>
+                  <th>Usia</th>
                   <th>Prob. Terlambat</th>
                   <th>Tingkat Risiko</th>
                   <th>Prediksi</th>
