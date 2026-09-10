@@ -3,6 +3,7 @@ let featureChart = null;
 let batchDataCache = [];
 
 document.addEventListener("DOMContentLoaded", () => {
+  initAuth();
   initNavigation();
   initSliderListeners();
   initFormInteractions();
@@ -474,39 +475,208 @@ function initBatchUpload() {
     }
   });
 
-  filterRisk.addEventListener("change", (e) => {
-    const val = e.target.value;
-    if (val === "ALL") {
-      renderBatchTable(batchDataCache);
-    } else {
-      const filtered = batchDataCache.filter(item => item.tingkat_risiko === val);
-      renderBatchTable(filtered);
+  // Search & Filter Batch Table
+  const searchInput = document.getElementById("searchBatchStudent");
+  const btnExportCsv = document.getElementById("btnExportBatchCsv");
+
+  function applyBatchFilters() {
+    const riskVal = filterRisk.value;
+    const query = (searchInput ? searchInput.value.trim().toLowerCase() : "");
+
+    let filtered = batchDataCache;
+
+    if (riskVal !== "ALL") {
+      filtered = filtered.filter(item => item.tingkat_risiko === riskVal);
     }
-  });
+
+    if (query) {
+      filtered = filtered.filter(item => 
+        (item.nama && item.nama.toLowerCase().includes(query)) ||
+        (item.nim && item.nim.toLowerCase().includes(query))
+      );
+    }
+
+    renderBatchTable(filtered);
+  }
+
+  filterRisk.addEventListener("change", applyBatchFilters);
+  if (searchInput) {
+    searchInput.addEventListener("input", applyBatchFilters);
+  }
+
+  // Export Batch Results to CSV
+  if (btnExportCsv) {
+    btnExportCsv.addEventListener("click", () => {
+      exportBatchCsv(batchDataCache);
+    });
+  }
+
+  // Print Diagnosis Lembar Rekomendasi PA
+  const btnPrint = document.getElementById("btnPrintDiagnosis");
+  if (btnPrint) {
+    btnPrint.addEventListener("click", () => {
+      window.print();
+    });
+  }
 }
 
 function renderBatchTable(data) {
   const tbody = document.getElementById("batchTableBody");
   tbody.innerHTML = "";
 
-  if (data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="9" class="text-center">Tidak ada data mahasiswa sesuai filter.</td></tr>';
+  if (!data || data.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="8" class="text-center py-4">Tidak ada data mahasiswa yang sesuai dengan kriteria pencarian/filter.</td></tr>';
     return;
   }
 
   data.forEach(item => {
     const tr = document.createElement("tr");
+    const trenFormatted = item.tren_ips > 0 ? `+${item.tren_ips.toFixed(2)}` : item.tren_ips.toFixed(2);
+    const trenClass = item.tren_ips < -0.3 ? "text-danger font-bold" : (item.tren_ips > 0.2 ? "text-success font-bold" : "");
+
     tr.innerHTML = `
       <td><code>${item.nim}</code></td>
       <td><strong>${item.nama}</strong></td>
-      <td>${item.ipk.toFixed(2)}</td>
-      <td>${item.sks_lulus} SKS</td>
-      <td><span class="${item.sks_gagal > 6 ? 'text-danger font-bold' : ''}">${item.sks_gagal} SKS</span></td>
-      <td>${item.kehadiran}%</td>
+      <td><strong>${item.ipk.toFixed(2)}</strong></td>
+      <td><span class="${trenClass}">${trenFormatted}</span></td>
+      <td>${item.umur} Thn</td>
       <td><strong>${item.prob_terlambat}%</strong></td>
       <td><span class="badge ${item.status_color}">${item.tingkat_risiko}</span></td>
       <td><span class="badge ${item.status_color}">${item.status}</span></td>
     `;
     tbody.appendChild(tr);
   });
+}
+
+function exportBatchCsv(data) {
+  if (!data || data.length === 0) {
+    alert("Tidak ada data hasil prediksi untuk diunduh. Silakan proses batch terlebih dahulu.");
+    return;
+  }
+
+  const headers = ["NIM", "Nama Mahasiswa", "IPK Kumulatif", "Tren Nilai IPS", "Usia", "Probabilitas Terlambat (%)", "Tingkat Risiko", "Prediksi Kelulusan"];
+  
+  const csvRows = [];
+  csvRows.push(headers.join(","));
+
+  data.forEach(row => {
+    const values = [
+      `"${row.nim}"`,
+      `"${row.nama.replace(/"/g, '""')}"`,
+      row.ipk.toFixed(2),
+      row.tren_ips.toFixed(2),
+      row.umur,
+      row.prob_terlambat,
+      `"${row.tingkat_risiko}"`,
+      `"${row.status}"`
+    ];
+    csvRows.push(values.join(","));
+  });
+
+  const csvContent = "data:text/csv;charset=utf-8,\uFEFF" + encodeURIComponent(csvRows.join("\n"));
+  const downloadAnchor = document.createElement("a");
+  downloadAnchor.setAttribute("href", csvContent);
+  downloadAnchor.setAttribute("download", `Hasil_Prediksi_Kelulusan_EduPredict_${new Date().toISOString().slice(0,10)}.csv`);
+  document.body.appendChild(downloadAnchor);
+  downloadAnchor.click();
+  document.body.removeChild(downloadAnchor);
+}
+
+// 6. Autentikasi Sederhana (Dosen / Admin)
+function initAuth() {
+  const loginOverlay = document.getElementById("loginOverlay");
+  const loginForm = document.getElementById("loginForm");
+  const loginAlert = document.getElementById("loginAlert");
+  const loginUsername = document.getElementById("loginUsername");
+  const loginPassword = document.getElementById("loginPassword");
+  const navUserName = document.getElementById("navUserName");
+  const navUserRole = document.getElementById("navUserRole");
+  const btnLogout = document.getElementById("btnLogout");
+  const btnDemoDosen = document.getElementById("btnDemoDosen");
+  const btnDemoAdmin = document.getElementById("btnDemoAdmin");
+
+  // Periksa apakah user sudah login di localStorage
+  const savedUserJson = localStorage.getItem("edupredict_auth_user");
+  if (savedUserJson) {
+    try {
+      const user = JSON.parse(savedUserJson);
+      applyUserSession(user);
+    } catch (e) {
+      showLoginModal();
+    }
+  } else {
+    showLoginModal();
+  }
+
+  function showLoginModal() {
+    loginOverlay.style.display = "flex";
+  }
+
+  function hideLoginModal() {
+    loginOverlay.style.display = "none";
+  }
+
+  function applyUserSession(user) {
+    if (navUserName) navUserName.textContent = user.name;
+    if (navUserRole) navUserRole.textContent = user.role;
+    hideLoginModal();
+  }
+
+  // Handle submit form login
+  if (loginForm) {
+    loginForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      loginAlert.style.display = "none";
+
+      const username = loginUsername.value.trim();
+      const password = loginPassword.value.trim();
+
+      try {
+        const res = await fetch("/api/auth/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username, password })
+        });
+
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.detail || "Gagal melakukan autentikasi");
+        }
+
+        const data = await res.json();
+        localStorage.setItem("edupredict_auth_user", JSON.stringify(data.user));
+        applyUserSession(data.user);
+      } catch (err) {
+        loginAlert.textContent = err.message;
+        loginAlert.style.display = "block";
+      }
+    });
+  }
+
+  // Quick Demo Buttons
+  if (btnDemoDosen) {
+    btnDemoDosen.addEventListener("click", () => {
+      loginUsername.value = "dosen";
+      loginPassword.value = "password123";
+      loginForm.dispatchEvent(new Event("submit"));
+    });
+  }
+
+  if (btnDemoAdmin) {
+    btnDemoAdmin.addEventListener("click", () => {
+      loginUsername.value = "admin";
+      loginPassword.value = "admin123";
+      loginForm.dispatchEvent(new Event("submit"));
+    });
+  }
+
+  // Logout Handler
+  if (btnLogout) {
+    btnLogout.addEventListener("click", () => {
+      if (confirm("Apakah Anda yakin ingin keluar dari sistem EduPredict?")) {
+        localStorage.removeItem("edupredict_auth_user");
+        showLoginModal();
+      }
+    });
+  }
 }

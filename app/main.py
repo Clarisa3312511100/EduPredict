@@ -39,6 +39,42 @@ class StudentInput(BaseModel):
     IPK_Kumulatif: float = Field(ge=0.0, le=4.0, default=2.98)
 
 
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+@app.post("/api/auth/login")
+def login(creds: LoginRequest):
+    """Autentikasi Dosen / Admin Program Studi"""
+    users = {
+        "dosen": {
+            "name": "Clarisa Tampilang, S.T., M.Kom.",
+            "role": "Dosen Pembimbing Akademik",
+            "nidn": "0021059001",
+            "pass": "password123"
+        },
+        "admin": {
+            "name": "Administrator Program Studi",
+            "role": "Admin Akademik",
+            "nidn": "ADM-PLB-01",
+            "pass": "admin123"
+        }
+    }
+
+    u = users.get(creds.username.lower())
+    if not u or u["pass"] != creds.password:
+        raise HTTPException(status_code=401, detail="Username atau password salah. Cek akun demo.")
+
+    return {
+        "status": "success",
+        "user": {
+            "username": creds.username.lower(),
+            "name": u["name"],
+            "role": u["role"],
+            "nidn": u["nidn"]
+        }
+    }
+
 @app.get("/api/health")
 def health_check():
     return {
