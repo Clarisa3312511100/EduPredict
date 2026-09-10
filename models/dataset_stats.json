@@ -1,9 +1,9 @@
 {
-  "total_mahasiswa": 379,
-  "tepat_waktu_count": 216,
-  "terlambat_count": 163,
-  "persentase_tepat_waktu": 57.0,
-  "persentase_terlambat": 43.0,
-  "rata_rata_ipk": 2.93,
-  "rata_rata_umur": 26.0
+  "total_mahasiswa": 1200,
+  "tepat_waktu_count": 747,
+  "terlambat_count": 453,
+  "persentase_tepat_waktu": 62.3,
+  "persentase_terlambat": 37.8,
+  "rata_rata_ipk": 3.06,
+  "rata_rata_umur": 23.6
 }

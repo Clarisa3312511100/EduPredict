@@ -378,3 +378,824 @@ NIM,Nama,Jenis_Kelamin,Umur,Status_Bekerja,Status_Nikah,IPS_Sem1,IPS_Sem2,IPS_Se
 20180377,Tulisa Wahyuhadi Krisnatami,Perempuan,23,0,0,2.74,2.75,2.55,3.0,3.03,Tepat Waktu
 20180378,Ni'Matul Jannah,Perempuan,23,0,0,3.02,2.94,3.25,2.87,3.16,Tepat Waktu
 20180379,Dindu Setyo Wicaksono,Laki-laki,23,0,0,3.1,3.06,3.0,3.23,2.16,Tepat Waktu
+20180380,Yoga Kusuma,Laki-laki,22,1,0,3.36,3.6,3.71,3.67,3.58,Tepat Waktu
+20180381,Ahmad Wibowo,Laki-laki,22,0,0,3.68,3.8,3.77,3.7,3.74,Tepat Waktu
+20180382,Hafiz Nugroho,Laki-laki,22,1,0,2.73,2.5,2.56,2.44,2.56,Terlambat
+20180383,Eko Kusuma,Laki-laki,20,0,0,2.38,2.17,1.79,1.96,2.08,Terlambat
+20180384,Zulfikar Siregar,Laki-laki,23,0,0,2.83,2.8,2.7,2.57,2.72,Terlambat
+20180385,Bayu Nasution,Laki-laki,22,1,0,2.79,2.73,2.83,3.01,2.84,Terlambat
+20180386,Putri Saputra,Perempuan,21,0,0,2.64,2.38,2.24,1.86,2.28,Terlambat
+20180387,Annisa Wijaya,Perempuan,21,1,0,3.19,2.95,3.23,3.3,3.17,Tepat Waktu
+20180388,Gilang Nugroho,Laki-laki,21,0,0,3.7,3.76,3.54,3.53,3.63,Tepat Waktu
+20180389,Sari Tanjung,Perempuan,22,0,0,3.9,3.99,4.0,4.0,3.97,Tepat Waktu
+20180390,Annisa Siregar,Perempuan,22,0,0,2.83,2.53,2.36,2.16,2.47,Terlambat
+20180391,Fadilah Mahendra,Perempuan,22,0,0,3.33,3.2,3.27,3.27,3.27,Tepat Waktu
+20180392,Bambang Siregar,Laki-laki,26,1,0,2.38,1.81,1.7,1.62,1.88,Terlambat
+20180393,Naufal Nugroho,Laki-laki,21,1,0,3.34,3.6,3.7,3.47,3.53,Tepat Waktu
+20180394,Prasetyo Nasution,Laki-laki,23,1,0,3.05,2.85,2.72,2.74,2.84,Terlambat
+20180395,Ilham Pratama,Laki-laki,23,0,0,3.73,3.72,3.81,3.81,3.77,Tepat Waktu
+20180396,Fikri Santoso,Laki-laki,24,0,0,3.71,3.79,3.97,3.8,3.82,Tepat Waktu
+20180397,Indah Suryono,Perempuan,22,1,0,3.76,3.83,3.92,4.0,3.88,Tepat Waktu
+20180398,Kevin Wibowo,Laki-laki,20,1,0,3.71,3.98,4.0,3.88,3.89,Tepat Waktu
+20180399,Eko Hidayat,Laki-laki,23,0,0,2.66,2.65,2.36,2.3,2.49,Terlambat
+20180400,Fikri Lestari,Laki-laki,22,0,1,2.64,2.49,2.7,2.53,2.59,Terlambat
+20180401,Citra Wijaya,Perempuan,23,0,0,3.91,4.0,4.0,4.0,3.98,Tepat Waktu
+20180402,Nur Kusuma,Perempuan,22,1,0,2.42,2.32,1.95,1.89,2.14,Terlambat
+20180403,Lukman Permana,Laki-laki,21,0,1,3.27,3.35,3.5,3.7,3.46,Tepat Waktu
+20180404,Wahyu Wibowo,Laki-laki,24,0,0,2.84,2.8,2.7,2.6,2.74,Terlambat
+20180405,Aulia Firmansyah,Perempuan,22,1,0,3.65,3.84,3.86,3.82,3.79,Tepat Waktu
+20180406,Satria Kusuma,Laki-laki,20,0,0,2.45,2.31,1.97,1.69,2.1,Terlambat
+20180407,Reza Kurniawan,Laki-laki,22,0,0,3.17,3.31,3.29,3.38,3.29,Tepat Waktu
+20180408,Bella Siregar,Perempuan,21,0,0,3.92,4.0,4.0,3.88,3.95,Tepat Waktu
+20180409,Joko Mahendra,Laki-laki,23,0,0,3.92,3.93,4.0,4.0,3.96,Tepat Waktu
+20180410,Wahyu Permana,Laki-laki,23,0,0,3.33,3.43,3.54,3.45,3.44,Tepat Waktu
+20180411,Taufik Hidayat,Laki-laki,22,0,0,3.11,3.1,3.05,2.96,3.06,Tepat Waktu
+20180412,Bambang Wijaya,Laki-laki,21,1,0,3.7,3.76,3.73,3.76,3.74,Tepat Waktu
+20180413,Aulia Nugroho,Perempuan,25,0,0,3.32,3.45,3.33,3.37,3.37,Tepat Waktu
+20180414,Lestari Wijaya,Perempuan,22,0,0,3.74,3.9,3.96,4.0,3.9,Tepat Waktu
+20180415,Irfan Nugroho,Laki-laki,28,1,0,2.94,3.07,2.92,3.15,3.02,Terlambat
+20180416,Citra Kurniawan,Perempuan,23,0,0,3.88,4.0,4.0,4.0,3.97,Tepat Waktu
+20180417,Ilham Firmansyah,Laki-laki,22,1,0,2.87,2.65,2.7,2.6,2.7,Terlambat
+20180418,Yoga Permana,Laki-laki,23,0,0,2.75,2.6,2.3,2.22,2.47,Terlambat
+20180419,Dinda Permana,Perempuan,21,0,0,2.63,2.33,2.13,2.08,2.29,Terlambat
+20180420,Nabila Hidayat,Perempuan,27,0,0,3.51,3.47,3.46,3.52,3.49,Tepat Waktu
+20180421,Zahra Wibowo,Perempuan,20,0,0,2.74,3.04,3.27,3.42,3.12,Tepat Waktu
+20180422,Indah Mahendra,Perempuan,24,0,0,3.92,4.0,4.0,4.0,3.98,Tepat Waktu
+20180423,Bayu Tanjung,Laki-laki,22,0,0,3.08,2.93,2.89,3.09,3.0,Tepat Waktu
+20180424,Yoga Santoso,Laki-laki,22,0,0,2.75,2.82,3.18,3.37,3.03,Tepat Waktu
+20180425,Satria Nugroho,Laki-laki,25,1,0,3.1,2.98,3.1,3.07,3.06,Terlambat
+20180426,Fajar Firmansyah,Laki-laki,24,0,0,2.31,1.78,1.98,1.85,1.98,Terlambat
+20180427,Muhammad Wibowo,Laki-laki,24,0,0,2.9,2.8,2.7,2.6,2.75,Terlambat
+20180428,Yulia Siregar,Perempuan,21,0,0,2.62,2.63,2.28,1.8,2.33,Terlambat
+20180429,Gita Lestari,Perempuan,22,0,0,2.59,2.72,2.7,2.6,2.65,Terlambat
+20180430,Haris Saputra,Laki-laki,23,0,0,2.84,3.05,2.68,2.44,2.75,Terlambat
+20180431,Hafiz Saputra,Laki-laki,22,0,0,3.26,2.85,2.83,2.99,2.98,Tepat Waktu
+20180432,Guntur Lestari,Laki-laki,22,1,0,2.86,2.93,2.72,2.62,2.78,Terlambat
+20180433,Muhammad Wibowo,Laki-laki,21,0,0,3.37,3.29,3.21,3.16,3.26,Tepat Waktu
+20180434,Bayu Hidayat,Laki-laki,22,0,0,3.15,3.01,3.03,3.01,3.05,Tepat Waktu
+20180435,Tiara Lestari,Perempuan,22,0,0,3.1,3.06,2.91,2.47,2.88,Terlambat
+20180436,Gilang Mahendra,Laki-laki,24,0,0,3.05,3.02,2.81,2.49,2.84,Tepat Waktu
+20180437,Rian Kurniawan,Laki-laki,21,0,0,3.33,3.4,3.45,3.58,3.44,Tepat Waktu
+20180438,Yulia Firmansyah,Perempuan,22,0,0,3.18,2.97,2.91,2.73,2.95,Terlambat
+20180439,Dewi Wibowo,Perempuan,23,0,1,3.32,3.2,3.17,3.11,3.2,Tepat Waktu
+20180440,Eko Nugroho,Laki-laki,24,0,0,3.62,3.7,3.71,3.7,3.68,Tepat Waktu
+20180441,Novita Siregar,Perempuan,21,1,0,3.3,3.12,3.51,3.7,3.41,Tepat Waktu
+20180442,Siti Wibowo,Perempuan,22,0,0,2.86,2.91,2.71,2.84,2.83,Tepat Waktu
+20180443,Danu Nasution,Laki-laki,22,0,0,3.29,3.14,3.09,3.2,3.18,Tepat Waktu
+20180444,Putri Nasution,Perempuan,22,0,0,3.9,3.99,3.94,3.97,3.95,Tepat Waktu
+20180445,Nur Permana,Perempuan,21,0,0,3.36,3.39,3.48,3.62,3.46,Tepat Waktu
+20180446,Hafiz Utomo,Laki-laki,24,1,0,2.95,2.58,2.49,2.49,2.63,Terlambat
+20180447,Sari Ramadhan,Perempuan,25,0,0,2.78,3.12,3.13,3.24,3.07,Tepat Waktu
+20180448,Bayu Saputra,Laki-laki,22,1,0,2.75,2.5,2.21,2.32,2.44,Terlambat
+20180449,Citra Utomo,Perempuan,22,1,0,2.28,1.94,2.12,1.91,2.06,Terlambat
+20180450,Yoga Santoso,Laki-laki,23,1,0,3.05,2.9,2.63,2.27,2.71,Terlambat
+20180451,Zahra Suryono,Perempuan,22,0,0,2.71,3.01,3.35,3.47,3.14,Tepat Waktu
+20180452,Wulandari Wijaya,Perempuan,23,0,0,3.18,2.98,2.93,2.94,3.01,Tepat Waktu
+20180453,Muhammad Kurniawan,Laki-laki,24,0,0,3.48,3.66,3.78,3.52,3.61,Tepat Waktu
+20180454,Wahyu Firmansyah,Laki-laki,22,0,0,3.57,3.59,3.58,3.28,3.5,Tepat Waktu
+20180455,Rizky Wibowo,Laki-laki,20,0,0,2.82,2.81,2.63,2.6,2.72,Terlambat
+20180456,Satria Pratama,Laki-laki,23,0,0,3.88,3.86,3.81,3.83,3.84,Tepat Waktu
+20180457,Zulfikar Kusuma,Laki-laki,22,1,0,2.96,2.85,2.59,2.63,2.76,Terlambat
+20180458,Zahra Siregar,Perempuan,22,1,0,2.97,3.16,3.39,3.53,3.26,Tepat Waktu
+20180459,Fikri Wibowo,Laki-laki,23,1,0,3.32,3.23,3.35,3.26,3.29,Terlambat
+20180460,Yulia Lestari,Perempuan,21,0,0,3.88,3.97,3.84,3.97,3.92,Tepat Waktu
+20180461,Dimas Setiawan,Laki-laki,22,0,0,3.69,3.72,3.89,3.65,3.74,Tepat Waktu
+20180462,Naufal Santoso,Laki-laki,21,1,0,2.54,2.42,2.35,2.16,2.37,Terlambat
+20180463,Prasetyo Pratama,Laki-laki,21,0,0,2.89,2.73,2.35,2.28,2.56,Terlambat
+20180464,Danu Wibowo,Laki-laki,22,1,0,3.64,3.81,3.89,3.94,3.82,Tepat Waktu
+20180465,Sari Santoso,Perempuan,22,0,0,3.04,3.24,3.15,3.19,3.16,Tepat Waktu
+20180466,Rizky Kusuma,Laki-laki,22,0,0,2.89,2.7,3.21,3.31,3.03,Tepat Waktu
+20180467,Irfan Mahendra,Laki-laki,22,0,0,3.6,3.67,3.49,3.63,3.6,Tepat Waktu
+20180468,Joko Mahendra,Laki-laki,22,0,0,2.98,3.12,2.99,3.12,3.05,Tepat Waktu
+20180469,Sari Tanjung,Perempuan,25,0,0,3.92,4.0,3.86,3.85,3.91,Tepat Waktu
+20180470,Fadilah Utomo,Perempuan,23,1,0,3.25,3.24,2.89,2.98,3.09,Tepat Waktu
+20180471,Nabila Santoso,Perempuan,23,1,0,3.9,3.97,4.0,4.0,3.97,Tepat Waktu
+20180472,Satria Purnama,Laki-laki,22,1,0,3.33,3.41,3.37,3.54,3.41,Tepat Waktu
+20180473,Reza Pratama,Laki-laki,22,0,0,3.28,3.1,2.81,2.93,3.03,Tepat Waktu
+20180474,Wulandari Lestari,Perempuan,22,0,0,2.76,2.5,2.7,2.6,2.64,Terlambat
+20180475,Rina Pratama,Perempuan,22,1,0,2.86,2.79,2.71,2.55,2.73,Terlambat
+20180476,Dimas Permana,Laki-laki,20,0,0,2.5,2.69,2.37,2.52,2.52,Terlambat
+20180477,Kurniawan Setiawan,Laki-laki,28,0,0,3.91,3.93,4.0,4.0,3.96,Tepat Waktu
+20180478,Hafiz Saputra,Laki-laki,21,0,0,2.45,2.61,2.38,2.07,2.38,Terlambat
+20180479,Hafiz Nasution,Laki-laki,22,0,0,2.76,2.85,2.76,2.88,2.81,Tepat Waktu
+20180480,Bella Wijaya,Perempuan,24,1,0,3.06,3.02,2.84,2.56,2.87,Terlambat
+20180481,Danu Ramadhan,Laki-laki,23,0,0,3.85,3.81,3.41,3.33,3.6,Tepat Waktu
+20180482,Bella Siregar,Perempuan,22,0,0,3.87,3.99,4.0,4.0,3.96,Tepat Waktu
+20180483,Dewi Utomo,Perempuan,21,0,0,2.81,2.77,2.59,2.28,2.61,Terlambat
+20180484,Zulfikar Ramadhan,Laki-laki,22,1,0,3.45,3.52,3.55,3.41,3.48,Tepat Waktu
+20180485,Satria Santoso,Laki-laki,23,1,0,3.33,3.48,3.7,3.41,3.48,Terlambat
+20180486,Ilham Purnama,Laki-laki,21,1,0,3.75,3.82,3.76,3.92,3.81,Tepat Waktu
+20180487,Wulandari Suryono,Perempuan,23,1,1,3.78,3.65,3.65,3.43,3.63,Terlambat
+20180488,Fadilah Siregar,Perempuan,28,0,0,2.99,3.08,2.96,2.76,2.95,Tepat Waktu
+20180489,Novita Hidayat,Perempuan,26,0,0,3.55,3.69,3.7,3.8,3.69,Tepat Waktu
+20180490,Bambang Setiawan,Laki-laki,22,0,1,2.36,1.93,2.15,2.03,2.12,Terlambat
+20180491,Muhammad Mahendra,Laki-laki,23,1,0,2.73,2.8,2.49,2.47,2.62,Tepat Waktu
+20180492,Nabila Firmansyah,Perempuan,22,0,0,3.34,3.31,3.55,3.57,3.44,Tepat Waktu
+20180493,Sari Firmansyah,Perempuan,22,0,0,2.71,2.42,2.37,2.23,2.43,Terlambat
+20180494,Citra Nugroho,Perempuan,24,0,0,2.23,1.87,1.76,1.66,1.88,Terlambat
+20180495,Gita Wijaya,Perempuan,22,0,0,2.76,2.53,2.46,2.44,2.55,Terlambat
+20180496,Kevin Pratama,Laki-laki,23,0,0,2.34,2.5,2.6,2.51,2.49,Terlambat
+20180497,Tiara Siregar,Perempuan,22,1,0,2.26,1.97,1.9,2.04,2.04,Terlambat
+20180498,Hafiz Nasution,Laki-laki,23,0,0,3.29,3.26,3.22,3.2,3.24,Terlambat
+20180499,Hafiz Pratama,Laki-laki,23,0,0,3.06,3.14,2.93,3.08,3.05,Terlambat
+20180500,Bella Mahendra,Perempuan,23,0,0,3.27,3.29,3.11,3.18,3.21,Tepat Waktu
+20180501,Budi Nugroho,Laki-laki,27,0,0,3.86,3.99,3.82,4.0,3.92,Tepat Waktu
+20180502,Bayu Saputra,Laki-laki,22,1,1,3.66,3.89,4.0,3.94,3.87,Tepat Waktu
+20180503,Maya Wijaya,Perempuan,26,0,0,3.85,3.95,3.77,3.78,3.84,Tepat Waktu
+20180504,Rizky Nugroho,Laki-laki,22,0,0,3.52,3.41,3.57,3.53,3.51,Tepat Waktu
+20180505,Ilham Ramadhan,Laki-laki,21,0,0,2.92,2.99,2.92,3.17,3.0,Tepat Waktu
+20180506,Fadilah Siregar,Perempuan,21,1,0,3.77,3.78,4.0,4.0,3.89,Tepat Waktu
+20180507,Dewi Nasution,Perempuan,22,0,0,3.62,3.72,3.72,3.62,3.67,Tepat Waktu
+20180508,Taufik Ramadhan,Laki-laki,21,0,0,2.88,2.8,2.7,2.6,2.74,Terlambat
+20180509,Gita Ramadhan,Perempuan,22,0,0,2.83,2.4,2.44,2.31,2.5,Terlambat
+20180510,Putri Hidayat,Perempuan,24,0,0,2.68,2.8,2.69,2.6,2.69,Tepat Waktu
+20180511,Citra Kusuma,Perempuan,21,1,0,2.96,3.17,3.0,3.06,3.05,Tepat Waktu
+20180512,Zahra Suryono,Perempuan,22,0,1,2.75,2.8,2.7,2.54,2.7,Terlambat
+20180513,Nabila Suryono,Perempuan,23,1,0,3.23,3.42,3.42,3.21,3.32,Tepat Waktu
+20180514,Naufal Firmansyah,Laki-laki,23,0,0,2.99,2.86,2.58,2.91,2.84,Tepat Waktu
+20180515,Irfan Saputra,Laki-laki,22,0,0,2.72,2.92,2.67,2.36,2.67,Terlambat
+20180516,Zahra Mahendra,Perempuan,23,0,0,2.7,2.72,2.68,2.6,2.68,Tepat Waktu
+20180517,Yulia Kusuma,Perempuan,22,0,0,3.45,3.49,3.63,3.58,3.54,Tepat Waktu
+20180518,Budi Kurniawan,Laki-laki,22,0,0,2.78,2.89,2.68,2.7,2.76,Tepat Waktu
+20180519,Danu Lestari,Laki-laki,26,0,0,3.22,2.95,2.81,2.82,2.95,Terlambat
+20180520,Citra Nugroho,Perempuan,24,0,0,3.4,3.28,3.51,3.38,3.39,Tepat Waktu
+20180521,Gilang Hidayat,Laki-laki,23,1,0,3.69,3.66,3.95,3.82,3.78,Tepat Waktu
+20180522,Siti Firmansyah,Perempuan,21,1,0,3.7,3.87,4.0,3.95,3.88,Tepat Waktu
+20180523,Eko Suryono,Laki-laki,23,1,0,2.98,2.71,2.89,3.11,2.92,Terlambat
+20180524,Fajar Wibowo,Laki-laki,22,0,0,3.31,3.29,3.19,3.13,3.23,Tepat Waktu
+20180525,Prasetyo Nugroho,Laki-laki,21,0,0,3.27,3.03,3.1,3.52,3.23,Tepat Waktu
+20180526,Irfan Wijaya,Laki-laki,23,0,1,3.17,3.03,3.0,3.11,3.08,Tepat Waktu
+20180527,Rahma Siregar,Perempuan,21,0,0,3.19,3.21,3.45,3.21,3.27,Tepat Waktu
+20180528,Citra Saputra,Perempuan,21,0,0,2.85,2.8,2.7,2.6,2.74,Tepat Waktu
+20180529,Yulia Siregar,Perempuan,23,0,0,2.72,2.8,2.57,2.39,2.62,Terlambat
+20180530,Haris Pratama,Laki-laki,22,1,0,2.99,3.07,3.55,3.55,3.29,Terlambat
+20180531,Bella Nugroho,Perempuan,21,0,0,2.47,2.5,2.53,2.58,2.52,Terlambat
+20180532,Fajar Suryono,Laki-laki,23,0,0,3.93,4.0,4.0,4.0,3.98,Tepat Waktu
+20180533,Rina Ramadhan,Perempuan,22,0,0,3.51,3.66,3.74,3.77,3.67,Tepat Waktu
+20180534,Gilang Kurniawan,Laki-laki,21,0,0,2.84,3.15,3.37,3.33,3.17,Tepat Waktu
+20180535,Aulia Santoso,Perempuan,27,0,0,3.35,3.58,3.56,3.5,3.5,Tepat Waktu
+20180536,Nur Pratama,Perempuan,28,0,0,2.63,2.69,2.26,1.52,2.28,Terlambat
+20180537,Nur Wibowo,Perempuan,22,0,0,3.24,3.43,3.59,3.7,3.49,Tepat Waktu
+20180538,Reza Firmansyah,Laki-laki,22,0,0,2.3,1.82,1.76,1.66,1.88,Terlambat
+20180539,Joko Suryono,Laki-laki,21,0,0,2.8,2.92,3.13,2.96,2.95,Tepat Waktu
+20180540,Bambang Siregar,Laki-laki,23,0,0,2.87,2.57,2.7,2.45,2.65,Terlambat
+20180541,Zahra Ramadhan,Perempuan,22,0,0,3.13,3.5,3.54,3.7,3.47,Tepat Waktu
+20180542,Eko Hidayat,Laki-laki,23,0,0,3.14,3.07,3.09,2.82,3.03,Tepat Waktu
+20180543,Lestari Hidayat,Perempuan,21,0,0,3.71,3.64,3.57,3.7,3.66,Tepat Waktu
+20180544,Budi Nasution,Laki-laki,23,1,0,2.95,2.89,2.82,3.09,2.94,Terlambat
+20180545,Danu Siregar,Laki-laki,23,0,0,3.94,4.0,4.0,4.0,3.98,Tepat Waktu
+20180546,Aulia Lestari,Perempuan,22,0,0,2.36,1.98,1.5,1.91,1.94,Terlambat
+20180547,Budi Saputra,Laki-laki,24,0,0,2.89,2.67,2.71,2.76,2.76,Terlambat
+20180548,Tiara Ramadhan,Perempuan,22,0,0,2.71,2.71,2.7,2.6,2.68,Terlambat
+20180549,Sari Purnama,Perempuan,21,0,0,3.23,2.97,2.96,2.66,2.96,Terlambat
+20180550,Dinda Saputra,Perempuan,22,0,0,3.65,3.79,3.86,4.0,3.82,Tepat Waktu
+20180551,Rizky Wijaya,Laki-laki,23,0,0,2.27,2.27,2.45,2.24,2.31,Terlambat
+20180552,Dinda Wijaya,Perempuan,21,1,0,3.8,3.83,3.85,3.78,3.82,Terlambat
+20180553,Wahyu Wijaya,Laki-laki,22,0,0,2.9,2.8,2.52,1.9,2.53,Terlambat
+20180554,Zahra Nugroho,Perempuan,22,0,0,2.7,2.4,2.63,2.52,2.56,Terlambat
+20180555,Muhammad Kusuma,Laki-laki,22,0,0,3.14,3.6,3.46,3.63,3.46,Tepat Waktu
+20180556,Kurniawan Nasution,Laki-laki,22,0,0,2.7,2.57,2.7,2.31,2.57,Terlambat
+20180557,Hafiz Nasution,Laki-laki,22,0,0,3.35,3.31,3.33,3.45,3.36,Tepat Waktu
+20180558,Wulandari Saputra,Perempuan,22,1,0,2.47,2.73,2.7,2.48,2.6,Terlambat
+20180559,Wahyu Wijaya,Laki-laki,22,0,0,2.89,2.67,2.86,2.82,2.81,Terlambat
+20180560,Naufal Nasution,Laki-laki,22,1,0,3.31,3.36,3.59,3.81,3.52,Tepat Waktu
+20180561,Taufik Purnama,Laki-laki,23,0,0,3.32,3.23,3.01,2.83,3.1,Tepat Waktu
+20180562,Maya Wibowo,Perempuan,23,0,0,3.2,3.2,3.03,2.55,3.0,Tepat Waktu
+20180563,Fadilah Lestari,Perempuan,26,0,0,3.31,3.49,3.45,3.33,3.4,Tepat Waktu
+20180564,Gita Wibowo,Perempuan,23,1,0,3.65,3.76,3.78,3.61,3.7,Tepat Waktu
+20180565,Muhammad Utomo,Laki-laki,24,0,0,3.04,3.27,3.19,3.22,3.18,Tepat Waktu
+20180566,Zulfikar Mahendra,Laki-laki,22,0,0,3.91,4.0,4.0,3.74,3.91,Tepat Waktu
+20180567,Joko Firmansyah,Laki-laki,24,0,0,2.73,2.53,2.38,2.5,2.54,Terlambat
+20180568,Kevin Wijaya,Laki-laki,22,0,0,3.86,3.87,3.7,3.83,3.82,Tepat Waktu
+20180569,Ahmad Firmansyah,Laki-laki,24,0,0,3.2,3.18,2.79,2.83,3.0,Tepat Waktu
+20180570,Wulandari Nasution,Perempuan,22,0,0,2.57,2.53,2.24,1.98,2.33,Terlambat
+20180571,Citra Wijaya,Perempuan,21,0,1,3.38,3.55,3.61,3.72,3.56,Tepat Waktu
+20180572,Satria Hidayat,Laki-laki,24,0,0,2.55,2.38,2.38,2.01,2.33,Terlambat
+20180573,Rizky Wibowo,Laki-laki,22,0,0,3.17,3.26,3.08,3.2,3.18,Tepat Waktu
+20180574,Dewi Permana,Perempuan,22,0,0,3.23,2.81,2.67,2.93,2.91,Tepat Waktu
+20180575,Kurniawan Wijaya,Laki-laki,21,1,0,3.35,3.4,3.34,3.12,3.3,Tepat Waktu
+20180576,Gita Permana,Perempuan,24,0,0,3.34,3.16,3.2,2.96,3.16,Tepat Waktu
+20180577,Joko Santoso,Laki-laki,21,0,0,2.4,2.51,2.7,2.6,2.55,Terlambat
+20180578,Prasetyo Siregar,Laki-laki,22,0,0,3.31,3.38,3.46,3.59,3.43,Tepat Waktu
+20180579,Indah Setiawan,Perempuan,21,0,0,3.0,3.22,3.23,3.45,3.23,Tepat Waktu
+20180580,Wulandari Mahendra,Perempuan,20,0,0,3.3,3.44,3.33,3.43,3.38,Tepat Waktu
+20180581,Sari Pratama,Perempuan,23,0,0,3.83,3.85,3.95,3.92,3.89,Tepat Waktu
+20180582,Zahra Siregar,Perempuan,21,0,0,3.58,3.73,3.56,3.45,3.58,Tepat Waktu
+20180583,Joko Kusuma,Laki-laki,23,1,0,3.28,3.07,3.2,3.07,3.16,Tepat Waktu
+20180584,Dewi Wibowo,Perempuan,22,1,0,3.83,3.77,3.82,3.96,3.84,Tepat Waktu
+20180585,Citra Kusuma,Perempuan,22,0,0,3.2,3.3,3.46,3.51,3.37,Tepat Waktu
+20180586,Novita Siregar,Perempuan,23,0,0,3.61,3.63,3.55,3.83,3.66,Tepat Waktu
+20180587,Dewi Wibowo,Perempuan,23,1,0,3.43,3.46,3.43,3.19,3.38,Tepat Waktu
+20180588,Joko Tanjung,Laki-laki,22,0,1,2.83,2.53,2.66,2.68,2.68,Tepat Waktu
+20180589,Gilang Lestari,Laki-laki,21,0,0,3.81,3.69,3.77,4.0,3.82,Tepat Waktu
+20180590,Fadilah Mahendra,Perempuan,23,0,0,3.49,3.67,3.69,3.94,3.7,Tepat Waktu
+20180591,Irfan Wibowo,Laki-laki,22,0,0,3.29,3.28,3.41,3.7,3.42,Tepat Waktu
+20180592,Sari Ramadhan,Perempuan,20,1,0,2.73,3.05,3.21,3.16,3.04,Tepat Waktu
+20180593,Ilham Saputra,Laki-laki,23,0,0,3.31,3.25,3.33,3.33,3.3,Tepat Waktu
+20180594,Bella Mahendra,Perempuan,20,0,0,3.29,3.48,3.52,3.4,3.42,Tepat Waktu
+20180595,Naufal Wibowo,Laki-laki,20,0,0,2.89,2.96,3.48,3.38,3.18,Tepat Waktu
+20180596,Budi Pratama,Laki-laki,23,0,0,3.25,3.12,3.46,3.22,3.26,Tepat Waktu
+20180597,Maya Utomo,Perempuan,24,0,0,2.84,2.8,2.3,2.03,2.49,Terlambat
+20180598,Yoga Wibowo,Laki-laki,23,0,0,3.37,3.29,3.28,3.26,3.3,Tepat Waktu
+20180599,Fajar Firmansyah,Laki-laki,22,0,0,3.54,3.68,3.83,3.71,3.69,Tepat Waktu
+20180600,Satria Suryono,Laki-laki,22,0,1,2.79,2.7,2.68,2.79,2.74,Terlambat
+20180601,Satria Pratama,Laki-laki,21,0,0,3.78,3.83,3.63,3.61,3.71,Tepat Waktu
+20180602,Dimas Wijaya,Laki-laki,24,1,0,3.24,3.22,3.29,2.98,3.18,Tepat Waktu
+20180603,Kurniawan Utomo,Laki-laki,23,0,0,2.51,2.11,1.78,1.46,1.96,Terlambat
+20180604,Satria Saputra,Laki-laki,26,0,0,2.93,2.72,2.75,3.16,2.89,Tepat Waktu
+20180605,Haris Permana,Laki-laki,23,1,1,3.1,2.92,2.81,2.55,2.84,Tepat Waktu
+20180606,Taufik Siregar,Laki-laki,26,0,0,2.71,2.8,2.7,2.6,2.7,Terlambat
+20180607,Dewi Suryono,Perempuan,25,0,0,3.57,3.57,3.59,3.66,3.6,Tepat Waktu
+20180608,Dewi Saputra,Perempuan,21,0,0,2.47,1.85,2.44,2.6,2.34,Terlambat
+20180609,Joko Permana,Laki-laki,22,1,0,2.34,2.24,2.4,2.25,2.31,Terlambat
+20180610,Kurniawan Saputra,Laki-laki,22,1,0,3.3,3.3,3.2,3.42,3.3,Tepat Waktu
+20180611,Kurniawan Permana,Laki-laki,24,0,0,3.4,3.56,3.52,3.64,3.53,Tepat Waktu
+20180612,Fadilah Nugroho,Perempuan,21,1,0,3.2,3.44,3.56,3.63,3.46,Tepat Waktu
+20180613,Zulfikar Kusuma,Laki-laki,22,0,0,3.49,3.67,3.7,3.7,3.64,Tepat Waktu
+20180614,Lukman Siregar,Laki-laki,22,1,0,3.6,3.73,3.86,3.69,3.72,Tepat Waktu
+20180615,Kurniawan Suryono,Laki-laki,22,1,1,2.43,2.11,1.67,1.54,1.94,Terlambat
+20180616,Wulandari Utomo,Perempuan,23,0,0,3.87,3.56,3.6,3.84,3.72,Tepat Waktu
+20180617,Gita Santoso,Perempuan,24,0,0,2.59,2.71,2.36,2.28,2.48,Terlambat
+20180618,Guntur Santoso,Laki-laki,21,0,0,2.74,2.58,2.78,2.78,2.72,Tepat Waktu
+20180619,Kurniawan Suryono,Laki-laki,24,1,0,3.42,3.47,3.39,3.55,3.46,Tepat Waktu
+20180620,Ahmad Santoso,Laki-laki,22,0,0,2.82,2.8,2.67,2.6,2.72,Tepat Waktu
+20180621,Novita Lestari,Perempuan,23,0,0,2.7,2.68,2.76,2.6,2.68,Terlambat
+20180622,Putri Nugroho,Perempuan,23,1,1,3.32,3.44,3.6,3.6,3.49,Terlambat
+20180623,Ilham Santoso,Laki-laki,21,0,0,3.51,3.51,3.68,3.66,3.59,Tepat Waktu
+20180624,Guntur Kusuma,Laki-laki,24,0,0,3.72,3.58,3.7,3.77,3.69,Tepat Waktu
+20180625,Muhammad Saputra,Laki-laki,23,0,0,3.87,3.81,3.72,3.57,3.74,Tepat Waktu
+20180626,Irfan Ramadhan,Laki-laki,24,0,0,3.52,3.54,3.44,3.15,3.41,Tepat Waktu
+20180627,Gita Hidayat,Perempuan,26,0,0,3.14,3.1,3.29,3.15,3.17,Tepat Waktu
+20180628,Haris Firmansyah,Laki-laki,20,1,0,2.77,2.54,2.31,2.24,2.47,Terlambat
+20180629,Lukman Setiawan,Laki-laki,23,0,0,2.79,2.8,2.7,2.6,2.72,Terlambat
+20180630,Haris Nugroho,Laki-laki,21,0,0,3.59,3.62,3.84,3.86,3.73,Tepat Waktu
+20180631,Hafiz Pratama,Laki-laki,21,0,0,3.69,3.77,3.84,4.0,3.82,Tepat Waktu
+20180632,Zahra Hidayat,Perempuan,23,0,0,3.49,3.51,3.59,3.73,3.58,Tepat Waktu
+20180633,Muhammad Lestari,Laki-laki,23,0,0,2.79,2.77,2.76,2.88,2.8,Tepat Waktu
+20180634,Ilham Wijaya,Laki-laki,22,0,0,2.52,1.88,2.12,1.66,2.04,Terlambat
+20180635,Intan Permana,Perempuan,24,1,0,3.92,3.94,3.97,4.0,3.96,Tepat Waktu
+20180636,Yoga Purnama,Laki-laki,23,0,0,2.33,2.27,2.17,1.91,2.17,Terlambat
+20180637,Nur Siregar,Perempuan,23,0,0,3.65,3.76,3.78,3.99,3.8,Tepat Waktu
+20180638,Kevin Pratama,Laki-laki,21,0,0,2.84,3.02,2.91,2.82,2.9,Tepat Waktu
+20180639,Dimas Wibowo,Laki-laki,21,0,0,3.53,3.61,3.47,3.3,3.48,Tepat Waktu
+20180640,Dinda Nasution,Perempuan,22,1,0,2.38,1.8,1.9,1.5,1.9,Terlambat
+20180641,Intan Saputra,Perempuan,21,0,0,3.28,3.42,3.47,3.47,3.41,Tepat Waktu
+20180642,Citra Tanjung,Perempuan,22,0,0,3.19,3.01,2.72,2.68,2.9,Terlambat
+20180643,Naufal Permana,Laki-laki,22,0,0,3.48,3.64,3.62,3.69,3.61,Tepat Waktu
+20180644,Danu Lestari,Laki-laki,22,1,0,2.79,2.8,2.46,2.53,2.64,Terlambat
+20180645,Putri Tanjung,Perempuan,22,0,0,3.34,3.53,3.63,3.34,3.46,Tepat Waktu
+20180646,Sari Kusuma,Perempuan,22,0,0,3.25,3.38,3.26,3.36,3.31,Tepat Waktu
+20180647,Muhammad Nasution,Laki-laki,24,0,0,3.51,3.62,3.82,3.63,3.64,Tepat Waktu
+20180648,Gilang Wibowo,Laki-laki,21,0,0,2.61,2.6,2.17,2.33,2.43,Terlambat
+20180649,Budi Suryono,Laki-laki,22,0,0,2.78,2.41,2.55,2.6,2.58,Terlambat
+20180650,Annisa Purnama,Perempuan,24,1,0,3.81,3.79,3.68,3.75,3.76,Tepat Waktu
+20180651,Siti Hidayat,Perempuan,22,1,0,3.8,3.94,3.87,4.0,3.9,Tepat Waktu
+20180652,Nabila Suryono,Perempuan,26,0,0,2.85,3.03,3.13,3.23,3.06,Tepat Waktu
+20180653,Bayu Lestari,Laki-laki,21,1,0,2.59,2.45,2.13,1.96,2.28,Terlambat
+20180654,Wahyu Lestari,Laki-laki,24,0,0,3.22,3.36,3.07,3.31,3.24,Tepat Waktu
+20180655,Zulfikar Kusuma,Laki-laki,22,0,0,3.46,3.54,3.71,3.55,3.57,Tepat Waktu
+20180656,Novita Setiawan,Perempuan,23,0,0,3.55,3.47,3.64,3.64,3.58,Tepat Waktu
+20180657,Sari Setiawan,Perempuan,21,0,0,3.19,3.08,3.0,2.89,3.04,Tepat Waktu
+20180658,Zulfikar Suryono,Laki-laki,22,1,0,3.93,3.95,3.86,3.99,3.93,Tepat Waktu
+20180659,Kevin Kurniawan,Laki-laki,21,0,0,2.87,3.08,3.25,2.99,3.05,Terlambat
+20180660,Indah Setiawan,Perempuan,26,0,0,3.31,3.56,3.74,3.6,3.55,Tepat Waktu
+20180661,Siti Utomo,Perempuan,23,0,0,2.9,3.07,3.18,2.87,3.0,Tepat Waktu
+20180662,Fadilah Suryono,Perempuan,25,0,0,3.27,3.35,3.06,3.27,3.24,Tepat Waktu
+20180663,Zulfikar Kurniawan,Laki-laki,22,0,0,2.48,2.59,2.41,2.42,2.48,Terlambat
+20180664,Zahra Santoso,Perempuan,22,0,0,3.77,3.8,3.92,3.89,3.84,Tepat Waktu
+20180665,Wahyu Nasution,Laki-laki,23,0,0,3.75,3.61,3.67,3.76,3.7,Tepat Waktu
+20180666,Joko Kurniawan,Laki-laki,21,0,0,3.57,3.7,3.9,3.85,3.76,Tepat Waktu
+20180667,Siti Pratama,Perempuan,25,1,0,2.83,2.88,3.14,3.28,3.03,Tepat Waktu
+20180668,Joko Setiawan,Laki-laki,25,0,0,3.05,2.89,2.59,2.65,2.8,Terlambat
+20180669,Gilang Suryono,Laki-laki,23,0,0,2.99,3.13,3.22,3.26,3.15,Tepat Waktu
+20180670,Tiara Tanjung,Perempuan,20,0,0,3.6,3.65,3.59,3.55,3.6,Tepat Waktu
+20180671,Yoga Lestari,Laki-laki,21,0,0,3.71,3.93,3.97,4.0,3.9,Tepat Waktu
+20180672,Prasetyo Firmansyah,Laki-laki,21,0,0,3.05,2.78,2.5,2.6,2.73,Terlambat
+20180673,Rahma Hidayat,Perempuan,22,1,0,3.31,3.42,3.61,3.18,3.38,Tepat Waktu
+20180674,Rizky Ramadhan,Laki-laki,24,1,0,2.72,2.8,2.45,2.47,2.61,Terlambat
+20180675,Novita Santoso,Perempuan,21,0,0,3.75,3.69,3.72,3.95,3.78,Tepat Waktu
+20180676,Zulfikar Wijaya,Laki-laki,24,0,0,3.5,3.52,3.5,3.81,3.58,Tepat Waktu
+20180677,Joko Purnama,Laki-laki,21,0,0,2.63,2.58,2.02,2.27,2.38,Terlambat
+20180678,Zulfikar Mahendra,Laki-laki,21,1,0,2.97,3.04,3.2,3.0,3.05,Tepat Waktu
+20180679,Wahyu Lestari,Laki-laki,23,0,0,3.52,3.58,3.58,3.62,3.58,Tepat Waktu
+20180680,Bayu Nugroho,Laki-laki,21,0,0,3.06,3.35,3.53,3.59,3.38,Tepat Waktu
+20180681,Zahra Setiawan,Perempuan,22,1,0,2.52,2.76,2.7,2.53,2.63,Terlambat
+20180682,Hafiz Hidayat,Laki-laki,24,0,0,2.34,2.38,1.79,1.54,2.01,Terlambat
+20180683,Dewi Pratama,Perempuan,22,0,1,3.4,3.48,3.35,3.19,3.36,Tepat Waktu
+20180684,Budi Nugroho,Laki-laki,23,0,0,2.71,2.84,2.59,2.55,2.67,Terlambat
+20180685,Rina Tanjung,Perempuan,23,0,0,3.21,3.21,3.34,3.46,3.3,Tepat Waktu
+20180686,Irfan Wijaya,Laki-laki,23,0,0,3.39,3.48,3.56,3.6,3.51,Tepat Waktu
+20180687,Rahma Suryono,Perempuan,23,1,0,3.58,3.67,3.57,3.7,3.63,Tepat Waktu
+20180688,Kurniawan Mahendra,Laki-laki,22,0,0,2.55,2.2,2.43,2.46,2.41,Terlambat
+20180689,Taufik Hidayat,Laki-laki,25,1,0,2.91,3.12,2.94,2.82,2.95,Terlambat
+20180690,Bambang Kurniawan,Laki-laki,23,0,0,2.74,2.44,2.47,2.44,2.52,Terlambat
+20180691,Rian Kurniawan,Laki-laki,20,0,0,2.37,2.1,1.88,1.8,2.04,Terlambat
+20180692,Hafiz Utomo,Laki-laki,22,1,1,2.9,2.8,2.7,2.6,2.75,Tepat Waktu
+20180693,Yoga Pratama,Laki-laki,23,1,0,2.8,2.31,2.19,1.96,2.31,Terlambat
+20180694,Kurniawan Kusuma,Laki-laki,22,0,0,3.71,3.83,4.0,4.0,3.88,Tepat Waktu
+20180695,Putri Nugroho,Perempuan,22,1,0,2.73,2.8,2.7,2.48,2.68,Terlambat
+20180696,Fajar Purnama,Laki-laki,25,0,0,3.62,3.75,3.88,3.83,3.77,Tepat Waktu
+20180697,Rahma Saputra,Perempuan,25,0,0,3.6,3.66,3.81,3.96,3.76,Tepat Waktu
+20180698,Satria Nugroho,Laki-laki,22,0,0,3.74,4.0,3.96,3.94,3.91,Tepat Waktu
+20180699,Citra Firmansyah,Perempuan,24,0,0,2.87,2.8,2.48,2.6,2.69,Terlambat
+20180700,Eko Firmansyah,Laki-laki,25,0,0,3.09,3.0,2.95,2.94,2.99,Tepat Waktu
+20180701,Zahra Purnama,Perempuan,23,1,1,3.85,3.85,3.85,3.9,3.86,Tepat Waktu
+20180702,Satria Tanjung,Laki-laki,20,1,1,2.64,2.48,2.48,2.25,2.46,Terlambat
+20180703,Maya Firmansyah,Perempuan,21,1,1,2.75,2.71,2.56,2.42,2.61,Terlambat
+20180704,Wahyu Purnama,Laki-laki,21,0,0,2.73,2.57,2.58,2.6,2.62,Terlambat
+20180705,Naufal Siregar,Laki-laki,22,0,0,3.72,3.69,3.66,3.72,3.7,Tepat Waktu
+20180706,Rahma Santoso,Perempuan,22,0,0,3.64,3.65,3.71,3.75,3.69,Tepat Waktu
+20180707,Novita Ramadhan,Perempuan,21,0,0,2.9,3.44,3.18,2.72,3.06,Tepat Waktu
+20180708,Rahma Wibowo,Perempuan,24,0,0,3.63,3.65,3.77,3.78,3.71,Tepat Waktu
+20180709,Fikri Nugroho,Laki-laki,22,0,0,2.48,2.02,1.8,1.4,1.92,Terlambat
+20180710,Haris Mahendra,Laki-laki,21,0,0,3.08,3.52,3.47,3.53,3.4,Tepat Waktu
+20180711,Intan Purnama,Perempuan,21,0,0,3.4,3.27,3.34,3.31,3.33,Tepat Waktu
+20180712,Rina Mahendra,Perempuan,21,1,0,3.81,3.77,3.76,3.92,3.82,Tepat Waktu
+20180713,Hafiz Wibowo,Laki-laki,21,0,0,2.37,2.26,2.23,2.22,2.27,Terlambat
+20180714,Rahma Wijaya,Perempuan,22,0,0,3.59,3.53,3.47,3.53,3.53,Tepat Waktu
+20180715,Bambang Setiawan,Laki-laki,22,1,0,3.09,3.05,3.26,3.19,3.15,Tepat Waktu
+20180716,Hafiz Wibowo,Laki-laki,22,0,0,3.29,3.39,3.7,3.28,3.41,Tepat Waktu
+20180717,Kevin Lestari,Laki-laki,21,0,0,3.76,4.0,4.0,3.91,3.92,Tepat Waktu
+20180718,Kurniawan Siregar,Laki-laki,22,0,0,2.78,2.63,2.76,2.9,2.77,Terlambat
+20180719,Bayu Utomo,Laki-laki,24,0,0,3.2,3.57,3.41,3.17,3.34,Tepat Waktu
+20180720,Dewi Nugroho,Perempuan,22,0,0,3.14,3.31,3.2,3.02,3.17,Tepat Waktu
+20180721,Nur Utomo,Perempuan,23,0,0,3.34,3.53,3.29,3.03,3.3,Tepat Waktu
+20180722,Bambang Hidayat,Laki-laki,24,0,0,2.33,2.32,2.18,2.16,2.25,Terlambat
+20180723,Bella Suryono,Perempuan,21,0,0,3.13,2.9,3.04,3.2,3.07,Tepat Waktu
+20180724,Putri Lestari,Perempuan,21,1,0,3.4,3.34,3.57,3.7,3.5,Tepat Waktu
+20180725,Siti Firmansyah,Perempuan,22,0,0,3.38,3.4,3.32,3.11,3.3,Tepat Waktu
+20180726,Naufal Saputra,Laki-laki,22,1,0,2.89,2.62,3.0,3.18,2.92,Terlambat
+20180727,Fadilah Suryono,Perempuan,24,0,0,3.13,3.15,3.09,3.26,3.16,Tepat Waktu
+20180728,Muhammad Nasution,Laki-laki,21,1,0,3.0,3.3,3.4,3.41,3.28,Tepat Waktu
+20180729,Bambang Pratama,Laki-laki,22,0,0,2.77,2.57,2.46,2.47,2.57,Terlambat
+20180730,Irfan Nasution,Laki-laki,22,0,0,3.68,3.79,3.62,3.77,3.72,Tepat Waktu
+20180731,Muhammad Ramadhan,Laki-laki,24,0,0,3.4,3.39,3.4,3.32,3.38,Tepat Waktu
+20180732,Annisa Permana,Perempuan,24,0,0,2.47,1.91,1.72,1.67,1.94,Terlambat
+20180733,Joko Kurniawan,Laki-laki,21,0,0,3.33,3.42,3.7,3.7,3.54,Tepat Waktu
+20180734,Irfan Suryono,Laki-laki,25,0,0,2.75,2.89,2.46,2.69,2.7,Terlambat
+20180735,Siti Siregar,Perempuan,21,0,0,3.54,3.55,3.71,3.88,3.67,Tepat Waktu
+20180736,Guntur Tanjung,Laki-laki,24,0,0,3.54,3.41,3.47,3.7,3.53,Tepat Waktu
+20180737,Kurniawan Nugroho,Laki-laki,25,1,1,3.11,3.11,3.38,3.27,3.22,Terlambat
+20180738,Rina Nugroho,Perempuan,24,0,0,3.83,4.0,4.0,3.78,3.9,Tepat Waktu
+20180739,Ilham Suryono,Laki-laki,22,1,0,3.65,3.57,3.56,3.57,3.59,Tepat Waktu
+20180740,Rian Pratama,Laki-laki,22,1,1,2.92,3.13,3.23,3.2,3.12,Terlambat
+20180741,Muhammad Lestari,Laki-laki,23,1,0,3.15,3.27,3.34,3.11,3.22,Tepat Waktu
+20180742,Zulfikar Kurniawan,Laki-laki,21,0,0,3.54,3.64,3.69,3.69,3.64,Tepat Waktu
+20180743,Danu Santoso,Laki-laki,21,0,0,3.27,3.23,3.21,3.17,3.22,Tepat Waktu
+20180744,Rahma Utomo,Perempuan,20,0,0,2.96,2.97,2.87,2.85,2.91,Tepat Waktu
+20180745,Wahyu Siregar,Laki-laki,22,1,0,2.88,2.87,2.8,2.96,2.88,Terlambat
+20180746,Ahmad Kurniawan,Laki-laki,24,0,0,3.41,3.45,3.36,3.48,3.42,Tepat Waktu
+20180747,Taufik Nasution,Laki-laki,22,1,0,2.92,2.85,2.96,2.49,2.8,Terlambat
+20180748,Zahra Pratama,Perempuan,21,1,0,3.44,3.35,3.16,3.13,3.27,Tepat Waktu
+20180749,Bayu Mahendra,Laki-laki,23,1,0,3.87,3.94,3.92,4.0,3.93,Tepat Waktu
+20180750,Naufal Utomo,Laki-laki,24,0,0,3.24,3.02,2.93,2.77,2.99,Terlambat
+20180751,Irfan Firmansyah,Laki-laki,21,0,1,2.88,2.8,2.7,2.6,2.74,Terlambat
+20180752,Dinda Saputra,Perempuan,23,0,0,2.98,3.12,2.72,2.65,2.87,Terlambat
+20180753,Intan Kurniawan,Perempuan,23,1,0,3.82,3.92,4.0,3.93,3.92,Tepat Waktu
+20180754,Maya Hidayat,Perempuan,26,0,0,3.25,3.49,3.23,3.56,3.38,Tepat Waktu
+20180755,Rahma Lestari,Perempuan,23,0,0,3.73,3.96,4.0,3.86,3.89,Tepat Waktu
+20180756,Kevin Kurniawan,Laki-laki,23,0,0,2.23,1.89,2.06,2.15,2.08,Terlambat
+20180757,Ilham Suryono,Laki-laki,22,0,0,3.69,3.74,3.93,3.69,3.76,Tepat Waktu
+20180758,Ilham Wijaya,Laki-laki,21,0,0,2.6,2.45,2.7,2.18,2.48,Terlambat
+20180759,Rian Pratama,Laki-laki,22,0,0,3.15,3.36,3.36,3.39,3.32,Tepat Waktu
+20180760,Novita Siregar,Perempuan,20,1,0,3.4,3.59,3.78,3.77,3.64,Tepat Waktu
+20180761,Budi Permana,Laki-laki,22,0,0,3.32,3.38,3.31,3.36,3.34,Tepat Waktu
+20180762,Gita Mahendra,Perempuan,20,1,0,2.93,3.16,3.17,3.19,3.11,Tepat Waktu
+20180763,Bayu Mahendra,Laki-laki,23,0,0,2.86,2.97,2.89,2.77,2.87,Tepat Waktu
+20180764,Budi Pratama,Laki-laki,22,1,0,2.9,2.8,2.7,2.3,2.68,Terlambat
+20180765,Gita Hidayat,Perempuan,21,1,0,2.78,2.56,2.89,3.03,2.82,Terlambat
+20180766,Annisa Tanjung,Perempuan,23,1,0,2.82,3.24,3.02,2.95,3.01,Tepat Waktu
+20180767,Dewi Nugroho,Perempuan,22,0,0,2.76,2.84,3.06,3.52,3.04,Tepat Waktu
+20180768,Dewi Ramadhan,Perempuan,22,1,0,2.86,3.04,2.71,3.03,2.91,Terlambat
+20180769,Zahra Kusuma,Perempuan,23,0,0,2.93,3.04,2.95,2.92,2.96,Terlambat
+20180770,Tiara Hidayat,Perempuan,22,0,0,3.0,3.14,3.09,2.99,3.06,Tepat Waktu
+20180771,Rahma Wibowo,Perempuan,22,0,0,2.81,2.74,2.31,2.2,2.52,Terlambat
+20180772,Fikri Permana,Laki-laki,22,1,0,2.99,2.88,2.9,2.98,2.94,Tepat Waktu
+20180773,Fajar Tanjung,Laki-laki,22,0,0,3.34,3.41,3.3,3.28,3.33,Tepat Waktu
+20180774,Wahyu Kusuma,Laki-laki,22,0,0,2.6,2.69,2.47,2.17,2.48,Terlambat
+20180775,Dinda Setiawan,Perempuan,21,0,0,3.55,3.61,3.54,3.58,3.57,Tepat Waktu
+20180776,Citra Nasution,Perempuan,21,0,0,3.11,3.21,3.3,3.34,3.24,Tepat Waktu
+20180777,Annisa Setiawan,Perempuan,23,1,0,3.53,3.57,3.91,3.99,3.75,Tepat Waktu
+20180778,Tiara Kurniawan,Perempuan,26,0,0,3.94,3.91,3.88,4.0,3.93,Tepat Waktu
+20180779,Muhammad Hidayat,Laki-laki,22,0,0,3.56,3.51,3.57,3.74,3.6,Tepat Waktu
+20180780,Bella Nasution,Perempuan,23,0,0,2.62,2.58,2.46,2.6,2.56,Terlambat
+20180781,Indah Mahendra,Perempuan,21,0,0,3.2,3.38,3.05,3.08,3.18,Tepat Waktu
+20180782,Hafiz Kusuma,Laki-laki,21,0,0,3.52,3.55,3.5,3.17,3.44,Tepat Waktu
+20180783,Indah Setiawan,Perempuan,21,0,0,3.65,3.95,4.0,4.0,3.9,Tepat Waktu
+20180784,Zahra Tanjung,Perempuan,20,0,0,3.63,3.63,3.67,3.64,3.64,Tepat Waktu
+20180785,Guntur Kusuma,Laki-laki,21,0,0,3.94,3.96,4.0,4.0,3.98,Tepat Waktu
+20180786,Guntur Nasution,Laki-laki,20,0,0,3.12,3.06,2.52,2.45,2.79,Terlambat
+20180787,Guntur Saputra,Laki-laki,22,0,0,2.9,2.89,2.59,2.48,2.72,Terlambat
+20180788,Lukman Siregar,Laki-laki,22,1,0,3.3,3.26,3.17,3.41,3.28,Terlambat
+20180789,Naufal Permana,Laki-laki,21,1,0,2.97,2.84,2.7,2.92,2.86,Terlambat
+20180790,Bayu Purnama,Laki-laki,24,0,0,2.24,1.91,1.9,2.12,2.04,Terlambat
+20180791,Yoga Lestari,Laki-laki,23,1,0,2.79,2.4,2.65,2.42,2.56,Terlambat
+20180792,Ahmad Suryono,Laki-laki,22,0,0,3.58,3.88,4.0,4.0,3.86,Tepat Waktu
+20180793,Haris Ramadhan,Laki-laki,22,1,0,3.07,2.91,3.02,3.19,3.05,Tepat Waktu
+20180794,Dimas Suryono,Laki-laki,22,0,0,3.03,2.66,2.63,2.76,2.77,Tepat Waktu
+20180795,Lukman Mahendra,Laki-laki,22,0,0,3.04,3.06,3.03,3.04,3.04,Tepat Waktu
+20180796,Rahma Utomo,Perempuan,22,0,0,2.5,2.42,2.36,1.94,2.3,Terlambat
+20180797,Naufal Santoso,Laki-laki,22,0,0,2.98,3.04,2.87,2.91,2.95,Tepat Waktu
+20180798,Danu Purnama,Laki-laki,22,0,0,3.23,3.44,3.54,3.7,3.48,Tepat Waktu
+20180799,Yulia Wibowo,Perempuan,23,1,1,3.87,3.74,3.73,3.8,3.78,Tepat Waktu
+20180800,Wahyu Siregar,Laki-laki,23,1,0,3.78,3.74,3.89,3.75,3.79,Terlambat
+20180801,Rina Firmansyah,Perempuan,23,1,0,2.68,2.44,2.32,2.32,2.44,Terlambat
+20180802,Putri Nasution,Perempuan,21,1,0,2.9,3.28,3.07,2.9,3.04,Tepat Waktu
+20180803,Ilham Lestari,Laki-laki,25,0,0,3.78,3.92,3.76,3.64,3.78,Tepat Waktu
+20180804,Irfan Nugroho,Laki-laki,22,0,0,2.81,2.8,2.61,2.6,2.7,Tepat Waktu
+20180805,Bella Wibowo,Perempuan,22,1,0,3.12,3.23,3.0,3.01,3.09,Tepat Waktu
+20180806,Rahma Nugroho,Perempuan,26,1,0,3.71,3.85,3.94,3.94,3.86,Terlambat
+20180807,Fikri Firmansyah,Laki-laki,23,1,0,3.86,3.95,3.95,4.0,3.94,Tepat Waktu
+20180808,Taufik Tanjung,Laki-laki,22,0,0,3.75,4.0,4.0,4.0,3.94,Tepat Waktu
+20180809,Zahra Kurniawan,Perempuan,23,0,0,2.94,2.91,2.96,3.08,2.97,Tepat Waktu
+20180810,Kevin Pratama,Laki-laki,26,1,0,3.11,2.93,2.74,2.71,2.87,Terlambat
+20180811,Rian Lestari,Laki-laki,22,0,0,2.46,2.38,1.98,1.57,2.1,Terlambat
+20180812,Fajar Ramadhan,Laki-laki,22,1,0,3.94,3.97,3.98,4.0,3.97,Tepat Waktu
+20180813,Gilang Permana,Laki-laki,24,1,0,2.97,3.31,2.96,2.9,3.04,Tepat Waktu
+20180814,Guntur Wibowo,Laki-laki,28,0,0,3.3,3.21,3.16,3.09,3.19,Tepat Waktu
+20180815,Kevin Wibowo,Laki-laki,23,1,0,3.33,3.22,3.26,3.25,3.26,Terlambat
+20180816,Kurniawan Tanjung,Laki-laki,22,0,0,3.68,3.66,3.72,3.89,3.74,Tepat Waktu
+20180817,Bambang Wibowo,Laki-laki,24,0,0,2.21,1.96,1.81,2.09,2.02,Terlambat
+20180818,Satria Pratama,Laki-laki,21,1,0,3.34,3.14,3.38,3.51,3.34,Tepat Waktu
+20180819,Sari Hidayat,Perempuan,21,0,0,3.3,3.28,3.33,3.19,3.28,Tepat Waktu
+20180820,Bayu Nugroho,Laki-laki,25,0,0,2.91,2.88,2.79,2.58,2.79,Tepat Waktu
+20180821,Novita Suryono,Perempuan,21,0,0,3.89,3.8,3.88,3.84,3.85,Tepat Waktu
+20180822,Rian Siregar,Laki-laki,24,1,0,3.85,3.9,3.88,3.88,3.88,Tepat Waktu
+20180823,Fikri Nugroho,Laki-laki,22,0,0,3.73,3.81,3.77,3.68,3.75,Tepat Waktu
+20180824,Indah Ramadhan,Perempuan,21,1,0,2.76,2.51,2.2,2.2,2.42,Terlambat
+20180825,Yoga Ramadhan,Laki-laki,23,1,0,3.94,3.98,4.0,3.95,3.97,Tepat Waktu
+20180826,Rahma Pratama,Perempuan,25,0,0,2.82,2.8,2.7,2.55,2.72,Terlambat
+20180827,Bella Setiawan,Perempuan,22,0,0,2.47,2.2,2.04,1.86,2.14,Terlambat
+20180828,Hafiz Kurniawan,Laki-laki,23,0,0,3.83,3.86,3.71,3.67,3.77,Tepat Waktu
+20180829,Indah Nugroho,Perempuan,20,0,0,2.91,3.01,3.02,2.9,2.96,Tepat Waktu
+20180830,Joko Nasution,Laki-laki,22,0,0,3.89,3.94,3.93,3.91,3.92,Tepat Waktu
+20180831,Lukman Ramadhan,Laki-laki,23,1,0,3.27,3.12,3.41,3.7,3.38,Tepat Waktu
+20180832,Satria Purnama,Laki-laki,22,1,0,2.92,3.11,3.14,2.83,3.0,Tepat Waktu
+20180833,Nabila Suryono,Perempuan,26,0,0,3.02,2.98,3.1,3.05,3.04,Tepat Waktu
+20180834,Novita Siregar,Perempuan,22,1,0,2.45,2.61,2.67,2.6,2.58,Terlambat
+20180835,Kevin Permana,Laki-laki,22,0,0,2.93,3.01,2.76,2.86,2.89,Terlambat
+20180836,Bambang Firmansyah,Laki-laki,23,0,0,2.84,2.82,2.91,3.1,2.92,Tepat Waktu
+20180837,Intan Setiawan,Perempuan,21,0,0,3.25,3.29,3.4,3.28,3.3,Tepat Waktu
+20180838,Intan Nugroho,Perempuan,23,0,0,3.2,3.21,3.27,3.52,3.3,Tepat Waktu
+20180839,Citra Hidayat,Perempuan,24,0,0,2.96,2.69,2.9,2.88,2.86,Tepat Waktu
+20180840,Maya Kusuma,Perempuan,24,0,0,3.55,3.66,3.58,3.86,3.66,Tepat Waktu
+20180841,Danu Siregar,Laki-laki,22,0,0,2.67,2.65,2.68,2.56,2.64,Terlambat
+20180842,Indah Santoso,Perempuan,21,0,0,2.78,2.84,2.44,2.84,2.72,Tepat Waktu
+20180843,Gilang Hidayat,Laki-laki,23,0,0,2.73,2.8,2.42,2.41,2.59,Terlambat
+20180844,Novita Ramadhan,Perempuan,22,0,0,3.61,3.73,3.68,3.93,3.74,Tepat Waktu
+20180845,Ilham Nasution,Laki-laki,25,0,0,2.55,2.23,2.39,2.08,2.31,Terlambat
+20180846,Fikri Purnama,Laki-laki,20,0,0,3.18,3.01,2.98,2.98,3.04,Tepat Waktu
+20180847,Wahyu Setiawan,Laki-laki,21,0,0,3.84,3.95,3.88,3.83,3.88,Tepat Waktu
+20180848,Citra Hidayat,Perempuan,21,0,0,3.29,3.33,3.28,3.24,3.28,Tepat Waktu
+20180849,Joko Nugroho,Laki-laki,22,0,0,3.47,3.6,3.59,3.51,3.54,Tepat Waktu
+20180850,Nabila Santoso,Perempuan,24,1,1,3.16,3.33,3.03,2.8,3.08,Terlambat
+20180851,Joko Pratama,Laki-laki,21,0,0,3.29,2.72,2.89,3.33,3.06,Tepat Waktu
+20180852,Bambang Siregar,Laki-laki,22,1,0,3.26,3.3,3.37,3.3,3.31,Tepat Waktu
+20180853,Dewi Wibowo,Perempuan,22,0,0,2.48,2.37,2.34,2.45,2.41,Terlambat
+20180854,Aulia Saputra,Perempuan,21,0,0,2.73,2.32,2.45,2.49,2.5,Terlambat
+20180855,Satria Setiawan,Laki-laki,22,0,0,2.8,2.66,2.58,2.51,2.64,Terlambat
+20180856,Bambang Utomo,Laki-laki,20,0,0,3.23,3.4,3.4,3.63,3.42,Tepat Waktu
+20180857,Yulia Ramadhan,Perempuan,23,1,1,3.91,3.91,3.82,3.69,3.83,Tepat Waktu
+20180858,Citra Pratama,Perempuan,23,1,0,2.74,2.44,2.26,2.53,2.49,Terlambat
+20180859,Taufik Setiawan,Laki-laki,24,1,0,3.91,4.0,3.94,3.83,3.92,Tepat Waktu
+20180860,Rian Ramadhan,Laki-laki,23,0,0,3.29,3.31,3.1,3.07,3.19,Tepat Waktu
+20180861,Prasetyo Lestari,Laki-laki,21,0,0,3.13,2.92,3.24,3.1,3.1,Tepat Waktu
+20180862,Fajar Saputra,Laki-laki,23,0,0,3.51,3.55,3.61,3.74,3.6,Tepat Waktu
+20180863,Intan Ramadhan,Perempuan,22,1,0,2.95,2.95,2.78,2.77,2.86,Terlambat
+20180864,Dimas Wijaya,Laki-laki,24,1,0,2.74,2.74,2.82,2.77,2.77,Terlambat
+20180865,Muhammad Ramadhan,Laki-laki,22,0,0,2.53,1.98,1.75,1.53,1.95,Terlambat
+20180866,Bella Nasution,Perempuan,22,0,1,3.87,4.0,3.98,4.0,3.96,Tepat Waktu
+20180867,Yoga Saputra,Laki-laki,23,0,0,3.58,3.57,3.43,3.68,3.56,Tepat Waktu
+20180868,Dewi Utomo,Perempuan,24,0,0,3.05,2.57,2.45,2.67,2.68,Terlambat
+20180869,Tiara Setiawan,Perempuan,22,0,0,2.3,1.81,1.5,1.55,1.79,Terlambat
+20180870,Bayu Nugroho,Laki-laki,22,1,0,3.36,3.47,3.15,3.07,3.26,Tepat Waktu
+20180871,Dimas Siregar,Laki-laki,22,1,1,3.29,3.06,2.98,2.98,3.08,Tepat Waktu
+20180872,Fikri Suryono,Laki-laki,28,1,0,3.63,3.39,3.51,3.53,3.51,Tepat Waktu
+20180873,Wahyu Tanjung,Laki-laki,22,0,0,2.63,2.74,2.7,2.45,2.63,Tepat Waktu
+20180874,Guntur Tanjung,Laki-laki,23,0,0,3.22,2.85,3.01,2.89,2.99,Tepat Waktu
+20180875,Hafiz Purnama,Laki-laki,23,0,0,2.99,3.13,3.12,3.21,3.11,Tepat Waktu
+20180876,Muhammad Firmansyah,Laki-laki,22,0,0,2.94,2.92,2.72,2.92,2.88,Tepat Waktu
+20180877,Rahma Setiawan,Perempuan,22,1,0,2.88,2.67,2.15,1.9,2.4,Terlambat
+20180878,Tiara Suryono,Perempuan,21,0,0,3.52,3.41,3.3,3.08,3.33,Tepat Waktu
+20180879,Joko Nasution,Laki-laki,22,1,0,3.34,3.32,3.46,3.24,3.34,Tepat Waktu
+20180880,Wulandari Saputra,Perempuan,21,0,0,3.18,3.28,3.17,2.87,3.12,Tepat Waktu
+20180881,Wulandari Kusuma,Perempuan,22,0,0,3.05,3.01,2.91,2.77,2.93,Tepat Waktu
+20180882,Fikri Hidayat,Laki-laki,21,0,0,3.52,3.49,3.6,3.6,3.55,Tepat Waktu
+20180883,Yoga Hidayat,Laki-laki,24,1,0,3.73,3.72,3.69,3.69,3.71,Tepat Waktu
+20180884,Ilham Wijaya,Laki-laki,23,0,0,2.41,2.13,2.23,2.55,2.33,Terlambat
+20180885,Dinda Nugroho,Perempuan,23,0,0,2.31,2.07,2.06,2.35,2.2,Terlambat
+20180886,Fajar Siregar,Laki-laki,24,0,0,3.11,2.98,2.97,2.96,3.0,Tepat Waktu
+20180887,Bayu Santoso,Laki-laki,22,0,0,2.79,2.47,2.33,2.39,2.5,Terlambat
+20180888,Annisa Suryono,Perempuan,23,1,0,2.6,2.32,2.68,2.45,2.51,Terlambat
+20180889,Prasetyo Tanjung,Laki-laki,22,0,0,3.73,3.78,3.74,3.81,3.76,Tepat Waktu
+20180890,Rian Setiawan,Laki-laki,22,1,0,3.7,3.77,3.81,3.75,3.76,Tepat Waktu
+20180891,Budi Nugroho,Laki-laki,22,0,0,3.31,3.35,3.55,3.62,3.46,Tepat Waktu
+20180892,Joko Setiawan,Laki-laki,23,1,0,3.95,3.89,3.79,3.94,3.89,Tepat Waktu
+20180893,Indah Firmansyah,Perempuan,24,1,0,3.12,3.31,3.36,3.19,3.24,Terlambat
+20180894,Bella Nugroho,Perempuan,22,0,0,2.69,2.39,2.28,1.92,2.32,Terlambat
+20180895,Intan Mahendra,Perempuan,21,0,0,2.45,1.75,1.5,1.4,1.78,Terlambat
+20180896,Tiara Hidayat,Perempuan,22,1,0,3.71,3.77,3.73,3.54,3.69,Tepat Waktu
+20180897,Putri Kusuma,Perempuan,22,1,0,2.81,2.17,2.14,1.65,2.19,Terlambat
+20180898,Satria Nugroho,Laki-laki,23,1,0,3.84,3.66,3.59,3.5,3.65,Tepat Waktu
+20180899,Yulia Utomo,Perempuan,21,0,0,3.66,3.72,3.75,3.7,3.71,Tepat Waktu
+20180900,Reza Wibowo,Laki-laki,22,0,0,3.76,3.95,4.0,4.0,3.93,Tepat Waktu
+20180901,Haris Utomo,Laki-laki,23,0,0,2.87,2.8,2.45,2.47,2.65,Terlambat
+20180902,Bella Saputra,Perempuan,23,0,0,3.24,3.15,3.28,3.0,3.17,Terlambat
+20180903,Fajar Setiawan,Laki-laki,23,0,0,3.41,3.59,3.71,3.73,3.61,Tepat Waktu
+20180904,Wahyu Nasution,Laki-laki,25,1,0,3.7,3.68,3.64,3.76,3.7,Tepat Waktu
+20180905,Reza Setiawan,Laki-laki,27,0,0,3.46,3.71,3.83,3.62,3.66,Tepat Waktu
+20180906,Rahma Kusuma,Perempuan,21,0,0,3.29,3.42,3.39,3.15,3.31,Tepat Waktu
+20180907,Prasetyo Setiawan,Laki-laki,21,0,0,3.22,3.43,3.18,3.29,3.28,Tepat Waktu
+20180908,Bambang Kurniawan,Laki-laki,22,1,0,3.05,3.29,3.5,3.22,3.26,Tepat Waktu
+20180909,Ilham Purnama,Laki-laki,24,1,0,2.31,2.33,2.47,2.6,2.43,Terlambat
+20180910,Siti Ramadhan,Perempuan,23,1,0,3.8,3.82,3.93,3.83,3.84,Tepat Waktu
+20180911,Prasetyo Wijaya,Laki-laki,25,1,1,3.86,4.0,3.91,4.0,3.94,Tepat Waktu
+20180912,Wahyu Saputra,Laki-laki,23,1,0,3.75,3.79,3.77,3.67,3.74,Tepat Waktu
+20180913,Kurniawan Suryono,Laki-laki,22,0,0,3.26,3.35,3.34,3.41,3.34,Tepat Waktu
+20180914,Novita Lestari,Perempuan,23,0,0,2.84,2.8,2.7,2.45,2.7,Terlambat
+20180915,Wulandari Wibowo,Perempuan,22,0,0,2.64,2.42,2.06,1.89,2.25,Terlambat
+20180916,Annisa Wijaya,Perempuan,21,0,0,3.66,3.71,3.82,3.82,3.75,Tepat Waktu
+20180917,Gita Nasution,Perempuan,23,0,0,3.5,3.69,3.73,3.75,3.67,Tepat Waktu
+20180918,Tiara Pratama,Perempuan,22,0,0,2.49,2.7,2.7,2.33,2.56,Tepat Waktu
+20180919,Fikri Wibowo,Laki-laki,21,1,0,2.91,2.86,2.59,2.59,2.74,Terlambat
+20180920,Tiara Saputra,Perempuan,23,1,0,3.26,3.32,3.3,3.46,3.34,Tepat Waktu
+20180921,Fikri Santoso,Laki-laki,23,1,0,3.82,3.53,3.39,3.46,3.55,Tepat Waktu
+20180922,Rina Purnama,Perempuan,22,1,0,2.67,2.37,1.63,1.66,2.08,Terlambat
+20180923,Yulia Firmansyah,Perempuan,22,0,0,2.76,2.34,2.62,2.42,2.54,Terlambat
+20180924,Reza Wibowo,Laki-laki,21,0,0,2.43,2.29,2.33,2.41,2.37,Terlambat
+20180925,Fajar Nasution,Laki-laki,22,0,0,2.35,2.67,2.5,2.11,2.41,Terlambat
+20180926,Putri Mahendra,Perempuan,21,0,0,2.67,2.66,2.2,2.22,2.44,Terlambat
+20180927,Rina Wijaya,Perempuan,23,1,0,2.26,1.88,1.52,1.4,1.76,Terlambat
+20180928,Rian Permana,Laki-laki,21,1,0,3.45,3.33,3.29,3.3,3.34,Tepat Waktu
+20180929,Naufal Lestari,Laki-laki,21,1,0,3.8,3.88,3.84,3.87,3.85,Tepat Waktu
+20180930,Kevin Kusuma,Laki-laki,24,0,0,3.32,3.6,3.48,3.67,3.52,Tepat Waktu
+20180931,Irfan Santoso,Laki-laki,23,1,0,3.81,3.86,3.82,3.93,3.86,Terlambat
+20180932,Kevin Suryono,Laki-laki,22,0,0,2.71,2.85,2.85,3.05,2.86,Tepat Waktu
+20180933,Bambang Ramadhan,Laki-laki,21,0,0,3.03,3.13,3.09,3.41,3.16,Tepat Waktu
+20180934,Lestari Kurniawan,Perempuan,23,0,0,3.92,3.88,3.9,3.76,3.86,Tepat Waktu
+20180935,Siti Saputra,Perempuan,22,1,0,2.79,2.93,3.31,3.7,3.18,Tepat Waktu
+20180936,Prasetyo Wijaya,Laki-laki,21,1,0,3.43,3.42,3.48,3.32,3.41,Terlambat
+20180937,Kevin Wibowo,Laki-laki,23,0,0,2.29,2.42,2.38,2.54,2.41,Terlambat
+20180938,Kevin Kusuma,Laki-laki,23,0,0,3.6,3.73,3.75,3.49,3.64,Tepat Waktu
+20180939,Fikri Kurniawan,Laki-laki,24,0,0,2.48,2.5,2.38,1.76,2.28,Terlambat
+20180940,Irfan Purnama,Laki-laki,22,1,0,3.42,3.46,3.51,3.51,3.48,Tepat Waktu
+20180941,Haris Pratama,Laki-laki,22,0,0,3.56,3.46,3.47,3.54,3.51,Tepat Waktu
+20180942,Zulfikar Siregar,Laki-laki,21,0,0,2.71,3.0,2.9,3.05,2.92,Tepat Waktu
+20180943,Rahma Suryono,Perempuan,21,0,0,2.45,1.88,1.57,1.76,1.92,Terlambat
+20180944,Budi Hidayat,Laki-laki,21,0,0,3.91,3.95,4.0,4.0,3.96,Tepat Waktu
+20180945,Sari Permana,Perempuan,22,0,1,2.73,2.89,2.88,3.18,2.92,Tepat Waktu
+20180946,Wahyu Ramadhan,Laki-laki,23,0,0,2.75,2.89,2.84,3.07,2.89,Tepat Waktu
+20180947,Yoga Firmansyah,Laki-laki,23,0,0,3.61,3.72,4.0,3.99,3.83,Tepat Waktu
+20180948,Aulia Hidayat,Perempuan,21,0,0,3.27,3.42,3.55,3.59,3.46,Tepat Waktu
+20180949,Ilham Siregar,Laki-laki,22,0,0,2.96,2.93,2.8,2.83,2.88,Terlambat
+20180950,Eko Setiawan,Laki-laki,21,0,0,3.47,3.36,3.43,3.37,3.41,Tepat Waktu
+20180951,Prasetyo Ramadhan,Laki-laki,23,1,0,2.68,2.74,2.54,2.28,2.56,Terlambat
+20180952,Dimas Pratama,Laki-laki,22,0,0,2.66,2.33,1.96,1.72,2.17,Terlambat
+20180953,Yoga Tanjung,Laki-laki,23,0,0,2.31,2.13,1.73,1.4,1.89,Terlambat
+20180954,Gita Santoso,Perempuan,22,1,0,3.69,3.68,3.86,3.98,3.8,Tepat Waktu
+20180955,Joko Siregar,Laki-laki,23,0,0,3.26,3.29,3.29,3.11,3.24,Tepat Waktu
+20180956,Annisa Siregar,Perempuan,23,0,0,2.76,2.5,2.45,2.67,2.6,Terlambat
+20180957,Putri Wijaya,Perempuan,21,1,0,2.31,1.68,1.67,1.57,1.81,Terlambat
+20180958,Hafiz Kusuma,Laki-laki,25,0,0,3.63,3.89,4.0,3.93,3.86,Tepat Waktu
+20180959,Prasetyo Kusuma,Laki-laki,23,1,0,2.83,2.56,2.75,2.79,2.73,Terlambat
+20180960,Yulia Utomo,Perempuan,22,0,0,2.42,2.13,1.98,1.65,2.04,Terlambat
+20180961,Rian Setiawan,Laki-laki,22,0,0,2.94,3.16,3.23,2.78,3.03,Tepat Waktu
+20180962,Rizky Wibowo,Laki-laki,22,0,0,3.9,4.0,4.0,3.99,3.97,Tepat Waktu
+20180963,Naufal Ramadhan,Laki-laki,21,0,0,3.92,3.98,3.89,3.62,3.85,Tepat Waktu
+20180964,Rian Nugroho,Laki-laki,22,1,0,3.77,3.77,3.74,3.54,3.7,Tepat Waktu
+20180965,Rahma Siregar,Perempuan,22,0,0,3.44,3.45,3.48,3.53,3.48,Tepat Waktu
+20180966,Eko Kurniawan,Laki-laki,22,0,0,2.88,2.27,2.62,2.56,2.58,Tepat Waktu
+20180967,Gilang Tanjung,Laki-laki,22,0,0,2.93,3.01,2.99,2.74,2.92,Terlambat
+20180968,Sari Utomo,Perempuan,25,0,0,3.28,3.42,3.5,3.61,3.45,Tepat Waktu
+20180969,Irfan Wijaya,Laki-laki,22,0,0,2.88,3.36,3.17,3.2,3.15,Tepat Waktu
+20180970,Intan Suryono,Perempuan,22,1,1,2.91,3.13,3.07,3.22,3.08,Tepat Waktu
+20180971,Maya Purnama,Perempuan,22,0,0,3.61,3.7,3.83,3.8,3.74,Tepat Waktu
+20180972,Ilham Pratama,Laki-laki,25,0,0,2.55,2.4,2.36,1.97,2.32,Terlambat
+20180973,Lestari Setiawan,Perempuan,23,0,0,2.82,2.62,2.7,2.6,2.68,Terlambat
+20180974,Tiara Nasution,Perempuan,22,0,0,3.26,3.42,3.72,3.74,3.54,Tepat Waktu
+20180975,Zahra Ramadhan,Perempuan,22,1,1,3.88,3.99,4.0,3.87,3.94,Tepat Waktu
+20180976,Irfan Utomo,Laki-laki,23,0,0,2.39,2.07,1.98,2.14,2.14,Terlambat
+20180977,Rahma Siregar,Perempuan,22,1,1,3.62,3.73,3.78,3.68,3.7,Tepat Waktu
+20180978,Rina Permana,Perempuan,22,0,0,2.47,2.69,2.46,1.96,2.4,Terlambat
+20180979,Kevin Siregar,Laki-laki,22,1,0,3.41,3.56,3.5,3.59,3.52,Tepat Waktu
+20180980,Fikri Siregar,Laki-laki,24,0,0,2.84,2.79,2.7,2.6,2.73,Terlambat
+20180981,Muhammad Firmansyah,Laki-laki,27,1,0,3.41,3.51,3.61,3.56,3.52,Tepat Waktu
+20180982,Reza Lestari,Laki-laki,24,1,0,3.84,4.0,4.0,4.0,3.96,Tepat Waktu
+20180983,Fadilah Nugroho,Perempuan,21,0,0,2.88,2.68,2.57,2.03,2.54,Terlambat
+20180984,Tiara Kurniawan,Perempuan,22,0,0,3.62,3.66,3.68,3.8,3.69,Tepat Waktu
+20180985,Hafiz Suryono,Laki-laki,21,1,1,3.38,3.55,3.43,3.48,3.46,Tepat Waktu
+20180986,Aulia Lestari,Perempuan,22,0,0,2.7,2.74,2.63,2.59,2.66,Terlambat
+20180987,Novita Ramadhan,Perempuan,23,1,1,3.72,3.81,3.73,3.46,3.68,Tepat Waktu
+20180988,Bambang Kurniawan,Laki-laki,22,1,0,3.26,3.09,3.26,3.19,3.2,Terlambat
+20180989,Nur Mahendra,Perempuan,22,0,0,2.57,2.31,2.37,2.29,2.38,Terlambat
+20180990,Dewi Ramadhan,Perempuan,20,1,0,3.76,3.75,3.63,3.86,3.75,Tepat Waktu
+20180991,Budi Utomo,Laki-laki,24,0,0,3.82,3.87,3.95,4.0,3.91,Tepat Waktu
+20180992,Rizky Nasution,Laki-laki,22,0,0,2.92,2.96,3.11,3.09,3.02,Tepat Waktu
+20180993,Maya Kusuma,Perempuan,22,0,0,3.28,3.11,3.15,3.28,3.2,Tepat Waktu
+20180994,Irfan Firmansyah,Laki-laki,21,1,0,3.54,3.49,3.37,3.34,3.44,Tepat Waktu
+20180995,Dimas Purnama,Laki-laki,24,0,0,2.92,2.77,2.62,2.71,2.76,Tepat Waktu
+20180996,Reza Firmansyah,Laki-laki,21,1,0,3.85,3.74,3.85,4.0,3.86,Tepat Waktu
+20180997,Ahmad Utomo,Laki-laki,23,1,0,3.51,3.87,3.96,3.73,3.77,Tepat Waktu
+20180998,Putri Mahendra,Perempuan,24,0,0,3.18,2.94,3.19,3.07,3.1,Tepat Waktu
+20180999,Dewi Wijaya,Perempuan,22,0,0,2.85,2.8,2.7,2.6,2.74,Terlambat
+20181000,Rian Wibowo,Laki-laki,24,0,0,2.49,2.31,2.02,1.73,2.14,Terlambat
+20181001,Kevin Tanjung,Laki-laki,22,1,0,3.49,3.42,3.42,3.6,3.48,Tepat Waktu
+20181002,Indah Kurniawan,Perempuan,22,0,0,2.2,2.29,2.24,2.19,2.23,Terlambat
+20181003,Yoga Wijaya,Laki-laki,22,1,0,2.9,2.9,3.13,3.09,3.0,Tepat Waktu
+20181004,Maya Siregar,Perempuan,21,0,0,3.45,3.46,3.57,3.46,3.49,Tepat Waktu
+20181005,Muhammad Lestari,Laki-laki,27,1,0,3.5,3.6,3.69,3.28,3.52,Tepat Waktu
+20181006,Yulia Ramadhan,Perempuan,24,1,1,2.59,2.32,2.42,1.91,2.31,Terlambat
+20181007,Irfan Siregar,Laki-laki,21,1,0,2.74,2.56,2.49,2.42,2.55,Terlambat
+20181008,Budi Tanjung,Laki-laki,22,1,0,3.47,3.39,3.4,3.47,3.43,Tepat Waktu
+20181009,Bayu Nugroho,Laki-laki,21,1,1,2.34,2.35,2.4,2.03,2.28,Terlambat
+20181010,Yulia Setiawan,Perempuan,25,0,0,2.31,2.46,2.03,1.6,2.1,Terlambat
+20181011,Hafiz Wijaya,Laki-laki,25,0,0,2.21,1.6,1.74,1.4,1.74,Terlambat
+20181012,Putri Kusuma,Perempuan,25,0,0,2.25,1.68,1.65,1.4,1.74,Terlambat
+20181013,Yulia Kusuma,Perempuan,23,0,0,3.85,3.85,3.71,3.7,3.78,Tepat Waktu
+20181014,Rahma Santoso,Perempuan,21,0,0,3.58,3.56,3.44,3.46,3.51,Tepat Waktu
+20181015,Indah Setiawan,Perempuan,22,1,0,2.76,2.35,1.93,1.72,2.19,Terlambat
+20181016,Kurniawan Pratama,Laki-laki,21,0,0,3.81,3.85,4.0,4.0,3.92,Tepat Waktu
+20181017,Budi Lestari,Laki-laki,22,0,0,2.63,2.47,2.52,2.39,2.5,Tepat Waktu
+20181018,Guntur Saputra,Laki-laki,20,0,0,3.12,3.32,3.58,3.45,3.37,Tepat Waktu
+20181019,Joko Permana,Laki-laki,22,1,0,2.55,2.34,2.45,2.2,2.38,Terlambat
+20181020,Nabila Suryono,Perempuan,23,0,0,3.41,3.44,3.66,3.66,3.54,Tepat Waktu
+20181021,Eko Nugroho,Laki-laki,23,0,0,2.57,2.42,2.44,2.31,2.44,Terlambat
+20181022,Rizky Suryono,Laki-laki,22,0,0,3.01,3.1,2.82,2.79,2.93,Tepat Waktu
+20181023,Taufik Santoso,Laki-laki,23,1,0,3.39,3.36,3.47,3.5,3.43,Terlambat
+20181024,Dinda Santoso,Perempuan,22,0,0,3.27,3.29,3.29,3.33,3.3,Tepat Waktu
+20181025,Bella Tanjung,Perempuan,20,0,0,3.83,3.97,3.91,4.0,3.93,Tepat Waktu
+20181026,Irfan Kurniawan,Laki-laki,21,0,0,3.81,3.76,3.71,3.86,3.78,Tepat Waktu
+20181027,Wahyu Nugroho,Laki-laki,22,0,0,2.87,2.72,2.7,2.6,2.72,Terlambat
+20181028,Rian Nasution,Laki-laki,21,1,0,2.88,3.22,3.53,3.7,3.33,Tepat Waktu
+20181029,Eko Nugroho,Laki-laki,23,0,0,3.12,3.08,3.35,3.2,3.19,Tepat Waktu
+20181030,Prasetyo Mahendra,Laki-laki,22,0,0,2.54,2.16,2.05,1.79,2.13,Terlambat
+20181031,Intan Firmansyah,Perempuan,23,1,0,2.29,2.3,2.11,2.03,2.18,Terlambat
+20181032,Ilham Pratama,Laki-laki,22,0,0,2.75,2.48,2.46,2.84,2.63,Terlambat
+20181033,Rahma Setiawan,Perempuan,22,0,0,3.12,3.32,3.0,3.19,3.16,Tepat Waktu
+20181034,Zulfikar Siregar,Laki-laki,21,1,0,3.66,3.76,3.75,3.78,3.74,Tepat Waktu
+20181035,Fajar Wijaya,Laki-laki,24,0,0,3.17,3.26,3.21,3.36,3.25,Tepat Waktu
+20181036,Prasetyo Permana,Laki-laki,21,1,0,3.07,3.28,3.28,3.18,3.2,Tepat Waktu
+20181037,Taufik Setiawan,Laki-laki,22,0,0,3.14,2.63,2.6,2.35,2.68,Terlambat
+20181038,Yulia Suryono,Perempuan,21,0,0,2.29,1.98,2.07,2.01,2.09,Terlambat
+20181039,Bambang Wibowo,Laki-laki,23,0,0,3.92,4.0,3.98,4.0,3.98,Tepat Waktu
+20181040,Prasetyo Setiawan,Laki-laki,22,0,0,2.97,3.26,3.43,3.39,3.26,Tepat Waktu
+20181041,Gilang Kurniawan,Laki-laki,22,0,0,2.46,2.33,2.14,2.1,2.26,Terlambat
+20181042,Rina Kusuma,Perempuan,22,1,0,3.54,3.67,3.78,3.59,3.64,Tepat Waktu
+20181043,Gita Kurniawan,Perempuan,22,0,0,3.82,4.0,3.89,3.92,3.91,Tepat Waktu
+20181044,Tiara Permana,Perempuan,21,1,0,2.77,2.66,2.34,2.59,2.59,Terlambat
+20181045,Taufik Setiawan,Laki-laki,21,0,0,3.07,2.97,3.01,3.04,3.02,Tepat Waktu
+20181046,Indah Setiawan,Perempuan,22,0,0,2.88,2.71,2.7,2.59,2.72,Tepat Waktu
+20181047,Ahmad Kurniawan,Laki-laki,23,0,0,2.66,2.46,2.64,2.47,2.56,Terlambat
+20181048,Ilham Pratama,Laki-laki,20,0,0,3.26,3.34,3.23,3.32,3.29,Tepat Waktu
+20181049,Tiara Saputra,Perempuan,23,0,0,2.87,2.82,2.91,2.7,2.82,Tepat Waktu
+20181050,Wulandari Ramadhan,Perempuan,22,0,0,2.93,2.96,2.93,2.9,2.93,Tepat Waktu
+20181051,Lestari Nugroho,Perempuan,23,0,0,3.07,3.08,2.81,2.91,2.97,Tepat Waktu
+20181052,Wahyu Permana,Laki-laki,24,0,0,2.75,2.75,2.53,2.52,2.64,Terlambat
+20181053,Gita Mahendra,Perempuan,22,0,0,2.23,1.81,1.92,1.65,1.9,Terlambat
+20181054,Fadilah Tanjung,Perempuan,22,0,0,3.94,4.0,3.98,4.0,3.98,Tepat Waktu
+20181055,Ilham Utomo,Laki-laki,21,0,0,3.4,3.44,3.37,3.46,3.42,Tepat Waktu
+20181056,Yoga Kusuma,Laki-laki,22,1,1,3.41,3.51,3.78,3.78,3.62,Tepat Waktu
+20181057,Kurniawan Mahendra,Laki-laki,22,0,0,3.16,3.28,3.23,3.32,3.25,Tepat Waktu
+20181058,Yoga Saputra,Laki-laki,23,0,0,2.86,2.77,2.62,2.42,2.67,Terlambat
+20181059,Lestari Firmansyah,Perempuan,22,0,0,2.82,3.18,3.22,3.35,3.14,Tepat Waktu
+20181060,Budi Nasution,Laki-laki,21,0,0,2.96,2.8,2.82,2.57,2.79,Terlambat
+20181061,Nabila Utomo,Perempuan,21,1,0,2.4,2.19,2.5,2.16,2.31,Terlambat
+20181062,Bella Setiawan,Perempuan,21,0,0,3.88,3.8,3.92,3.96,3.89,Tepat Waktu
+20181063,Kevin Suryono,Laki-laki,23,0,0,2.32,2.08,1.66,2.03,2.02,Terlambat
+20181064,Fajar Hidayat,Laki-laki,22,1,0,3.38,3.46,3.42,3.51,3.44,Tepat Waktu
+20181065,Eko Siregar,Laki-laki,21,0,0,3.71,3.64,3.51,3.65,3.63,Tepat Waktu
+20181066,Kurniawan Permana,Laki-laki,24,0,0,3.41,3.38,3.35,3.29,3.36,Tepat Waktu
+20181067,Sari Purnama,Perempuan,22,0,0,3.71,3.78,3.81,3.71,3.75,Tepat Waktu
+20181068,Reza Wibowo,Laki-laki,28,0,0,2.96,2.81,2.62,2.2,2.65,Terlambat
+20181069,Haris Santoso,Laki-laki,24,0,0,3.1,3.03,3.21,3.1,3.11,Tepat Waktu
+20181070,Intan Ramadhan,Perempuan,22,0,0,2.71,2.68,2.87,2.69,2.74,Terlambat
+20181071,Guntur Setiawan,Laki-laki,22,0,0,2.62,2.38,2.25,2.17,2.36,Terlambat
+20181072,Danu Lestari,Laki-laki,21,0,0,3.85,3.98,3.87,4.0,3.92,Tepat Waktu
+20181073,Guntur Kusuma,Laki-laki,22,0,0,3.67,3.74,3.79,3.7,3.72,Tepat Waktu
+20181074,Prasetyo Wijaya,Laki-laki,21,0,0,3.6,3.85,3.92,4.0,3.84,Tepat Waktu
+20181075,Eko Nugroho,Laki-laki,21,0,0,3.41,3.27,3.44,3.46,3.39,Tepat Waktu
+20181076,Zahra Kurniawan,Perempuan,22,0,0,3.29,3.36,3.38,3.31,3.34,Tepat Waktu
+20181077,Siti Permana,Perempuan,23,1,0,3.11,3.27,2.98,2.94,3.08,Tepat Waktu
+20181078,Bayu Kurniawan,Laki-laki,23,1,0,3.75,3.92,3.94,4.0,3.9,Tepat Waktu
+20181079,Annisa Wibowo,Perempuan,22,0,0,3.3,2.87,3.05,3.29,3.13,Tepat Waktu
+20181080,Satria Kusuma,Laki-laki,23,0,0,3.17,3.01,3.0,3.09,3.07,Tepat Waktu
+20181081,Rahma Permana,Perempuan,21,0,1,3.95,3.95,4.0,3.87,3.94,Tepat Waktu
+20181082,Zahra Wibowo,Perempuan,23,1,0,3.69,3.61,3.55,3.46,3.58,Tepat Waktu
+20181083,Taufik Kurniawan,Laki-laki,22,0,0,3.33,3.22,3.42,3.38,3.34,Tepat Waktu
+20181084,Haris Mahendra,Laki-laki,23,1,0,2.51,2.41,2.4,2.6,2.48,Terlambat
+20181085,Nabila Kusuma,Perempuan,22,0,0,2.74,2.68,2.65,2.57,2.66,Terlambat
+20181086,Zulfikar Nugroho,Laki-laki,23,0,0,2.83,3.0,2.64,2.8,2.82,Tepat Waktu
+20181087,Rina Pratama,Perempuan,20,0,0,3.21,3.37,2.9,2.9,3.1,Tepat Waktu
+20181088,Wulandari Siregar,Perempuan,22,1,0,2.59,2.46,2.59,2.6,2.56,Terlambat
+20181089,Maya Tanjung,Perempuan,25,0,0,3.1,3.22,3.02,3.01,3.09,Tepat Waktu
+20181090,Gita Mahendra,Perempuan,24,0,0,3.87,3.99,3.83,3.87,3.89,Tepat Waktu
+20181091,Bella Mahendra,Perempuan,28,0,0,3.12,3.21,3.1,3.07,3.12,Tepat Waktu
+20181092,Rahma Setiawan,Perempuan,24,1,0,3.51,3.52,3.35,3.4,3.44,Tepat Waktu
+20181093,Yulia Suryono,Perempuan,25,0,0,3.32,3.37,3.47,3.48,3.41,Tepat Waktu
+20181094,Dimas Utomo,Laki-laki,24,0,0,3.69,3.67,3.72,3.6,3.67,Tepat Waktu
+20181095,Budi Saputra,Laki-laki,21,0,0,2.9,2.97,2.76,2.85,2.87,Tepat Waktu
+20181096,Joko Ramadhan,Laki-laki,23,0,0,3.87,3.91,3.95,3.88,3.9,Tepat Waktu
+20181097,Citra Kusuma,Perempuan,22,0,0,3.32,3.4,3.42,3.66,3.45,Tepat Waktu
+20181098,Hafiz Siregar,Laki-laki,20,0,0,3.81,3.87,4.0,3.96,3.91,Tepat Waktu
+20181099,Eko Kurniawan,Laki-laki,22,1,0,2.22,2.06,2.25,2.6,2.28,Terlambat
+20181100,Prasetyo Permana,Laki-laki,20,0,0,2.32,2.0,1.71,1.79,1.96,Terlambat
+20181101,Zulfikar Siregar,Laki-laki,21,0,0,2.85,2.94,2.58,2.6,2.74,Terlambat
+20181102,Putri Nasution,Perempuan,22,0,0,3.17,3.4,3.35,3.32,3.31,Tepat Waktu
+20181103,Danu Utomo,Laki-laki,21,0,0,2.31,2.26,2.65,2.32,2.39,Terlambat
+20181104,Kurniawan Suryono,Laki-laki,22,1,0,3.58,3.68,3.84,3.86,3.74,Tepat Waktu
+20181105,Yoga Kusuma,Laki-laki,23,0,0,3.6,3.8,3.6,3.43,3.61,Tepat Waktu
+20181106,Haris Ramadhan,Laki-laki,21,0,0,3.69,3.67,3.56,3.86,3.7,Tepat Waktu
+20181107,Wahyu Suryono,Laki-laki,21,0,0,3.06,3.43,3.31,3.42,3.3,Tepat Waktu
+20181108,Ilham Saputra,Laki-laki,22,0,0,2.51,2.62,2.51,2.39,2.51,Terlambat
+20181109,Indah Permana,Perempuan,22,0,0,2.23,2.49,2.29,2.51,2.38,Terlambat
+20181110,Fadilah Firmansyah,Perempuan,20,0,0,3.42,3.38,3.44,3.43,3.42,Tepat Waktu
+20181111,Rahma Nugroho,Perempuan,25,0,0,3.85,3.79,3.85,3.93,3.86,Tepat Waktu
+20181112,Nabila Kusuma,Perempuan,22,1,0,3.34,3.71,3.77,3.74,3.64,Tepat Waktu
+20181113,Zahra Permana,Perempuan,22,1,0,3.69,3.48,3.53,3.57,3.57,Tepat Waktu
+20181114,Siti Mahendra,Perempuan,21,0,0,2.57,2.63,2.64,2.45,2.57,Tepat Waktu
+20181115,Lukman Saputra,Laki-laki,22,0,0,3.54,3.68,3.58,3.65,3.61,Tepat Waktu
+20181116,Muhammad Wibowo,Laki-laki,23,0,0,3.16,3.04,2.9,2.69,2.95,Tepat Waktu
+20181117,Fadilah Kusuma,Perempuan,23,1,0,2.66,2.66,2.39,2.06,2.44,Terlambat
+20181118,Irfan Firmansyah,Laki-laki,22,0,0,2.27,2.33,2.48,1.89,2.24,Terlambat
+20181119,Bayu Hidayat,Laki-laki,24,1,0,3.11,3.31,3.43,3.21,3.26,Terlambat
+20181120,Yoga Mahendra,Laki-laki,24,0,0,3.25,3.17,3.41,3.31,3.28,Tepat Waktu
+20181121,Wahyu Pratama,Laki-laki,22,0,0,2.86,2.58,2.6,2.55,2.65,Terlambat
+20181122,Budi Lestari,Laki-laki,26,1,0,2.39,2.04,1.91,1.77,2.03,Terlambat
+20181123,Gita Utomo,Perempuan,22,1,0,3.59,3.62,3.89,4.0,3.78,Tepat Waktu
+20181124,Tiara Hidayat,Perempuan,20,0,0,2.92,3.35,3.02,2.62,2.98,Terlambat
+20181125,Bella Siregar,Perempuan,23,1,0,2.94,2.64,2.22,2.2,2.5,Terlambat
+20181126,Gilang Nasution,Laki-laki,23,0,0,2.71,2.52,2.66,2.6,2.62,Terlambat
+20181127,Fadilah Nugroho,Perempuan,22,0,0,3.23,3.24,2.97,3.06,3.13,Tepat Waktu
+20181128,Maya Utomo,Perempuan,22,1,0,2.66,2.16,1.91,1.58,2.08,Terlambat
+20181129,Guntur Tanjung,Laki-laki,21,0,0,2.88,3.04,3.17,3.03,3.03,Tepat Waktu
+20181130,Annisa Wibowo,Perempuan,21,0,0,3.33,2.97,3.02,3.09,3.1,Tepat Waktu
+20181131,Irfan Utomo,Laki-laki,22,1,0,2.42,2.12,2.07,1.56,2.04,Terlambat
+20181132,Eko Siregar,Laki-laki,21,1,0,2.95,3.22,3.11,2.98,3.06,Tepat Waktu
+20181133,Ilham Santoso,Laki-laki,22,0,0,3.82,3.56,3.57,3.76,3.68,Tepat Waktu
+20181134,Citra Pratama,Perempuan,23,0,0,3.32,3.28,3.24,3.0,3.21,Tepat Waktu
+20181135,Eko Pratama,Laki-laki,22,0,0,3.72,3.81,3.9,3.72,3.79,Tepat Waktu
+20181136,Lukman Nugroho,Laki-laki,22,0,0,2.87,2.7,2.58,2.69,2.71,Tepat Waktu
+20181137,Tiara Lestari,Perempuan,22,0,0,3.46,3.43,3.52,3.59,3.5,Tepat Waktu
+20181138,Ahmad Santoso,Laki-laki,22,1,0,3.34,3.47,3.79,3.78,3.6,Tepat Waktu
+20181139,Intan Saputra,Perempuan,23,0,0,2.64,2.18,2.18,1.88,2.22,Terlambat
+20181140,Eko Suryono,Laki-laki,23,0,0,3.66,3.84,3.83,4.0,3.83,Tepat Waktu
+20181141,Rizky Kusuma,Laki-laki,24,1,0,3.71,3.82,4.0,3.83,3.84,Tepat Waktu
+20181142,Danu Wijaya,Laki-laki,22,0,0,3.18,2.64,2.69,2.62,2.78,Tepat Waktu
+20181143,Rina Firmansyah,Perempuan,22,1,0,2.51,2.34,2.35,2.25,2.36,Terlambat
+20181144,Fikri Permana,Laki-laki,24,0,0,3.12,2.98,3.12,2.93,3.04,Tepat Waktu
+20181145,Rizky Nasution,Laki-laki,22,0,0,3.01,3.15,2.82,3.13,3.03,Tepat Waktu
+20181146,Citra Firmansyah,Perempuan,22,1,0,3.74,3.76,3.61,3.62,3.68,Tepat Waktu
+20181147,Sari Nugroho,Perempuan,23,1,0,3.31,3.53,2.91,2.69,3.11,Terlambat
+20181148,Wulandari Saputra,Perempuan,22,0,0,2.73,2.8,2.6,2.54,2.67,Terlambat
+20181149,Danu Purnama,Laki-laki,21,0,0,3.82,4.0,3.98,3.94,3.94,Tepat Waktu
+20181150,Joko Firmansyah,Laki-laki,23,1,0,2.77,2.73,2.47,2.76,2.68,Terlambat
+20181151,Yoga Pratama,Laki-laki,22,0,0,3.03,2.91,2.99,2.79,2.93,Terlambat
+20181152,Budi Ramadhan,Laki-laki,22,0,1,2.76,2.6,2.62,2.76,2.68,Terlambat
+20181153,Irfan Kurniawan,Laki-laki,22,1,1,2.61,2.67,2.08,2.45,2.45,Terlambat
+20181154,Naufal Kusuma,Laki-laki,22,0,0,3.34,3.21,2.78,2.85,3.04,Tepat Waktu
+20181155,Rian Firmansyah,Laki-laki,21,0,0,3.34,3.56,3.5,3.48,3.47,Terlambat
+20181156,Bayu Wijaya,Laki-laki,22,0,0,3.85,3.85,3.87,3.76,3.83,Tepat Waktu
+20181157,Kevin Tanjung,Laki-laki,21,0,0,3.07,3.43,3.54,3.7,3.43,Tepat Waktu
+20181158,Dewi Wijaya,Perempuan,21,0,0,2.95,2.93,2.97,3.14,3.0,Terlambat
+20181159,Eko Wibowo,Laki-laki,22,0,0,3.4,3.37,3.34,3.15,3.32,Tepat Waktu
+20181160,Wulandari Mahendra,Perempuan,23,1,0,3.32,3.51,3.65,3.66,3.54,Tepat Waktu
+20181161,Taufik Siregar,Laki-laki,22,1,0,2.33,1.98,1.6,1.55,1.86,Terlambat
+20181162,Bambang Lestari,Laki-laki,26,0,0,3.76,3.78,3.86,3.94,3.83,Tepat Waktu
+20181163,Nur Tanjung,Perempuan,26,0,0,2.52,2.13,1.99,2.19,2.21,Terlambat
+20181164,Rizky Setiawan,Laki-laki,20,0,0,3.21,3.42,3.69,3.7,3.5,Tepat Waktu
+20181165,Prasetyo Purnama,Laki-laki,22,0,0,2.61,2.52,2.65,2.6,2.6,Terlambat
+20181166,Wahyu Suryono,Laki-laki,22,0,0,2.76,2.55,2.89,3.23,2.86,Tepat Waktu
+20181167,Citra Kusuma,Perempuan,21,1,0,2.66,2.32,2.21,2.37,2.39,Terlambat
+20181168,Yulia Mahendra,Perempuan,22,1,0,2.95,2.75,2.55,2.36,2.65,Terlambat
+20181169,Kurniawan Siregar,Laki-laki,24,0,0,3.57,3.68,3.83,3.84,3.73,Tepat Waktu
+20181170,Danu Hidayat,Laki-laki,20,0,0,3.29,3.35,3.66,3.24,3.38,Tepat Waktu
+20181171,Putri Firmansyah,Perempuan,24,0,0,3.57,3.67,3.89,3.81,3.74,Tepat Waktu
+20181172,Gita Suryono,Perempuan,25,1,0,2.27,2.38,2.28,2.19,2.28,Terlambat
+20181173,Maya Firmansyah,Perempuan,23,0,0,3.27,3.29,3.12,3.06,3.18,Tepat Waktu
+20181174,Nur Suryono,Perempuan,23,0,0,2.5,2.14,1.84,1.4,1.97,Terlambat
+20181175,Danu Kusuma,Laki-laki,21,1,0,2.85,3.18,2.8,3.04,2.97,Terlambat
+20181176,Kevin Suryono,Laki-laki,24,0,0,2.97,2.97,2.84,3.24,3.01,Tepat Waktu
+20181177,Kevin Wibowo,Laki-laki,25,0,0,3.6,3.87,3.79,3.76,3.76,Tepat Waktu
+20181178,Lukman Utomo,Laki-laki,24,0,0,3.67,3.83,3.64,3.59,3.68,Tepat Waktu
+20181179,Zulfikar Ramadhan,Laki-laki,22,0,0,3.61,3.63,3.7,3.73,3.67,Tepat Waktu
+20181180,Bayu Wijaya,Laki-laki,24,0,0,3.42,3.47,3.28,3.3,3.37,Tepat Waktu
+20181181,Bella Wijaya,Perempuan,23,1,0,3.28,3.6,3.6,3.7,3.54,Tepat Waktu
+20181182,Putri Kusuma,Perempuan,23,0,0,3.52,3.62,3.72,3.58,3.61,Tepat Waktu
+20181183,Danu Permana,Laki-laki,22,0,0,2.95,2.86,2.83,2.87,2.88,Tepat Waktu
+20181184,Guntur Utomo,Laki-laki,22,0,0,2.74,2.94,3.63,3.38,3.17,Tepat Waktu
+20181185,Satria Saputra,Laki-laki,21,1,0,3.4,3.5,3.47,3.49,3.47,Tepat Waktu
+20181186,Taufik Siregar,Laki-laki,24,1,0,2.29,1.88,1.7,1.4,1.82,Terlambat
+20181187,Satria Lestari,Laki-laki,26,1,0,3.79,3.73,3.64,3.61,3.69,Terlambat
+20181188,Zulfikar Kusuma,Laki-laki,22,0,0,3.18,3.23,3.08,3.17,3.16,Tepat Waktu
+20181189,Naufal Permana,Laki-laki,21,0,0,3.2,3.06,3.01,2.67,2.98,Terlambat
+20181190,Zahra Suryono,Perempuan,23,1,0,3.34,3.34,3.2,3.17,3.26,Tepat Waktu
+20181191,Novita Saputra,Perempuan,22,0,0,3.31,3.48,3.62,3.48,3.47,Tepat Waktu
+20181192,Joko Tanjung,Laki-laki,22,0,0,3.03,3.56,3.56,3.7,3.46,Tepat Waktu
+20181193,Lestari Permana,Perempuan,25,0,0,2.99,3.04,2.92,2.91,2.96,Tepat Waktu
+20181194,Dimas Nasution,Laki-laki,21,0,0,3.1,3.37,3.35,3.41,3.31,Tepat Waktu
+20181195,Sari Hidayat,Perempuan,23,0,0,3.89,4.0,4.0,3.92,3.95,Tepat Waktu
+20181196,Dewi Ramadhan,Perempuan,22,0,0,3.4,3.28,3.55,3.57,3.45,Tepat Waktu
+20181197,Gita Kusuma,Perempuan,22,1,0,3.44,3.48,3.47,3.49,3.47,Tepat Waktu
+20181198,Lukman Siregar,Laki-laki,25,0,0,3.89,4.0,4.0,4.0,3.97,Tepat Waktu
+20181199,Nabila Kusuma,Perempuan,23,0,1,2.81,2.8,2.7,1.92,2.56,Terlambat
+20181200,Fikri Wibowo,Laki-laki,20,0,0,3.24,3.3,3.05,2.82,3.1,Tepat Waktu
