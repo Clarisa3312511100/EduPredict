@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EduPredict &bull; Early Warning System (EWS) Akademik</title>
-  
+
   <!-- Font Setup: Clean System Sans & Monospace for Tabular Academic Data -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  
+
   <!-- Chart.js Engine -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -90,11 +93,18 @@
     }
 
     /* Monospace Utility for Technical Data */
-    code, pre, .font-mono,
-    .kpi-value, .mini-val, .data-table td:nth-child(1),
-    .data-table td:nth-child(3), .data-table td:nth-child(4),
-    .data-table td:nth-child(5), .data-table td:nth-child(6),
-    #riskPercentage, .range-val {
+    code,
+    pre,
+    .font-mono,
+    .kpi-value,
+    .mini-val,
+    .data-table td:nth-child(1),
+    .data-table td:nth-child(3),
+    .data-table td:nth-child(4),
+    .data-table td:nth-child(5),
+    .data-table td:nth-child(6),
+    #riskPercentage,
+    .range-val {
       font-family: var(--font-mono);
       font-variant-numeric: var(--tabular-nums);
     }
@@ -409,10 +419,21 @@
       border-radius: 2px;
     }
 
-    .kpi-card:nth-child(1) { border-left-color: #475569; }
-    .kpi-card:nth-child(2) { border-left-color: var(--success); }
-    .kpi-card:nth-child(3) { border-left-color: var(--danger); }
-    .kpi-card:nth-child(4) { border-left-color: #2563eb; }
+    .kpi-card:nth-child(1) {
+      border-left-color: #475569;
+    }
+
+    .kpi-card:nth-child(2) {
+      border-left-color: var(--success);
+    }
+
+    .kpi-card:nth-child(3) {
+      border-left-color: var(--danger);
+    }
+
+    .kpi-card:nth-child(4) {
+      border-left-color: #2563eb;
+    }
 
     .kpi-details {
       display: flex;
@@ -443,7 +464,8 @@
     }
 
     .kpi-icon {
-      display: none; /* AI slop decoration eliminated for pure data density */
+      display: none;
+      /* AI slop decoration eliminated for pure data density */
     }
 
     /* Charts Grid */
@@ -496,7 +518,8 @@
       align-items: start;
     }
 
-    .form-card, .result-card {
+    .form-card,
+    .result-card {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
       border-radius: 2px;
@@ -535,7 +558,8 @@
       align-items: center;
     }
 
-    .form-control, .form-control-sm {
+    .form-control,
+    .form-control-sm {
       padding: 6px 8px;
       border: 1px solid var(--border-color);
       border-radius: 2px;
@@ -546,7 +570,8 @@
       outline: none;
     }
 
-    .form-control:focus, .form-control-sm:focus {
+    .form-control:focus,
+    .form-control-sm:focus {
       border-color: #0969da;
       box-shadow: 0 0 0 1px #0969da;
     }
@@ -777,7 +802,8 @@
       margin-bottom: 12px;
     }
 
-    .upload-card, .batch-summary-card {
+    .upload-card,
+    .batch-summary-card {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
       border-radius: 2px;
@@ -842,9 +868,17 @@
       text-align: center;
     }
 
-    .stat-box.text-success { border-top-color: var(--success); }
-    .stat-box.text-warning { border-top-color: var(--warning); }
-    .stat-box.text-danger { border-top-color: var(--danger); }
+    .stat-box.text-success {
+      border-top-color: var(--success);
+    }
+
+    .stat-box.text-warning {
+      border-top-color: var(--warning);
+    }
+
+    .stat-box.text-danger {
+      border-top-color: var(--danger);
+    }
 
     .stat-box span {
       font-size: 10px;
@@ -1052,7 +1086,9 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background: rgba(15, 23, 42, 0.7);
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
       z-index: 9999;
       display: flex;
       align-items: center;
@@ -1168,17 +1204,53 @@
     }
 
     /* Common Utilities */
-    .text-primary { color: var(--text-main); font-weight: 600; }
-    .text-danger { color: var(--danger-text); }
-    .text-warning { color: var(--warning-text); }
-    .text-success { color: var(--success-text); }
-    .text-center { text-align: center; }
-    .font-bold { font-weight: 700; }
-    .mt-3 { margin-top: 10px; }
-    .mt-4 { margin-top: 14px; }
-    .mb-3 { margin-bottom: 10px; }
-    .py-4 { padding-top: 16px; padding-bottom: 16px; }
-    .flex-between { display: flex; justify-content: space-between; align-items: center; }
+    .text-primary {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .text-danger {
+      color: var(--danger-text);
+    }
+
+    .text-warning {
+      color: var(--warning-text);
+    }
+
+    .text-success {
+      color: var(--success-text);
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .font-bold {
+      font-weight: 700;
+    }
+
+    .mt-3 {
+      margin-top: 10px;
+    }
+
+    .mt-4 {
+      margin-top: 14px;
+    }
+
+    .mb-3 {
+      margin-bottom: 10px;
+    }
+
+    .py-4 {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    .flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     /* Sembunyikan elemen cetak khusus pada mode layar normal */
     .print-student-header,
@@ -1353,6 +1425,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="app-container">
     <!-- Sidebar Utility Drawer -->
@@ -1377,7 +1450,7 @@
         </button>
         <button class="nav-item" data-tab="batch-predict">
           <i class="fa-solid fa-file-arrow-up"></i>
-          <span>Prediksi Data Angkatan</span>
+          <span>Prediksi Data Massal</span>
         </button>
       </nav>
     </aside>
@@ -1395,7 +1468,7 @@
           <button class="btn btn-outline" id="btnRefreshData" title="Sinkronisasi & Segarkan Data">
             <i class="fa-solid fa-arrows-rotate"></i> Segarkan Data
           </button>
-          
+
           <!-- User Profile & Auth Badge -->
           <div class="user-profile-badge" id="userProfileBadge">
             <div class="user-avatar"><i class="fa-solid fa-user-check"></i></div>
@@ -1632,7 +1705,8 @@
               <!-- Academic Advisor Recommendation -->
               <div class="action-recommendation" id="recommendationBox">
                 <div class="rec-title"><i class="fa-solid fa-clipboard-check"></i> Petunjuk Intervensi Akademik:</div>
-                <p id="recommendationText">Lakukan simulasi parameter nilai untuk mendapatkan panduan intervensi yang tepat.</p>
+                <p id="recommendationText">Lakukan simulasi parameter nilai untuk mendapatkan panduan intervensi yang
+                  tepat.</p>
               </div>
 
               <!-- Bagian Pengesahan / Tanda Tangan (Hanya Tampil Saat Dicetak / PDF) -->
@@ -1760,7 +1834,7 @@
         <div class="login-brand-icon">
           <i class="fa-solid fa-shield-halved"></i>
         </div>
-        <h2>EduPredict EWS</h2>
+        <h2>EduPredict</h2>
         <p>Sistem Deteksi Dini Keterlambatan Studi Mahasiswa</p>
       </div>
 
@@ -1770,21 +1844,23 @@
         <form id="loginForm">
           <div class="form-group mb-3">
             <label for="loginUsername">NIDN / Username Pengguna</label>
-            <input type="text" id="loginUsername" class="form-control font-mono" placeholder="Masukkan username (contoh: dosen)" required />
+            <input type="text" id="loginUsername" class="form-control font-mono"
+              placeholder="Masukkan username (contoh: dosen)" required />
           </div>
 
           <div class="form-group mb-3">
             <label for="loginPassword">Kata Sandi</label>
-            <input type="password" id="loginPassword" class="form-control font-mono" placeholder="Masukkan kata sandi" required />
+            <input type="password" id="loginPassword" class="form-control font-mono" placeholder="Masukkan kata sandi"
+              required />
           </div>
 
           <button type="submit" class="btn btn-primary btn-block" id="btnLoginSubmit">
-            <i class="fa-solid fa-arrow-right-to-bracket"></i> Masuk ke Konsol
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> Masuk
           </button>
         </form>
 
         <div class="demo-accounts-box">
-          <div class="demo-title">Akun Cepat Demonstrasi:</div>
+          <div class="demo-title">Akun Demo:</div>
           <div class="demo-btn-group">
             <button type="button" class="btn-demo" id="btnDemoDosen">
               <strong>Dosen PA</strong> (dosen)
@@ -1805,4 +1881,5 @@
   <!-- Application Logic -->
   <script src="js/app.js?v=6"></script>
 </body>
+
 </html>
