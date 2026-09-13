@@ -35,7 +35,7 @@ Pengujian dilakukan pada **240 sampel data uji yang belum pernah dilihat oleh mo
 
 | Algoritma | Akurasi | Presisi | Recall (Sensitivitas Risiko) | F1-Score | ROC-AUC | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Random Forest Classifier** | **89.17%** | **87.36%** | **83.52%** | **85.39%** | **94.23%** | 🏆 **Model Terpilih (Best)** |
+| **Random Forest Classifier** | **89.17%** | **87.36%** | **83.52%** | **85.39%** | **94.23%** | **Model Terpilih (Kinerja Terbaik)** |
 | **Decision Tree Classifier** | 87.08% | 84.09% | 81.32% | 82.68% | 90.57% | Tree Baseline |
 | **Logistic Regression** | 85.00% | 83.95% | 74.73% | 79.07% | 93.24% | Linear Baseline |
 
@@ -63,9 +63,9 @@ Untuk menjamin tidak ada celah di mana mahasiswa dengan IPK kritis (< 2.50) lolo
 
 ---
 
-## 5. Panduan Tanya-Jawab Sidang / Evaluasi Dosen (FAQ)
+## 5. Panduan Tanya-Jawab Evaluasi Tugas Besar (FAQ)
 
-Gunakan argumen berikut jika dosen penguji menanyakan aspek teknis pemodelan:
+Gunakan poin-poin penjelasan berikut jika dosen pengampu menanyakan aspek teknis pemodelan:
 
 ### Q1: *"Bagaimana metodologi perolehan dataset 1.200 sampel ini?"*
 > **Jawaban**:  

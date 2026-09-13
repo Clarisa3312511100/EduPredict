@@ -18,7 +18,7 @@ def get_browser_path():
         return str(edge_path)
     raise FileNotFoundError("Browser Chrome atau Edge tidak ditemukan.")
 
-def build_html(markdown_content: str, title: str = "EduPredict Documentation") -> str:
+def build_html(markdown_content: str, title: str = "Dokumentasi Tugas Besar") -> str:
     body_html = markdown.markdown(
         markdown_content,
         extensions=['tables', 'fenced_code', 'nl2br', 'sane_lists']
@@ -32,7 +32,12 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
     <style>
         @page {{
             size: A4;
-            margin: 18mm 16mm 18mm 16mm;
+            margin: 20mm 18mm 20mm 18mm;
+            @bottom-center {{
+                content: "EduPredict - Tugas Besar";
+                font-size: 8pt;
+                color: #6b7280;
+            }}
         }}
 
         * {{
@@ -42,65 +47,48 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
         }}
 
         body {{
-            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-            font-size: 10pt;
-            line-height: 1.55;
-            color: #1e293b;
+            font-family: Arial, "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
+            font-size: 9.5pt;
+            line-height: 1.5;
+            color: #1f2937;
             background: #ffffff;
             margin: 0;
             padding: 0;
         }}
 
-        .top-banner {{
-            background: linear-gradient(135deg, #1e40af, #3b82f6);
-            color: #ffffff;
-            padding: 12px 18px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }}
-
-        .top-banner .title {{
-            font-size: 13pt;
-            font-weight: 800;
-            letter-spacing: 0.02em;
-        }}
-
-        .top-banner .badge {{
-            background: rgba(255, 255, 255, 0.25);
-            padding: 4px 10px;
-            border-radius: 999px;
+        .header-meta {{
             font-size: 8.5pt;
-            font-weight: 600;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 4px;
+            margin-bottom: 16px;
         }}
 
         h1 {{
-            font-size: 18pt;
-            font-weight: 800;
-            color: #0f172a;
-            margin: 0 0 6px 0;
-            line-height: 1.25;
+            font-size: 16pt;
+            font-weight: 700;
+            color: #111827;
+            margin: 0 0 4px 0;
+            line-height: 1.3;
         }}
 
         h2 {{
-            font-size: 12.5pt;
+            font-size: 11.5pt;
             font-weight: 700;
-            color: #1e3a8a;
-            background-color: #f1f5f9;
-            border-left: 4px solid #2563eb;
-            padding: 6px 12px;
-            border-radius: 0 4px 4px 0;
-            margin-top: 22px;
+            color: #111827;
+            border-bottom: 1px solid #d1d5db;
+            padding-bottom: 4px;
+            margin-top: 20px;
             margin-bottom: 10px;
             page-break-after: avoid;
         }}
 
         h3 {{
-            font-size: 10.5pt;
+            font-size: 10pt;
             font-weight: 700;
-            color: #0f172a;
+            color: #1f2937;
             margin-top: 14px;
             margin-bottom: 6px;
             page-break-after: avoid;
@@ -116,17 +104,16 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
         }}
 
         strong {{
-            color: #0f172a;
+            color: #111827;
         }}
 
         blockquote {{
-            margin: 10px 0;
-            padding: 8px 14px;
-            background-color: #f8fafc;
-            border-left: 3.5px solid #0284c7;
-            border-radius: 0 6px 6px 0;
-            color: #334155;
-            font-size: 9.5pt;
+            margin: 8px 0;
+            padding: 6px 12px;
+            background-color: #f9fafb;
+            border-left: 3px solid #9ca3af;
+            color: #374151;
+            font-size: 9pt;
             page-break-inside: avoid;
         }}
 
@@ -137,46 +124,46 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
         table {{
             width: 100%;
             border-collapse: collapse;
-            margin: 12px 0;
-            font-size: 9pt;
+            margin: 10px 0 14px 0;
+            font-size: 8.5pt;
             page-break-inside: avoid;
         }}
 
         th {{
-            background-color: #e2e8f0;
-            color: #0f172a;
+            background-color: #f3f4f6;
+            color: #111827;
             font-weight: 700;
             text-align: left;
-            padding: 7px 9px;
-            border: 1px solid #cbd5e1;
-            font-size: 8.5pt;
+            padding: 6px 8px;
+            border: 1px solid #d1d5db;
         }}
 
         td {{
-            padding: 6px 9px;
-            border: 1px solid #e2e8f0;
+            padding: 5px 8px;
+            border: 1px solid #e5e7eb;
             vertical-align: top;
         }}
 
         tr:nth-child(even) td {{
-            background-color: #f8fafc;
+            background-color: #fafafa;
         }}
 
         code {{
-            font-family: 'Consolas', 'Courier New', monospace;
+            font-family: Consolas, "Courier New", monospace;
             font-size: 8.5pt;
-            background: #f1f5f9;
-            color: #b91c1c;
-            padding: 1.5px 4.5px;
-            border-radius: 3px;
-            border: 1px solid #e2e8f0;
+            background: #f3f4f6;
+            color: #111827;
+            padding: 1px 4px;
+            border-radius: 2px;
+            border: 1px solid #e5e7eb;
         }}
 
         pre {{
-            background: #0f172a;
-            color: #f8fafc;
-            padding: 10px 12px;
-            border-radius: 6px;
+            background: #f9fafb;
+            color: #1f2937;
+            border: 1px solid #e5e7eb;
+            padding: 8px 10px;
+            border-radius: 4px;
             overflow-x: auto;
             margin: 8px 0;
             page-break-inside: avoid;
@@ -184,7 +171,7 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
 
         pre code {{
             background: transparent;
-            color: #38bdf8;
+            color: #111827;
             border: none;
             padding: 0;
             font-size: 8.5pt;
@@ -192,24 +179,23 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
 
         hr {{
             border: none;
-            border-top: 1px solid #e2e8f0;
+            border-top: 1px solid #e5e7eb;
             margin: 16px 0;
         }}
 
         .footer-note {{
-            margin-top: 30px;
+            margin-top: 24px;
             text-align: center;
-            font-size: 8.5pt;
-            color: #94a3b8;
-            border-top: 1px dashed #cbd5e1;
-            padding-top: 10px;
+            font-size: 8pt;
+            color: #9ca3af;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 8px;
         }}
     </style>
 </head>
 <body>
-    <div class="top-banner">
-        <span class="title">EduPredict &bull; Dokumentasi & Panduan Resmi</span>
-        <span class="badge">Dokumentasi Operasional</span>
+    <div class="header-meta">
+        Dokumen Teknis &bull; Tugas Besar Sistem Cerdas Prediksi Kelulusan Mahasiswa
     </div>
     
     <div class="content">
@@ -217,7 +203,7 @@ def build_html(markdown_content: str, title: str = "EduPredict Documentation") -
     </div>
 
     <div class="footer-note">
-        Buku Panduan Resmi EduPredict &bull; Sistem Cerdas Prediksi Kelulusan Mahasiswa Berbasis Machine Learning
+        EduPredict &bull; Laporan dan Panduan Penggunaan Sistem Tugas Besar
     </div>
 </body>
 </html>
@@ -267,9 +253,9 @@ if __name__ == "__main__":
         target_pdf = target_md.with_suffix(".pdf")
         convert_md_to_pdf(target_md, target_pdf)
     else:
-        print("--- Memulai Ekspor PDF Dokumentasi EduPredict ---")
+        print("--- Memulai Ekspor PDF (Format Standar Dokumen Laporan) ---")
         # 1. PANDUAN_PENGGUNAAN.md -> PANDUAN_PENGGUNAAN.pdf
         convert_md_to_pdf(project_root / "PANDUAN_PENGGUNAAN.md", project_root / "PANDUAN_PENGGUNAAN.pdf")
         # 2. EVALUASI_MODEL.md -> docs/EVALUASI_MODEL.pdf
         convert_md_to_pdf(project_root / "EVALUASI_MODEL.md", project_root / "docs" / "EVALUASI_MODEL.pdf")
-        print("--- Selesai! Semua dokumen PDF siap digunakan. ---")
+        print("--- Selesai! Dokumen PDF berhasil diperbarui. ---")
