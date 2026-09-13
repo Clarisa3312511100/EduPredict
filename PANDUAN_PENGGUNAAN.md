@@ -1,12 +1,12 @@
-# 📘 PANDUAN PENGGUNAAN & HANDOVER PROYEK EDUPREDICT
-*(Dokumentasi Khusus Klien / Mahasiswa)*
+# 📘 BUKU PANDUAN PENGGUNAAN SISTEM EDUPREDICT
+*(Pedoman Operasional, Pengujian Sistem & Simulasi Prediksi)*
 
-Selamat! Proyek **EduPredict (Sistem Cerdas Prediksi Kelulusan Mahasiswa Berbasis Machine Learning)** telah selesai dikembangkan secara lengkap, mulai dari pipeline Machine Learning, RESTful API backend, hingga dashboard web interaktif modern.
+Selamat datang di buku panduan **EduPredict (Sistem Cerdas Prediksi Kelulusan Mahasiswa Berbasis Machine Learning)**. Sistem ini telah selesai dikembangkan secara menyeluruh, mencakup pipeline Machine Learning, RESTful API backend, hingga dashboard web interaktif modern.
 
-Dokumen ini disusun dengan bahasa yang **mudah dipahami** agar Anda dapat:
-1. Menjalankan aplikasi sendiri di laptop tanpa kendala teknis.
-2. Melakukan demo dengan percaya diri di hadapan dosen pembimbing/penguji.
-3. Menjawab pertanyaan-pertanyaan teknis saat presentasi/sidang.
+Dokumen ini disusun secara terstruktur sebagai acuan operasional untuk:
+1. Menjalankan dan menguji aplikasi secara mandiri di lingkungan lokal.
+2. Melakukan skenario demonstrasi dan simulasi evaluasi akademik.
+3. Memahami arsitektur teknis, kamus data, serta dasar pemodelan Machine Learning.
 
 ---
 
@@ -119,33 +119,75 @@ Jika dosen bertanya atau menyuruh Anda membuka file kode di VS Code, buka file-f
 
 ---
 
-## 💡 6. Bocoran Kunci Jawaban Pertanyaan Dosen
+## 💡 6. Landasan Ilmiah & Tanya-Jawab Evaluasi Sistem (FAQ)
 
-Hafalkan 5 poin penting ini agar Anda lancar menjawab saat ditanya dosen penguji:
+Poin-poin penjelasan berikut merangkum dasar konseptual yang dapat digunakan dalam mempresentasikan cara kerja sistem:
 
 ### Q1: *"Kenapa memilih algoritma Random Forest, kenapa bukan Decision Tree biasa?"*
-> **Jawaban Mantap**:  
+> **Penjelasan Konseptual**:  
 > *"Decision Tree tunggal rentan mengalami overfitting dan mudah terkecoh data ekstrem. Random Forest adalah algoritma ensemble yang menggabungkan 100 pohon keputusan, sehingga hasil probabilitasnya jauh lebih stabil, tahan terhadap noise, dan terbukti menghasilkan akurasi tertinggi yaitu 89.17% dengan ROC-AUC 94.23%."*
 
 ### Q2: *"Datasetnya dapat dari mana dan ada berapa banyak?"*
-> **Jawaban Mantap**:  
+> **Penjelasan Konseptual**:  
 > *"Dataset kami berjumlah 1.200 sampel data mahasiswa. Data ini dikembangkan menggunakan metode Empirical Data Augmentation berbasis 379 rekam jejak riil mahasiswa di perguruan tinggi Indonesia, sehingga pola distribusinya tetap realistis dan proporsional untuk merepresentasikan populasi satu fakultas."*
 
 ### Q3: *"Apa saja faktor yang paling mempengaruhi kelulusan menurut sistem?"*
-> **Jawaban Mantap**:  
+> **Penjelasan Konseptual**:  
 > *"Berdasarkan analisis Feature Importance dari model Random Forest, faktor paling dominan adalah IPK Kumulatif semester 1–4, perolehan SKS tempuh, dan tren kenaikan/penurunan nilai semester. Faktor eksternal seperti status bekerja juga berkontribusi pada beban manajemen waktu mahasiswa."*
 
 ### Q4: *"Bagaimana jika ada mahasiswa yang nilainya sangat rendah (IPK 2.0), tapi karena dia tidak bekerja, apakah model bisa salah memprediksi dia lulus tepat waktu?"*
-> **Jawaban Mantap**:  
+> **Penjelasan Konseptual**:  
 > *"Sistem kami menggunakan pendekatan **Hybrid Decision Support System**. Selain mengandalkan probabilitas Random Forest, kami memasang **Academic Rule Guardrails**. Jika IPK mahasiswa berada di bawah standar kelulusan (< 2.50) atau tren nilainya anjlok drastis, sistem secara otomatis mengeskalasi risiko menjadi 'Terlambat / Berisiko Tinggi' demi keselamatan akademik mahasiswa."*
 
 ### Q5: *"Berapa metrik evaluasi model Anda secara lengkap?"*
-> **Jawaban Mantap**:  
+> **Penjelasan Konseptual**:  
 > *"Dari 240 sampel data uji (data baru yang belum pernah dilihat model), model kami mencatat:*  
 > *- **Akurasi**: 89.17%*  
 > *- **Presisi**: 87.36%*  
 > *- **Recall (Sensitivitas Risiko)**: 83.52% (Mampu mendeteksi 76 dari 91 mahasiswa bermasalah)*  
 > *- **ROC-AUC**: 94.23% (Kategori Sangat Istimewa / Outstanding Discrimination)*  
+
+---
+
+## 📊 7. Kamus Data & Arti Variabel (Data Dictionary)
+
+Gunakan tabel ini jika dosen bertanya mengenai arti kolom pada dataset atau input form:
+
+| Nama Variabel | Tipe Data | Keterangan & Rentang Nilai |
+| :--- | :--- | :--- |
+| `NIM` | Teks / Angka | Nomor Induk Mahasiswa unik (contoh: `2021001`). |
+| `Nama` | Teks | Nama lengkap mahasiswa. |
+| `Jenis_Kelamin` | Kategori | `Laki-laki` atau `Perempuan`. |
+| `Umur` | Angka Bulat | Usia saat masa studi aktif (rentang 18 - 28 tahun). |
+| `Status_Bekerja` | Biner (`0` atau `1`) | `0` = Tidak Bekerja (Reguler / Fokus Kuliah), `1` = Bekerja (Paruh/Penuh Waktu). |
+| `Status_Nikah` | Biner (`0` atau `1`) | `0` = Belum Menikah (Lajang), `1` = Sudah Menikah. |
+| `IPS_Sem1` s.d `IPS_Sem4` | Desimal (`Float`) | Indeks Prestasi Semester 1 hingga 4 (rentang 0.00 - 4.00). |
+| `IPK_Kumulatif` | Desimal (`Float`) | Nilai IPK rata-rata sampai semester 4. |
+| `Total_SKS` | Angka Bulat | Jumlah SKS yang telah ditempuh (normal semester 4 adalah 72 - 96 SKS). |
+| **`Status_Kelulusan`** | **Target Prediksi** | **`Tepat Waktu`** ($\le$ 8 Semester / 4 Tahun) atau **`Terlambat`** (> 8 Semester). |
+
+---
+
+## 📈 8. Tabel Evaluasi & Komparasi Algoritma (Bahan Laporan / Skripsi)
+
+Jika Anda butuh data untuk dimasukkan ke Bab 4 Skripsi / Laporan Tugas Akhir, gunakan tabel perbandingan resmi pengujian model berikut:
+
+| Algoritma | Akurasi | Presisi | Recall (Sensitivitas) | F1-Score | ROC-AUC | Keterangan |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Random Forest Classifier** | **89.17%** | **87.36%** | **83.52%** | **85.39%** | **94.23%** | 🏆 **Model Terpilih (Tertinggi)** |
+| **Decision Tree Classifier** | 87.08% | 84.09% | 81.32% | 82.68% | 90.57% | Baseline Pohon Tunggal |
+| **Logistic Regression** | 85.00% | 83.95% | 74.73% | 79.07% | 93.24% | Baseline Linear |
+
+> 📌 **Catatan**: Seluruh metrik di atas diuji secara adil menggunakan teknik **Stratified 5-Fold Cross Validation** dan dievaluasi pada **240 sampel data uji baru** (*unseen test data*).
+
+---
+
+## 📁 9. File Siap Pakai untuk Demo Upload Massal (Batch)
+
+Untuk mencoba fitur upload massal saat demo, Anda bisa langsung menggunakan file:
+👉 **`data/dataset_kelulusan.csv`**
+
+File ini sudah berisi format kolom yang persis sesuai standar sistem, sehingga ketika di-upload, tabel hasil prediksi angkatan akan langsung muncul seketika!
 
 ---
 
